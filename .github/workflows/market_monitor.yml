@@ -5,13 +5,6 @@ on:
     # 한국 시간 오전 07:59 (UTC 22:59)
     - cron: '59 22 * * *'
 
-  # 수동 실행 버튼 (이 줄이 schedule과 같은 라인에 있어야 합니다!)
-  workflow_dispatch:
-    inputs:
-      target_date:
-        description: '수집할 날짜 (YYYY-MM-DD)'
-        required: false
-        default: ''
 
 jobs:
   run-monitor:
