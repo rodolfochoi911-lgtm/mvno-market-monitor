@@ -2,7 +2,7 @@
     {
         "date": "2026-02-03",
         "total_volume": {
-            "ppomppu": 124,
+            "ppomppu": 123,
             "dc": 700
         },
         "brand_sov": {
@@ -10,7 +10,7 @@
             "모빙": 3,
             "리브엠": 4,
             "이야기": 2,
-            "헬로모바일": 2,
+            "헬로모바일": 1,
             "프리티": 6,
             "티플러스": 6,
             "티다이렉트": 2,
@@ -36,45 +36,45 @@
                 {
                     "title": "아~ 그래서 e심을 불편해 하는거군요",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3902707",
-                    "views": 3367,
+                    "views": 3404,
                     "comments": 20
                 },
                 {
                     "title": "시월모바일 선착순 마감 완료 공지 나왔습니다",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3902691",
-                    "views": 2751,
+                    "views": 2779,
                     "comments": 16
                 },
                 {
                     "title": "A17 엄청 괜찮네요!!",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3902709",
-                    "views": 2554,
+                    "views": 2611,
                     "comments": 18
                 },
                 {
                     "title": "퀀텀 벌써 당근에?",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=705&no=3902596",
-                    "views": 2432,
+                    "views": 2440,
                     "comments": 14
                 },
                 {
                     "title": "26년 2월 알뜰폰 주요 요금제 정리 (평생 / 고가)",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=705&no=3902625",
-                    "views": 2257,
-                    "comments": 6
+                    "views": 2273,
+                    "comments": 8
                 }
             ],
             "dc": [
                 {
                     "title": "26년 2월 알뜰폰 요금제 총정리 (저가~5Mbps 편)",
                     "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=393079&page=14",
-                    "views": 1986,
+                    "views": 1991,
                     "comments": 11
                 },
                 {
                     "title": "민원 넣을사람은 참고해라",
                     "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=393197&page=12",
-                    "views": 1722,
+                    "views": 1727,
                     "comments": 31
                 },
                 {
@@ -86,13 +86,13 @@
                 {
                     "title": "시월 관련 현재상황 매우 심각함 (요약정리)",
                     "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=393535&page=6",
-                    "views": 1440,
+                    "views": 1454,
                     "comments": 6
                 },
                 {
                     "title": "전화를 걸면 풀어준다 ㅋㅋㅋㅋ시발",
                     "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=393253&page=11",
-                    "views": 1394,
+                    "views": 1395,
                     "comments": 4
                 }
             ]
