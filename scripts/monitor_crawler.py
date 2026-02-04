@@ -1,4 +1,5 @@
 import os
+import sys
 import json
 import time
 import random
@@ -15,17 +16,23 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-# --- [설정] ---
+# --- [설정 및 입력값 처리] ---
 SLACK_WEBHOOK_URL = os.environ.get("SLACK_WEBHOOK_URL")
+TEST_MODE = os.environ.get("TEST_MODE", "false").lower() == "true"
 
 TZ_KST = pytz.timezone('Asia/Seoul')
 NOW = datetime.datetime.now(TZ_KST)
-YESTERDAY = NOW - datetime.timedelta(days=1)
 
-YESTERDAY_FULL = YESTERDAY.strftime('%Y-%m-%d') # 2026-02-01
-YESTERDAY_DOT = YESTERDAY.strftime('%y.%m.%d')   # 25.02.01
+# [날짜 설정 로직]
+if len(sys.argv) > 1 and sys.argv[1]:
+    target_date_str = sys.argv[1]
+    print(f"🛠️ 사용자 지정 날짜 수집: {target_date_str}")
+else:
+    target_date_obj = NOW - datetime.timedelta(days=1)
+    target_date_str = target_date_obj.strftime('%Y-%m-%d')
+    print(f"📅 자동 설정 (어제 날짜): {target_date_str}")
 
-print(f"📅 타겟 날짜: {YESTERDAY_FULL}")
+TARGET_DATE = target_date_str
 
 # --- [1. 브라우저 설정] ---
 def get_driver():
@@ -40,7 +47,7 @@ def get_driver():
     driver = webdriver.Chrome(service=service, options=chrome_options)
     return driver
 
-# --- [2. 크롤러: 뽐뿌 (하이브리드 정밀 수집)] ---
+# --- [2. 크롤러: 뽐뿌] ---
 def get_ppomppu_posts(driver):
     print("running ppomppu crawler...")
     posts = []
@@ -52,7 +59,7 @@ def get_ppomppu_posts(driver):
             time.sleep(random.uniform(1.0, 2.0))
             
             soup = BeautifulSoup(driver.page_source, 'html.parser')
-            rows = soup.find_all('tr') # 모든 행 탐색
+            rows = soup.find_all('tr') 
             
             valid_cnt_in_page = 0
             
@@ -60,10 +67,8 @@ def get_ppomppu_posts(driver):
                 title_elem = row.select_one('font.list_title') or row.select_one('a')
                 if not title_elem: continue
                 
-                # [수정] 날짜 추출 우선순위 강화 (정확도 향상)
                 post_date = ""
                 
-                # 1. .baseList-time 클래스가 있다면 가장 정확 (부모 td의 title 속성)
                 time_span = row.select_one('.baseList-time')
                 if time_span:
                     date_td = time_span.find_parent('td')
@@ -71,38 +76,32 @@ def get_ppomppu_posts(driver):
                         raw_date = date_td['title'].split(' ')[0]
                         post_date = "20" + raw_date.replace('.', '-')
                 
-                # 2. 없다면 title 속성 직접 검색
                 if not post_date:
                     date_td = row.find('td', title=re.compile(r'\d{2}\.\d{2}\.\d{2}'))
                     if date_td:
                         raw_date = date_td['title'].split(' ')[0]
                         post_date = "20" + raw_date.replace('.', '-')
                 
-                # 3. 그래도 없다면 텍스트 정규식 (최후의 수단)
                 if not post_date:
                     date_match = re.search(r'\d{2}\.\d{2}\.\d{2}', row.text)
                     if date_match:
                         post_date = "20" + date_match.group().replace('.', '-')
 
-                # 날짜 일치 확인
-                if post_date == YESTERDAY_FULL:
+                if post_date == TARGET_DATE:
                     link_elem = row.select_one('a[href*="view.php"]')
                     if not link_elem: continue
                     
                     title = title_elem.text.strip()
                     link = "https://www.ppomppu.co.kr/zboard/" + link_elem['href']
                     
-                    # [수정] 조회수/댓글수 우선순위 강화 (숫자 꼬임 방지)
                     views, comments = 0, 0
                     
-                    # 1. 클래스로 찾기 (가장 정확)
                     view_tag = row.select_one('.baseList-views')
                     cmt_tag = row.select_one('.baseList-c') or row.select_one('.list_comment2')
                     
                     if view_tag:
                         views = int(view_tag.text.strip().replace(',', '') or 0)
                     else:
-                        # 2. 텍스트에서 찾기 (리스크 있음)
                         views_match = re.findall(r'\d{1,3}(?:,\d{3})*', row.text)
                         if views_match: views = int(views_match[-1].replace(',', ''))
                     
@@ -121,7 +120,7 @@ def get_ppomppu_posts(driver):
             
     return posts
 
-# --- [3. 크롤러: 디시 (기존 유지)] ---
+# --- [3. 크롤러: 디시] ---
 def get_dc_posts(driver):
     print("running dc crawler...")
     posts = []
@@ -149,7 +148,7 @@ def get_dc_posts(driver):
                 
                 post_date = date_tag['title'].split(' ')[0]
                 
-                if post_date == YESTERDAY_FULL:
+                if post_date == TARGET_DATE:
                     title_tag = row.select_one('.gall_tit > a')
                     if not title_tag: continue
                     title = title_tag.text.strip()
@@ -160,7 +159,7 @@ def get_dc_posts(driver):
                     comments = int(reply_tag.text.strip('[]')) if reply_tag else 0
                     
                     posts.append({'source': 'dc', 'title': title, 'link': link, 'views': views, 'comments': comments})
-                elif post_date < YESTERDAY_FULL:
+                elif post_date < TARGET_DATE:
                     stop_crawling = True
             
             if stop_crawling: break
@@ -171,14 +170,13 @@ def get_dc_posts(driver):
             
     return posts
 
-# --- [4. 분석 로직] ---
+# --- [4. 분석 및 알림 로직] ---
 def extract_top_keywords(df):
     if df.empty: return []
     all_titles = " ".join(df['title'].tolist())
     all_titles = re.sub(r'[^\w\s]', ' ', all_titles)
     words = all_titles.split()
     
-    # [수정] 불용어 추가 (있음, 알뜰 등)
     stopwords = set([
         '질문', '후기', '정보', '요금제', '알뜰폰', '추천', '있나요', '나요', '가요', '건가요',
         '오늘', '내일', '이번달', '2월', '1월', '근데', '진짜', '혹시', '아니', '너무',
@@ -188,15 +186,37 @@ def extract_top_keywords(df):
         'vs', '이거', '저거', '그거', '뭐야', '시발', '존나', 'ㅋㅋ', 'ㅎㅎ', 'ㅠㅠ',
         '문의', '질문좀', '대해', '관련', '어떤가요', '무슨', '어디', '어떻게',
         '선택', '위약금', '조건', '정책', '비교', '변경', '이동', '사용', '가입', '해지',
-        '있음', '알뜰', '요금', '번호', '이동', '통신사' # 추가된 노이즈
+        '있음', '알뜰', '요금', '번호', '통신사', '요금', '도와주세요'
     ])
     filtered_words = [w for w in words if len(w) >= 2 and w.lower() not in stopwords]
     return Counter(filtered_words).most_common(10)
 
+def send_slack_message(message):
+    """테스트 모드 확인 후 슬랙 전송 또는 출력"""
+    webhook_url = os.environ.get('SLACK_WEBHOOK_URL')
+    
+    if TEST_MODE:
+        print("\n" + "="*40)
+        print(f"📢 [TEST MODE] 슬랙 발송 생략 (Target: {TARGET_DATE})")
+        print("="*40)
+        print(message)
+        print("="*40 + "\n")
+        return
+
+    if webhook_url:
+        try:
+            response = requests.post(webhook_url, json={"text": message})
+            response.raise_for_status()
+            print("✅ 슬랙 전송 완료")
+        except Exception as e:
+            print(f"❌ 슬랙 전송 실패: {e}")
+    else:
+        print("⚠️ SLACK_WEBHOOK_URL이 설정되지 않았습니다.")
+
 def analyze_and_notify(p_posts, d_posts):
     total_posts = p_posts + d_posts
     if not total_posts:
-        print("⚠️ 수집된 데이터 0건")
+        print(f"⚠️ {TARGET_DATE} 수집된 데이터 0건")
         return
 
     df = pd.DataFrame(total_posts)
@@ -206,43 +226,33 @@ def analyze_and_notify(p_posts, d_posts):
     p_status = "🔴 과열" if p_cnt >= 180 else ("🟢 평온" if p_cnt < 80 else "🟡 활발")
     d_status = "🔴 과열" if d_cnt >= 600 else ("🟢 평온" if d_cnt < 300 else "🟡 활발")
 
-    # 1. 브랜드 점유율 (세븐모바일 고정 노출 로직 추가)
-brands = {
-    # [메이저 통신 3사 자회사]
-    '세븐모바일': ['세븐모바일', '7모', 'sk7', 'sk텔링크', '세븐','세븐모'],
-    'KT엠모바일': ['kt엠모바일', '엠모바일', '엠모', 'ktm', '케이티엠'],
-    '유모바일': ['유모바일', '유모', 'u모바일', '유알모', '유플러스알뜰'],
-    '헬로모바일': ['헬로모바일', '헬모', 'cj헬로','헬로','cj'],
-    '스카이라이프': ['스카이라이프', '스카이', 'skylife'],
+    brands = {
+        '세븐모바일': ['세븐모바일', '7모', 'sk7', 'sk텔링크', '세븐', '세븐모'],
+        'KT엠모바일': ['kt엠모바일', '엠모바일', '엠모', 'ktm', '케이티엠'],
+        '유모바일': ['유모바일', '유모', 'u모바일', '유알모', '유플러스알뜰'],
+        '헬로모바일': ['헬로모바일', '헬모', 'cj헬로', '헬로', 'cj'],
+        '스카이라이프': ['스카이라이프', '스카이', 'skylife'],
+        '토스모바일': ['토스', '토스모바일', 'toss'],
+        '리브엠': ['리브엠', '리브모바일', 'kb', '국민은행', '리브m'],
+        '우리원모바일': ['우리원', '우리은행', '우리won', '우리원모바일'],
+        '이야기모바일': ['이야기', '이야기모바일', '큰사람'],
+        '에이모바일': ['에이모바일', 'a모바일', 'a mobile', '에이모'],
+        '프리티': ['프리티', 'freet'],
+        '모빙': ['모빙', 'mobing'],
+        '스노우맨': ['스노우맨', '세종'],
+        '아이즈모바일': ['아이즈', '아이즈모바일', 'eyes'],
+        '인스모바일': ['인스', '인스모바일'],
+        '이지모바일': ['이지', '이지모바일'],
+        '티플러스': ['티플러스', '티플'],
+        'KG모바일': ['kg모바일', 'kg', '케이지'],
+        '티다이렉트': ['티다이렉트', '티다', 't다이렉트', 't다'],
+        'SKT_Air': ['skt에어', 'skt air', '에어'],
+        '시월모바일': ['시월', '시월모바일']
+    }
 
-    # [금융권/플랫폼 기반 (요청하신 부분)]
-    '토스모바일': ['토스', '토스모바일', 'toss'],
-    '리브엠': ['리브엠', '리브모바일', 'kb', '국민은행', '리브m'],  # 기존에 있었지만 키워드 보강
-    '우리원모바일': ['우리원', '우리은행', '우리won', '우리원모바일'], # '우리'는 '우리나라' 등으로 오탐지 확률 높아 제외 추천
-    '이야기모바일': ['이야기', '이야기모바일', '큰사람'],
-
-    # [추가 추천: 가성비/0원 요금제 주력 사업자]
-    '에이모바일': ['에이모바일', 'a모바일', 'a mobile', '에이모'], # 점유율 상위권 (구 에넥스)
-    '프리티': ['프리티', 'freet'],
-    '모빙': ['모빙', 'mobing'],
-    '스노우맨': ['스노우맨', '세종'],
-    '아이즈모바일': ['아이즈', '아이즈모바일', 'eyes'],
-    '인스모바일': ['인스', '인스모바일'],
-    '이지모바일': ['이지', '이지모바일'],
-    '티플러스': ['티플러스', '티플'],
-    
-    # [기타/SKT 관련]
-    '티다이렉트': ['티다이렉트', '티다', 't다이렉트', 't다'],
-    'SKT_Air': ['skt에어', 'skt air','에어'],
-    
-    # [신규 진입/최근 언급 증가]
-    '시월모바일': ['시월', '시월모바일'], # 요청하신 시월
-    'KG모바일': ['kg모바일', 'kg','케이지'],
-}
     brand_counts = {}
-    seven_links = [] # 세븐모바일 링크 수집
+    seven_links = []
 
-    # 카운팅 먼저 수행
     for b_name, keywords in brands.items():
         filtered = df[df['title'].apply(lambda x: any(k in x.lower() for k in keywords))]
         brand_counts[b_name] = int(len(filtered))
@@ -251,31 +261,29 @@ brands = {
             for _, row in filtered.iterrows():
                 seven_links.append(f"  └ <{row['link']}|{row['title']}>")
 
-    # [수정] 출력 순서 제어 (세븐모바일 1순위, 나머지 >0 건만)
     sov_lines = []
-    
-    # 1. 세븐모바일 무조건 출력
     seven_cnt = brand_counts.get('세븐모바일', 0)
     sov_lines.append(f"• 세븐모바일: {seven_cnt}건")
     
-    # 2. 나머지 브랜드 (0건이면 제외)
-    for b_name, cnt in brand_counts.items():
+    sorted_brands = sorted(brand_counts.items(), key=lambda x: x[1], reverse=True)
+    for b_name, cnt in sorted_brands:
         if b_name == '세븐모바일': continue
         if cnt > 0:
             sov_lines.append(f"• {b_name}: {cnt}건")
 
     sov_msg = "\n".join(sov_lines)
+    seven_block = ""
+    if seven_links:
+        seven_block = f"\n*📌 세븐모바일 언급 ({len(seven_links)}건)*\n" + "\n".join(seven_links)
 
-    # 2. 핫 키워드 (Top 10)
     top_keywords = extract_top_keywords(df)
     keyword_msg = ""
     for word, count in top_keywords:
         keyword_msg += f"• {word}: {count}건\n"
     if not keyword_msg: keyword_msg = "• 특이사항 없음"
 
-    # Top 5 포맷팅
     def format_list(sub_df):
-        if sub_df.empty: return "없음"
+        if sub_df.empty: return "없음", []
         top5 = sub_df.sort_values(by='views', ascending=False).head(5)
         lines = []
         for idx, row in top5.iterrows():
@@ -289,7 +297,6 @@ brands = {
     p_msg, p_top5 = format_list(pd.DataFrame(p_posts))
     d_msg, d_top5 = format_list(pd.DataFrame(d_posts))
 
-    # 데이터 저장
     history_file = 'data/dashboard_history.json'
     history_data = []
     if os.path.exists(history_file):
@@ -298,14 +305,14 @@ brands = {
             except: pass
     
     today_entry = {
-        "date": YESTERDAY_FULL,
+        "date": TARGET_DATE,
         "total_volume": { "ppomppu": p_cnt, "dc": d_cnt },
         "brand_sov": brand_counts,
         "top_keywords": dict(top_keywords),
         "top_posts": { "ppomppu": p_top5, "dc": d_top5 }
     }
     
-    history_data = [d for d in history_data if d['date'] != YESTERDAY_FULL]
+    history_data = [d for d in history_data if d['date'] != TARGET_DATE]
     history_data.append(today_entry)
     history_data.sort(key=lambda x: x['date'])
     
@@ -313,13 +320,12 @@ brands = {
     with open(history_file, 'w', encoding='utf-8') as f:
         json.dump(history_data, f, ensure_ascii=False, indent=4)
 
-    # 슬랙 전송
-    seven_block = ""
-    if seven_links:
-        seven_block = f"\n*📌 세븐모바일 언급 ({len(seven_links)}건)*\n" + "\n".join(seven_links)
+    os.makedirs('data/monitoring', exist_ok=True)
+    with open(f'data/monitoring/data_{TARGET_DATE}.json', 'w', encoding='utf-8') as f:
+        json.dump(total_posts, f, ensure_ascii=False, indent=4)
 
     slack_text = f"""
-*[📊 {YESTERDAY_FULL} 알뜰폰 커뮤니티 모니터링]*
+*[📊 {TARGET_DATE} 알뜰폰 커뮤니티 모니터링]*
 
 *🌡️ 커뮤니티 활성도*
 • 뽐뿌: {p_status} ({p_cnt}개)
@@ -337,16 +343,10 @@ brands = {
 *2️⃣ 디시 알뜰폰 갤러리 (Top 5)*
 {d_msg}
 
-👉 <https://rodolfochoi911-lgtm.github.io/competitor-monitor/|웹 대시보드 확인하기>
+👉 <https://rodolfochoi911-lgtm.github.io/mvno-market-monitor/|웹 대시보드 확인하기>
     """
     
-    if SLACK_WEBHOOK_URL:
-        requests.post(SLACK_WEBHOOK_URL, json={"text": slack_text})
-
-    # 백업 저장
-    os.makedirs('data/monitoring', exist_ok=True)
-    with open(f'data/monitoring/data_{YESTERDAY_FULL}.json', 'w', encoding='utf-8') as f:
-        json.dump(total_posts, f, ensure_ascii=False, indent=4)
+    send_slack_message(slack_text)
 
 if __name__ == "__main__":
     driver = get_driver()
