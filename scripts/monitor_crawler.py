@@ -1,291 +1,361 @@
-"""
-[프로젝트] 경쟁사 프로모션 모니터링 자동화 시스템 (V65_Restored)
-[작성자] 최지원 (GTM Strategy)
-[업데이트] 2026-02-05 (V65: 슬랙 알람 포맷 원복 + 전체 목록 파일 생성 로직 복구)
-"""
-
 import os
+import sys
 import json
 import time
-import glob
 import random
+import datetime
+import pytz
 import re
-import traceback
-import html
-import difflib
 import requests
-from datetime import datetime, timedelta, timezone
-from urllib.parse import urljoin
+import pandas as pd
 from bs4 import BeautifulSoup
-import undetected_chromedriver as uc
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+from collections import Counter
 
-# =========================================================
-# [설정] 환경 변수
-# =========================================================
-GITHUB_USER = "rodolfochoi911-lgtm"
-REPO_NAME = "competitor-monitor"
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.chrome.service import Service
+from webdriver_manager.chrome import ChromeDriverManager
+
+# --- [설정 및 입력값 처리] ---
 SLACK_WEBHOOK_URL = os.environ.get("SLACK_WEBHOOK_URL")
+TEST_MODE = os.environ.get("TEST_MODE", "false").lower() == "true"
 
-DATA_DIR = "data"
-DOCS_DIR = "docs"
-REPORT_DIR = "docs/reports"
-SIMILARITY_THRESHOLD = 0.8
+TZ_KST = pytz.timezone('Asia/Seoul')
+NOW = datetime.datetime.now(TZ_KST)
 
-KST = timezone(timedelta(hours=9))
-NOW = datetime.now(KST)
-FILE_TIMESTAMP = NOW.strftime("%Y%m%d_%H%M%S")
-DISPLAY_DATE = NOW.strftime("%Y-%m-%d")
-DISPLAY_TIME = NOW.strftime("%H:%M:%S")
+# [날짜 설정 로직]
+if len(sys.argv) > 1 and sys.argv[1]:
+    target_date_str = sys.argv[1]
+    print(f"🛠️ 사용자 지정 날짜 수집: {target_date_str}")
+else:
+    target_date_obj = NOW - datetime.timedelta(days=1)
+    target_date_str = target_date_obj.strftime('%Y-%m-%d')
+    print(f"📅 자동 설정 (어제 날짜): {target_date_str}")
 
-os.makedirs(DATA_DIR, exist_ok=True)
-os.makedirs(REPORT_DIR, exist_ok=True)
+TARGET_DATE = target_date_str
 
-# =========================================================
-# [유틸리티] 도구함
-# =========================================================
-def send_slack_alert(webhook_url, payload):
-    if not webhook_url: return
-    try:
-        requests.post(webhook_url, json=payload, headers={"Content-Type": "application/json"}, timeout=10)
-    except: pass
-
-def load_previous_data():
-    json_files = glob.glob(os.path.join(DATA_DIR, "data_*.json"))
-    if not json_files: return {}
-    json_files.sort()
-    latest_file = json_files[-1]
-    try:
-        with open(latest_file, "r", encoding="utf-8") as f: return json.load(f)
-    except: return {}
-
-def calculate_similarity(text1, text2):
-    if not text1 or not text2: return 0.0
-    return difflib.SequenceMatcher(None, text1, text2).ratio()
-
-# =========================================================
-# [핵심] 노이즈 제거 (타이머/카운트다운 차단)
-# =========================================================
-def clean_noise(text):
-    if not text: return ""
-    text = re.sub(r'(조회|view|읽음)(수)?[\s:.]*[\d,]+', '', text, flags=re.IGNORECASE)
-    text = re.sub(r'\d{1,2}\s*[:시]\s*\d{1,2}(\s*[:분]\s*\d{1,2})?', '', text)
-    text = re.sub(r'D-[\dDay]+', '', text, flags=re.IGNORECASE)
-    text = re.sub(r'\d+(일|시간|분|초)\s*(남음|남았|전|후)', '', text)
-    text = re.sub(r'(마감|종료|이벤트)\s*(까지)?', '', text)
-    text = re.sub(r'Loading.*', '', text, flags=re.IGNORECASE)
-    text = re.sub(r'\s+', ' ', text).strip()
-    return text
-
-def clean_html(html_source):
-    if not html_source: return ""
-    soup = BeautifulSoup(html_source, 'html.parser')
-    for tag in soup(['script', 'style', 'meta', 'noscript', 'header', 'footer', 'iframe', 'button', 'input', 'nav', 'aside', 'link', 'form']):
-        tag.decompose()
-    return soup.body.prettify() if soup.body else soup.prettify()
-
-def get_clean_text(html_content):
-    if not html_content: return ""
-    soup = BeautifulSoup(html_content, "html.parser")
-    return soup.get_text(separator=" ", strip=True)
-
-# =========================================================
-# [시각화] 변경사항 형광펜 하이라이팅
-# =========================================================
-def generate_diff_html(old_text, new_text):
-    matcher = difflib.SequenceMatcher(None, old_text, new_text)
-    result_html = []
-    has_change = False
-    for tag, i1, i2, j1, j2 in matcher.get_opcodes():
-        if tag == 'equal':
-            content = old_text[i1:i2]
-            result_html.append(content[:30] + " ... " + content[-30:] if len(content) > 60 else content)
-        elif tag in ('replace', 'delete', 'insert'):
-            has_change = True
-            old_part = html.escape(old_text[i1:i2]) if i1 != i2 else ""
-            new_part = html.escape(new_text[j1:j2]) if j1 != j2 else ""
-            if tag == 'replace':
-                result_html.append(f'<span style="background:#ffeef0; text-decoration:line-through; color:#999;">{old_part}</span> → <span style="background:#e6fffa; color:#006600; font-weight:bold; padding:0 4px;">{new_part}</span>')
-            elif tag == 'delete':
-                result_html.append(f'<span style="background:#ffeef0; text-decoration:line-through; color:#999;">{old_part}</span>')
-            elif tag == 'insert':
-                result_html.append(f'<span style="background:#e6fffa; color:#006600; font-weight:bold; padding:0 4px;">{new_part}</span>')
-    return f'<div style="font-size:13px; line-height:1.6; color:#444; background:#fafafa; padding:12px; border-radius:8px; border-left:4px solid #3498db; margin-top:10px;">{" ".join(result_html)}</div>' if has_change else ""
-
-def check_update_same_url(prev, curr):
-    reasons = []
-    diff_html = ""
-    if prev.get('title', '').strip() != curr.get('title', '').strip():
-        reasons.append("제목 변경")
-        diff_html += f"<div style='margin-bottom:8px;'><b>제목:</b> {prev.get('title')} <span style='color:blue;'>▶</span> <b>{curr.get('title')}</b></div>"
+# --- [1. 브라우저 설정] ---
+def get_driver():
+    chrome_options = Options()
+    chrome_options.add_argument("--headless") 
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--lang=ko_KR")
+    chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
     
-    p_clean, c_clean = clean_noise(get_clean_text(prev.get('content', ''))), clean_noise(get_clean_text(curr.get('content', '')))
-    if p_clean and c_clean and calculate_similarity(p_clean, c_clean) < 1.0:
-        reasons.append("본문 수정")
-        diff_html += generate_diff_html(p_clean, c_clean)
-        
-    if prev.get('img', '').strip() != curr.get('img', '').strip():
-        reasons.append("썸네일 변경")
-    return {"msg": f"{', '.join(reasons)}", "html": diff_html} if reasons else None
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=chrome_options)
+    return driver
 
-# =========================================================
-# [크롤러] 목록 기반 수집 로직
-# =========================================================
-def setup_driver():
-    options = uc.ChromeOptions()
-    options.add_argument("--headless=new")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--window-size=1920,1080")
-    return uc.Chrome(options=options, version_main=144)
-
-def extract_list_with_thumbnails(driver, site_name, keyword_list, onclick_pattern=None, base_url="", target_selector=None):
-    targets = {}
-    try:
-        time.sleep(3)
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
-        for link in soup.find_all('a'):
-            href, onclick = link.get('href', ''), link.get('onclick', '')
-            final_url = ""
-            if href and "javascript" not in href and "#" != href:
-                for key in keyword_list:
-                    if key in href:
-                        final_url = urljoin(base_url, href); break
-            elif onclick and onclick_pattern:
-                m = re.search(onclick_pattern, onclick)
-                if m:
-                    if site_name == "헬로모바일": final_url = f"https://direct.lghellovision.net/event/viewEventDetail.do?idxOfEvent={m.group(1)}"
-                    elif site_name == "SK 7세븐모바일": final_url = f"https://www.sk7mobile.com/bnef/event/eventIngView.do?cntId={m.group(1)}"
-            if site_name == "KTM 모바일" and not final_url:
-                seq = link.get('ntcartseq')
-                if seq: final_url = f"https://www.ktmmobile.com/event/eventDetail.do?ntcartSeq={seq}"
-            if final_url and "login" not in final_url:
-                img = link.find('img')
-                thumb = urljoin(base_url, img.get('src') or img.get('data-src')) if img else ""
-                if final_url not in targets or (thumb and not targets[final_url]): targets[final_url] = thumb
-    except: pass
-    final_data = {}
-    for url, thumb in targets.items():
+# --- [2. 크롤러: 뽐뿌] ---
+def get_ppomppu_posts(driver):
+    print("running ppomppu crawler...")
+    posts = []
+    base_url = "https://www.ppomppu.co.kr/zboard/zboard.php?id=phone&page={}"
+    
+    for page in range(1, 21): 
         try:
-            driver.get(url); time.sleep(2)
-            try: cont = clean_html(driver.find_element(By.CSS_SELECTOR, target_selector).get_attribute('outerHTML')) if target_selector else clean_html(driver.page_source)
-            except: cont = clean_html(driver.page_source)
-            try: title = driver.find_element(By.TAG_NAME, "h1").text.strip()
-            except: title = driver.title.strip()
-            final_data[url] = {"title": title, "img": thumb, "content": cont[:15000]}
-        except: continue
-    return final_data
+            driver.get(base_url.format(page))
+            time.sleep(random.uniform(1.0, 2.0))
+            
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
+            rows = soup.find_all('tr') 
+            
+            valid_cnt_in_page = 0
+            
+            for row in rows:
+                title_elem = row.select_one('font.list_title') or row.select_one('a')
+                if not title_elem: continue
+                
+                post_date = ""
+                
+                time_span = row.select_one('.baseList-time')
+                if time_span:
+                    date_td = time_span.find_parent('td')
+                    if date_td and date_td.get('title'):
+                        raw_date = date_td['title'].split(' ')[0]
+                        post_date = "20" + raw_date.replace('.', '-')
+                
+                if not post_date:
+                    date_td = row.find('td', title=re.compile(r'\d{2}\.\d{2}\.\d{2}'))
+                    if date_td:
+                        raw_date = date_td['title'].split(' ')[0]
+                        post_date = "20" + raw_date.replace('.', '-')
+                
+                if not post_date:
+                    date_match = re.search(r'\d{2}\.\d{2}\.\d{2}', row.text)
+                    if date_match:
+                        post_date = "20" + date_match.group().replace('.', '-')
 
-def crawl_site_logic(driver, site_name, base_url, pagination_param=None, target_selector=None):
-    print(f"🚀 [{site_name}] 크롤링 시작...")
-    if site_name == "SKT Air":
-        driver.get(base_url); time.sleep(3)
+                if post_date == TARGET_DATE:
+                    link_elem = row.select_one('a[href*="view.php"]')
+                    if not link_elem: continue
+                    
+                    title = title_elem.text.strip()
+                    link = "https://www.ppomppu.co.kr/zboard/" + link_elem['href']
+                    
+                    views, comments = 0, 0
+                    
+                    view_tag = row.select_one('.baseList-views')
+                    cmt_tag = row.select_one('.baseList-c') or row.select_one('.list_comment2')
+                    
+                    if view_tag:
+                        views = int(view_tag.text.strip().replace(',', '') or 0)
+                    else:
+                        views_match = re.findall(r'\d{1,3}(?:,\d{3})*', row.text)
+                        if views_match: views = int(views_match[-1].replace(',', ''))
+                    
+                    if cmt_tag:
+                        comments = int(cmt_tag.text.strip().replace(',', '') or 0)
+
+                    posts.append({'source': 'ppomppu', 'title': title, 'link': link, 'views': views, 'comments': comments})
+                    valid_cnt_in_page += 1
+            
+            if valid_cnt_in_page == 0 and page > 10:
+                print("  - No more posts found. Stopping.")
+                break
+
+        except Exception as e:
+            print(f"Err Ppomppu p{page}: {e}")
+            
+    return posts
+
+# --- [3. 크롤러: 디시] ---
+def get_dc_posts(driver):
+    print("running dc crawler...")
+    posts = []
+    base_url = "https://gall.dcinside.com/mgallery/board/lists/?id=mvnogallery&page={}"
+    
+    for page in range(1, 51):
         try:
-            cont = driver.find_element(By.CSS_SELECTOR, target_selector)
-            return {driver.current_url: {"title": "SKT Air 메인", "img": "", "content": clean_html(cont.get_attribute('outerHTML'))}}
-        except: return {}
-    keywords = []
-    onclick = None
-    base = ""
-    if site_name == "U+ 유모바일": keywords, base = ["event", "benefit"], "https://www.uplusumobile.com"
-    elif site_name == "KTM 모바일": keywords, base = ["eventDetail"], "https://www.ktmmobile.com"
-    elif site_name == "스카이라이프": keywords, base = ["/event/"], "https://www.skylife.co.kr"
-    elif site_name == "헬로모바일": keywords, onclick, base = ["event"], r"(\d+)", "https://direct.lghellovision.net"
-    elif site_name == "SK 7세븐모바일": keywords, onclick, base = ["event"], r"['\"]([^'\"]+)['\"]", "https://www.sk7mobile.com"
-    elif site_name == "SKT 다이렉트": keywords, base = ["event", "plan"], "https://shop.tworld.co.kr"
-    collected = {}
-    for page in range(1, 4):
-        t_url = f"{base_url}{('&' if '?' in base_url else '?')}{pagination_param}={page}" if pagination_param and pagination_param != "#" else base_url
-        driver.get(t_url); time.sleep(2)
-        data = extract_list_with_thumbnails(driver, site_name, keywords, onclick, base, target_selector)
-        if not data: break
-        collected.update(data)
-        if not pagination_param: break
-    return collected
+            driver.get(base_url.format(page))
+            time.sleep(random.uniform(1.0, 2.0))
+            
+            if "디시인사이드입니다" in driver.title and "알뜰폰" not in driver.title:
+                break
 
-def update_index_page():
-    report_files = sorted(glob.glob(os.path.join(REPORT_DIR, "report_*.html")), reverse=True)
-    index_html = f"""
-    <html><head><meta charset='utf-8'><title>Dashboard</title>
-    <style>body{{font-family:sans-serif; padding:40px; background:#f5f7fa;}} .card{{background:white; padding:25px; border-radius:15px; box-shadow:0 5px 15px rgba(0,0,0,0.05);}}</style>
-    </head><body><div class='card'><h1>📊 모니터링 관제탑</h1>
-    {''.join([f"<div style='margin-bottom:10px;'>📅 <a href='reports/{os.path.basename(f)}'>{os.path.basename(f)}</a></div>" for f in report_files[:15]])}
-    </div></body></html>"""
-    with open(os.path.join(DOCS_DIR, "index.html"), "w", encoding="utf-8") as f: f.write(index_html)
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
+            rows = soup.select('tr.ub-content.us-post')
+            
+            if not rows: break
+                
+            stop_crawling = False
+            
+            for row in rows:
+                if row.get('data-type') == 'icon_notice': continue
+                date_tag = row.select_one('.gall_date')
+                if not date_tag or not date_tag.get('title'): continue
+                
+                post_date = date_tag['title'].split(' ')[0]
+                
+                if post_date == TARGET_DATE:
+                    title_tag = row.select_one('.gall_tit > a')
+                    if not title_tag: continue
+                    title = title_tag.text.strip()
+                    link = "https://gall.dcinside.com" + title_tag['href']
+                    views_tag = row.select_one('.gall_count')
+                    views = int(views_tag.text.strip().replace(',', '')) if views_tag and views_tag.text.strip().isdigit() else 0
+                    reply_tag = row.select_one('.reply_num')
+                    comments = int(reply_tag.text.strip('[]')) if reply_tag else 0
+                    
+                    posts.append({'source': 'dc', 'title': title, 'link': link, 'views': views, 'comments': comments})
+                elif post_date < TARGET_DATE:
+                    stop_crawling = True
+            
+            if stop_crawling: break
+            
+        except Exception as e:
+            print(f"Err DC p{page}: {e}")
+            break
+            
+    return posts
 
-# =========================================================
-# [메인] 실행 로직
-# =========================================================
-def main():
+# --- [4. 분석 및 알림 로직] ---
+def extract_top_keywords(df):
+    if df.empty: return []
+    all_titles = " ".join(df['title'].tolist())
+    all_titles = re.sub(r'[^\w\s]', ' ', all_titles)
+    words = all_titles.split()
+    
+    stopwords = set([
+        '질문', '후기', '정보', '요금제', '알뜰폰', '추천', '있나요', '나요', '가요', '건가요',
+        '오늘', '내일', '이번달', '2월', '1월', '근데', '진짜', '혹시', '아니', '너무',
+        '유심', '번호이동', '기변', '신규', '개통', '모바일', '사람', '생각', '지금', '어제',
+        '약정', '결합', '할인', '카드', '데이터', '무제한', '평생', '개월', '년',
+        'skt', 'kt', 'lg', 'lgu', 'sk', 'kt망', 'lgu+', 'u+', 'sk망', '헬로',
+        'vs', '이거', '저거', '그거', '뭐야', '시발', '존나', 'ㅋㅋ', 'ㅎㅎ', 'ㅠㅠ',
+        '문의', '질문좀', '대해', '관련', '어떤가요', '무슨', '어디', '어떻게',
+        '선택', '위약금', '조건', '정책', '비교', '변경', '이동', '사용', '가입', '해지',
+        '있음', '알뜰', '요금', '번호', '통신사', '요금', '도와주세요'
+    ])
+    filtered_words = [w for w in words if len(w) >= 2 and w.lower() not in stopwords]
+    return Counter(filtered_words).most_common(10)
+
+def send_slack_message(message):
+    """테스트 모드 확인 후 슬랙 전송 또는 출력"""
+    webhook_url = os.environ.get('SLACK_WEBHOOK_URL')
+    
+    if TEST_MODE:
+        print("\n" + "="*40)
+        print(f"📢 [TEST MODE] 슬랙 발송 생략 (Target: {TARGET_DATE})")
+        print("="*40)
+        print(message)
+        print("="*40 + "\n")
+        return
+
+    if webhook_url:
+        try:
+            response = requests.post(webhook_url, json={"text": message})
+            response.raise_for_status()
+            print("✅ 슬랙 전송 완료")
+        except Exception as e:
+            print(f"❌ 슬랙 전송 실패: {e}")
+    else:
+        print("⚠️ SLACK_WEBHOOK_URL이 설정되지 않았습니다.")
+
+def analyze_and_notify(p_posts, d_posts):
+    total_posts = p_posts + d_posts
+    if not total_posts:
+        print(f"⚠️ {TARGET_DATE} 수집된 데이터 0건")
+        return
+
+    df = pd.DataFrame(total_posts)
+    p_cnt = len(p_posts)
+    d_cnt = len(d_posts)
+    
+    p_status = "🔴 과열" if p_cnt >= 180 else ("🟢 평온" if p_cnt < 80 else "🟡 활발")
+    d_status = "🔴 과열" if d_cnt >= 600 else ("🟢 평온" if d_cnt < 300 else "🟡 활발")
+
+    brands = {
+        '세븐모바일': ['세븐모바일', '7모', 'sk7', 'sk텔링크', '세븐', '세븐모'],
+        'KT엠모바일': ['kt엠모바일', '엠모바일', '엠모', 'ktm', '케이티엠'],
+        '유모바일': ['유모바일', '유모', 'u모바일', '유알모', '유플러스알뜰'],
+        '헬로모바일': ['헬로모바일', '헬모', 'cj헬로', '헬로', 'cj'],
+        '스카이라이프': ['스카이라이프', '스카이', 'skylife'],
+        '토스모바일': ['토스', '토스모바일', 'toss'],
+        '리브엠': ['리브엠', '리브모바일', 'kb', '국민은행', '리브m'],
+        '우리원모바일': ['우리원', '우리은행', '우리won', '우리원모바일'],
+        '이야기모바일': ['이야기', '이야기모바일', '큰사람'],
+        '에이모바일': ['에이모바일', 'a모바일', 'a mobile', '에이모'],
+        '프리티': ['프리티', 'freet'],
+        '모빙': ['모빙', 'mobing'],
+        '스노우맨': ['스노우맨', '세종'],
+        '아이즈모바일': ['아이즈', '아이즈모바일', 'eyes'],
+        '인스모바일': ['인스', '인스모바일'],
+        '이지모바일': ['이지', '이지모바일'],
+        '티플러스': ['티플러스', '티플'],
+        'KG모바일': ['kg모바일', 'kg', '케이지'],
+        '티다이렉트': ['티다이렉트', '티다', 't다이렉트', 't다'],
+        'SKT_Air': ['skt에어', 'skt air', '에어'],
+        '시월모바일': ['시월', '시월모바일']
+    }
+
+    brand_counts = {}
+    seven_links = []
+
+    for b_name, keywords in brands.items():
+        filtered = df[df['title'].apply(lambda x: any(k in x.lower() for k in keywords))]
+        brand_counts[b_name] = int(len(filtered))
+        
+        if b_name == '세븐모바일' and len(filtered) > 0:
+            for _, row in filtered.iterrows():
+                seven_links.append(f"  └ <{row['link']}|{row['title']}>")
+
+    sov_lines = []
+    seven_cnt = brand_counts.get('세븐모바일', 0)
+    sov_lines.append(f"• 세븐모바일: {seven_cnt}건")
+    
+    sorted_brands = sorted(brand_counts.items(), key=lambda x: x[1], reverse=True)
+    for b_name, cnt in sorted_brands:
+        if b_name == '세븐모바일': continue
+        if cnt > 0:
+            sov_lines.append(f"• {b_name}: {cnt}건")
+
+    sov_msg = "\n".join(sov_lines)
+    seven_block = ""
+    if seven_links:
+        seven_block = f"\n*📌 세븐모바일 언급 ({len(seven_links)}건)*\n" + "\n".join(seven_links)
+
+    top_keywords = extract_top_keywords(df)
+    keyword_msg = ""
+    for word, count in top_keywords:
+        keyword_msg += f"• {word}: {count}건\n"
+    if not keyword_msg: keyword_msg = "• 특이사항 없음"
+
+    def format_list(sub_df):
+        if sub_df.empty: return "없음", []
+        top5 = sub_df.sort_values(by='views', ascending=False).head(5)
+        lines = []
+        for idx, row in top5.iterrows():
+            title = row['title']
+            icon = ""
+            if any(k in title for k in ['0원', '무제한', '평생', '대란', '공짜']): icon = " 💰"
+            lines.append(f"• <{row['link']}|{title}>{icon} (👁️ {row['views']:,} / 💬 {row['comments']})")
+        top5_data = top5[['title', 'link', 'views', 'comments']].to_dict('records')
+        return "\n".join(lines), top5_data
+
+    p_msg, p_top5 = format_list(pd.DataFrame(p_posts))
+    d_msg, d_top5 = format_list(pd.DataFrame(d_posts))
+
+    history_file = 'data/dashboard_history.json'
+    history_data = []
+    if os.path.exists(history_file):
+        with open(history_file, 'r', encoding='utf-8') as f:
+            try: history_data = json.load(f)
+            except: pass
+    
+    today_entry = {
+        "date": TARGET_DATE,
+        "total_volume": { "ppomppu": p_cnt, "dc": d_cnt },
+        "brand_sov": brand_counts,
+        "top_keywords": dict(top_keywords),
+        "top_posts": { "ppomppu": p_top5, "dc": d_top5 }
+    }
+    
+    history_data = [d for d in history_data if d['date'] != TARGET_DATE]
+    history_data.append(today_entry)
+    history_data.sort(key=lambda x: x['date'])
+    
+    os.makedirs('data', exist_ok=True)
+    with open(history_file, 'w', encoding='utf-8') as f:
+        json.dump(history_data, f, ensure_ascii=False, indent=4)
+
+    os.makedirs('data/monitoring', exist_ok=True)
+    with open(f'data/monitoring/data_{TARGET_DATE}.json', 'w', encoding='utf-8') as f:
+        json.dump(total_posts, f, ensure_ascii=False, indent=4)
+
+    slack_text = f"""
+*[📊 {TARGET_DATE} 알뜰폰 커뮤니티 모니터링]*
+
+*🌡️ 커뮤니티 활성도*
+• 뽐뿌: {p_status} ({p_cnt}개)
+• 디시: {d_status} ({d_cnt}개)
+
+*📈 브랜드 언급량 (SOV)*
+{sov_msg}{seven_block}
+
+*🔥 핫 키워드 (Top 10)*
+{keyword_msg}
+
+*1️⃣ 뽐뿌 휴대폰포럼 (Top 5)*
+{p_msg}
+
+*2️⃣ 디시 알뜰폰 갤러리 (Top 5)*
+{d_msg}
+
+👉 <https://rodolfochoi911-lgtm.github.io/mvno-market-monitor/|웹 대시보드 확인하기>
+    """
+    
+    send_slack_message(slack_text)
+
+if __name__ == "__main__":
+    driver = get_driver()
     try:
-        driver = setup_driver()
-        competitors = [
-            {"name": "SKT 다이렉트", "url": "https://shop.tworld.co.kr/exhibition/submain", "param": None, "selector": "#contents"},
-            {"name": "SKT Air", "url": "https://sktair-event.com/", "param": None, "selector": "#app > div > section.content"},
-            {"name": "U+ 유모바일", "url": "https://www.uplusumobile.com/event-benefit/event/ongoing", "param": None, "selector": ""},
-            {"name": "KTM 모바일", "url": "https://www.ktmmobile.com/event/eventBoardList.do", "param": None, "selector": ""},
-            {"name": "스카이라이프", "url": "https://www.skylife.co.kr/event?category=mobile", "param": "p", "selector": ""},
-            {"name": "헬로모바일", "url": "https://direct.lghellovision.net/event/viewEventList.do?returnTab=allli", "param": "#", "selector": ""},
-            {"name": "SK 7세븐모바일", "url": "https://www.sk7mobile.com/bnef/event/eventIngList.do", "param": None, "selector": ""}
-        ]
-        yesterday = load_previous_data()
-        today = {}
-        for c in competitors:
-            try:
-                res = crawl_site_logic(driver, c['name'], c['url'], c['param'], c['selector'])
-                today[c['name']] = res if res else yesterday.get(c['name'], {})
-            except: today[c['name']] = yesterday.get(c['name'], {})
-        driver.quit()
-        with open(os.path.join(DATA_DIR, f"data_{FILE_TIMESTAMP}.json"), "w", encoding="utf-8") as f: json.dump(today, f, ensure_ascii=False)
-        
-        # 리포트 생성
-        report_body, total_chg, summary = "", 0, []
-        for name, pages in today.items():
-            old = yesterday.get(name, {})
-            list_new, list_del, list_upd = [{"url": u, "data": pages[u]} for u in (set(pages.keys()) - set(old.keys()))], [{"url": u, "data": old[u]} for u in (set(old.keys()) - set(pages.keys()))], []
-            for url in (set(pages.keys()) & set(old.keys())):
-                diff = check_update_same_url(old[url], pages[url])
-                if diff: list_upd.append({"url": url, "reason": diff['msg'], "data": pages[url], "diff_html": diff['html']})
-            cnt = len(list_new) + len(list_upd) + len(list_del)
-            if cnt > 0:
-                s_html = f"<h2>🏢 {name} ({cnt}건)</h2>"
-                for i in list_new: s_html += f"<div style='background:#f9fff9; padding:10px; border:1px solid #cfc; margin-bottom:10px;'><img src='{i['data']['img']}' style='height:60px; margin-right:10px;'><b>[신규] {i['data']['title']}</b><br><a href='{i['url']}'>이동</a></div>"
-                for i in list_upd: s_html += f"<div style='background:#fffcf5; padding:10px; border:1px solid #fc9; margin-bottom:10px;'><b>[변경] {i['data']['title']}</b><br>{i['diff_html']}<br><a href='{i['url']}'>이동</a></div>"
-                for i in list_del: s_html += f"<div style='background:#fff5f5; padding:10px; border:1px solid #fcc; margin-bottom:10px; color:#999;'><strike>{i['data']['title']}</strike> (종료)</div>"
-                report_body += s_html + "<hr>"; total_chg += cnt; summary.append(f"{name}({cnt})")
-        
-        rep_file = f"report_{FILE_TIMESTAMP}.html"
-        with open(os.path.join(REPORT_DIR, rep_file), "w", encoding="utf-8") as f: f.write(f"<html><head><meta charset='utf-8'></head><body><h1>📅 {DISPLAY_DATE} 리포트</h1>{report_body}</body></html>")
-        
-        # [복구됨] 전체 목록 파일 생성 (슬랙 링크용)
-        list_html = f"<h1>📂 {DISPLAY_DATE} 전체 목록</h1><hr>"
-        for name, pages in today.items():
-            list_html += f"<h3>{name} ({len(pages)}개)</h3><div style='display:grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap:15px;'>"
-            for url, data in pages.items():
-                img = f"<img src='{data.get('img','')}' style='width:100%; height:120px; object-fit:cover; border-radius:5px; border:1px solid #eee;'>" if data.get('img') else "<div style='width:100%; height:120px; background:#f0f0f0; display:flex; align-items:center; justify-content:center;'>No Image</div>"
-                list_html += f"<div style='border:1px solid #ddd; padding:10px;'><a href='{url}' target='_blank' style='text-decoration:none; color:#333;'>{img}<p style='margin:10px 0 0 0; font-weight:bold; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;'>{data.get('title')}</p></a></div>"
-            list_html += "</div><hr>"
-        list_file = f"list_{FILE_TIMESTAMP}.html"
-        with open(os.path.join(REPORT_DIR, list_file), "w", encoding="utf-8") as f: f.write(list_html)
-
-        update_index_page()
-        
-        # [복구됨] 슬랙 알람 포맷 (풍성한 버전)
-        dashboard_url = f"https://{GITHUB_USER}.github.io/{REPO_NAME}/"
-        report_url = f"https://{GITHUB_USER}.github.io/{REPO_NAME}/reports/{rep_file}"
-        list_url = f"https://{GITHUB_USER}.github.io/{REPO_NAME}/reports/{list_file}"
-        summary_text = f"총 {total_chg}건 변동 ({', '.join(summary)})" if total_chg > 0 else "특이사항 없음"
-        
-        payload = {
-            "text": f"📢 *[KST {DISPLAY_TIME}] 경쟁사 동향 보고* \n\n✅ *요약:* {summary_text}\n\n👉 *변경 리포트:* {report_url}\n🗂️ *전체 목록:* {list_url}\n📂 *대시보드:* {dashboard_url}"
-        }
-        send_slack_alert(SLACK_WEBHOOK_URL, payload)
-        print("✅ 모든 작업 완료")
-
+        p_data = get_ppomppu_posts(driver)
+        d_data = get_dc_posts(driver)
+        analyze_and_notify(p_data, d_data)
+        print("✅ 작업 완료")
     except Exception as e:
-        print(f"🔥 Error: {traceback.format_exc()}")
-        send_slack_alert(SLACK_WEBHOOK_URL, {"text": f"🚨 에러: {str(e)}"})
-
-if __name__ == "__main__": main()
+        print(f"Error: {e}")
+    finally:
+        driver.quit()
