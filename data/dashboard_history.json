@@ -101,26 +101,26 @@
     {
         "date": "2026-02-04",
         "total_volume": {
-            "ppomppu": 65,
+            "ppomppu": 86,
             "dc": 364
         },
         "brand_sov": {
             "세븐모바일": 2,
             "KT엠모바일": 1,
-            "유모바일": 8,
+            "유모바일": 10,
             "헬로모바일": 2,
             "스카이라이프": 0,
             "토스모바일": 1,
             "리브엠": 1,
-            "우리원모바일": 5,
+            "우리원모바일": 3,
             "이야기모바일": 1,
-            "에이모바일": 1,
-            "프리티": 7,
+            "에이모바일": 2,
+            "프리티": 8,
             "모빙": 0,
             "스노우맨": 0,
             "아이즈모바일": 4,
             "인스모바일": 0,
-            "이지모바일": 1,
+            "이지모바일": 2,
             "티플러스": 8,
             "KG모바일": 5,
             "티다이렉트": 0,
@@ -130,78 +130,78 @@
         "top_keywords": {
             "시월": 55,
             "2970": 24,
+            "알닷": 9,
             "쌀먹": 9,
             "110": 8,
-            "알닷": 7,
+            "프리티": 7,
+            "해지방어": 7,
             "유플러스": 7,
             "시월모바일": 7,
-            "추천좀": 6,
-            "프리티": 6,
-            "황족": 6
+            "추천좀": 6
         },
         "top_posts": {
             "ppomppu": [
                 {
                     "title": "S26 기본형은 출고가 인상, 울트라는 출고가 인하!",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3902741",
-                    "views": 14850,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=705&no=3902741",
+                    "views": 15053,
                     "comments": 94
                 },
                 {
                     "title": "퀀텀6 내일부터 다시 시작한다네요",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3902798",
-                    "views": 3331,
+                    "views": 3662,
                     "comments": 33
                 },
                 {
-                    "title": "25도 진짜좋아요..여러분",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3902775",
-                    "views": 2508,
-                    "comments": 18
+                    "title": "유모바일 유심 도둑이 있네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3902822",
+                    "views": 3243,
+                    "comments": 24
                 },
                 {
                     "title": "2월알뜰폰 정리해봤습니다. (100원/11+2기가/100기가 단기장기)",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3902803",
-                    "views": 2454,
-                    "comments": 0
+                    "views": 2881,
+                    "comments": 3
                 },
                 {
-                    "title": "알닷 월50원 4.5gb+1mbps  통화기본",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3902802",
-                    "views": 2219,
-                    "comments": 13
+                    "title": "25도 진짜좋아요..여러분",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3902775",
+                    "views": 2714,
+                    "comments": 18
                 }
             ],
             "dc": [
                 {
                     "title": "개인정보 관련 오해에 대한 시월모바일 공식 입장",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=393996&page=6",
-                    "views": 1749,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=393996&page=7",
+                    "views": 1800,
                     "comments": 47
                 },
                 {
                     "title": "시월모바일 기사 터졌다",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=394182&page=3",
-                    "views": 1607,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=394182&page=4",
+                    "views": 1776,
                     "comments": 12
                 },
                 {
                     "title": "시월 3300 부활!!!!!!!!!! 빨리타",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=393952&page=7",
-                    "views": 1547,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=393952&page=8",
+                    "views": 1568,
                     "comments": 7
                 },
                 {
                     "title": "광고정보 강제가입 시월 문제가 아니라 LG 문제인듯",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=394106&page=4",
-                    "views": 1182,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=394106&page=6",
+                    "views": 1253,
                     "comments": 16
                 },
                 {
-                    "title": "이번 시월사건 지피티 입장문",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=393864&page=8",
-                    "views": 942,
-                    "comments": 1
+                    "title": "시월모바일 괘씸한 씨발년들",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=394196&page=4",
+                    "views": 1007,
+                    "comments": 2
                 }
             ]
         }
