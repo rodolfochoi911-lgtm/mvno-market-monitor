@@ -205,5 +205,113 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-05",
+        "total_volume": {
+            "ppomppu": 79,
+            "dc": 229
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 3,
+            "유모바일": 9,
+            "헬로모바일": 1,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 0,
+            "우리원모바일": 3,
+            "이야기모바일": 1,
+            "에이모바일": 0,
+            "프리티": 5,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 8,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 7,
+            "KG모바일": 3,
+            "티다이렉트": 0,
+            "SKT_Air": 3,
+            "시월모바일": 26
+        },
+        "top_keywords": {
+            "시월": 21,
+            "2970": 17,
+            "퀀텀6": 9,
+            "쉐이크": 9,
+            "알닷": 6,
+            "그냥": 6,
+            "아이즈": 6,
+            "셀프개통": 5,
+            "아님": 5,
+            "황족": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "인터넷 개통점에서 동의없이 휴대폰 기기변경을 진행했습니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3902885",
+                    "views": 9941,
+                    "comments": 28
+                },
+                {
+                    "title": "A17 옷입혀 줬어요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3902830",
+                    "views": 2442,
+                    "comments": 12
+                },
+                {
+                    "title": "당근에 올라오는 미사용 새것",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3902854",
+                    "views": 2282,
+                    "comments": 20
+                },
+                {
+                    "title": "안면인식 시행으로 번호이동 포기",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3902903",
+                    "views": 2049,
+                    "comments": 22
+                },
+                {
+                    "title": "추지 정말 ㅈ같네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3902872",
+                    "views": 1829,
+                    "comments": 9
+                }
+            ],
+            "dc": [
+                {
+                    "title": "응. 2970 안써도 돼.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=394304&page=5",
+                    "views": 1998,
+                    "comments": 16
+                },
+                {
+                    "title": "에어 역대급 대란가 아님?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=394540&page=1",
+                    "views": 1608,
+                    "comments": 14
+                },
+                {
+                    "title": "속보) 700원 평생 입갤 ㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=394321&page=5",
+                    "views": 1197,
+                    "comments": 10
+                },
+                {
+                    "title": "3명박 전설 맞나..?? 이걸 왜 해지했지",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=394289&page=6",
+                    "views": 1151,
+                    "comments": 6
+                },
+                {
+                    "title": "2970 개통불가 통보이후 추가 가입 안내받음.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=394333&page=5",
+                    "views": 1054,
+                    "comments": 13
+                }
+            ]
+        }
     }
 ]
