@@ -2,7 +2,7 @@ name: Market Monitor (Daily)
 
 on:
   schedule:
-    - cron: '50 21 * * *'
+    - cron: '28 21 * * *'
   # 수동 실행 버튼 (이 줄이 schedule과 같은 라인에 있어야 합니다!)
   workflow_dispatch:
     inputs:
