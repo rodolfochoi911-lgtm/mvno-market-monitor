@@ -313,5 +313,113 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-06",
+        "total_volume": {
+            "ppomppu": 53,
+            "dc": 243
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 2,
+            "유모바일": 27,
+            "헬로모바일": 1,
+            "스카이라이프": 2,
+            "토스모바일": 0,
+            "리브엠": 1,
+            "우리원모바일": 4,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 3,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 2,
+            "인스모바일": 0,
+            "이지모바일": 3,
+            "티플러스": 4,
+            "KG모바일": 3,
+            "티다이렉트": 3,
+            "SKT_Air": 26,
+            "시월모바일": 21
+        },
+        "top_keywords": {
+            "에어": 18,
+            "시월": 16,
+            "유모": 14,
+            "알닷": 9,
+            "유모바일": 9,
+            "쌀먹": 9,
+            "퀀텀6": 7,
+            "네페": 6,
+            "쉐이크": 6,
+            "이벤트": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "평생인데 900원? 1900원?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3902937",
+                    "views": 2430,
+                    "comments": 12
+                },
+                {
+                    "title": "홍미노트11 생각보다 괜찮네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3902928",
+                    "views": 2289,
+                    "comments": 17
+                },
+                {
+                    "title": "아이폰17 에어 안팔렸나봐요 달리네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3902957",
+                    "views": 1681,
+                    "comments": 9
+                },
+                {
+                    "title": "평생요금제 이게 무슨말인지 이해가 되시나요??",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3902961",
+                    "views": 1664,
+                    "comments": 16
+                },
+                {
+                    "title": "S25플 자급제 갈까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3902925",
+                    "views": 1607,
+                    "comments": 7
+                }
+            ],
+            "dc": [
+                {
+                    "title": "시월 싼 이유가 설마...?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=394577&page=5",
+                    "views": 1434,
+                    "comments": 3
+                },
+                {
+                    "title": "어제 분명없었던거 같은데 이거 이벤트 요금제임?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=394646&page=4",
+                    "views": 1024,
+                    "comments": 9
+                },
+                {
+                    "title": "SKT가 에어로 알뜰폰 죽이려고 작정했네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=394585&page=5",
+                    "views": 854,
+                    "comments": 16
+                },
+                {
+                    "title": "시월 알닷 only 2860 떴다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=394651&page=4",
+                    "views": 838,
+                    "comments": 4
+                },
+                {
+                    "title": "얘들아좆댓어",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=394698&page=3",
+                    "views": 837,
+                    "comments": 40
+                }
+            ]
+        }
     }
 ]
