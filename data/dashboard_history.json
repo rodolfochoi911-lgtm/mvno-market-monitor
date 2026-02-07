@@ -421,5 +421,113 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-07",
+        "total_volume": {
+            "ppomppu": 99,
+            "dc": 560
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 8,
+            "유모바일": 262,
+            "헬로모바일": 3,
+            "스카이라이프": 0,
+            "토스모바일": 2,
+            "리브엠": 1,
+            "우리원모바일": 0,
+            "이야기모바일": 5,
+            "에이모바일": 1,
+            "프리티": 0,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 7,
+            "인스모바일": 0,
+            "이지모바일": 4,
+            "티플러스": 2,
+            "KG모바일": 2,
+            "티다이렉트": 0,
+            "SKT_Air": 3,
+            "시월모바일": 8
+        },
+        "top_keywords": {
+            "유모": 138,
+            "유모바일": 85,
+            "쌀먹": 33,
+            "다모아": 26,
+            "유모비": 17,
+            "퀀텀6": 14,
+            "회선": 14,
+            "안면인식": 13,
+            "쿠팡": 12,
+            "이벤트": 10
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "퀀텀6 택배 개통 됐네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3903156",
+                    "views": 21376,
+                    "comments": 112
+                },
+                {
+                    "title": "유모바일 네페30만원+쿠팡캐시10만원 (조건 좋음)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3903046",
+                    "views": 11619,
+                    "comments": 139
+                },
+                {
+                    "title": "퀀텀 2월에도 나오네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3903061",
+                    "views": 11278,
+                    "comments": 94
+                },
+                {
+                    "title": "직폰은 게시판에 후기남기라고 하나요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3903105",
+                    "views": 7002,
+                    "comments": 16
+                },
+                {
+                    "title": "안면인식 4트만에 유모비 30만원 올라탔습니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3903137",
+                    "views": 2659,
+                    "comments": 38
+                }
+            ],
+            "dc": [
+                {
+                    "title": "2026년 2월 유모바일: 미리받는세뱃돈",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=395035&page=12",
+                    "views": 2578,
+                    "comments": 28
+                },
+                {
+                    "title": "며칠 전에 2970 탄 애들은 뭐임?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=395096&page=11",
+                    "views": 1344,
+                    "comments": 1
+                },
+                {
+                    "title": "유모바일 시크릿코드 30만원 + 친구추천 4만원 + 스크래치 1~3만원",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=395139&page=10",
+                    "views": 1074,
+                    "comments": 13
+                },
+                {
+                    "title": "10원 평생 셀프개통 간다 ㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=395108&page=11",
+                    "views": 1038,
+                    "comments": 7
+                },
+                {
+                    "title": "알닷 아이즈 평생 10원 뭐냐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=395085&page=11",
+                    "views": 994,
+                    "comments": 7
+                }
+            ]
+        }
     }
 ]
