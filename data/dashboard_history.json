@@ -637,5 +637,113 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-09",
+        "total_volume": {
+            "ppomppu": 103,
+            "dc": 1475
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 2,
+            "유모바일": 108,
+            "헬로모바일": 4,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 4,
+            "우리원모바일": 1,
+            "이야기모바일": 2,
+            "에이모바일": 2,
+            "프리티": 14,
+            "모빙": 1,
+            "스노우맨": 1,
+            "아이즈모바일": 209,
+            "인스모바일": 2,
+            "이지모바일": 11,
+            "티플러스": 8,
+            "KG모바일": 5,
+            "티다이렉트": 1,
+            "SKT_Air": 1,
+            "시월모바일": 181
+        },
+        "top_keywords": {
+            "핀다": 218,
+            "아이즈": 134,
+            "시월": 102,
+            "10원": 94,
+            "2970": 93,
+            "유모": 52,
+            "원칩": 39,
+            "유모바일": 36,
+            "이제": 28,
+            "아이즈10": 25
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "핀다이렉트 통문무 5gb+1mbps 2,970원 요금제",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3903371",
+                    "views": 3032,
+                    "comments": 22
+                },
+                {
+                    "title": "이번 갤럭시S26 쉬어가는 모델이면 S25 중고 줍줍은 힘든상황이네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=705&no=3903290",
+                    "views": 2865,
+                    "comments": 11
+                },
+                {
+                    "title": "아이즈모바일 10원 요금제 잠깐 풀린거 평생 맞네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3903397",
+                    "views": 2595,
+                    "comments": 13
+                },
+                {
+                    "title": "아이즈 10원 요금제 평생 해주나 봅니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3903325",
+                    "views": 2339,
+                    "comments": 13
+                },
+                {
+                    "title": "퀀텀6 조건 괜찮나요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3903364",
+                    "views": 2307,
+                    "comments": 57
+                }
+            ],
+            "dc": [
+                {
+                    "title": "태초 요금제",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=396288&page=25",
+                    "views": 1547,
+                    "comments": 10
+                },
+                {
+                    "title": "아이즈 저거 알닷 댓글 알갤러임?ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=395976&page=31",
+                    "views": 1355,
+                    "comments": 2
+                },
+                {
+                    "title": "핀다 2970 탑승한 황족들은 개추",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=397143&page=10",
+                    "views": 1338,
+                    "comments": 10
+                },
+                {
+                    "title": "자 승리의 10원단들은 개추눌러볼까?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=396168&page=28",
+                    "views": 1135,
+                    "comments": 4
+                },
+                {
+                    "title": "핀다 5+1 무무 2970",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=396510&page=22",
+                    "views": 1108,
+                    "comments": 7
+                }
+            ]
+        }
     }
 ]
