@@ -745,5 +745,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-10",
+        "total_volume": {
+            "ppomppu": 71,
+            "dc": 545
+        },
+        "brand_sov": {
+            "세븐모바일": 2,
+            "KT엠모바일": 5,
+            "유모바일": 53,
+            "헬로모바일": 3,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 1,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 2,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 37,
+            "인스모바일": 0,
+            "이지모바일": 4,
+            "티플러스": 2,
+            "KG모바일": 2,
+            "티다이렉트": 1,
+            "SKT_Air": 3,
+            "시월모바일": 60,
+            "핀다이렉트": 86
+        },
+        "top_keywords": {
+            "핀다": 59,
+            "시월": 37,
+            "2970": 28,
+            "유모": 22,
+            "아이즈": 16,
+            "유모바일": 14,
+            "모나": 13,
+            "10": 11,
+            "10원": 11,
+            "아이즈10": 10
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "시월모바일 평생 10기가 + 1Mbps + 100분 3,850원",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3903423",
+                    "views": 3680,
+                    "comments": 6
+                },
+                {
+                    "title": "S25 울트라 vs S26울트라",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3903429",
+                    "views": 3413,
+                    "comments": 10
+                },
+                {
+                    "title": "여자들은 본인을 너무 과소평가함",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3903511",
+                    "views": 2653,
+                    "comments": 9
+                },
+                {
+                    "title": "유모바일 정황상..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3903426",
+                    "views": 2544,
+                    "comments": 7
+                },
+                {
+                    "title": "S26 루머",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3903510",
+                    "views": 2507,
+                    "comments": 11
+                }
+            ],
+            "dc": [
+                {
+                    "title": "대 황 갓 시 월",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=397651&page=12",
+                    "views": 2189,
+                    "comments": 10
+                },
+                {
+                    "title": "알뜰폰이 망하면 이렇게 된다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=397850&page=9",
+                    "views": 1816,
+                    "comments": 6
+                },
+                {
+                    "title": "개목줄 리스트",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=397635&page=12",
+                    "views": 1564,
+                    "comments": 11
+                },
+                {
+                    "title": "이쁘긴 뒤지게 이쁘네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=397656&page=12",
+                    "views": 1320,
+                    "comments": 4
+                },
+                {
+                    "title": "시월 2970 이 500명 한정이라고?ㅋㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=397667&page=12",
+                    "views": 1279,
+                    "comments": 4
+                }
+            ]
+        }
     }
 ]
