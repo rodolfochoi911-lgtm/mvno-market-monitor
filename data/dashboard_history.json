@@ -854,5 +854,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-11",
+        "total_volume": {
+            "ppomppu": 89,
+            "dc": 113
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 2,
+            "유모바일": 10,
+            "헬로모바일": 0,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 5,
+            "우리원모바일": 1,
+            "이야기모바일": 1,
+            "에이모바일": 0,
+            "프리티": 2,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 8,
+            "인스모바일": 1,
+            "이지모바일": 0,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 2,
+            "시월모바일": 6,
+            "핀다이렉트": 5
+        },
+        "top_keywords": {
+            "S26": 10,
+            "사전예약": 6,
+            "시월": 6,
+            "휴지": 6,
+            "여기": 5,
+            "퀀텀6": 5,
+            "쿠팡": 5,
+            "유모": 4,
+            "쌀먹": 4,
+            "그래도": 3
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "S26 사전예약 및 출고가",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3903578",
+                    "views": 3457,
+                    "comments": 29
+                },
+                {
+                    "title": "S26 vs S25 성능비교 (스냅 S26 포함)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3903620",
+                    "views": 3448,
+                    "comments": 13
+                },
+                {
+                    "title": "S25사용자들은 S26 진짜 살 필요가 없는 폰입니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3903625",
+                    "views": 3210,
+                    "comments": 11
+                },
+                {
+                    "title": "S26 시리스 스펙 유출",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3903547",
+                    "views": 3062,
+                    "comments": 9
+                },
+                {
+                    "title": "갤럭시 S26 예상금액 뜨네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3903540",
+                    "views": 2993,
+                    "comments": 6
+                }
+            ],
+            "dc": [
+                {
+                    "title": "쿠팡 이건뭐냐 ㅋㅋㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=398868&page=3",
+                    "views": 1061,
+                    "comments": 10
+                },
+                {
+                    "title": "4.5GB + 1Mbps 5940",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=398957&page=2",
+                    "views": 1043,
+                    "comments": 16
+                },
+                {
+                    "title": "아이즈모바일 GOAT",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=398984&page=1",
+                    "views": 934,
+                    "comments": 8
+                },
+                {
+                    "title": "시월 민심 나락간 이유.txt",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=398988&page=1",
+                    "views": 805,
+                    "comments": 7
+                },
+                {
+                    "title": "시붤 소름돋고 짜친다 금지어 가자",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=398983&page=1",
+                    "views": 657,
+                    "comments": 5
+                }
+            ]
+        }
     }
 ]
