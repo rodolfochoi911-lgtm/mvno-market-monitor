@@ -963,5 +963,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-12",
+        "total_volume": {
+            "ppomppu": 78,
+            "dc": 82
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 0,
+            "유모바일": 5,
+            "헬로모바일": 0,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 0,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 1,
+            "프리티": 0,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 4,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 1,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 2,
+            "시월모바일": 3,
+            "핀다이렉트": 23
+        },
+        "top_keywords": {
+            "핀다": 17,
+            "뒷구멍": 8,
+            "2970": 7,
+            "퀀텀6": 5,
+            "유모바일": 4,
+            "이심": 3,
+            "이번": 3,
+            "기본": 3,
+            "인터넷": 3,
+            "자급제": 3
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "작년에 S25 자급제 온누리로 구매했었는데, 이번에도 상품권 할인이 된다네요~",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3903666",
+                    "views": 31307,
+                    "comments": 319
+                },
+                {
+                    "title": "17에어 대란이네여 ㄷㄷ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3903700",
+                    "views": 28334,
+                    "comments": 38
+                },
+                {
+                    "title": "평가가 안좋은 s26",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3903635",
+                    "views": 4168,
+                    "comments": 4
+                },
+                {
+                    "title": "갤럭시 S26 시리즈 출고가",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3903638",
+                    "views": 3587,
+                    "comments": 5
+                },
+                {
+                    "title": "갤럭시는 왠만하면 자급제",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3903660",
+                    "views": 2835,
+                    "comments": 17
+                }
+            ],
+            "dc": [
+                {
+                    "title": "e심 작성 되는데???",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=399872&page=2",
+                    "views": 729,
+                    "comments": 12
+                },
+                {
+                    "title": "핀다 뒷구멍 지금도 된다 신청서써라",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=399825&page=3",
+                    "views": 662,
+                    "comments": 8
+                },
+                {
+                    "title": "핀다 뒷구멍 2970 맞음",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=399887&page=2",
+                    "views": 655,
+                    "comments": 1
+                },
+                {
+                    "title": "핀다 2970 신청 취소했다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=399829&page=3",
+                    "views": 595,
+                    "comments": 3
+                },
+                {
+                    "title": "본인 원칩으로 핀다 개통했는데",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=399858&page=3",
+                    "views": 582,
+                    "comments": 11
+                }
+            ]
+        }
     }
 ]
