@@ -1072,5 +1072,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-13",
+        "total_volume": {
+            "ppomppu": 89,
+            "dc": 1077
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 12,
+            "유모바일": 21,
+            "헬로모바일": 10,
+            "스카이라이프": 0,
+            "토스모바일": 2,
+            "리브엠": 3,
+            "우리원모바일": 2,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 8,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 17,
+            "인스모바일": 0,
+            "이지모바일": 3,
+            "티플러스": 2,
+            "KG모바일": 4,
+            "티다이렉트": 1,
+            "SKT_Air": 0,
+            "시월모바일": 51,
+            "핀다이렉트": 306
+        },
+        "top_keywords": {
+            "핀다": 216,
+            "2970": 70,
+            "이제": 27,
+            "뒷구멍": 27,
+            "시월": 21,
+            "뒷문": 19,
+            "링크": 17,
+            "핀다이렉트": 15,
+            "핀다는": 15,
+            "핀다2970": 14
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "헬로모바일 쌀먹요금제 떳네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3903756",
+                    "views": 20394,
+                    "comments": 48
+                },
+                {
+                    "title": "갤럭시S26 가격 나왔네요~",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3903843",
+                    "views": 14196,
+                    "comments": 32
+                },
+                {
+                    "title": "A56 -15, A17 -35 (후기 추지 있는 금액 이었음)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3903760",
+                    "views": 9938,
+                    "comments": 116
+                },
+                {
+                    "title": "A17  -29랑 퀀텀 -10이랑 어떤게 더 메리트있는 조건인지..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3903757",
+                    "views": 8288,
+                    "comments": 71
+                },
+                {
+                    "title": "S25 울트라 512. 쿠팡 중고-상 제품 샀어요!",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3903734",
+                    "views": 3716,
+                    "comments": 20
+                }
+            ],
+            "dc": [
+                {
+                    "title": "핀다이렉트 뒷구멍 오피셜",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=400190&page=18",
+                    "views": 1901,
+                    "comments": 2
+                },
+                {
+                    "title": "와 공지 대놓고 박아놨노 ㅋㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=400158&page=19",
+                    "views": 1743,
+                    "comments": 7
+                },
+                {
+                    "title": "뒷문단 성공은 했는데 이거 뭐임?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=399984&page=22",
+                    "views": 1738,
+                    "comments": 26
+                },
+                {
+                    "title": "현재까지 주작없이 촬영된거 총 정리본 (JPG)",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=400120&page=20",
+                    "views": 1338,
+                    "comments": 3
+                },
+                {
+                    "title": "인증하라길래 인증한다 어휴 ㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=399995&page=22",
+                    "views": 1242,
+                    "comments": 12
+                }
+            ]
+        }
     }
 ]
