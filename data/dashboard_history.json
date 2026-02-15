@@ -1290,5 +1290,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-15",
+        "total_volume": {
+            "ppomppu": 63,
+            "dc": 80
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 3,
+            "유모바일": 5,
+            "헬로모바일": 0,
+            "스카이라이프": 2,
+            "토스모바일": 3,
+            "리브엠": 0,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 1,
+            "모빙": 2,
+            "스노우맨": 0,
+            "아이즈모바일": 5,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 1,
+            "시월모바일": 3,
+            "핀다이렉트": 5
+        },
+        "top_keywords": {
+            "퀀텀6": 5,
+            "S26": 4,
+            "핀다": 4,
+            "2970": 4,
+            "이심": 3,
+            "아이폰": 3,
+            "알닷": 3,
+            "10원": 3,
+            "회선": 3,
+            "아이즈": 3
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "평생요금제 이거괜찮나요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3903960",
+                    "views": 3780,
+                    "comments": 4
+                },
+                {
+                    "title": "모빙 lg알뜰 설날 특가 10원",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3903987",
+                    "views": 2786,
+                    "comments": 18
+                },
+                {
+                    "title": "퀀텀6 재고",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3903969",
+                    "views": 2545,
+                    "comments": 8
+                },
+                {
+                    "title": "유모바일 1월이벤트",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3903964",
+                    "views": 2513,
+                    "comments": 6
+                },
+                {
+                    "title": "플래그십 가개통 던지는 애들은 뭔가요??",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3903968",
+                    "views": 2262,
+                    "comments": 16
+                }
+            ],
+            "dc": [
+                {
+                    "title": "아이즈 10원 다시 떴다 !!",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=401753&page=1",
+                    "views": 1079,
+                    "comments": 9
+                },
+                {
+                    "title": "10gb + 1mb 떴다!!",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=401696&page=2",
+                    "views": 980,
+                    "comments": 15
+                },
+                {
+                    "title": "진짜 번호 잘만들어야되더라",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=401717&page=2",
+                    "views": 853,
+                    "comments": 13
+                },
+                {
+                    "title": "핀다 2970 5gb로 충분하다는 사람들은",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=401742&page=1",
+                    "views": 786,
+                    "comments": 20
+                },
+                {
+                    "title": "핀다 2970 좋네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=401716&page=2",
+                    "views": 736,
+                    "comments": 1
+                }
+            ]
+        }
     }
 ]
