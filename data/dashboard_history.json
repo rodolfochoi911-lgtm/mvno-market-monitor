@@ -1508,5 +1508,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-17",
+        "total_volume": {
+            "ppomppu": 27,
+            "dc": 129
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 0,
+            "유모바일": 5,
+            "헬로모바일": 1,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 1,
+            "우리원모바일": 1,
+            "이야기모바일": 2,
+            "에이모바일": 0,
+            "프리티": 0,
+            "모빙": 4,
+            "스노우맨": 0,
+            "아이즈모바일": 0,
+            "인스모바일": 0,
+            "이지모바일": 2,
+            "티플러스": 2,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 2,
+            "시월모바일": 2,
+            "핀다이렉트": 6
+        },
+        "top_keywords": {
+            "2970": 11,
+            "핀다": 5,
+            "s26": 4,
+            "esim": 4,
+            "유모": 4,
+            "쌀먹": 4,
+            "10원": 4,
+            "많이": 4,
+            "인터넷": 3,
+            "울트라": 3
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "퀀텀6 11번가에서 구입완료",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3904113",
+                    "views": 3979,
+                    "comments": 20
+                },
+                {
+                    "title": "갤럭시s26 지원금규모 대거축소 전망",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3904099",
+                    "views": 3800,
+                    "comments": 12
+                },
+                {
+                    "title": "갤럭시 버즈4 프로 출시하네요 .jpg",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3904114",
+                    "views": 3460,
+                    "comments": 7
+                },
+                {
+                    "title": "2000년대 TTL존 가보신분 있으신가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3904095",
+                    "views": 3389,
+                    "comments": 27
+                },
+                {
+                    "title": "갤s25 vs s26",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3904091",
+                    "views": 2673,
+                    "comments": 5
+                }
+            ],
+            "dc": [
+                {
+                    "title": "유모 쌀먹 나쁘지 않아보이는데 신규",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=401920&page=3",
+                    "views": 1400,
+                    "comments": 12
+                },
+                {
+                    "title": "Qos 소신발언",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=401916&page=3",
+                    "views": 1326,
+                    "comments": 6
+                },
+                {
+                    "title": "5명박 2.5면 ㅈㄴ 괜찮은데",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=401915&page=3",
+                    "views": 1249,
+                    "comments": 0
+                },
+                {
+                    "title": "쌀먹폰 이거 써본 형님 있어요?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=401921&page=3",
+                    "views": 1219,
+                    "comments": 12
+                },
+                {
+                    "title": "kt lte 그렇게 못쓸정도임??",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=401919&page=3",
+                    "views": 1203,
+                    "comments": 14
+                }
+            ]
+        }
     }
 ]
