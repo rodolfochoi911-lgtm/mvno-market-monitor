@@ -1617,5 +1617,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-18",
+        "total_volume": {
+            "ppomppu": 51,
+            "dc": 163
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 5,
+            "유모바일": 13,
+            "헬로모바일": 3,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 0,
+            "우리원모바일": 0,
+            "이야기모바일": 1,
+            "에이모바일": 0,
+            "프리티": 2,
+            "모빙": 6,
+            "스노우맨": 0,
+            "아이즈모바일": 2,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 1,
+            "KG모바일": 1,
+            "티다이렉트": 1,
+            "SKT_Air": 6,
+            "시월모바일": 8,
+            "핀다이렉트": 13
+        },
+        "top_keywords": {
+            "2970": 10,
+            "아이폰": 8,
+            "유모": 8,
+            "핀다": 8,
+            "형들": 6,
+            "유모바일": 5,
+            "이제": 5,
+            "모빙": 5,
+            "퀀텀6": 4,
+            "인터넷": 4
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "퀀텀6  기변 지마켓 조건이 어떤가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3904122",
+                    "views": 3098,
+                    "comments": 13
+                },
+                {
+                    "title": "sk기변 퀀텀6 가격 어떤가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3904148",
+                    "views": 2452,
+                    "comments": 19
+                },
+                {
+                    "title": "알뜰폰 평생 조건 뽐게 KG도 괜찮은거 같은데 반응이 별로네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3904128",
+                    "views": 2349,
+                    "comments": 9
+                },
+                {
+                    "title": "퀀텀6 연휴 막날 하나 개통합니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3904154",
+                    "views": 2165,
+                    "comments": 5
+                },
+                {
+                    "title": "s26 통신사 기변을 할지 자급제를 사야할지 고견을 부탁드립니다!",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3904125",
+                    "views": 2000,
+                    "comments": 18
+                }
+            ],
+            "dc": [
+                {
+                    "title": "다들 알닷 회원가입할때 메인번호로함?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=402061&page=4",
+                    "views": 1888,
+                    "comments": 16
+                },
+                {
+                    "title": "EG무재한 햐도댐?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=402064&page=4",
+                    "views": 1488,
+                    "comments": 16
+                },
+                {
+                    "title": "유플망도 5G 좀 달리자",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=402063&page=4",
+                    "views": 1389,
+                    "comments": 3
+                },
+                {
+                    "title": "알닷에는 명박사용량 안나오네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=402060&page=4",
+                    "views": 1325,
+                    "comments": 1
+                },
+                {
+                    "title": "에스원 1123에 11기가 다 썼는데 번이하면 일할계산 폭탄각인가",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=402065&page=4",
+                    "views": 1241,
+                    "comments": 2
+                }
+            ]
+        }
     }
 ]
