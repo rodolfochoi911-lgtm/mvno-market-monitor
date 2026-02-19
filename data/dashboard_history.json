@@ -1726,5 +1726,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-19",
+        "total_volume": {
+            "ppomppu": 95,
+            "dc": 383
+        },
+        "brand_sov": {
+            "세븐모바일": 2,
+            "KT엠모바일": 7,
+            "유모바일": 30,
+            "헬로모바일": 4,
+            "스카이라이프": 0,
+            "토스모바일": 2,
+            "리브엠": 7,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 1,
+            "프리티": 5,
+            "모빙": 6,
+            "스노우맨": 0,
+            "아이즈모바일": 10,
+            "인스모바일": 0,
+            "이지모바일": 3,
+            "티플러스": 1,
+            "KG모바일": 3,
+            "티다이렉트": 5,
+            "SKT_Air": 9,
+            "시월모바일": 7,
+            "핀다이렉트": 62
+        },
+        "top_keywords": {
+            "핀다": 49,
+            "2970": 21,
+            "쿠팡": 16,
+            "유모": 16,
+            "신청서": 15,
+            "다이소": 13,
+            "쌀먹": 11,
+            "유모바일": 8,
+            "중립번이": 8,
+            "인터넷": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "업체랑 소송 걸렸었는데 승소했네요. (소송 노하우 정리 포함)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=705&no=3904194",
+                    "views": 12748,
+                    "comments": 47
+                },
+                {
+                    "title": "2026년 02월 알뜰폰 요금제 정리",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=705&no=3904185",
+                    "views": 3956,
+                    "comments": 31
+                },
+                {
+                    "title": "퀀텀6 하루 써보니",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=705&no=3904187",
+                    "views": 3512,
+                    "comments": 8
+                },
+                {
+                    "title": "삼성 S26 AI 신기술 티저 공개",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=705&no=3904191",
+                    "views": 3428,
+                    "comments": 4
+                },
+                {
+                    "title": "S26 성지 가격 떴는데",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3904198",
+                    "views": 3115,
+                    "comments": 14
+                }
+            ],
+            "dc": [
+                {
+                    "title": "핀다 신청서 조심해라ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=402248&page=9",
+                    "views": 1215,
+                    "comments": 7
+                },
+                {
+                    "title": "쿠팡 배달 시키지 말라고",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=402491&page=4",
+                    "views": 892,
+                    "comments": 25
+                },
+                {
+                    "title": "ㅈ됐다 핀다내부에서 블랙해커 나타났나보다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=402253&page=9",
+                    "views": 869,
+                    "comments": 6
+                },
+                {
+                    "title": "5명박 평생 15000원 오우너",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=402648&page=2",
+                    "views": 847,
+                    "comments": 9
+                },
+                {
+                    "title": "핀다2970 신청서 없어졌는데뭐냐?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=402246&page=9",
+                    "views": 825,
+                    "comments": 3
+                }
+            ]
+        }
     }
 ]
