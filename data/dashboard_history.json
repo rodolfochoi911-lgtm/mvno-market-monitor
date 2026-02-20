@@ -1835,5 +1835,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-20",
+        "total_volume": {
+            "ppomppu": 127,
+            "dc": 728
+        },
+        "brand_sov": {
+            "세븐모바일": 9,
+            "KT엠모바일": 7,
+            "유모바일": 60,
+            "헬로모바일": 2,
+            "스카이라이프": 1,
+            "토스모바일": 2,
+            "리브엠": 9,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 2,
+            "프리티": 50,
+            "모빙": 11,
+            "스노우맨": 0,
+            "아이즈모바일": 66,
+            "인스모바일": 0,
+            "이지모바일": 4,
+            "티플러스": 3,
+            "KG모바일": 2,
+            "티다이렉트": 2,
+            "SKT_Air": 4,
+            "시월모바일": 5,
+            "핀다이렉트": 63
+        },
+        "top_keywords": {
+            "핀다": 46,
+            "프리티": 36,
+            "아이즈": 35,
+            "유모": 35,
+            "2200": 32,
+            "통무": 29,
+            "2970": 25,
+            "네페": 21,
+            "유모바일": 16,
+            "조이텔": 16
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "세븐모바일 시크릿 마감이래요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3904424",
+                    "views": 3421,
+                    "comments": 24
+                },
+                {
+                    "title": "퀀텀6 m+4도 나오네요..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3904367",
+                    "views": 2835,
+                    "comments": 38
+                },
+                {
+                    "title": "퀀텀6 PS&M 연락왔네요 어제 저녁에",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=705&no=3904307",
+                    "views": 2774,
+                    "comments": 18
+                },
+                {
+                    "title": "역시 직폰..S26  9만원이랍니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3904412",
+                    "views": 2365,
+                    "comments": 8
+                },
+                {
+                    "title": "알닷 모빙에서 10원 12개월 요금제 신청했는데요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=705&no=3904305",
+                    "views": 1832,
+                    "comments": 11
+                }
+            ],
+            "dc": [
+                {
+                    "title": "핀다 SKT망 7GB 평생 1190원",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=402855&page=13",
+                    "views": 1366,
+                    "comments": 12
+                },
+                {
+                    "title": "쉐이크 이거 뭐임????",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=402701&page=15",
+                    "views": 1103,
+                    "comments": 30
+                },
+                {
+                    "title": "아이즈모바일 SKT망 5GB 통무 1900원",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=403213&page=6",
+                    "views": 1006,
+                    "comments": 8
+                },
+                {
+                    "title": "프리티 2750 가격 내려감",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=402853&page=13",
+                    "views": 967,
+                    "comments": 20
+                },
+                {
+                    "title": "네이버페이 50만원권은 어디서 구한거지",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=402697&page=15",
+                    "views": 910,
+                    "comments": 4
+                }
+            ]
+        }
     }
 ]
