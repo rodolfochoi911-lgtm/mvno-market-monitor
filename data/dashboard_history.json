@@ -1944,5 +1944,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-21",
+        "total_volume": {
+            "ppomppu": 85,
+            "dc": 337
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 5,
+            "유모바일": 20,
+            "헬로모바일": 2,
+            "스카이라이프": 1,
+            "토스모바일": 1,
+            "리브엠": 1,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 3,
+            "프리티": 12,
+            "모빙": 11,
+            "스노우맨": 2,
+            "아이즈모바일": 27,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 3,
+            "KG모바일": 2,
+            "티다이렉트": 0,
+            "SKT_Air": 0,
+            "시월모바일": 9,
+            "핀다이렉트": 33
+        },
+        "top_keywords": {
+            "핀다": 23,
+            "아이즈": 18,
+            "2970": 10,
+            "유모": 10,
+            "통무": 9,
+            "유모바일": 8,
+            "프리티": 8,
+            "1명박": 7,
+            "쉐이크": 7,
+            "10원": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "프리티 skt 8030원 타세요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3904498",
+                    "views": 3078,
+                    "comments": 13
+                },
+                {
+                    "title": "유모바일 30만이벤트",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3904447",
+                    "views": 2650,
+                    "comments": 4
+                },
+                {
+                    "title": "형님들 이거 주말 혜자 정책인거 같은데 탈까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3904513",
+                    "views": 2369,
+                    "comments": 12
+                },
+                {
+                    "title": "갤럭시 와이드8은 살필요 없겠네요 실물입니다.jpg",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3904497",
+                    "views": 2257,
+                    "comments": 26
+                },
+                {
+                    "title": "S26 더블스토리지 할 가능성 높아보이네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3904535",
+                    "views": 1942,
+                    "comments": 5
+                }
+            ],
+            "dc": [
+                {
+                    "title": "평생 0원 3종 정리글",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=403791&page=2",
+                    "views": 1771,
+                    "comments": 38
+                },
+                {
+                    "title": "나 이거 당한거야...?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=403489&page=8",
+                    "views": 1169,
+                    "comments": 4
+                },
+                {
+                    "title": "2970 너무 좋은데?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=403505&page=8",
+                    "views": 1067,
+                    "comments": 7
+                },
+                {
+                    "title": "유모 명절특가 또 떳네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=403683&page=4",
+                    "views": 811,
+                    "comments": 2
+                },
+                {
+                    "title": "이런거 타서 쓰는게 최고다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=403857&page=1",
+                    "views": 797,
+                    "comments": 4
+                }
+            ]
+        }
     }
 ]
