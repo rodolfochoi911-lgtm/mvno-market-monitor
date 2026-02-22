@@ -2053,5 +2053,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-22",
+        "total_volume": {
+            "ppomppu": 44,
+            "dc": 258
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 4,
+            "유모바일": 10,
+            "헬로모바일": 1,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 1,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 14,
+            "모빙": 4,
+            "스노우맨": 1,
+            "아이즈모바일": 9,
+            "인스모바일": 1,
+            "이지모바일": 0,
+            "티플러스": 3,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 0,
+            "시월모바일": 0,
+            "핀다이렉트": 11
+        },
+        "top_keywords": {
+            "이벤트": 37,
+            "대문": 28,
+            "프리티": 10,
+            "핀다": 9,
+            "2970": 8,
+            "공모": 7,
+            "3명박": 7,
+            "갤러리": 6,
+            "1190": 6,
+            "쉐이크": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "갤럭시는 쓰레기네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3904569",
+                    "views": 29731,
+                    "comments": 183
+                },
+                {
+                    "title": "요즘 돌아가는 상황보니  \" 자급제 \" 가 제일 깔끔",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3904576",
+                    "views": 11336,
+                    "comments": 35
+                },
+                {
+                    "title": "중국폰 카메라섬이 말도 안되게 큰 이유",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3904604",
+                    "views": 3742,
+                    "comments": 10
+                },
+                {
+                    "title": "s26 문자왔는데",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3904594",
+                    "views": 3153,
+                    "comments": 10
+                },
+                {
+                    "title": "단통법 폐지 된거 아닌가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3904559",
+                    "views": 2939,
+                    "comments": 14
+                }
+            ],
+            "dc": [
+                {
+                    "title": "[이벤트] 알뜰폰 갤러리 대문 공모 (~3/8까지)",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=404028&page=1",
+                    "views": 1732,
+                    "comments": 20
+                },
+                {
+                    "title": "3사 1만원대 데이터무제한 출시",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=403881&page=6",
+                    "views": 1548,
+                    "comments": 10
+                },
+                {
+                    "title": "방금 모빙10 가입한 놈 당했노ㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=403870&page=6",
+                    "views": 1274,
+                    "comments": 3
+                },
+                {
+                    "title": "민정이 귀엽네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=403880&page=6",
+                    "views": 1016,
+                    "comments": 4
+                },
+                {
+                    "title": "이요금재쓰는사람 있음~??",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=403873&page=6",
+                    "views": 838,
+                    "comments": 4
+                }
+            ]
+        }
     }
 ]
