@@ -2162,5 +2162,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-23",
+        "total_volume": {
+            "ppomppu": 90,
+            "dc": 298
+        },
+        "brand_sov": {
+            "세븐모바일": 2,
+            "KT엠모바일": 7,
+            "유모바일": 23,
+            "헬로모바일": 5,
+            "스카이라이프": 1,
+            "토스모바일": 4,
+            "리브엠": 1,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 5,
+            "모빙": 3,
+            "스노우맨": 0,
+            "아이즈모바일": 17,
+            "인스모바일": 0,
+            "이지모바일": 3,
+            "티플러스": 3,
+            "KG모바일": 1,
+            "티다이렉트": 0,
+            "SKT_Air": 1,
+            "시월모바일": 2,
+            "핀다이렉트": 10
+        },
+        "top_keywords": {
+            "인터넷": 11,
+            "아이즈": 11,
+            "유모": 11,
+            "쉐이크": 11,
+            "이벤트": 10,
+            "갤럭시": 9,
+            "유모바일": 9,
+            "1900": 8,
+            "형들": 8,
+            "모나": 7
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "이마트 일렉트로 갤26 사전예약 정보입니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3904636",
+                    "views": 3391,
+                    "comments": 6
+                },
+                {
+                    "title": "이번 26울트라 사전예약",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=705&no=3904619",
+                    "views": 2615,
+                    "comments": 3
+                },
+                {
+                    "title": "26 울트라 사생활 보호기능 유출",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3904680",
+                    "views": 2414,
+                    "comments": 12
+                },
+                {
+                    "title": "내일 3사 S25 공시 축소 예정",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3904695",
+                    "views": 2405,
+                    "comments": 3
+                },
+                {
+                    "title": "S26u 가격어때요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3904706",
+                    "views": 2400,
+                    "comments": 8
+                }
+            ],
+            "dc": [
+                {
+                    "title": "📱 알뜰폰 요금제 통합 비교, 알닷 적용 (실제 데이터)",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=404292&page=5",
+                    "views": 1461,
+                    "comments": 29
+                },
+                {
+                    "title": "모나 평생 9,900 괜찮은 것 같은데",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=404164&page=7",
+                    "views": 1314,
+                    "comments": 9
+                },
+                {
+                    "title": "해킹사건 또 터짐 ㄷㄷ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=404467&page=2",
+                    "views": 905,
+                    "comments": 8
+                },
+                {
+                    "title": "알닷 요금제 추출 다음단계 샘플-.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=404189&page=6",
+                    "views": 762,
+                    "comments": 14
+                },
+                {
+                    "title": "뉴비 비상!!!!",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=404473&page=2",
+                    "views": 742,
+                    "comments": 16
+                }
+            ]
+        }
     }
 ]
