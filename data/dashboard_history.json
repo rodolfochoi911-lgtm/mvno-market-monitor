@@ -2271,5 +2271,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-24",
+        "total_volume": {
+            "ppomppu": 95,
+            "dc": 301
+        },
+        "brand_sov": {
+            "세븐모바일": 2,
+            "KT엠모바일": 3,
+            "유모바일": 7,
+            "헬로모바일": 1,
+            "스카이라이프": 1,
+            "토스모바일": 3,
+            "리브엠": 3,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 1,
+            "프리티": 13,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 21,
+            "인스모바일": 0,
+            "이지모바일": 2,
+            "티플러스": 11,
+            "KG모바일": 2,
+            "티다이렉트": 0,
+            "SKT_Air": 0,
+            "시월모바일": 4,
+            "핀다이렉트": 10
+        },
+        "top_keywords": {
+            "아이즈": 14,
+            "프리티": 13,
+            "400명박": 11,
+            "인터넷": 9,
+            "해지방어": 7,
+            "쌀먹": 7,
+            "갤럭시": 6,
+            "이벤트": 6,
+            "메뚜기": 6,
+            "핀다": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "S26 시리즈 확정 출고가.jpg",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3904807",
+                    "views": 14895,
+                    "comments": 30
+                },
+                {
+                    "title": "A17은 성능이 많이 구리나요 ? 실사용으로 홍미노트9s 보다 버벅일까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=705&no=3904729",
+                    "views": 4817,
+                    "comments": 29
+                },
+                {
+                    "title": "S26 울트라 유튜브 언박싱",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=705&no=3904726",
+                    "views": 4740,
+                    "comments": 10
+                },
+                {
+                    "title": "갤럭시S26울트라 255만원 확정 ㅋㅋㅋㅋㅋㅋㅋ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3904811",
+                    "views": 3901,
+                    "comments": 3
+                },
+                {
+                    "title": "A17 기본 앱을 140개 지우니 쾌적 하네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3904832",
+                    "views": 3304,
+                    "comments": 60
+                }
+            ],
+            "dc": [
+                {
+                    "title": "핀다 1190 왤케 저평가당하노",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=404517&page=7",
+                    "views": 1298,
+                    "comments": 10
+                },
+                {
+                    "title": "아이즈 선착순 500명 떳다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=404723&page=4",
+                    "views": 1275,
+                    "comments": 18
+                },
+                {
+                    "title": "메뚜기 <- 이게 진짜 개꿀 가성비구나 ㅅㅂ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=404520&page=7",
+                    "views": 1057,
+                    "comments": 7
+                },
+                {
+                    "title": "티플러스 skt 2200",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=404696&page=4",
+                    "views": 993,
+                    "comments": 15
+                },
+                {
+                    "title": "빨리타라 오류 요금제 떴다.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=404572&page=6",
+                    "views": 991,
+                    "comments": 15
+                }
+            ]
+        }
     }
 ]
