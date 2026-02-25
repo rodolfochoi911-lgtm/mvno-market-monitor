@@ -2385,7 +2385,7 @@
         "date": "2026-02-25",
         "total_volume": {
             "ppomppu": 102,
-            "dc": 2
+            "dc": 0
         },
         "brand_sov": {
             "세븐모바일": 0,
@@ -2428,48 +2428,35 @@
                 {
                     "title": "S25+ 9개월 사용하면서 느낀 가장 큰 단점 = 눈시림",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3904897",
-                    "views": 8918,
+                    "views": 8993,
                     "comments": 77
                 },
                 {
                     "title": "홈플러스 갤26 사전예약 정보입니다",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3904920",
-                    "views": 3288,
+                    "views": 3361,
                     "comments": 2
-                },
-                {
-                    "title": "갤S26 울트라 512 사전예약이 더 좋겠죠?",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3904889",
-                    "views": 3048,
-                    "comments": 13
                 },
                 {
                     "title": "S26울트라때문에 오랜만에 왔네요..",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3904906",
-                    "views": 3039,
+                    "views": 3095,
                     "comments": 9
                 },
                 {
-                    "title": "S26 울트라 구매 조언바람",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3904951",
-                    "views": 2875,
-                    "comments": 8
-                }
-            ],
-            "dc": [
-                {
-                    "title": "스마트폰 통화가 안돼요 모든기능 정상",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=405195&page=1",
-                    "views": 252,
-                    "comments": 19
+                    "title": "갤S26 울트라 512 사전예약이 더 좋겠죠?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3904889",
+                    "views": 3072,
+                    "comments": 13
                 },
                 {
-                    "title": "평생이랑 메뚜기 싸우는 건 원래 제1장 느낌인데",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=405196&page=1",
-                    "views": 80,
-                    "comments": 0
+                    "title": "s25울트라 VS s26울트라",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3904954",
+                    "views": 3039,
+                    "comments": 18
                 }
-            ]
+            ],
+            "dc": []
         }
     }
 ]
