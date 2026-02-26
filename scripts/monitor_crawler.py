@@ -10,6 +10,7 @@ import requests
 import pandas as pd
 from bs4 import BeautifulSoup
 from collections import Counter
+
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -41,18 +42,13 @@ def get_driver():
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--lang=ko_KR")
     chrome_options.add_argument("--window-size=1920,1080")
-    chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
-    # ✅ 자동화 감지 방지 (DC 봇 차단 우회)
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+    chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
     chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
     chrome_options.add_experimental_option("useAutomationExtension", False)
-    
+
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=chrome_options)
-    # navigator.webdriver 플래그 숨기기
-    driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
-        "source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
-    })
     return driver
 
 # --- [2. 크롤러: 뽐뿌] ---
@@ -128,58 +124,97 @@ def get_ppomppu_posts(driver):
             
     return posts
 
-# --- [3. 크롤러: 디시] ---
-def get_dc_posts(driver):
+# --- [3. 크롤러: 디시] --- requests 기반 (셀레니움 봇 감지 우회)
+def get_dc_posts(driver=None):
     print("running dc crawler...")
     posts = []
     base_url = "https://gall.dcinside.com/mgallery/board/lists/?id=mvnogallery&page={}"
-    
+
+    # DC 목록 페이지는 서버사이드 렌더링 → requests로 직접 파싱 가능
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Referer": "https://gall.dcinside.com/mgallery/board/lists/?id=mvnogallery",
+        "Connection": "keep-alive",
+    })
+    # 첫 접속으로 쿠키 획득
+    try:
+        session.get("https://gall.dcinside.com/mgallery/board/lists/?id=mvnogallery", timeout=10)
+    except Exception as e:
+        print(f"  - DC 초기 접속 실패: {e}")
+
+    empty_page_count = 0
+
     for page in range(1, 51):
         try:
-            driver.get(base_url.format(page))
-            time.sleep(random.uniform(1.0, 2.0))
-            
-            if "디시인사이드입니다" in driver.title and "알뜰폰" not in driver.title:
-                break
+            time.sleep(random.uniform(0.8, 1.5))
+            resp = session.get(base_url.format(page), timeout=15)
+            resp.raise_for_status()
 
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
+            soup = BeautifulSoup(resp.text, 'html.parser')
             rows = soup.select('tr.ub-content.us-post')
-            
-            if not rows: break
-                
+
+            if not rows:
+                empty_page_count += 1
+                print(f"  - DC p{page}: rows 없음 ({empty_page_count}회 연속)")
+                if empty_page_count >= 3:
+                    print("  - 3회 연속 빈 페이지, 중단")
+                    break
+                continue
+
+            empty_page_count = 0
             stop_crawling = False
-            
+            found_in_page = 0
+
             for row in rows:
-                if row.get('data-type') == 'icon_notice': continue
+                if row.get('data-type') == 'icon_notice':
+                    continue
                 date_tag = row.select_one('.gall_date')
-                if not date_tag or not date_tag.get('title'): continue
-                
+                if not date_tag or not date_tag.get('title'):
+                    continue
+
                 post_date = date_tag['title'].split(' ')[0]
-                
+
                 if post_date == TARGET_DATE:
                     title_tag = row.select_one('.gall_tit > a')
-                    if not title_tag: continue
+                    if not title_tag:
+                        continue
                     title = title_tag.text.strip()
-                    link = "https://gall.dcinside.com" + title_tag['href']
+                    href = title_tag.get('href', '')
+                    link = ("https://gall.dcinside.com" + href) if href.startswith('/') else href
+
                     views_tag = row.select_one('.gall_count')
-                    # ✅ isdigit()은 "1,234" 같은 쉼표 포함 숫자 파싱 실패 → try-except로 수정
                     try:
                         views = int(views_tag.text.strip().replace(',', '')) if views_tag else 0
                     except (ValueError, AttributeError):
                         views = 0
+
                     reply_tag = row.select_one('.reply_num')
-                    comments = int(reply_tag.text.strip('[]')) if reply_tag else 0
-                    
+                    try:
+                        comments = int(reply_tag.text.strip('[]')) if reply_tag else 0
+                    except (ValueError, AttributeError):
+                        comments = 0
+
                     posts.append({'source': 'dc', 'title': title, 'link': link, 'views': views, 'comments': comments})
+                    found_in_page += 1
+
                 elif post_date < TARGET_DATE:
                     stop_crawling = True
-            
-            if stop_crawling: break
-            
+
+            print(f"  - DC p{page}: {found_in_page}건 수집 (누적 {len(posts)}건)")
+
+            if stop_crawling:
+                print(f"  - TARGET_DATE 이전 게시글 발견, 수집 완료")
+                break
+
         except Exception as e:
             print(f"Err DC p{page}: {e}")
             break
-            
+
+    print(f"✅ DC 수집 완료: 총 {len(posts)}건")
     return posts
 
 # --- [4. 분석 및 알림 로직] ---
@@ -365,7 +400,7 @@ if __name__ == "__main__":
     driver = get_driver()
     try:
         p_data = get_ppomppu_posts(driver)
-        d_data = get_dc_posts(driver)
+        d_data = get_dc_posts()   # DC는 requests 기반, driver 불필요
         analyze_and_notify(p_data, d_data)
         print("✅ 작업 완료")
     except Exception as e:
