@@ -37,16 +37,12 @@ TARGET_DATE = target_date_str
 # --- [1. 브라우저 설정] ---
 def get_driver():
     chrome_options = Options()
-    chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--headless") 
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--lang=ko_KR")
-    chrome_options.add_argument("--window-size=1920,1080")
-    chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-    chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
-    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    chrome_options.add_experimental_option("useAutomationExtension", False)
-
+    chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+    
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=chrome_options)
     return driver
@@ -130,44 +126,49 @@ def get_dc_posts(driver=None):
     posts = []
     base_url = "https://gall.dcinside.com/mgallery/board/lists/?id=mvnogallery&page={}"
 
-    # DC 목록 페이지는 서버사이드 렌더링 → requests로 직접 파싱 가능
     session = requests.Session()
     session.headers.update({
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-        "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+        "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8",
         "Accept-Encoding": "gzip, deflate, br",
         "Referer": "https://gall.dcinside.com/mgallery/board/lists/?id=mvnogallery",
         "Connection": "keep-alive",
     })
-    # 첫 접속으로 쿠키 획득
-    try:
-        session.get("https://gall.dcinside.com/mgallery/board/lists/?id=mvnogallery", timeout=10)
-    except Exception as e:
-        print(f"  - DC 초기 접속 실패: {e}")
 
-    empty_page_count = 0
+    # 쿠키 획득을 위한 초기 접속
+    try:
+        init = session.get("https://gall.dcinside.com/mgallery/board/lists/?id=mvnogallery", timeout=15)
+        print(f"  - DC 초기접속: HTTP {init.status_code}, {len(init.text):,} bytes")
+    except Exception as e:
+        print(f"  - DC 초기접속 실패: {e}")
+
+    empty_count = 0
 
     for page in range(1, 51):
         try:
-            time.sleep(random.uniform(0.8, 1.5))
+            time.sleep(random.uniform(1.0, 2.0))
             resp = session.get(base_url.format(page), timeout=15)
-            resp.raise_for_status()
+
+            if resp.status_code != 200:
+                print(f"  - DC p{page}: HTTP {resp.status_code}, 중단")
+                break
 
             soup = BeautifulSoup(resp.text, 'html.parser')
             rows = soup.select('tr.ub-content.us-post')
 
             if not rows:
-                empty_page_count += 1
-                print(f"  - DC p{page}: rows 없음 ({empty_page_count}회 연속)")
-                if empty_page_count >= 3:
-                    print("  - 3회 연속 빈 페이지, 중단")
+                empty_count += 1
+                title_tag = soup.find('title')
+                print(f"  - DC p{page}: rows 없음 / 페이지 제목: {title_tag.text.strip() if title_tag else 'N/A'}")
+                if empty_count >= 2:
+                    print("  - 연속 빈 페이지 감지, 중단")
                     break
                 continue
 
-            empty_page_count = 0
+            empty_count = 0
             stop_crawling = False
-            found_in_page = 0
+            found = 0
 
             for row in rows:
                 if row.get('data-type') == 'icon_notice':
@@ -199,19 +200,19 @@ def get_dc_posts(driver=None):
                         comments = 0
 
                     posts.append({'source': 'dc', 'title': title, 'link': link, 'views': views, 'comments': comments})
-                    found_in_page += 1
+                    found += 1
 
                 elif post_date < TARGET_DATE:
                     stop_crawling = True
 
-            print(f"  - DC p{page}: {found_in_page}건 수집 (누적 {len(posts)}건)")
+            print(f"  - DC p{page}: {found}건 수집 (누적 {len(posts)}건)")
 
             if stop_crawling:
-                print(f"  - TARGET_DATE 이전 게시글 발견, 수집 완료")
+                print("  - TARGET_DATE 이전 게시글 도달, 수집 완료")
                 break
 
         except Exception as e:
-            print(f"Err DC p{page}: {e}")
+            print(f"  Err DC p{page}: {e}")
             break
 
     print(f"✅ DC 수집 완료: 총 {len(posts)}건")
@@ -400,7 +401,7 @@ if __name__ == "__main__":
     driver = get_driver()
     try:
         p_data = get_ppomppu_posts(driver)
-        d_data = get_dc_posts()   # DC는 requests 기반, driver 불필요
+        d_data = get_dc_posts()  # DC는 requests 기반, driver 불필요
         analyze_and_notify(p_data, d_data)
         print("✅ 작업 완료")
     except Exception as e:
