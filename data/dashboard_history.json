@@ -2385,56 +2385,56 @@
         "date": "2026-02-25",
         "total_volume": {
             "ppomppu": 101,
-            "dc": 0
+            "dc": 98
         },
         "brand_sov": {
             "세븐모바일": 0,
-            "KT엠모바일": 0,
-            "유모바일": 1,
+            "KT엠모바일": 2,
+            "유모바일": 2,
             "헬로모바일": 0,
             "스카이라이프": 0,
-            "토스모바일": 1,
+            "토스모바일": 4,
             "리브엠": 2,
             "우리원모바일": 0,
             "이야기모바일": 0,
-            "에이모바일": 0,
-            "프리티": 0,
+            "에이모바일": 1,
+            "프리티": 1,
             "모빙": 0,
             "스노우맨": 0,
-            "아이즈모바일": 0,
+            "아이즈모바일": 6,
             "인스모바일": 0,
             "이지모바일": 0,
-            "티플러스": 0,
+            "티플러스": 3,
             "KG모바일": 2,
             "티다이렉트": 0,
             "SKT_Air": 0,
-            "시월모바일": 0,
-            "핀다이렉트": 0
+            "시월모바일": 1,
+            "핀다이렉트": 7
         },
         "top_keywords": {
+            "2970": 11,
             "사전예약": 8,
             "갤럭시": 6,
+            "메뚜기": 6,
             "S26": 5,
             "알닷": 4,
-            "울트라": 3,
-            "S25": 3,
-            "100원": 3,
-            "인터넷": 3,
-            "단독": 3,
-            "번이": 3
+            "100원": 4,
+            "인터넷": 4,
+            "3월": 4,
+            "평뚜기": 4
         },
         "top_posts": {
             "ppomppu": [
                 {
                     "title": "S25+ 9개월 사용하면서 느낀 가장 큰 단점 = 눈시림",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=705&no=3904897",
-                    "views": 9449,
+                    "views": 9453,
                     "comments": 77
                 },
                 {
                     "title": "s25울트라 VS s26울트라",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=705&no=3904954",
-                    "views": 3938,
+                    "views": 3942,
                     "comments": 19
                 },
                 {
@@ -2456,7 +2456,38 @@
                     "comments": 9
                 }
             ],
-            "dc": []
+            "dc": [
+                {
+                    "title": "아이즈 10 안탄이유",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=405156&page=4",
+                    "views": 783,
+                    "comments": 13
+                },
+                {
+                    "title": "부가통화의 중요성",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=405089&page=5",
+                    "views": 636,
+                    "comments": 13
+                },
+                {
+                    "title": "핑프 ㅅㄲ들에겐 답변해주지 마라",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=405172&page=4",
+                    "views": 499,
+                    "comments": 12
+                },
+                {
+                    "title": "2970 스펙이 뭐임",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=405167&page=4",
+                    "views": 492,
+                    "comments": 4
+                },
+                {
+                    "title": "아니 시발 이게 먼데",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=405129&page=5",
+                    "views": 485,
+                    "comments": 5
+                }
+            ]
         }
     }
 ]
