@@ -5,3 +5,5 @@ requests
 undetected-chromedriver
 openpyxl
 pandas
+streamlit
+plotly
