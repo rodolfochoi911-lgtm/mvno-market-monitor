@@ -2384,7 +2384,7 @@
     {
         "date": "2026-02-25",
         "total_volume": {
-            "ppomppu": 102,
+            "ppomppu": 101,
             "dc": 0
         },
         "brand_sov": {
@@ -2415,45 +2415,45 @@
             "사전예약": 8,
             "갤럭시": 6,
             "S26": 5,
-            "자급제": 4,
             "알닷": 4,
             "울트라": 3,
             "S25": 3,
             "100원": 3,
             "인터넷": 3,
-            "단독": 3
+            "단독": 3,
+            "번이": 3
         },
         "top_posts": {
             "ppomppu": [
                 {
                     "title": "S25+ 9개월 사용하면서 느낀 가장 큰 단점 = 눈시림",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3904897",
-                    "views": 8993,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=705&no=3904897",
+                    "views": 9395,
                     "comments": 77
                 },
                 {
+                    "title": "s25울트라 VS s26울트라",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=705&no=3904954",
+                    "views": 3893,
+                    "comments": 19
+                },
+                {
                     "title": "홈플러스 갤26 사전예약 정보입니다",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=705&no=3904920",
-                    "views": 3361,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=705&no=3904920",
+                    "views": 3760,
                     "comments": 2
                 },
                 {
+                    "title": "S26 울트라 구매 조언바람",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=705&no=3904951",
+                    "views": 3594,
+                    "comments": 8
+                },
+                {
                     "title": "S26울트라때문에 오랜만에 왔네요..",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3904906",
-                    "views": 3095,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=705&no=3904906",
+                    "views": 3353,
                     "comments": 9
-                },
-                {
-                    "title": "갤S26 울트라 512 사전예약이 더 좋겠죠?",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=705&no=3904889",
-                    "views": 3072,
-                    "comments": 13
-                },
-                {
-                    "title": "s25울트라 VS s26울트라",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=705&no=3904954",
-                    "views": 3039,
-                    "comments": 18
                 }
             ],
             "dc": []
