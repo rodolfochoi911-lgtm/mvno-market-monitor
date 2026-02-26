@@ -142,7 +142,7 @@ def get_dc_posts(driver=None):
     except Exception as e:
         print(f"  - DC 초기접속 실패: {e}")
 
-    found_target_ever = False  # TARGET_DATE 게시글을 한 번이라도 발견했는지
+    found_target_ever = False
     empty_count = 0
 
     for page in range(1, 51):
@@ -204,14 +204,14 @@ def get_dc_posts(driver=None):
                     found_target_ever = True
 
                 elif post_date < TARGET_DATE:
-                    has_older = True  # 더 오래된 글 발견 (공지 등 섞일 수 있으니 바로 break 안 함)
+                    has_older = True
 
             print(f"  - DC p{page}: {found_in_page}건 수집 (누적 {len(posts)}건)")
 
-            # TARGET_DATE 게시글을 이미 발견한 상태에서 더 오래된 글이 나오면 종료
-            # 아직 한 번도 못 찾았으면 계속 다음 페이지로
-            if has_older and found_target_ever:
-                print("  - TARGET_DATE 이전 게시글 도달, 수집 완료")
+            # 이 페이지에 TARGET_DATE 글이 하나도 없고 오래된 글만 있으면 종료
+            # 공지 등 오래된 글이 섞여도 TARGET_DATE 글이 있으면 계속 다음 페이지 수집
+            if has_older and found_in_page == 0 and found_target_ever:
+                print("  - TARGET_DATE 이전 페이지 도달, 수집 완료")
                 break
 
         except Exception as e:
