@@ -2385,7 +2385,7 @@
         "date": "2026-02-25",
         "total_volume": {
             "ppomppu": 101,
-            "dc": 290
+            "dc": 291
         },
         "brand_sov": {
             "세븐모바일": 2,
@@ -2394,11 +2394,11 @@
             "헬로모바일": 0,
             "스카이라이프": 0,
             "토스모바일": 6,
-            "리브엠": 3,
+            "리브엠": 4,
             "우리원모바일": 0,
             "이야기모바일": 0,
             "에이모바일": 1,
-            "프리티": 9,
+            "프리티": 8,
             "모빙": 0,
             "스노우맨": 0,
             "아이즈모바일": 9,
@@ -2418,35 +2418,35 @@
             "핀다": 8,
             "갤럭시": 7,
             "메뚜기": 7,
+            "인터넷": 6,
+            "이벤트": 6,
             "쉐이크": 6,
-            "프리티": 6,
-            "S26": 5,
-            "알닷": 5
+            "S26": 5
         },
         "top_posts": {
             "ppomppu": [
                 {
                     "title": "S25+ 9개월 사용하면서 느낀 가장 큰 단점 = 눈시림",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=705&no=3904897",
-                    "views": 9457,
+                    "views": 9461,
                     "comments": 77
                 },
                 {
                     "title": "s25울트라 VS s26울트라",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=705&no=3904954",
-                    "views": 3950,
+                    "views": 3958,
                     "comments": 19
                 },
                 {
                     "title": "홈플러스 갤26 사전예약 정보입니다",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=705&no=3904920",
-                    "views": 3789,
+                    "views": 3793,
                     "comments": 2
                 },
                 {
                     "title": "S26 울트라 구매 조언바람",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=705&no=3904951",
-                    "views": 3638,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=705&no=3904951",
+                    "views": 3642,
                     "comments": 8
                 },
                 {
@@ -2460,7 +2460,7 @@
                 {
                     "title": "그 공지 좀 띄우셈",
                     "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=404992&page=7",
-                    "views": 1050,
+                    "views": 1057,
                     "comments": 10
                 },
                 {
@@ -2478,13 +2478,13 @@
                 {
                     "title": "인생 지칠때마다 핀다 2970보면서 버팀",
                     "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=404885&page=9",
-                    "views": 795,
+                    "views": 796,
                     "comments": 6
                 },
                 {
                     "title": "아이즈 10 안탄이유",
                     "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=405156&page=4",
-                    "views": 783,
+                    "views": 786,
                     "comments": 13
                 }
             ]
