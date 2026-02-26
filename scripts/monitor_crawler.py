@@ -37,14 +37,23 @@ TARGET_DATE = target_date_str
 # --- [1. 브라우저 설정] ---
 def get_driver():
     chrome_options = Options()
-    chrome_options.add_argument("--headless") 
+    chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--lang=ko_KR")
-    chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+    chrome_options.add_argument("--window-size=1920,1080")
+    chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36")
+    # ✅ 자동화 감지 방지 (DC 봇 차단 우회)
+    chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    chrome_options.add_experimental_option("useAutomationExtension", False)
     
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=chrome_options)
+    # navigator.webdriver 플래그 숨기기
+    driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+        "source": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
+    })
     return driver
 
 # --- [2. 크롤러: 뽐뿌] ---
@@ -154,7 +163,11 @@ def get_dc_posts(driver):
                     title = title_tag.text.strip()
                     link = "https://gall.dcinside.com" + title_tag['href']
                     views_tag = row.select_one('.gall_count')
-                    views = int(views_tag.text.strip().replace(',', '')) if views_tag and views_tag.text.strip().isdigit() else 0
+                    # ✅ isdigit()은 "1,234" 같은 쉼표 포함 숫자 파싱 실패 → try-except로 수정
+                    try:
+                        views = int(views_tag.text.strip().replace(',', '')) if views_tag else 0
+                    except (ValueError, AttributeError):
+                        views = 0
                     reply_tag = row.select_one('.reply_num')
                     comments = int(reply_tag.text.strip('[]')) if reply_tag else 0
                     
