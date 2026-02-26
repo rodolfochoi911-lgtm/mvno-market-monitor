@@ -2385,107 +2385,107 @@
         "date": "2026-02-25",
         "total_volume": {
             "ppomppu": 101,
-            "dc": 98
+            "dc": 290
         },
         "brand_sov": {
-            "세븐모바일": 0,
-            "KT엠모바일": 2,
-            "유모바일": 2,
+            "세븐모바일": 2,
+            "KT엠모바일": 6,
+            "유모바일": 11,
             "헬로모바일": 0,
             "스카이라이프": 0,
-            "토스모바일": 4,
-            "리브엠": 2,
+            "토스모바일": 6,
+            "리브엠": 3,
             "우리원모바일": 0,
             "이야기모바일": 0,
             "에이모바일": 1,
-            "프리티": 1,
+            "프리티": 9,
             "모빙": 0,
             "스노우맨": 0,
-            "아이즈모바일": 6,
+            "아이즈모바일": 9,
             "인스모바일": 0,
-            "이지모바일": 0,
-            "티플러스": 3,
+            "이지모바일": 2,
+            "티플러스": 8,
             "KG모바일": 2,
             "티다이렉트": 0,
-            "SKT_Air": 0,
+            "SKT_Air": 2,
             "시월모바일": 1,
-            "핀다이렉트": 7
+            "핀다이렉트": 15
         },
         "top_keywords": {
-            "2970": 11,
+            "2970": 15,
             "사전예약": 8,
-            "갤럭시": 6,
-            "메뚜기": 6,
+            "쌀먹": 8,
+            "핀다": 8,
+            "갤럭시": 7,
+            "메뚜기": 7,
+            "쉐이크": 6,
+            "프리티": 6,
             "S26": 5,
-            "알닷": 4,
-            "100원": 4,
-            "인터넷": 4,
-            "3월": 4,
-            "평뚜기": 4
+            "알닷": 5
         },
         "top_posts": {
             "ppomppu": [
                 {
                     "title": "S25+ 9개월 사용하면서 느낀 가장 큰 단점 = 눈시림",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=705&no=3904897",
-                    "views": 9453,
+                    "views": 9457,
                     "comments": 77
                 },
                 {
                     "title": "s25울트라 VS s26울트라",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=705&no=3904954",
-                    "views": 3942,
+                    "views": 3950,
                     "comments": 19
                 },
                 {
                     "title": "홈플러스 갤26 사전예약 정보입니다",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=705&no=3904920",
-                    "views": 3784,
+                    "views": 3789,
                     "comments": 2
                 },
                 {
                     "title": "S26 울트라 구매 조언바람",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=705&no=3904951",
-                    "views": 3630,
+                    "views": 3638,
                     "comments": 8
                 },
                 {
                     "title": "S26울트라때문에 오랜만에 왔네요..",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=705&no=3904906",
-                    "views": 3381,
+                    "views": 3389,
                     "comments": 9
                 }
             ],
             "dc": [
                 {
+                    "title": "그 공지 좀 띄우셈",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=404992&page=7",
+                    "views": 1050,
+                    "comments": 10
+                },
+                {
+                    "title": "169 500분 ㅈㄴ 부족하네 ㅈ됐다;;",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=404879&page=9",
+                    "views": 945,
+                    "comments": 7
+                },
+                {
+                    "title": "네이버 페이펫 키우는 놈들 있냐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=404874&page=9",
+                    "views": 887,
+                    "comments": 4
+                },
+                {
+                    "title": "인생 지칠때마다 핀다 2970보면서 버팀",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=404885&page=9",
+                    "views": 795,
+                    "comments": 6
+                },
+                {
                     "title": "아이즈 10 안탄이유",
                     "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=405156&page=4",
                     "views": 783,
                     "comments": 13
-                },
-                {
-                    "title": "부가통화의 중요성",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=405089&page=5",
-                    "views": 636,
-                    "comments": 13
-                },
-                {
-                    "title": "핑프 ㅅㄲ들에겐 답변해주지 마라",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=405172&page=4",
-                    "views": 499,
-                    "comments": 12
-                },
-                {
-                    "title": "2970 스펙이 뭐임",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=405167&page=4",
-                    "views": 492,
-                    "comments": 4
-                },
-                {
-                    "title": "아니 시발 이게 먼데",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=405129&page=5",
-                    "views": 485,
-                    "comments": 5
                 }
             ]
         }
