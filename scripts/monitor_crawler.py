@@ -136,13 +136,13 @@ def get_dc_posts(driver=None):
         "Connection": "keep-alive",
     })
 
-    # 쿠키 획득을 위한 초기 접속
     try:
         init = session.get("https://gall.dcinside.com/mgallery/board/lists/?id=mvnogallery", timeout=15)
         print(f"  - DC 초기접속: HTTP {init.status_code}, {len(init.text):,} bytes")
     except Exception as e:
         print(f"  - DC 초기접속 실패: {e}")
 
+    found_target_ever = False  # TARGET_DATE 게시글을 한 번이라도 발견했는지
     empty_count = 0
 
     for page in range(1, 51):
@@ -162,13 +162,13 @@ def get_dc_posts(driver=None):
                 title_tag = soup.find('title')
                 print(f"  - DC p{page}: rows 없음 / 페이지 제목: {title_tag.text.strip() if title_tag else 'N/A'}")
                 if empty_count >= 2:
-                    print("  - 연속 빈 페이지 감지, 중단")
+                    print("  - 연속 빈 페이지, 중단")
                     break
                 continue
 
             empty_count = 0
-            stop_crawling = False
-            found = 0
+            found_in_page = 0
+            has_older = False
 
             for row in rows:
                 if row.get('data-type') == 'icon_notice':
@@ -200,14 +200,17 @@ def get_dc_posts(driver=None):
                         comments = 0
 
                     posts.append({'source': 'dc', 'title': title, 'link': link, 'views': views, 'comments': comments})
-                    found += 1
+                    found_in_page += 1
+                    found_target_ever = True
 
                 elif post_date < TARGET_DATE:
-                    stop_crawling = True
+                    has_older = True  # 더 오래된 글 발견 (공지 등 섞일 수 있으니 바로 break 안 함)
 
-            print(f"  - DC p{page}: {found}건 수집 (누적 {len(posts)}건)")
+            print(f"  - DC p{page}: {found_in_page}건 수집 (누적 {len(posts)}건)")
 
-            if stop_crawling:
+            # TARGET_DATE 게시글을 이미 발견한 상태에서 더 오래된 글이 나오면 종료
+            # 아직 한 번도 못 찾았으면 계속 다음 페이지로
+            if has_older and found_target_ever:
                 print("  - TARGET_DATE 이전 게시글 도달, 수집 완료")
                 break
 
