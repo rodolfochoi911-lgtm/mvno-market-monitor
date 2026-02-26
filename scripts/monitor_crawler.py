@@ -120,105 +120,54 @@ def get_ppomppu_posts(driver):
             
     return posts
 
-# --- [3. 크롤러: 디시] --- requests 기반 (셀레니움 봇 감지 우회)
-def get_dc_posts(driver=None):
+# --- [3. 크롤러: 디시] ---
+def get_dc_posts(driver):
     print("running dc crawler...")
     posts = []
     base_url = "https://gall.dcinside.com/mgallery/board/lists/?id=mvnogallery&page={}"
-
-    session = requests.Session()
-    session.headers.update({
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
-        "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8",
-        "Accept-Encoding": "gzip, deflate, br",
-        "Referer": "https://gall.dcinside.com/mgallery/board/lists/?id=mvnogallery",
-        "Connection": "keep-alive",
-    })
-
-    try:
-        init = session.get("https://gall.dcinside.com/mgallery/board/lists/?id=mvnogallery", timeout=15)
-        print(f"  - DC 초기접속: HTTP {init.status_code}, {len(init.text):,} bytes")
-    except Exception as e:
-        print(f"  - DC 초기접속 실패: {e}")
-
-    found_target_ever = False
-    empty_count = 0
-
+    
     for page in range(1, 51):
         try:
+            driver.get(base_url.format(page))
             time.sleep(random.uniform(1.0, 2.0))
-            resp = session.get(base_url.format(page), timeout=15)
-
-            if resp.status_code != 200:
-                print(f"  - DC p{page}: HTTP {resp.status_code}, 중단")
+            
+            if "디시인사이드입니다" in driver.title and "알뜰폰" not in driver.title:
                 break
 
-            soup = BeautifulSoup(resp.text, 'html.parser')
+            soup = BeautifulSoup(driver.page_source, 'html.parser')
             rows = soup.select('tr.ub-content.us-post')
-
-            if not rows:
-                empty_count += 1
-                title_tag = soup.find('title')
-                print(f"  - DC p{page}: rows 없음 / 페이지 제목: {title_tag.text.strip() if title_tag else 'N/A'}")
-                if empty_count >= 2:
-                    print("  - 연속 빈 페이지, 중단")
-                    break
-                continue
-
-            empty_count = 0
-            found_in_page = 0
-            has_older = False
-
+            
+            if not rows: break
+                
+            stop_crawling = False
+            
             for row in rows:
-                if row.get('data-type') == 'icon_notice':
-                    continue
+                if row.get('data-type') == 'icon_notice': continue
                 date_tag = row.select_one('.gall_date')
-                if not date_tag or not date_tag.get('title'):
-                    continue
-
+                if not date_tag or not date_tag.get('title'): continue
+                
                 post_date = date_tag['title'].split(' ')[0]
-
+                
                 if post_date == TARGET_DATE:
                     title_tag = row.select_one('.gall_tit > a')
-                    if not title_tag:
-                        continue
+                    if not title_tag: continue
                     title = title_tag.text.strip()
-                    href = title_tag.get('href', '')
-                    link = ("https://gall.dcinside.com" + href) if href.startswith('/') else href
-
+                    link = "https://gall.dcinside.com" + title_tag['href']
                     views_tag = row.select_one('.gall_count')
-                    try:
-                        views = int(views_tag.text.strip().replace(',', '')) if views_tag else 0
-                    except (ValueError, AttributeError):
-                        views = 0
-
+                    views = int(views_tag.text.strip().replace(',', '')) if views_tag and views_tag.text.strip().isdigit() else 0
                     reply_tag = row.select_one('.reply_num')
-                    try:
-                        comments = int(reply_tag.text.strip('[]')) if reply_tag else 0
-                    except (ValueError, AttributeError):
-                        comments = 0
-
+                    comments = int(reply_tag.text.strip('[]')) if reply_tag else 0
+                    
                     posts.append({'source': 'dc', 'title': title, 'link': link, 'views': views, 'comments': comments})
-                    found_in_page += 1
-                    found_target_ever = True
-
                 elif post_date < TARGET_DATE:
-                    has_older = True
-
-            print(f"  - DC p{page}: {found_in_page}건 수집 (누적 {len(posts)}건)")
-
-            # 이 페이지에 TARGET_DATE 글이 하나도 없고 오래된 글만 있으면 종료
-            # 공지 등 오래된 글이 섞여도 TARGET_DATE 글이 있으면 계속 다음 페이지 수집
-            if has_older and found_in_page == 0 and found_target_ever:
-                print("  - TARGET_DATE 이전 페이지 도달, 수집 완료")
-                break
-
+                    stop_crawling = True
+            
+            if stop_crawling: break
+            
         except Exception as e:
-            print(f"  Err DC p{page}: {e}")
+            print(f"Err DC p{page}: {e}")
             break
-
-    print(f"✅ DC 수집 완료: 총 {len(posts)}건")
+            
     return posts
 
 # --- [4. 분석 및 알림 로직] ---
@@ -395,7 +344,7 @@ def analyze_and_notify(p_posts, d_posts):
 *2️⃣ 디시 알뜰폰 갤러리 (Top 5)*
 {d_msg}
 
-👉 <https://rodolfochoi911-lgtm.github.io/mvno-market-monitor/|웹 대시보드 확인하기>
+👉 <https://mvno-market-monitor-pdbgy5y4mzsjsjwf3rgqfs.streamlit.app/|웹 대시보드 확인하기>
     """
     
     send_slack_message(slack_text)
@@ -404,7 +353,7 @@ if __name__ == "__main__":
     driver = get_driver()
     try:
         p_data = get_ppomppu_posts(driver)
-        d_data = get_dc_posts()  # DC는 requests 기반, driver 불필요
+        d_data = get_dc_posts(driver)
         analyze_and_notify(p_data, d_data)
         print("✅ 작업 완료")
     except Exception as e:
