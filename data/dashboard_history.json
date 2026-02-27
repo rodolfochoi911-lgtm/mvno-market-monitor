@@ -2598,5 +2598,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-27",
+        "total_volume": {
+            "ppomppu": 494,
+            "dc": 443
+        },
+        "brand_sov": {
+            "세븐모바일": 3,
+            "KT엠모바일": 59,
+            "유모바일": 62,
+            "헬로모바일": 7,
+            "스카이라이프": 0,
+            "토스모바일": 2,
+            "리브엠": 2,
+            "우리원모바일": 2,
+            "이야기모바일": 0,
+            "에이모바일": 3,
+            "프리티": 9,
+            "모빙": 0,
+            "스노우맨": 1,
+            "아이즈모바일": 5,
+            "인스모바일": 0,
+            "이지모바일": 5,
+            "티플러스": 7,
+            "KG모바일": 0,
+            "티다이렉트": 26,
+            "SKT_Air": 0,
+            "시월모바일": 2,
+            "핀다이렉트": 9
+        },
+        "top_keywords": {
+            "울트라": 65,
+            "S26": 62,
+            "자급제": 48,
+            "유모": 47,
+            "엠모": 42,
+            "s26": 41,
+            "사전예약": 34,
+            "S26U": 27,
+            "S26울트라": 25,
+            "11번가": 24
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "삼성월렛머니 결제용 온라인 자급제 구매 링크 (울트라 512GB 체감가 154만)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=20&divpage=706&no=3905309",
+                    "views": 52063,
+                    "comments": 403
+                },
+                {
+                    "title": "갤 S26 울트라 구매 후기 (약간 장문주의)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=17&divpage=706&no=3905401",
+                    "views": 28876,
+                    "comments": 120
+                },
+                {
+                    "title": "역대가 아닌가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=19&divpage=706&no=3905336",
+                    "views": 26887,
+                    "comments": 70
+                },
+                {
+                    "title": "S26 자급제 울트라 종결",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=10&divpage=706&no=3905638",
+                    "views": 24727,
+                    "comments": 102
+                },
+                {
+                    "title": "S26 자급제 현재 싼곳들 확인해보니",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=19&divpage=706&no=3905315",
+                    "views": 15867,
+                    "comments": 22
+                }
+            ],
+            "dc": [
+                {
+                    "title": "핀다이렉트 위젯 디테일 ㄷㄷ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=405583&page=10",
+                    "views": 1673,
+                    "comments": 8
+                },
+                {
+                    "title": "오늘부터 알뜰 3월 행사 요금제 뜨겠네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=405623&page=9",
+                    "views": 1002,
+                    "comments": 15
+                },
+                {
+                    "title": "s26엄청 싸졌네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=405597&page=10",
+                    "views": 945,
+                    "comments": 13
+                },
+                {
+                    "title": "쉐이크모바일 3월 미리보기",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=406023&page=2",
+                    "views": 899,
+                    "comments": 15
+                },
+                {
+                    "title": "사족이지만 지마켓 복권 스마일캐시 오늘까지 유효기간임",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=405562&page=10",
+                    "views": 857,
+                    "comments": 14
+                }
+            ]
+        }
     }
 ]
