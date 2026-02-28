@@ -2707,5 +2707,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-02-28",
+        "total_volume": {
+            "ppomppu": 546,
+            "dc": 347
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 15,
+            "유모바일": 48,
+            "헬로모바일": 27,
+            "스카이라이프": 2,
+            "토스모바일": 2,
+            "리브엠": 3,
+            "우리원모바일": 7,
+            "이야기모바일": 2,
+            "에이모바일": 1,
+            "프리티": 11,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 9,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 1,
+            "KG모바일": 1,
+            "티다이렉트": 8,
+            "SKT_Air": 2,
+            "시월모바일": 0,
+            "핀다이렉트": 8
+        },
+        "top_keywords": {
+            "울트라": 69,
+            "S26": 61,
+            "s26": 55,
+            "자급제": 37,
+            "유모": 32,
+            "롯데온": 25,
+            "갤럭시": 23,
+            "S26울트라": 18,
+            "선약": 17,
+            "구매": 17
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "S26 울트라 성능 미쳤네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=20&divpage=706&no=3905916",
+                    "views": 32820,
+                    "comments": 74
+                },
+                {
+                    "title": "H몰 판매중단",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=20&divpage=706&no=3905936",
+                    "views": 23847,
+                    "comments": 26
+                },
+                {
+                    "title": "S26울트라 자급제 결제가 바로 할인받고 구매완료했습니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=10&divpage=706&no=3906254",
+                    "views": 14991,
+                    "comments": 82
+                },
+                {
+                    "title": "S26 울트라 자급제 130만 초반 구매 +S26/S26+ 가격 비교",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3906488",
+                    "views": 12497,
+                    "comments": 159
+                },
+                {
+                    "title": "H몰 페이북 경유 구입 순서 (위즐님 출처)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=20&divpage=706&no=3905930",
+                    "views": 11228,
+                    "comments": 29
+                }
+            ],
+            "dc": [
+                {
+                    "title": "모나 3월행사 990 뭐냐 ㄷㄷㄷㄷㄷ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=406437&page=4",
+                    "views": 1765,
+                    "comments": 35
+                },
+                {
+                    "title": "아이즈 통무 다시나옴 2200",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=406089&page=10",
+                    "views": 1393,
+                    "comments": 3
+                },
+                {
+                    "title": "아이즈 모바일 큰 거 왔다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=406134&page=9",
+                    "views": 1350,
+                    "comments": 18
+                },
+                {
+                    "title": "ㄱㅈ들에겐 의미없지만 샤오미폰이 보안에 취약한 이유",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=406088&page=10",
+                    "views": 1232,
+                    "comments": 15
+                },
+                {
+                    "title": "아 진짜 당황스럽네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=406078&page=10",
+                    "views": 857,
+                    "comments": 20
+                }
+            ]
+        }
     }
 ]
