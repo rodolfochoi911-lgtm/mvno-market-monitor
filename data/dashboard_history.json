@@ -2816,5 +2816,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-03-01",
+        "total_volume": {
+            "ppomppu": 393,
+            "dc": 542
+        },
+        "brand_sov": {
+            "세븐모바일": 4,
+            "KT엠모바일": 17,
+            "유모바일": 34,
+            "헬로모바일": 15,
+            "스카이라이프": 0,
+            "토스모바일": 3,
+            "리브엠": 1,
+            "우리원모바일": 1,
+            "이야기모바일": 1,
+            "에이모바일": 4,
+            "프리티": 10,
+            "모빙": 5,
+            "스노우맨": 0,
+            "아이즈모바일": 11,
+            "인스모바일": 1,
+            "이지모바일": 2,
+            "티플러스": 6,
+            "KG모바일": 3,
+            "티다이렉트": 7,
+            "SKT_Air": 0,
+            "시월모바일": 2,
+            "핀다이렉트": 11
+        },
+        "top_keywords": {
+            "모나": 76,
+            "990": 53,
+            "S26": 35,
+            "자급제": 35,
+            "울트라": 34,
+            "S26U": 27,
+            "알리": 27,
+            "유모": 25,
+            "갤럭시": 20,
+            "s26": 20
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "모나 5Mbps+ 평생요금제 역대가네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=13&divpage=706&no=3906571",
+                    "views": 34617,
+                    "comments": 204
+                },
+                {
+                    "title": "알리에서 s26u 졸업합니다ㅠㅠ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=14&divpage=706&no=3906537",
+                    "views": 28689,
+                    "comments": 64
+                },
+                {
+                    "title": "알리에서 구매하실분들 참고",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=14&divpage=706&no=3906541",
+                    "views": 28590,
+                    "comments": 74
+                },
+                {
+                    "title": "알리 드디어 탔네요 후후",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=706&no=3906810",
+                    "views": 19050,
+                    "comments": 33
+                },
+                {
+                    "title": "S26울트라 알리가 최고인거죠?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=13&divpage=706&no=3906551",
+                    "views": 18369,
+                    "comments": 32
+                }
+            ],
+            "dc": [
+                {
+                    "title": "아오 펨코에 누가 또 글올렸냐 ㅅㅂ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=406943&page=5",
+                    "views": 1605,
+                    "comments": 22
+                },
+                {
+                    "title": "모나 5명박이 역대급이네 ㄷ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=406580&page=11",
+                    "views": 1558,
+                    "comments": 5
+                },
+                {
+                    "title": "유모바일 갤럭시 출시 프로모션",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=406654&page=9",
+                    "views": 1319,
+                    "comments": 7
+                },
+                {
+                    "title": "모나 990 뭐냐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=406486&page=12",
+                    "views": 1278,
+                    "comments": 3
+                },
+                {
+                    "title": "990은 멤버십발사대임",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=406565&page=11",
+                    "views": 1270,
+                    "comments": 14
+                }
+            ]
+        }
     }
 ]
