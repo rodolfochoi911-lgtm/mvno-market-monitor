@@ -2925,5 +2925,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-03-02",
+        "total_volume": {
+            "ppomppu": 403,
+            "dc": 371
+        },
+        "brand_sov": {
+            "세븐모바일": 2,
+            "KT엠모바일": 7,
+            "유모바일": 36,
+            "헬로모바일": 11,
+            "스카이라이프": 1,
+            "토스모바일": 7,
+            "리브엠": 2,
+            "우리원모바일": 2,
+            "이야기모바일": 2,
+            "에이모바일": 3,
+            "프리티": 3,
+            "모빙": 3,
+            "스노우맨": 0,
+            "아이즈모바일": 15,
+            "인스모바일": 0,
+            "이지모바일": 7,
+            "티플러스": 10,
+            "KG모바일": 0,
+            "티다이렉트": 5,
+            "SKT_Air": 8,
+            "시월모바일": 2,
+            "핀다이렉트": 11
+        },
+        "top_keywords": {
+            "울트라": 43,
+            "모나": 43,
+            "S26": 37,
+            "자급제": 34,
+            "990": 27,
+            "유모": 24,
+            "s26": 22,
+            "알리": 22,
+            "s26u": 19,
+            "갤럭시": 19
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "갤럭시s26 울트라 발품 하다 드뎌 했습니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=706&no=3907370",
+                    "views": 13931,
+                    "comments": 53
+                },
+                {
+                    "title": "s26 휴포에 지령있나본데요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=15&divpage=706&no=3906998",
+                    "views": 12863,
+                    "comments": 19
+                },
+                {
+                    "title": "갤26울트라 kt 뜬거 괜찮나요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=14&divpage=706&no=3907018",
+                    "views": 11038,
+                    "comments": 23
+                },
+                {
+                    "title": "하이마트 카드발급 낚시",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=706&no=3907386",
+                    "views": 9712,
+                    "comments": 12
+                },
+                {
+                    "title": "S26울트라 sk기변 설탕몰 졸업",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=15&divpage=706&no=3907007",
+                    "views": 3745,
+                    "comments": 5
+                }
+            ],
+            "dc": [
+                {
+                    "title": "알뜰폰 황금기 시절 요금제",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=407145&page=8",
+                    "views": 1225,
+                    "comments": 5
+                },
+                {
+                    "title": "모나 990 선착 끝났네ㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=407392&page=4",
+                    "views": 1060,
+                    "comments": 6
+                },
+                {
+                    "title": "이분이 진짜 알버지 같음",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=407128&page=8",
+                    "views": 889,
+                    "comments": 4
+                },
+                {
+                    "title": "모나 990 걍 취소했다 ㄹㅇ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=407286&page=6",
+                    "views": 876,
+                    "comments": 3
+                },
+                {
+                    "title": "모나 990 멤버십발사대로 딱이네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=407124&page=8",
+                    "views": 854,
+                    "comments": 5
+                }
+            ]
+        }
     }
 ]
