@@ -125,6 +125,7 @@ def get_dc_posts(driver):
     print("running dc crawler...")
     posts = []
     base_url = "https://gall.dcinside.com/mgallery/board/lists/?id=mvnogallery&page={}"
+    found_target_date = False
     
     for page in range(1, 51):
         try:
@@ -149,6 +150,7 @@ def get_dc_posts(driver):
                 post_date = date_tag['title'].split(' ')[0]
                 
                 if post_date == TARGET_DATE:
+                    found_target_date = True
                     title_tag = row.select_one('.gall_tit > a')
                     if not title_tag: continue
                     title = title_tag.text.strip()
@@ -160,7 +162,8 @@ def get_dc_posts(driver):
                     
                     posts.append({'source': 'dc', 'title': title, 'link': link, 'views': views, 'comments': comments})
                 elif post_date < TARGET_DATE:
-                    stop_crawling = True
+                    if found_target_date:
+                        stop_crawling = True
             
             if stop_crawling: break
             
