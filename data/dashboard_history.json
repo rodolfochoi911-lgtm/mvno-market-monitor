@@ -3470,5 +3470,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-03-07",
+        "total_volume": {
+            "ppomppu": 175,
+            "dc": 11
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 0,
+            "유모바일": 3,
+            "헬로모바일": 4,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 0,
+            "우리원모바일": 1,
+            "이야기모바일": 1,
+            "에이모바일": 0,
+            "프리티": 0,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 2,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 1,
+            "SKT_Air": 1,
+            "시월모바일": 1,
+            "핀다이렉트": 2
+        },
+        "top_keywords": {
+            "울트라": 9,
+            "자급제": 8,
+            "s26u": 8,
+            "S26": 7,
+            "S26U": 6,
+            "보험": 5,
+            "s26": 5,
+            "알닷": 5,
+            "s26울트라": 4,
+            "h몰": 4
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "당근에 s25시리즈 쏟아지네요 ㅎㅎ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=7&divpage=706&no=3909047",
+                    "views": 32462,
+                    "comments": 58
+                },
+                {
+                    "title": "울트라 지리네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=706&no=3909218",
+                    "views": 2958,
+                    "comments": 10
+                },
+                {
+                    "title": "S26U 카메라 결로 현상 논란.jpg",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3909180",
+                    "views": 2829,
+                    "comments": 4
+                },
+                {
+                    "title": "와..이번 S26개봉기 대박인데요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=706&no=3909113",
+                    "views": 2556,
+                    "comments": 9
+                },
+                {
+                    "title": "갤럭시 s26 512 화이트 이거 결함인가요??",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3909155",
+                    "views": 2552,
+                    "comments": 8
+                }
+            ],
+            "dc": [
+                {
+                    "title": "알갤하면서 얻은 평생요금제",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=409524&page=1",
+                    "views": 769,
+                    "comments": 12
+                },
+                {
+                    "title": "알뜰폰이 혜자인이유",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=409521&page=1",
+                    "views": 570,
+                    "comments": 4
+                },
+                {
+                    "title": "근데 모나 990받아서 어따씀?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=409522&page=1",
+                    "views": 469,
+                    "comments": 9
+                },
+                {
+                    "title": "쉐이크 체감가 삭제했네 ㅋ.ㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=409518&page=1",
+                    "views": 456,
+                    "comments": 8
+                },
+                {
+                    "title": "님들 이거 어떰?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=409525&page=1",
+                    "views": 410,
+                    "comments": 8
+                }
+            ]
+        }
     }
 ]
