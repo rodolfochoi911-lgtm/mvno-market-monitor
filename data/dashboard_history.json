@@ -3579,5 +3579,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-03-08",
+        "total_volume": {
+            "ppomppu": 96,
+            "dc": 79
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 0,
+            "유모바일": 3,
+            "헬로모바일": 0,
+            "스카이라이프": 0,
+            "토스모바일": 2,
+            "리브엠": 2,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 1,
+            "프리티": 1,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 2,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 1,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 1,
+            "시월모바일": 0,
+            "핀다이렉트": 1
+        },
+        "top_keywords": {
+            "울트라": 9,
+            "조이텔": 9,
+            "S26": 8,
+            "보험": 6,
+            "휴대폰": 5,
+            "s26": 5,
+            "5g": 4,
+            "카카오": 3,
+            "S23": 3,
+            "케이스": 3
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "멋있는 사나이~ '쿠팡' s26 울트라 사전예약을 3월 9일까지 자체적으로 늘려버리네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=706&no=3909244",
+                    "views": 3853,
+                    "comments": 12
+                },
+                {
+                    "title": "S25에서 S26으로 바꾸신분들 역체감 안느껴지나요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=706&no=3909249",
+                    "views": 3344,
+                    "comments": 10
+                },
+                {
+                    "title": "S25 울트라 1테라 SKT향 당근가격",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=706&no=3909241",
+                    "views": 3265,
+                    "comments": 3
+                },
+                {
+                    "title": "S26울트라 자급제 당근에서 마무리..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=706&no=3909246",
+                    "views": 2779,
+                    "comments": 3
+                },
+                {
+                    "title": "액정필름도 아무거나 사면 안 되네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=706&no=3909239",
+                    "views": 2265,
+                    "comments": 7
+                }
+            ],
+            "dc": [
+                {
+                    "title": "조이보이들은 9900짜리 타지말고 11000원짜리 타라",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=409810&page=2",
+                    "views": 763,
+                    "comments": 12
+                },
+                {
+                    "title": "축제구나",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=409846&page=2",
+                    "views": 704,
+                    "comments": 17
+                },
+                {
+                    "title": "조이텔 9900보다 12100원 추천이 많은이유",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=409843&page=2",
+                    "views": 683,
+                    "comments": 7
+                },
+                {
+                    "title": "조이텔 저거 오늘 뜬거임??",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=409839&page=2",
+                    "views": 662,
+                    "comments": 1
+                },
+                {
+                    "title": "나중에 후회하지 말고 990 ㄱㄱ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=409814&page=2",
+                    "views": 634,
+                    "comments": 7
+                }
+            ]
+        }
     }
 ]
