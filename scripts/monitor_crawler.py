@@ -62,11 +62,14 @@ def get_ppomppu_posts(driver):
             rows = soup.find_all('tr') 
             
             valid_cnt_in_page = 0
-            
+            EXCLUDE_SUBJECTS = {'AD', '설문', '공지', '이벤트'}
             for row in rows:
                 title_elem = row.select_one('font.list_title') or row.select_one('a')
                 if not title_elem: continue
-                
+                    # 말머리 필터링 추가
+                subject_tag = row.select_one('.gall_subject')
+                if subject_tag and subject_tag.text.strip() in EXCLUDE_SUBJECTS:
+                    continue
                 post_date = ""
                 
                 time_span = row.select_one('.baseList-time')
