@@ -4015,5 +4015,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-03-12",
+        "total_volume": {
+            "ppomppu": 104,
+            "dc": 292
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 2,
+            "유모바일": 14,
+            "헬로모바일": 3,
+            "스카이라이프": 0,
+            "토스모바일": 4,
+            "리브엠": 1,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 1,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 3,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 3,
+            "KG모바일": 0,
+            "티다이렉트": 1,
+            "SKT_Air": 22,
+            "시월모바일": 1,
+            "핀다이렉트": 43
+        },
+        "top_keywords": {
+            "핀다": 24,
+            "에어": 14,
+            "갤럭시": 12,
+            "2970": 12,
+            "쉐이크": 8,
+            "형들": 7,
+            "이제": 7,
+            "유플러스": 6,
+            "퀀텀6": 6,
+            "다시": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "A17 택배 왔네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=706&no=3909914",
+                    "views": 21945,
+                    "comments": 48
+                },
+                {
+                    "title": "S26U 팁아닌팁",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3909852",
+                    "views": 11662,
+                    "comments": 32
+                },
+                {
+                    "title": "A17 M6 28짜리 타니 M4에23이 뜨네요 ㅠ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=706&no=3909906",
+                    "views": 9181,
+                    "comments": 29
+                },
+                {
+                    "title": "저가폰 정책 실린듯..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3909839",
+                    "views": 3820,
+                    "comments": 48
+                },
+                {
+                    "title": "A17 M+4개월 택배조건 나왔네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=706&no=3909877",
+                    "views": 2477,
+                    "comments": 98
+                }
+            ],
+            "dc": [
+                {
+                    "title": "핀다 2970",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=412066&page=7",
+                    "views": 1369,
+                    "comments": 20
+                },
+                {
+                    "title": "모나 평생 체감가 940원뭐냐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=412062&page=7",
+                    "views": 1247,
+                    "comments": 4
+                },
+                {
+                    "title": "에어 12개월 이벤 오늘 막차 떠난다 빨리타라",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=412112&page=6",
+                    "views": 1208,
+                    "comments": 13
+                },
+                {
+                    "title": "이번 핀다 2790 진짜 승리자",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=412181&page=5",
+                    "views": 878,
+                    "comments": 7
+                },
+                {
+                    "title": "퀀텀6 졸업",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=412374&page=2",
+                    "views": 852,
+                    "comments": 26
+                }
+            ]
+        }
     }
 ]
