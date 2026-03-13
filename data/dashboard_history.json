@@ -4124,5 +4124,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-03-13",
+        "total_volume": {
+            "ppomppu": 104,
+            "dc": 269
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 4,
+            "유모바일": 6,
+            "헬로모바일": 3,
+            "스카이라이프": 0,
+            "토스모바일": 4,
+            "리브엠": 3,
+            "우리원모바일": 1,
+            "이야기모바일": 2,
+            "에이모바일": 1,
+            "프리티": 1,
+            "모빙": 2,
+            "스노우맨": 0,
+            "아이즈모바일": 17,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 1,
+            "KG모바일": 3,
+            "티다이렉트": 1,
+            "SKT_Air": 10,
+            "시월모바일": 11,
+            "핀다이렉트": 12
+        },
+        "top_keywords": {
+            "아이즈": 11,
+            "갤럭시": 9,
+            "알닷": 8,
+            "그냥": 8,
+            "에어": 8,
+            "5명박": 7,
+            "핀다": 7,
+            "시월": 6,
+            "해지방어": 5,
+            "울트라": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "듀얼심(물리SIM+eSIM) 구성 실사 3일 몇가지 불편함도 있네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=706&no=3909949",
+                    "views": 6406,
+                    "comments": 48
+                },
+                {
+                    "title": "마케팅 진짜 개못했던 LG전자",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3909981",
+                    "views": 2426,
+                    "comments": 11
+                },
+                {
+                    "title": "근데 one ui 8.5는 왜케 조용한가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=706&no=3909935",
+                    "views": 2296,
+                    "comments": 12
+                },
+                {
+                    "title": "S26U 무선충전 정보",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=706&no=3909945",
+                    "views": 2031,
+                    "comments": 10
+                },
+                {
+                    "title": "오늘도 퀀텀2개 하고 왔어요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=706&no=3910036",
+                    "views": 1877,
+                    "comments": 12
+                }
+            ],
+            "dc": [
+                {
+                    "title": "토스 페이스페이 또뿌리네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=412419&page=7",
+                    "views": 1254,
+                    "comments": 15
+                },
+                {
+                    "title": "아이즈 평생 1123 25000 5명박 28000",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=412500&page=6",
+                    "views": 1191,
+                    "comments": 16
+                },
+                {
+                    "title": "2970 존나 좋은 이유",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=412648&page=3",
+                    "views": 945,
+                    "comments": 13
+                },
+                {
+                    "title": "돈 아낄라고 중국폰 사지말어라",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=412438&page=6",
+                    "views": 852,
+                    "comments": 21
+                },
+                {
+                    "title": "와 평생 좋은거 타니까 탈갤욕구 장난아니네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=412410&page=7",
+                    "views": 814,
+                    "comments": 2
+                }
+            ]
+        }
     }
 ]
