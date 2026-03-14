@@ -4233,5 +4233,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-03-14",
+        "total_volume": {
+            "ppomppu": 67,
+            "dc": 337
+        },
+        "brand_sov": {
+            "세븐모바일": 4,
+            "KT엠모바일": 3,
+            "유모바일": 8,
+            "헬로모바일": 5,
+            "스카이라이프": 0,
+            "토스모바일": 4,
+            "리브엠": 3,
+            "우리원모바일": 2,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 7,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 71,
+            "인스모바일": 1,
+            "이지모바일": 0,
+            "티플러스": 1,
+            "KG모바일": 0,
+            "티다이렉트": 1,
+            "SKT_Air": 6,
+            "시월모바일": 5,
+            "핀다이렉트": 14
+        },
+        "top_keywords": {
+            "아이즈": 60,
+            "1780": 19,
+            "모나": 15,
+            "2970": 14,
+            "통무": 10,
+            "여기": 6,
+            "이게": 6,
+            "번이": 6,
+            "알닷": 6,
+            "에어": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "아이즈 통무 요금제 주말특가 1780원",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3910056",
+                    "views": 2928,
+                    "comments": 11
+                },
+                {
+                    "title": "갤럭시S 25 엣지는 차비를 주네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=706&no=3910087",
+                    "views": 2459,
+                    "comments": 15
+                },
+                {
+                    "title": "근데 여기 사람들은 ㅇㅌㅍ 왜케싫어함??",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=706&no=3910119",
+                    "views": 2076,
+                    "comments": 11
+                },
+                {
+                    "title": "SKT 구 요금제 유지필요 할까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3910057",
+                    "views": 1946,
+                    "comments": 14
+                },
+                {
+                    "title": "처음으로 뽐뿌에서 정보보고 퀀텀번이 했는데요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3910052",
+                    "views": 1943,
+                    "comments": 13
+                }
+            ],
+            "dc": [
+                {
+                    "title": "와 이거 역대급 아니냐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=412758&page=7",
+                    "views": 1678,
+                    "comments": 14
+                },
+                {
+                    "title": "아이즈 Sk통무1780. Kt10기가 1900",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=412731&page=8",
+                    "views": 1525,
+                    "comments": 18
+                },
+                {
+                    "title": "아이즈 1780 개악질인 점",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=412745&page=7",
+                    "views": 1386,
+                    "comments": 4
+                },
+                {
+                    "title": "이게 역대급이라도 안 타는 이유..",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=412759&page=7",
+                    "views": 1290,
+                    "comments": 3
+                },
+                {
+                    "title": "아이즈1780 존나매렵네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=412751&page=7",
+                    "views": 1175,
+                    "comments": 2
+                }
+            ]
+        }
     }
 ]
