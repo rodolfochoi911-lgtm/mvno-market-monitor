@@ -4342,5 +4342,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-03-15",
+        "total_volume": {
+            "ppomppu": 70,
+            "dc": 151
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 0,
+            "유모바일": 7,
+            "헬로모바일": 0,
+            "스카이라이프": 1,
+            "토스모바일": 1,
+            "리브엠": 1,
+            "우리원모바일": 0,
+            "이야기모바일": 1,
+            "에이모바일": 0,
+            "프리티": 0,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 15,
+            "인스모바일": 1,
+            "이지모바일": 2,
+            "티플러스": 2,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 1,
+            "시월모바일": 0,
+            "핀다이렉트": 5
+        },
+        "top_keywords": {
+            "아이즈": 11,
+            "1명박": 7,
+            "5명박": 6,
+            "2970": 6,
+            "s26": 5,
+            "갤럭시": 5,
+            "메뚜기": 5,
+            "퀀텀6": 4,
+            "그냥": 4,
+            "자급제": 4
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "안드로 계열 페이백 못받으신분 계신가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=706&no=3910167",
+                    "views": 8625,
+                    "comments": 20
+                },
+                {
+                    "title": "초등2학년 핸드폰 개통해주는게맞을까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3910139",
+                    "views": 7310,
+                    "comments": 58
+                },
+                {
+                    "title": "갤럭시 프라이버시 기능 대박이네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3910150",
+                    "views": 2939,
+                    "comments": 11
+                },
+                {
+                    "title": "몇년전에 광고차단앱 유니콘이라고 75% 행사해서 1,100원에 구매했는데요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3910138",
+                    "views": 2505,
+                    "comments": 13
+                },
+                {
+                    "title": "와이드8 당근에 안팔리네요 ㅋㅋ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=706&no=3910165",
+                    "views": 2315,
+                    "comments": 17
+                }
+            ],
+            "dc": [
+                {
+                    "title": "여기애들 2970 쓰는거 보면 기특함",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=413132&page=4",
+                    "views": 1254,
+                    "comments": 12
+                },
+                {
+                    "title": "2970 신청서 아직 살아있다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=413157&page=3",
+                    "views": 1222,
+                    "comments": 5
+                },
+                {
+                    "title": "알뜰폰 최고 전성기 시절.jpg",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=413265&page=2",
+                    "views": 1105,
+                    "comments": 15
+                },
+                {
+                    "title": "50살이상 부모님들 2970태워주면",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=413135&page=4",
+                    "views": 1060,
+                    "comments": 5
+                },
+                {
+                    "title": "얘들아 갤s21 진짜 븅신같음 삼성 진짜 존나 짜치네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=413128&page=4",
+                    "views": 1044,
+                    "comments": 19
+                }
+            ]
+        }
     }
 ]
