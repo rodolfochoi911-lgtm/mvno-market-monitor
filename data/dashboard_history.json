@@ -4451,5 +4451,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-03-16",
+        "total_volume": {
+            "ppomppu": 80,
+            "dc": 280
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 3,
+            "유모바일": 21,
+            "헬로모바일": 4,
+            "스카이라이프": 0,
+            "토스모바일": 5,
+            "리브엠": 3,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 2,
+            "프리티": 5,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 32,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 0,
+            "KG모바일": 1,
+            "티다이렉트": 0,
+            "SKT_Air": 2,
+            "시월모바일": 1,
+            "핀다이렉트": 10
+        },
+        "top_keywords": {
+            "아이즈": 22,
+            "쿠팡": 11,
+            "유모": 11,
+            "유모바일": 9,
+            "알닷": 8,
+            "핀다": 8,
+            "쌀먹": 7,
+            "퀀텀6": 6,
+            "쿠폰": 6,
+            "이심": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "A57 실기기 유출",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3910224",
+                    "views": 3556,
+                    "comments": 15
+                },
+                {
+                    "title": "트라이폴드 단종됐네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=706&no=3910295",
+                    "views": 3341,
+                    "comments": 12
+                },
+                {
+                    "title": "S26 자급제를 굳이 개봉하고 판매하는 이유가 있을까요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3910214",
+                    "views": 2573,
+                    "comments": 12
+                },
+                {
+                    "title": "A57",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=706&no=3910247",
+                    "views": 2485,
+                    "comments": 30
+                },
+                {
+                    "title": "s25 512가격 어떤가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3910215",
+                    "views": 2238,
+                    "comments": 8
+                }
+            ],
+            "dc": [
+                {
+                    "title": "[참고자료] 평생요금제 역대 최저가 리스트",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=413377&page=6",
+                    "views": 1378,
+                    "comments": 26
+                },
+                {
+                    "title": "방금 ㅈ된 놈이다ㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=413605&page=2",
+                    "views": 1346,
+                    "comments": 33
+                },
+                {
+                    "title": "얼굴인증 하려는 이유 ㄷㄷ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=413309&page=7",
+                    "views": 1220,
+                    "comments": 10
+                },
+                {
+                    "title": "이런거 타는사람잇냐?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=413316&page=7",
+                    "views": 973,
+                    "comments": 4
+                },
+                {
+                    "title": "파격적인 토스요금제",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=413366&page=6",
+                    "views": 906,
+                    "comments": 13
+                }
+            ]
+        }
     }
 ]
