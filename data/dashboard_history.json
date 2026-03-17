@@ -4560,5 +4560,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-03-17",
+        "total_volume": {
+            "ppomppu": 76,
+            "dc": 391
+        },
+        "brand_sov": {
+            "세븐모바일": 3,
+            "KT엠모바일": 3,
+            "유모바일": 9,
+            "헬로모바일": 11,
+            "스카이라이프": 0,
+            "토스모바일": 4,
+            "리브엠": 2,
+            "우리원모바일": 2,
+            "이야기모바일": 0,
+            "에이모바일": 1,
+            "프리티": 53,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 13,
+            "인스모바일": 2,
+            "이지모바일": 6,
+            "티플러스": 7,
+            "KG모바일": 2,
+            "티다이렉트": 1,
+            "SKT_Air": 0,
+            "시월모바일": 2,
+            "핀다이렉트": 14
+        },
+        "top_keywords": {
+            "프리티": 34,
+            "원칩": 15,
+            "유플": 13,
+            "헬모": 10,
+            "아이즈": 10,
+            "갤럭시": 8,
+            "2970": 8,
+            "인터넷": 7,
+            "유플러스": 6,
+            "유모": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "A17 택배조건 며칠전에 올라온거 반신반의했는데 일단 탑승했어요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=706&no=3910395",
+                    "views": 15685,
+                    "comments": 46
+                },
+                {
+                    "title": "S25 중고 60만원대로 많이 내렸네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3910311",
+                    "views": 3054,
+                    "comments": 17
+                },
+                {
+                    "title": "A57 (퀀텀7) 내장 메모리는 기본 256",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=706&no=3910358",
+                    "views": 2561,
+                    "comments": 22
+                },
+                {
+                    "title": "LG 1100만 유심 교체시작..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=706&no=3910337",
+                    "views": 2186,
+                    "comments": 5
+                },
+                {
+                    "title": "알뜰폰 요금제 혜택 총정리 (헬모 vs 엠모 vs 유모)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=706&no=3910336",
+                    "views": 2015,
+                    "comments": 8
+                }
+            ],
+            "dc": [
+                {
+                    "title": "핀다 2970 사기당함",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=413641&page=9",
+                    "views": 2526,
+                    "comments": 18
+                },
+                {
+                    "title": "유심초기화 좆나 띠껍다네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=413667&page=8",
+                    "views": 1931,
+                    "comments": 29
+                },
+                {
+                    "title": "전설의 유플러스 홍대입구 직영점을 알아보자",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=413747&page=7",
+                    "views": 1386,
+                    "comments": 7
+                },
+                {
+                    "title": "난 핀다2970 명세서 이렇게 나옴",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=413645&page=9",
+                    "views": 1287,
+                    "comments": 3
+                },
+                {
+                    "title": "프리티 상장폐지 거의 확정",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=413882&page=5",
+                    "views": 1086,
+                    "comments": 7
+                }
+            ]
+        }
     }
 ]
