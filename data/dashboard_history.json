@@ -4669,5 +4669,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-03-18",
+        "total_volume": {
+            "ppomppu": 78,
+            "dc": 269
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 0,
+            "유모바일": 21,
+            "헬로모바일": 4,
+            "스카이라이프": 0,
+            "토스모바일": 3,
+            "리브엠": 0,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 1,
+            "프리티": 21,
+            "모빙": 3,
+            "스노우맨": 0,
+            "아이즈모바일": 12,
+            "인스모바일": 3,
+            "이지모바일": 0,
+            "티플러스": 4,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 1,
+            "시월모바일": 3,
+            "핀다이렉트": 13
+        },
+        "top_keywords": {
+            "유모": 15,
+            "프리티": 12,
+            "갤럭시": 10,
+            "아이즈": 10,
+            "모나": 9,
+            "인터넷": 8,
+            "핀다": 8,
+            "안면인증": 7,
+            "쌀먹": 6,
+            "바이럴": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "오늘부터 해산물밴드 광고주의",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=706&no=3910446",
+                    "views": 13907,
+                    "comments": 12
+                },
+                {
+                    "title": "헬스장에서 어떤 전화기 봤는데 엄청이쁘네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3910403",
+                    "views": 3388,
+                    "comments": 12
+                },
+                {
+                    "title": "퀀텀6는 보급기가 아니네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=706&no=3910493",
+                    "views": 2924,
+                    "comments": 26
+                },
+                {
+                    "title": "유심 이동 대란 나올듯요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3910416",
+                    "views": 2737,
+                    "comments": 6
+                },
+                {
+                    "title": "Sk텔레콤 직원들은  풀공시로 사도 꿀이네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=706&no=3910435",
+                    "views": 2089,
+                    "comments": 5
+                }
+            ],
+            "dc": [
+                {
+                    "title": "전설떳다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=414143&page=6",
+                    "views": 985,
+                    "comments": 11
+                },
+                {
+                    "title": "와 프리티가 망할줄이야 ㅋㅋㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=414124&page=6",
+                    "views": 971,
+                    "comments": 4
+                },
+                {
+                    "title": "뭔데 갑자기 프리티가 망하냐 마냐 거리고있냐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=414104&page=6",
+                    "views": 951,
+                    "comments": 1
+                },
+                {
+                    "title": "프리티 망히긴하겟지",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=414113&page=6",
+                    "views": 799,
+                    "comments": 1
+                },
+                {
+                    "title": "간만에 와서 글읽는데 개존잼이네 ㅋㅋㅋㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=414116&page=6",
+                    "views": 765,
+                    "comments": 5
+                }
+            ]
+        }
     }
 ]
