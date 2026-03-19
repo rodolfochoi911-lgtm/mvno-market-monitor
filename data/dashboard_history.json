@@ -4778,5 +4778,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-03-19",
+        "total_volume": {
+            "ppomppu": 78,
+            "dc": 209
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 2,
+            "유모바일": 16,
+            "헬로모바일": 4,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 1,
+            "우리원모바일": 0,
+            "이야기모바일": 2,
+            "에이모바일": 1,
+            "프리티": 3,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 11,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 1,
+            "SKT_Air": 2,
+            "시월모바일": 1,
+            "핀다이렉트": 8
+        },
+        "top_keywords": {
+            "아이즈": 11,
+            "퀀텀6": 9,
+            "유플": 9,
+            "유모": 7,
+            "갤럭시": 6,
+            "쌀먹": 6,
+            "유모바일": 5,
+            "업데이트": 5,
+            "해지방어": 5,
+            "인터넷": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "지인들 알뜰 알려주다가 젤 어이없는 썰",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=706&no=3910520",
+                    "views": 26774,
+                    "comments": 81
+                },
+                {
+                    "title": "안녕하세요 형님들 아버지께서 사기를 당하신 거 같아서 여기에 글을 써봅니다..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3910511",
+                    "views": 12185,
+                    "comments": 35
+                },
+                {
+                    "title": "[단독] 저가요금제 가입자도 데이터 무제한 쓴다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=706&no=3910583",
+                    "views": 3020,
+                    "comments": 14
+                },
+                {
+                    "title": "S26U 삼성 60w 정품 충전기 싸게파네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=706&no=3910542",
+                    "views": 2640,
+                    "comments": 14
+                },
+                {
+                    "title": "퀀텀6 쓰다가 s25 울트라 써보니 비교자체가 불가능 ㅠㅠ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=706&no=3910537",
+                    "views": 2067,
+                    "comments": 26
+                }
+            ],
+            "dc": [
+                {
+                    "title": "원룸 사는데 여친 임신함 3주래",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=414576&page=3",
+                    "views": 1321,
+                    "comments": 36
+                },
+                {
+                    "title": "전 고객 유심(USIM) 업데이트 및 무료 교체 안내",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=414446&page=5",
+                    "views": 1107,
+                    "comments": 13
+                },
+                {
+                    "title": "전화로 싸웠다 ㅅㅂ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=414599&page=3",
+                    "views": 866,
+                    "comments": 28
+                },
+                {
+                    "title": "이걸두고 2970 간다고?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=414537&page=4",
+                    "views": 824,
+                    "comments": 9
+                },
+                {
+                    "title": "유모바일 S23 - S26 사용자 비상!!!",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=414476&page=5",
+                    "views": 795,
+                    "comments": 11
+                }
+            ]
+        }
     }
 ]
