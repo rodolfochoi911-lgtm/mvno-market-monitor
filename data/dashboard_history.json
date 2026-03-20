@@ -4887,5 +4887,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-03-20",
+        "total_volume": {
+            "ppomppu": 85,
+            "dc": 320
+        },
+        "brand_sov": {
+            "세븐모바일": 4,
+            "KT엠모바일": 3,
+            "유모바일": 90,
+            "헬로모바일": 7,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 6,
+            "우리원모바일": 2,
+            "이야기모바일": 2,
+            "에이모바일": 1,
+            "프리티": 12,
+            "모빙": 3,
+            "스노우맨": 0,
+            "아이즈모바일": 29,
+            "인스모바일": 2,
+            "이지모바일": 4,
+            "티플러스": 3,
+            "KG모바일": 0,
+            "티다이렉트": 1,
+            "SKT_Air": 2,
+            "시월모바일": 3,
+            "핀다이렉트": 13
+        },
+        "top_keywords": {
+            "유모": 51,
+            "네페": 25,
+            "아이즈": 24,
+            "유모바일": 20,
+            "갤럭시": 15,
+            "쌀먹": 11,
+            "알닷": 9,
+            "핀다": 9,
+            "이벤트": 8,
+            "프리티": 7
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "유모바일 최대 40만원 타임세일 떴네요 (~주말까지/선착 1천명)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3910616",
+                    "views": 10270,
+                    "comments": 107
+                },
+                {
+                    "title": "유모바일 이벤트 알림 왔던데..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=706&no=3910641",
+                    "views": 2059,
+                    "comments": 20
+                },
+                {
+                    "title": "할사람만 참고하시면될듯",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=706&no=3910622",
+                    "views": 1961,
+                    "comments": 12
+                },
+                {
+                    "title": "퀀텀6 2대 했습니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=706&no=3910631",
+                    "views": 1854,
+                    "comments": 7
+                },
+                {
+                    "title": "BTS 공연 앞두고 갤럭시 대여 증가",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=706&no=3910673",
+                    "views": 1843,
+                    "comments": 1
+                }
+            ],
+            "dc": [
+                {
+                    "title": "이런 공시 첨봄",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=415036&page=4",
+                    "views": 954,
+                    "comments": 4
+                },
+                {
+                    "title": "유모바일 새로운 이벤트",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=414948&page=6",
+                    "views": 949,
+                    "comments": 8
+                },
+                {
+                    "title": "프리티 모회사.. 대가리 하루만에 탈주",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=415033&page=4",
+                    "views": 911,
+                    "comments": 7
+                },
+                {
+                    "title": "아이즈 10기가 평생 1990 등 주말특가",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=415119&page=3",
+                    "views": 763,
+                    "comments": 4
+                },
+                {
+                    "title": "아이즈 주말 특가 떴다!",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=415049&page=4",
+                    "views": 711,
+                    "comments": 9
+                }
+            ]
+        }
     }
 ]
