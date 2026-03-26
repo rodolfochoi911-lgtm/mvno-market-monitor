@@ -5541,5 +5541,83 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-03-26",
+        "total_volume": {
+            "ppomppu": 56,
+            "dc": 0
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 0,
+            "유모바일": 1,
+            "헬로모바일": 1,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 1,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 0,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 0,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 2,
+            "시월모바일": 0,
+            "핀다이렉트": 1
+        },
+        "top_keywords": {
+            "갤럭시": 6,
+            "업데이트": 4,
+            "퀀텀6": 4,
+            "아이폰": 4,
+            "해지방어": 4,
+            "S26": 3,
+            "합니다": 3,
+            "시리즈": 2,
+            "사전예약": 2,
+            "폴드": 2
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "잠잠하던 맹호 SK가 슬슬 발벗고 나서려고 합니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3911160",
+                    "views": 2523,
+                    "comments": 11
+                },
+                {
+                    "title": "s26u 사전예약 놓친 게 후회 되네요.. 씨불..ㅠ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3911116",
+                    "views": 2487,
+                    "comments": 6
+                },
+                {
+                    "title": "4월에 lg위약금면제 소식이 있네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3911172",
+                    "views": 1981,
+                    "comments": 10
+                },
+                {
+                    "title": "A56(퀀텀6) vs A57(퀀텀7) 두께 및 무게 비교",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3911126",
+                    "views": 1933,
+                    "comments": 25
+                },
+                {
+                    "title": "퀀텀6 추지없이 성공",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3911170",
+                    "views": 1591,
+                    "comments": 2
+                }
+            ],
+            "dc": []
+        }
     }
 ]
