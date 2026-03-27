@@ -5619,5 +5619,114 @@
             ],
             "dc": []
         }
+    },
+    {
+        "date": "2026-03-27",
+        "total_volume": {
+            "ppomppu": 67,
+            "dc": 293
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 2,
+            "유모바일": 22,
+            "헬로모바일": 9,
+            "스카이라이프": 1,
+            "토스모바일": 2,
+            "리브엠": 4,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 3,
+            "프리티": 12,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 30,
+            "인스모바일": 2,
+            "이지모바일": 0,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 3,
+            "SKT_Air": 3,
+            "시월모바일": 0,
+            "핀다이렉트": 14
+        },
+        "top_keywords": {
+            "아이즈": 20,
+            "조이텔": 12,
+            "유모": 11,
+            "갤럭시": 8,
+            "쌀먹": 8,
+            "유모바일": 7,
+            "핀다": 7,
+            "프리티": 7,
+            "모나": 7,
+            "1780": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "퀀텀7 퀀텀6 나노리뷰 사양 비교",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3911259",
+                    "views": 2561,
+                    "comments": 19
+                },
+                {
+                    "title": "A17 기본어플 날리다가 먹통되었네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3911210",
+                    "views": 2378,
+                    "comments": 9
+                },
+                {
+                    "title": "유모바일 쌀가루먹 이벤트 ㅋㅋ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3911264",
+                    "views": 2035,
+                    "comments": 21
+                },
+                {
+                    "title": "10,000원대 3Mpbs 무제한 요금제 모음집 v.260327",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3911219",
+                    "views": 1915,
+                    "comments": 0
+                },
+                {
+                    "title": "조이텔 주말 특가 좋네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3911273",
+                    "views": 1823,
+                    "comments": 6
+                }
+            ],
+            "dc": [
+                {
+                    "title": "오 드디어 역대급 요금제인가?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417263&page=2",
+                    "views": 1121,
+                    "comments": 16
+                },
+                {
+                    "title": "아이즈 주말특가",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417159&page=4",
+                    "views": 932,
+                    "comments": 3
+                },
+                {
+                    "title": "이거 진짜임?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417006&page=6",
+                    "views": 842,
+                    "comments": 9
+                },
+                {
+                    "title": "유모바일 3월 프로모션 타임세일 갤럭시 추가",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417194&page=3",
+                    "views": 814,
+                    "comments": 8
+                },
+                {
+                    "title": "유모형 믿고있었다고!!!! 이츠 쌀먹전용떴다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417169&page=4",
+                    "views": 778,
+                    "comments": 13
+                }
+            ]
+        }
     }
 ]
