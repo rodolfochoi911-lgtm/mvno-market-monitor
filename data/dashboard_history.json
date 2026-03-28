@@ -5728,5 +5728,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-03-28",
+        "total_volume": {
+            "ppomppu": 63,
+            "dc": 230
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 2,
+            "유모바일": 17,
+            "헬로모바일": 6,
+            "스카이라이프": 1,
+            "토스모바일": 0,
+            "리브엠": 0,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 3,
+            "프리티": 5,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 13,
+            "인스모바일": 3,
+            "이지모바일": 0,
+            "티플러스": 2,
+            "KG모바일": 0,
+            "티다이렉트": 1,
+            "SKT_Air": 1,
+            "시월모바일": 1,
+            "핀다이렉트": 9
+        },
+        "top_keywords": {
+            "조이텔": 22,
+            "1780": 15,
+            "쌀먹": 10,
+            "2970": 8,
+            "유모바일": 8,
+            "아이폰": 7,
+            "회선": 7,
+            "유모": 7,
+            "아이즈": 6,
+            "256": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "샤오미 근황.jpg",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3911349",
+                    "views": 25704,
+                    "comments": 42
+                },
+                {
+                    "title": "S24U 당근했는대ㅜㅜ 청년폰 수리네영",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3911292",
+                    "views": 2459,
+                    "comments": 18
+                },
+                {
+                    "title": "진짜 호구들 많네요..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3911355",
+                    "views": 2343,
+                    "comments": 4
+                },
+                {
+                    "title": "퀀텀6 방금 전화해보니..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3911327",
+                    "views": 2325,
+                    "comments": 14
+                },
+                {
+                    "title": "t우주패스 쇼핑 g마켓 없어지네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3911284",
+                    "views": 2096,
+                    "comments": 10
+                }
+            ],
+            "dc": [
+                {
+                    "title": "ㅋㅋㅋㅋ 핀다 2970 벌써 따였노 ㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417310&page=5",
+                    "views": 1481,
+                    "comments": 9
+                },
+                {
+                    "title": "1780 와 존나 좋네!!!!!!",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417322&page=5",
+                    "views": 1337,
+                    "comments": 1
+                },
+                {
+                    "title": "1780 등판하니 핀다2970 바로 떴네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417335&page=5",
+                    "views": 1241,
+                    "comments": 4
+                },
+                {
+                    "title": "조이텔 1780",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417318&page=5",
+                    "views": 1030,
+                    "comments": 1
+                },
+                {
+                    "title": "조이텔 프리티랑 똑같은거 나왔네.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417326&page=5",
+                    "views": 923,
+                    "comments": 3
+                }
+            ]
+        }
     }
 ]
