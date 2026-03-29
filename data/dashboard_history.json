@@ -5837,5 +5837,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-03-29",
+        "total_volume": {
+            "ppomppu": 58,
+            "dc": 141
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 1,
+            "유모바일": 5,
+            "헬로모바일": 4,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 1,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 4,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 3,
+            "인스모바일": 1,
+            "이지모바일": 0,
+            "티플러스": 2,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 2,
+            "시월모바일": 0,
+            "핀다이렉트": 3
+        },
+        "top_keywords": {
+            "5명박": 7,
+            "2970": 6,
+            "1명박": 5,
+            "qos": 5,
+            "되나요": 4,
+            "갤럭시": 4,
+            "이심": 4,
+            "쉐이크": 4,
+            "이벤트": 4,
+            "있냐": 4
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "흙집 페이백 문제 생긴건가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3911359",
+                    "views": 9138,
+                    "comments": 21
+                },
+                {
+                    "title": "4월에 대란 터진다고 하네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3911394",
+                    "views": 3817,
+                    "comments": 25
+                },
+                {
+                    "title": "샤오미 17 울트라 할인하네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3911364",
+                    "views": 3003,
+                    "comments": 25
+                },
+                {
+                    "title": "ㅈㅍ위례 사장이랑 싸웠네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3911406",
+                    "views": 2777,
+                    "comments": 21
+                },
+                {
+                    "title": "알뜰폰 괜히 해지했네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3911389",
+                    "views": 1874,
+                    "comments": 6
+                }
+            ],
+            "dc": [
+                {
+                    "title": "조이텔은 보거라",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417582&page=4",
+                    "views": 1302,
+                    "comments": 7
+                },
+                {
+                    "title": "쉐이크 모바일 4월 이벤트 열려라 참깨",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417575&page=4",
+                    "views": 1235,
+                    "comments": 6
+                },
+                {
+                    "title": "더원모바일 19800요금제 사용하고 있는데",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417574&page=4",
+                    "views": 1057,
+                    "comments": 5
+                },
+                {
+                    "title": "4월이 오기만을 기다리는중",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417584&page=4",
+                    "views": 942,
+                    "comments": 6
+                },
+                {
+                    "title": "s26 +",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417576&page=4",
+                    "views": 901,
+                    "comments": 7
+                }
+            ]
+        }
     }
 ]
