@@ -5946,5 +5946,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-03-30",
+        "total_volume": {
+            "ppomppu": 66,
+            "dc": 257
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 6,
+            "유모바일": 20,
+            "헬로모바일": 17,
+            "스카이라이프": 1,
+            "토스모바일": 1,
+            "리브엠": 3,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 5,
+            "프리티": 4,
+            "모빙": 1,
+            "스노우맨": 1,
+            "아이즈모바일": 7,
+            "인스모바일": 0,
+            "이지모바일": 3,
+            "티플러스": 3,
+            "KG모바일": 0,
+            "티다이렉트": 1,
+            "SKT_Air": 4,
+            "시월모바일": 0,
+            "핀다이렉트": 3
+        },
+        "top_keywords": {
+            "조이텔": 15,
+            "형들": 10,
+            "쌀먹": 8,
+            "교체": 8,
+            "헬로모바일": 7,
+            "2970": 7,
+            "유모": 7,
+            "1780": 7,
+            "유모바일": 6,
+            "헬모": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "삼성폰 512기가 출고가 인상",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3911472",
+                    "views": 3094,
+                    "comments": 13
+                },
+                {
+                    "title": "가성비에 미친 인간이 s25+를 구매하고 싶은데요 (열람주의)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3911428",
+                    "views": 2652,
+                    "comments": 7
+                },
+                {
+                    "title": "유모바일 3월 이벤트코드별 혜택 정리",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3911462",
+                    "views": 2487,
+                    "comments": 12
+                },
+                {
+                    "title": "퀀텀7 sk 이동 준비해 봅니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3911456",
+                    "views": 2308,
+                    "comments": 23
+                },
+                {
+                    "title": "갤럭시A57(퀀텀7) 6.7인치군요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3911430",
+                    "views": 2119,
+                    "comments": 7
+                }
+            ],
+            "dc": [
+                {
+                    "title": "2970 4차 월말 월요일에 이게 나오네 ㅋㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417753&page=6",
+                    "views": 1206,
+                    "comments": 4
+                },
+                {
+                    "title": "조이텔 가입자수 몰렸나보네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=418022&page=2",
+                    "views": 850,
+                    "comments": 3
+                },
+                {
+                    "title": "m모 밀리요금제 << 이거 마지막기회라는데 혜자임?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417744&page=6",
+                    "views": 849,
+                    "comments": 3
+                },
+                {
+                    "title": "1780 전설이 되었다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417795&page=5",
+                    "views": 780,
+                    "comments": 4
+                },
+                {
+                    "title": "평생 안드만 사용한 형들 있어?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=417748&page=6",
+                    "views": 777,
+                    "comments": 7
+                }
+            ]
+        }
     }
 ]
