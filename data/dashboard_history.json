@@ -6055,5 +6055,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-03-31",
+        "total_volume": {
+            "ppomppu": 88,
+            "dc": 405
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 59,
+            "유모바일": 12,
+            "헬로모바일": 17,
+            "스카이라이프": 1,
+            "토스모바일": 2,
+            "리브엠": 1,
+            "우리원모바일": 2,
+            "이야기모바일": 7,
+            "에이모바일": 1,
+            "프리티": 4,
+            "모빙": 2,
+            "스노우맨": 0,
+            "아이즈모바일": 5,
+            "인스모바일": 3,
+            "이지모바일": 5,
+            "티플러스": 2,
+            "KG모바일": 1,
+            "티다이렉트": 2,
+            "SKT_Air": 4,
+            "시월모바일": 0,
+            "핀다이렉트": 8
+        },
+        "top_keywords": {
+            "엠모": 42,
+            "헬로모바일": 12,
+            "1명박": 11,
+            "조이텔": 11,
+            "포인트": 9,
+            "이심": 8,
+            "알닷": 7,
+            "4월": 6,
+            "유모": 6,
+            "바로유심": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "의무통화요..6대 환수금 위급 ㅠㅠ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3911576",
+                    "views": 10733,
+                    "comments": 78
+                },
+                {
+                    "title": "[추천] 데이터 5GB 평생 3,300원",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3911598",
+                    "views": 2570,
+                    "comments": 6
+                },
+                {
+                    "title": "LgU+ 알뜰폰 전 고객 무료 유심교체 서비스 시행",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3911505",
+                    "views": 1976,
+                    "comments": 9
+                },
+                {
+                    "title": "엘지 유플러스 유심 초기화 10개 할려고하면 커피라도 사들고가야겟죠?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3911501",
+                    "views": 1751,
+                    "comments": 13
+                },
+                {
+                    "title": "a17받았는데 후진느낌이 확나긴 하네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3911540",
+                    "views": 1746,
+                    "comments": 24
+                }
+            ],
+            "dc": [
+                {
+                    "title": "1780 → 990",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=418074&page=10",
+                    "views": 1154,
+                    "comments": 2
+                },
+                {
+                    "title": "핀다 1190 5500",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=418065&page=10",
+                    "views": 1051,
+                    "comments": 8
+                },
+                {
+                    "title": "슈가 4월행사",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=418432&page=4",
+                    "views": 1004,
+                    "comments": 2
+                },
+                {
+                    "title": "진짜 밑도 끝도 없네 ㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=418073&page=10",
+                    "views": 983,
+                    "comments": 2
+                },
+                {
+                    "title": "회선 수가 곧 자본이다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=418069&page=10",
+                    "views": 820,
+                    "comments": 6
+                }
+            ]
+        }
     }
 ]
