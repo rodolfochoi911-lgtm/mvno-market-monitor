@@ -6164,5 +6164,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-01",
+        "total_volume": {
+            "ppomppu": 94,
+            "dc": 456
+        },
+        "brand_sov": {
+            "세븐모바일": 2,
+            "KT엠모바일": 9,
+            "유모바일": 7,
+            "헬로모바일": 9,
+            "스카이라이프": 1,
+            "토스모바일": 4,
+            "리브엠": 3,
+            "우리원모바일": 7,
+            "이야기모바일": 4,
+            "에이모바일": 12,
+            "프리티": 8,
+            "모빙": 5,
+            "스노우맨": 0,
+            "아이즈모바일": 14,
+            "인스모바일": 4,
+            "이지모바일": 4,
+            "티플러스": 7,
+            "KG모바일": 2,
+            "티다이렉트": 2,
+            "SKT_Air": 9,
+            "시월모바일": 0,
+            "핀다이렉트": 24
+        },
+        "top_keywords": {
+            "조이텔": 33,
+            "4월": 18,
+            "핀다": 17,
+            "메뚜기": 16,
+            "아이즈": 10,
+            "5명박": 10,
+            "이심": 9,
+            "모나": 8,
+            "쌀먹": 8,
+            "2970": 8
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "air 만보기 포인트 또 개악하네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3911696",
+                    "views": 5099,
+                    "comments": 16
+                },
+                {
+                    "title": "요즘 성지 90%가 이작업 칩니다( 현직20년차 충격내부폭로 ) ㄹㄱ편",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3911616",
+                    "views": 3660,
+                    "comments": 14
+                },
+                {
+                    "title": "알뜰폰 평생요금제가 의미있나싶습니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3911666",
+                    "views": 2531,
+                    "comments": 15
+                },
+                {
+                    "title": "[26년 4월 알뜰폰요금제] 100기가,71기가 7개월, 저가회선유지용, 평생+mbps 요금...",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3911689",
+                    "views": 2336,
+                    "comments": 2
+                },
+                {
+                    "title": "랜더스데이 s26 울트라 구입했어요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3911651",
+                    "views": 2227,
+                    "comments": 11
+                }
+            ],
+            "dc": [
+                {
+                    "title": "26년 4월 모나 행사",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=418530&page=10",
+                    "views": 1764,
+                    "comments": 6
+                },
+                {
+                    "title": "26년 4월 티플러스 행사",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=418527&page=10",
+                    "views": 1440,
+                    "comments": 3
+                },
+                {
+                    "title": "26년 4월 모빙 행사",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=418526&page=10",
+                    "views": 1349,
+                    "comments": 2
+                },
+                {
+                    "title": "아이즈 떴다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=418982&page=2",
+                    "views": 1317,
+                    "comments": 16
+                },
+                {
+                    "title": "4월 크트 고객감사제",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=418540&page=10",
+                    "views": 1086,
+                    "comments": 12
+                }
+            ]
+        }
     }
 ]
