@@ -6273,5 +6273,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-02",
+        "total_volume": {
+            "ppomppu": 78,
+            "dc": 390
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 5,
+            "유모바일": 8,
+            "헬로모바일": 8,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 2,
+            "우리원모바일": 4,
+            "이야기모바일": 2,
+            "에이모바일": 1,
+            "프리티": 5,
+            "모빙": 0,
+            "스노우맨": 2,
+            "아이즈모바일": 12,
+            "인스모바일": 2,
+            "이지모바일": 0,
+            "티플러스": 3,
+            "KG모바일": 0,
+            "티다이렉트": 1,
+            "SKT_Air": 2,
+            "시월모바일": 11,
+            "핀다이렉트": 57
+        },
+        "top_keywords": {
+            "핀다": 39,
+            "조이텔": 22,
+            "2970": 20,
+            "국산텔": 13,
+            "위젯": 11,
+            "5G": 8,
+            "퀀텀": 8,
+            "아이즈": 8,
+            "메뚜기": 8,
+            "1780": 7
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "26년 4월 2일 알뜰폰 주요 요금제 정리",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3911749",
+                    "views": 3265,
+                    "comments": 6
+                },
+                {
+                    "title": "경찰 엘지 유플러스 압수수색 수사 본격화",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3911819",
+                    "views": 1901,
+                    "comments": 5
+                },
+                {
+                    "title": "S25자급제 랜더스데이 가격 괜찮은거죠?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3911770",
+                    "views": 1740,
+                    "comments": 11
+                },
+                {
+                    "title": "랜더스데이한우쟁이고,갤럭시 S26 자급제 구경",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3911767",
+                    "views": 1701,
+                    "comments": 8
+                },
+                {
+                    "title": "퀀텀5 조건",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3911807",
+                    "views": 1610,
+                    "comments": 36
+                }
+            ],
+            "dc": [
+                {
+                    "title": "핀다 2970",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=419422&page=3",
+                    "views": 1629,
+                    "comments": 7
+                },
+                {
+                    "title": "핀다 망한 이유 씨발 ㅋㅋㅋㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=419398&page=3",
+                    "views": 1486,
+                    "comments": 7
+                },
+                {
+                    "title": "아 멍청비용",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=419244&page=6",
+                    "views": 1444,
+                    "comments": 26
+                },
+                {
+                    "title": "핀다 매각 2970 위기",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=419226&page=6",
+                    "views": 1051,
+                    "comments": 8
+                },
+                {
+                    "title": "조이보이 뭐냐ㅋㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=419056&page=9",
+                    "views": 940,
+                    "comments": 0
+                }
+            ]
+        }
     }
 ]
