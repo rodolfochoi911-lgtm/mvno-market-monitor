@@ -6382,5 +6382,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-03",
+        "total_volume": {
+            "ppomppu": 75,
+            "dc": 332
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 1,
+            "유모바일": 4,
+            "헬로모바일": 5,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 5,
+            "우리원모바일": 7,
+            "이야기모바일": 0,
+            "에이모바일": 4,
+            "프리티": 0,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 30,
+            "인스모바일": 2,
+            "이지모바일": 1,
+            "티플러스": 4,
+            "KG모바일": 1,
+            "티다이렉트": 0,
+            "SKT_Air": 1,
+            "시월모바일": 5,
+            "핀다이렉트": 29
+        },
+        "top_keywords": {
+            "조이텔": 29,
+            "핀다": 22,
+            "아이즈": 21,
+            "2970": 8,
+            "3명박": 7,
+            "모나": 6,
+            "5g": 6,
+            "메뚜기": 6,
+            "S26": 5,
+            "알닷": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "엑시노스2600 배터리 드레인 현상.jpg",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3911906",
+                    "views": 2489,
+                    "comments": 15
+                },
+                {
+                    "title": "15GB+3Mbps 요금제 갈아타실 분들 참고하세요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3911858",
+                    "views": 2288,
+                    "comments": 3
+                },
+                {
+                    "title": "애플 급나누기 근황.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3911885",
+                    "views": 2082,
+                    "comments": 10
+                },
+                {
+                    "title": "오늘 A17은 조건 좋아졌네요 거의다 30개",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3911875",
+                    "views": 1870,
+                    "comments": 37
+                },
+                {
+                    "title": "s26u 밝기 심각한데요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3911861",
+                    "views": 1748,
+                    "comments": 21
+                }
+            ],
+            "dc": [
+                {
+                    "title": "절대 망할일없는 알뜰폰회사",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=419534&page=7",
+                    "views": 1040,
+                    "comments": 7
+                },
+                {
+                    "title": "아이즈 뜸",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=419836&page=3",
+                    "views": 959,
+                    "comments": 8
+                },
+                {
+                    "title": "핀다사태를 보니",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=419551&page=7",
+                    "views": 893,
+                    "comments": 0
+                },
+                {
+                    "title": "핀ㄷㅏ존 나 배신감느끼네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=419542&page=7",
+                    "views": 886,
+                    "comments": 0
+                },
+                {
+                    "title": "아이즈 5G 95기가+3명박 평생 27000",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=419715&page=5",
+                    "views": 871,
+                    "comments": 2
+                }
+            ]
+        }
     }
 ]
