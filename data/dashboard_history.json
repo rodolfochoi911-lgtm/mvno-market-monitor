@@ -6709,5 +6709,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-06",
+        "total_volume": {
+            "ppomppu": 78,
+            "dc": 167
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 0,
+            "유모바일": 6,
+            "헬로모바일": 7,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 3,
+            "우리원모바일": 0,
+            "이야기모바일": 1,
+            "에이모바일": 1,
+            "프리티": 1,
+            "모빙": 2,
+            "스노우맨": 0,
+            "아이즈모바일": 10,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 3,
+            "KG모바일": 0,
+            "티다이렉트": 4,
+            "SKT_Air": 1,
+            "시월모바일": 3,
+            "핀다이렉트": 5
+        },
+        "top_keywords": {
+            "인터넷": 8,
+            "아이즈": 8,
+            "조이텔": 7,
+            "s26": 6,
+            "퀀텀6": 5,
+            "유심교체": 5,
+            "업데이트": 4,
+            "해지방어": 4,
+            "S26": 4,
+            "엘지": 4
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "5회선 됐네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912088",
+                    "views": 2689,
+                    "comments": 17
+                },
+                {
+                    "title": "s26 많이 내렸네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912046",
+                    "views": 2172,
+                    "comments": 11
+                },
+                {
+                    "title": "삼성멤버스 One UI 8.5 업데이트 관련 공지 등록",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3912100",
+                    "views": 1791,
+                    "comments": 8
+                },
+                {
+                    "title": "갤럭시 S27 프로 모델 추가, 4개 모델 라인업",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3912102",
+                    "views": 1781,
+                    "comments": 15
+                },
+                {
+                    "title": "S26 시리즈 정품 카본 마그넷 케이스 출시",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912090",
+                    "views": 1764,
+                    "comments": 8
+                }
+            ],
+            "dc": [
+                {
+                    "title": "제4통 모나가 먹을거임",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=420296&page=4",
+                    "views": 1233,
+                    "comments": 8
+                },
+                {
+                    "title": "속보) 삼성 메시지 서비스 종료",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=420305&page=4",
+                    "views": 1213,
+                    "comments": 11
+                },
+                {
+                    "title": "인생 ㅅㅂ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=420292&page=4",
+                    "views": 1126,
+                    "comments": 16
+                },
+                {
+                    "title": "프리티 개 떡 상",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=420303&page=4",
+                    "views": 985,
+                    "comments": 4
+                },
+                {
+                    "title": "조이텔 90원 사실상 0원이네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=420429&page=2",
+                    "views": 866,
+                    "comments": 12
+                }
+            ]
+        }
     }
 ]
