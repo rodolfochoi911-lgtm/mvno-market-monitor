@@ -6818,5 +6818,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-07",
+        "total_volume": {
+            "ppomppu": 68,
+            "dc": 201
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 0,
+            "유모바일": 5,
+            "헬로모바일": 2,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 1,
+            "우리원모바일": 4,
+            "이야기모바일": 0,
+            "에이모바일": 1,
+            "프리티": 0,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 13,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 6,
+            "KG모바일": 2,
+            "티다이렉트": 1,
+            "SKT_Air": 0,
+            "시월모바일": 3,
+            "핀다이렉트": 4
+        },
+        "top_keywords": {
+            "알닷": 22,
+            "쿠폰": 14,
+            "아이즈": 10,
+            "인터넷": 8,
+            "해지방어": 7,
+            "조이텔": 7,
+            "쉐이크": 6,
+            "유플러스": 5,
+            "s26": 5,
+            "번이": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "One ui 8.0 짜증나는 점",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912128",
+                    "views": 3389,
+                    "comments": 12
+                },
+                {
+                    "title": "s26 일반 256 자급제 83만",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912177",
+                    "views": 2028,
+                    "comments": 23
+                },
+                {
+                    "title": "tsmc가 1위 삼파가2위라  수주율 비슷한줄 알았더니",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912126",
+                    "views": 1942,
+                    "comments": 26
+                },
+                {
+                    "title": "[정보공유] LG망 유심업데이트/교체 문자 받은 분들 참고용",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912142",
+                    "views": 1423,
+                    "comments": 10
+                },
+                {
+                    "title": "갤럭시S22U 드디어 액정 갔네요 ㅋㅋ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3912202",
+                    "views": 1414,
+                    "comments": 5
+                }
+            ],
+            "dc": [
+                {
+                    "title": "와 바로유심 100장..",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=420605&page=2",
+                    "views": 1091,
+                    "comments": 10
+                },
+                {
+                    "title": "쉐이크 밀리 5G 3만원 평생",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=420551&page=3",
+                    "views": 870,
+                    "comments": 6
+                },
+                {
+                    "title": "슈가폰 평생 1870 7기가",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=420662&page=1",
+                    "views": 855,
+                    "comments": 6
+                },
+                {
+                    "title": "떴따",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=420484&page=5",
+                    "views": 753,
+                    "comments": 2
+                },
+                {
+                    "title": "아이즈는 뭐다?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=420463&page=5",
+                    "views": 698,
+                    "comments": 3
+                }
+            ]
+        }
     }
 ]
