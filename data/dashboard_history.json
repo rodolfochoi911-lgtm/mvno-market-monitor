@@ -6927,5 +6927,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-08",
+        "total_volume": {
+            "ppomppu": 54,
+            "dc": 252
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 0,
+            "유모바일": 7,
+            "헬로모바일": 4,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 7,
+            "우리원모바일": 4,
+            "이야기모바일": 0,
+            "에이모바일": 3,
+            "프리티": 0,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 3,
+            "인스모바일": 1,
+            "이지모바일": 1,
+            "티플러스": 2,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 6,
+            "시월모바일": 2,
+            "핀다이렉트": 11
+        },
+        "top_keywords": {
+            "알닷": 19,
+            "2970": 11,
+            "핀다": 10,
+            "쉐이크": 10,
+            "업데이트": 9,
+            "쿠폰": 9,
+            "유플": 8,
+            "유심교체": 8,
+            "교체": 6,
+            "커피": 4
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "시월모바일 5Mbps+ 무제한 역대가네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912239",
+                    "views": 3844,
+                    "comments": 23
+                },
+                {
+                    "title": "삼성폰 특히 폴드사지마세요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3912255",
+                    "views": 3358,
+                    "comments": 33
+                },
+                {
+                    "title": "중고로 판매하실분들은 esim 쓰지마세요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3912247",
+                    "views": 3268,
+                    "comments": 19
+                },
+                {
+                    "title": "A17 한대 더 개통했네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912244",
+                    "views": 2884,
+                    "comments": 29
+                },
+                {
+                    "title": "S27부터 프로 모델 추가",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912216",
+                    "views": 2661,
+                    "comments": 15
+                }
+            ],
+            "dc": [
+                {
+                    "title": "쉐이크 왜 욕함?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=420703&page=6",
+                    "views": 1287,
+                    "comments": 12
+                },
+                {
+                    "title": "2970 기다리시는 여러분들",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=420683&page=6",
+                    "views": 1040,
+                    "comments": 1
+                },
+                {
+                    "title": "쉐이크 변화구 날렸네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=420689&page=6",
+                    "views": 956,
+                    "comments": 3
+                },
+                {
+                    "title": "쉐이크는 이따위로 통수를 치면서 가입자 유지되길 바라나 ㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=420679&page=6",
+                    "views": 940,
+                    "comments": 3
+                },
+                {
+                    "title": "쉐이크5G 5mbps 밀리 또 내렸구나",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=420693&page=6",
+                    "views": 852,
+                    "comments": 1
+                }
+            ]
+        }
     }
 ]
