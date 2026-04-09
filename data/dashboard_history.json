@@ -7036,5 +7036,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-09",
+        "total_volume": {
+            "ppomppu": 80,
+            "dc": 435
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 2,
+            "유모바일": 5,
+            "헬로모바일": 4,
+            "스카이라이프": 1,
+            "토스모바일": 2,
+            "리브엠": 5,
+            "우리원모바일": 5,
+            "이야기모바일": 0,
+            "에이모바일": 2,
+            "프리티": 6,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 13,
+            "인스모바일": 0,
+            "이지모바일": 4,
+            "티플러스": 0,
+            "KG모바일": 1,
+            "티다이렉트": 2,
+            "SKT_Air": 4,
+            "시월모바일": 6,
+            "핀다이렉트": 14
+        },
+        "top_keywords": {
+            "조이텔": 49,
+            "1780": 26,
+            "1980": 23,
+            "업데이트": 10,
+            "5g": 9,
+            "5G": 8,
+            "아이즈": 8,
+            "갤럭시": 7,
+            "통무": 7,
+            "2970": 7
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "대리점에서 비정상 개통관련 전화왔네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912307",
+                    "views": 9670,
+                    "comments": 40
+                },
+                {
+                    "title": "10GB+1Mbps 300분 6,490원 평생요금제 이정도면 혜자맞죠?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3912351",
+                    "views": 8327,
+                    "comments": 7
+                },
+                {
+                    "title": "알뜰폰 요금제 1년 사용시 혜택 비교",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912296",
+                    "views": 4799,
+                    "comments": 14
+                },
+                {
+                    "title": "오늘 통신집단상가 갔다왔는데 무조건 존버 하세요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912274",
+                    "views": 2274,
+                    "comments": 5
+                },
+                {
+                    "title": "모든 요금제들의 데이터 소진후 400kbps 무제한 주는듯",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912285",
+                    "views": 1877,
+                    "comments": 24
+                }
+            ],
+            "dc": [
+                {
+                    "title": "아이즈 1780 떴다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=420954&page=10",
+                    "views": 1192,
+                    "comments": 6
+                },
+                {
+                    "title": "조이텔 1780 / 1980",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=421035&page=9",
+                    "views": 962,
+                    "comments": 12
+                },
+                {
+                    "title": "속보) LTE 5G 통합",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=421020&page=9",
+                    "views": 872,
+                    "comments": 11
+                },
+                {
+                    "title": "조이텔 1780 vs 1980 다들 어떤 걸로 타시나요?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=420982&page=10",
+                    "views": 868,
+                    "comments": 2
+                },
+                {
+                    "title": "조이텔 1980 문자 50건? 100건?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=420979&page=10",
+                    "views": 851,
+                    "comments": 4
+                }
+            ]
+        }
     }
 ]
