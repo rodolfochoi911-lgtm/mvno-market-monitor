@@ -7145,5 +7145,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-10",
+        "total_volume": {
+            "ppomppu": 77,
+            "dc": 385
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 0,
+            "유모바일": 10,
+            "헬로모바일": 3,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 4,
+            "우리원모바일": 3,
+            "이야기모바일": 1,
+            "에이모바일": 5,
+            "프리티": 1,
+            "모빙": 4,
+            "스노우맨": 1,
+            "아이즈모바일": 32,
+            "인스모바일": 0,
+            "이지모바일": 4,
+            "티플러스": 4,
+            "KG모바일": 0,
+            "티다이렉트": 2,
+            "SKT_Air": 3,
+            "시월모바일": 3,
+            "핀다이렉트": 9
+        },
+        "top_keywords": {
+            "조이텔": 30,
+            "1780": 22,
+            "아이즈": 16,
+            "1980": 13,
+            "5g": 12,
+            "5G": 12,
+            "2970": 10,
+            "인터넷": 9,
+            "통무": 9,
+            "모나": 8
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "5G, 21,000원 요금제 출시 예상&27,830원 요금제 출시 예정",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912369",
+                    "views": 3033,
+                    "comments": 18
+                },
+                {
+                    "title": "오늘자 디프 S26U 자급제 행사가격 정리.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3912449",
+                    "views": 2771,
+                    "comments": 19
+                },
+                {
+                    "title": "알뜰폰 테더링 속도제한 망했네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912374",
+                    "views": 2735,
+                    "comments": 35
+                },
+                {
+                    "title": "갤26 사전예약때보다 더 싸게 판매하네요 ㅎ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3912430",
+                    "views": 2683,
+                    "comments": 17
+                },
+                {
+                    "title": "홈플 삼성스토어 S26 512자급제",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912413",
+                    "views": 2638,
+                    "comments": 14
+                }
+            ],
+            "dc": [
+                {
+                    "title": "아이즈 통무 1690이다 ㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=421750&page=3",
+                    "views": 1066,
+                    "comments": 18
+                },
+                {
+                    "title": "조이텔 7기가 통무 1980이 매력적이지 않는이유",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=421462&page=8",
+                    "views": 1038,
+                    "comments": 4
+                },
+                {
+                    "title": "핀다2970  막차떠났어요",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=421473&page=8",
+                    "views": 920,
+                    "comments": 1
+                },
+                {
+                    "title": "조이텔 채용공고",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=421478&page=8",
+                    "views": 919,
+                    "comments": 6
+                },
+                {
+                    "title": "뽐뿌에 Qos 안걸리는 요금제 떳다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=421496&page=8",
+                    "views": 888,
+                    "comments": 5
+                }
+            ]
+        }
     }
 ]
