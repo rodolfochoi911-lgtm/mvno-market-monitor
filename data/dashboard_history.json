@@ -7254,5 +7254,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-11",
+        "total_volume": {
+            "ppomppu": 64,
+            "dc": 271
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 3,
+            "유모바일": 1,
+            "헬로모바일": 1,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 5,
+            "우리원모바일": 5,
+            "이야기모바일": 5,
+            "에이모바일": 3,
+            "프리티": 1,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 16,
+            "인스모바일": 1,
+            "이지모바일": 3,
+            "티플러스": 2,
+            "KG모바일": 0,
+            "티다이렉트": 1,
+            "SKT_Air": 3,
+            "시월모바일": 1,
+            "핀다이렉트": 7
+        },
+        "top_keywords": {
+            "조이텔": 25,
+            "2970": 13,
+            "5g": 12,
+            "1780": 11,
+            "아이즈": 10,
+            "1980": 9,
+            "통무": 7,
+            "5G": 7,
+            "번이": 6,
+            "이유": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "A57 매우 얇고, 가볍게 나왔네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3912514",
+                    "views": 3431,
+                    "comments": 33
+                },
+                {
+                    "title": "S26U 512자급제 구입기록",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3912509",
+                    "views": 2603,
+                    "comments": 13
+                },
+                {
+                    "title": "지마켓 sk 기변 퀀텀6 16만",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912472",
+                    "views": 2257,
+                    "comments": 10
+                },
+                {
+                    "title": "아이즈  통무 요금제 주말특가 1690원 외..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912461",
+                    "views": 2195,
+                    "comments": 4
+                },
+                {
+                    "title": "2026년 4월 알뜰폰 추천 요금제 (평생할인 요금제만)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912494",
+                    "views": 1745,
+                    "comments": 3
+                }
+            ],
+            "dc": [
+                {
+                    "title": "1780이 파이브쥐 역대최저가라는게 너무 강력함 ㅅㅂ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=421910&page=6",
+                    "views": 1042,
+                    "comments": 27
+                },
+                {
+                    "title": "5G 1780 이제 다시 못나오는 이유",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=422166&page=1",
+                    "views": 895,
+                    "comments": 3
+                },
+                {
+                    "title": "고유가 피해지원금 (기생수들은 4월27일부터 신청해라)",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=422158&page=1",
+                    "views": 811,
+                    "comments": 21
+                },
+                {
+                    "title": "1780 마감 들어간 이유",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=422138&page=2",
+                    "views": 764,
+                    "comments": 2
+                },
+                {
+                    "title": "1780 1980 내일까진가봐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=422059&page=3",
+                    "views": 700,
+                    "comments": 7
+                }
+            ]
+        }
     }
 ]
