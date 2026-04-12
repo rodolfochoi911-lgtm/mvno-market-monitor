@@ -7363,5 +7363,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-12",
+        "total_volume": {
+            "ppomppu": 17,
+            "dc": 195
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 1,
+            "유모바일": 3,
+            "헬로모바일": 0,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 0,
+            "우리원모바일": 2,
+            "이야기모바일": 0,
+            "에이모바일": 1,
+            "프리티": 0,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 3,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 2,
+            "시월모바일": 3,
+            "핀다이렉트": 7
+        },
+        "top_keywords": {
+            "조이텔": 20,
+            "2970": 13,
+            "1780": 9,
+            "1980": 5,
+            "1명박": 5,
+            "1123": 4,
+            "핀다": 4,
+            "5G": 4,
+            "5명박": 4,
+            "이유": 4
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "A시리즈 엄청 올랐네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912544",
+                    "views": 3640,
+                    "comments": 20
+                },
+                {
+                    "title": "폰요금은 소득공제대상이아니군요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912538",
+                    "views": 2195,
+                    "comments": 10
+                },
+                {
+                    "title": "s23 울트라 512",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912533",
+                    "views": 1820,
+                    "comments": 4
+                },
+                {
+                    "title": "갤26 엘지 번이 -45네요(공통지원금기준)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912543",
+                    "views": 1378,
+                    "comments": 15
+                },
+                {
+                    "title": "엘지번이 s26, 74000원",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912552",
+                    "views": 1360,
+                    "comments": 6
+                }
+            ],
+            "dc": [
+                {
+                    "title": "떴따~~~~~~~~~~~~~ 시발",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=422213&page=7",
+                    "views": 909,
+                    "comments": 2
+                },
+                {
+                    "title": "유모바일 5G 95+3Mbps 괜찮은 듯?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=422189&page=7",
+                    "views": 907,
+                    "comments": 8
+                },
+                {
+                    "title": "5G 1780 마감 3시간 전",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=422376&page=4",
+                    "views": 846,
+                    "comments": 3
+                },
+                {
+                    "title": "뭐야 2970 또 열었음???",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=422261&page=6",
+                    "views": 799,
+                    "comments": 5
+                },
+                {
+                    "title": "근데 영화관 공짜표 뿌리는 건 알고잇슴?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=422201&page=7",
+                    "views": 793,
+                    "comments": 11
+                }
+            ]
+        }
     }
 ]
