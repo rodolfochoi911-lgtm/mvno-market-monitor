@@ -7472,5 +7472,114 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-13",
+        "total_volume": {
+            "ppomppu": 90,
+            "dc": 957
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 1,
+            "유모바일": 10,
+            "헬로모바일": 1,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 6,
+            "우리원모바일": 2,
+            "이야기모바일": 4,
+            "에이모바일": 4,
+            "프리티": 4,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 22,
+            "인스모바일": 0,
+            "이지모바일": 7,
+            "티플러스": 1,
+            "KG모바일": 1,
+            "티다이렉트": 1,
+            "SKT_Air": 4,
+            "시월모바일": 4,
+            "핀다이렉트": 9
+        },
+        "top_keywords": {
+            "도시락": 161,
+            "업데이트": 39,
+            "231": 38,
+            "우팀장": 34,
+            "조이텔": 22,
+            "이심": 19,
+            "교체": 17,
+            "원칩": 17,
+            "5명박": 17,
+            "유플": 15
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "알뜰폰 괜찮은 요금제 떴네요 11+2+3 요금제 18900원",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3912588",
+                    "views": 15610,
+                    "comments": 67
+                },
+                {
+                    "title": "업체에서 별지급 미루는데 어떻게 대처해야할까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3912589",
+                    "views": 14883,
+                    "comments": 22
+                },
+                {
+                    "title": "11번가 skt s26 256 기변 가격 괜찮은거 같네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3912584",
+                    "views": 3476,
+                    "comments": 38
+                },
+                {
+                    "title": "퀀텀6 글 삭제했습니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912651",
+                    "views": 2504,
+                    "comments": 36
+                },
+                {
+                    "title": "아이즈모바일 엄청나네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3912658",
+                    "views": 2019,
+                    "comments": 9
+                }
+            ],
+            "dc": [
+                {
+                    "title": "도시락 에러요금 개통시켜준다는데",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=422820&page=14",
+                    "views": 1489,
+                    "comments": 9
+                },
+                {
+                    "title": "모나 1100 평생",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423266&page=6",
+                    "views": 1290,
+                    "comments": 16
+                },
+                {
+                    "title": "에이모는 이심 신청하면 개통실패네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423196&page=7",
+                    "views": 1164,
+                    "comments": 0
+                },
+                {
+                    "title": "개통 완",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=422606&page=17",
+                    "views": 1136,
+                    "comments": 9
+                },
+                {
+                    "title": "이 사람 상당히 호감가네요",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423395&page=4",
+                    "views": 1078,
+                    "comments": 3
+                }
+            ]
+        }
     }
 ]
