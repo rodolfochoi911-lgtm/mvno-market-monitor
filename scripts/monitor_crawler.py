@@ -198,7 +198,7 @@ def extract_top_keywords(df):
     return Counter(filtered_words).most_common(10)
 
 def send_slack_message(message):
-    """테스트 모드 확인 후 팀즈 전송 또는 출력"""
+    """테스트 모드 확인 후 팀즈(Adaptive Card) 전송 또는 출력"""
     webhook_url = os.environ.get('COPILOT_WEBHOOK_URL')
     
     if TEST_MODE:
@@ -210,14 +210,38 @@ def send_slack_message(message):
         return
 
     if webhook_url:
+        # 💡 여기가 핵심! 팀즈 Workflows가 요구하는 '적응형 카드(Adaptive Card)' 규격으로 포장
+        payload = {
+            "type": "message",
+            "attachments": [
+                {
+                    "contentType": "application/vnd.microsoft.card.adaptive",
+                    "content": {
+                        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+                        "type": "AdaptiveCard",
+                        "version": "1.2",
+                        "body": [
+                            {
+                                "type": "TextBlock",
+                                "text": message,
+                                "wrap": True
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+        
         try:
-            response = requests.post(webhook_url, json={"text": message})
+            response = requests.post(webhook_url, json=payload)
             response.raise_for_status()
             print("✅ 팀즈(Copilot) 전송 완료")
-        except Exception as e:
+        except requests.exceptions.RequestException as e:
             print(f"❌ 팀즈(Copilot) 전송 실패: {e}")
+            if e.response is not None:
+                print(f"🔍 에러 상세 원인: {e.response.text}") # 왜 실패했는지 상세 이유 출력
     else:
-        print("⚠️ COPILOT_WEBHOOK_URL이 설정되지 않았습니다.")
+        print("⚠️ COPILOT_WEBHOOK_URL이 설정되지 않았습니다."))
 
 def analyze_and_notify(p_posts, d_posts):
     total_posts = p_posts + d_posts
