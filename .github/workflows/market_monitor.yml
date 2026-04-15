@@ -34,7 +34,7 @@ jobs:
 
       - name: Run Crawler
         env:
-          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          COPILOT_WEBHOOK_URL: ${{ secrets.COPILOT_WEBHOOK_URL }}  # <--- SLACK/TEAMS에서 COPILOT으로 변경!
           TEST_MODE: ${{ github.event.inputs.test_mode }}  # <--- 이 줄 추가!
         # 파이썬 스크립트에 날짜 인자 전달
         run: |
