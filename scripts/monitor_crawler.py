@@ -201,16 +201,18 @@ def send_slack_message(message):
     """테스트 모드 확인 후 팀즈(Adaptive Card) 전송 또는 출력"""
     webhook_url = os.environ.get('COPILOT_WEBHOOK_URL')
     
+    # 💡 [핵심 추가] 팀즈 마크다운은 엔터 하나(\n)를 무시하므로, 두 개(\n\n)로 강제 변환하여 줄바꿈 해결!
+    teams_message = message.replace('\n', '\n\n')
+    
     if TEST_MODE:
         print("\n" + "="*40)
         print(f"📢 [TEST MODE] 알림 발송 생략 (Target: {TARGET_DATE})")
         print("="*40)
-        print(message)
+        print(teams_message)
         print("="*40 + "\n")
         return
 
     if webhook_url:
-        # 💡 여기가 핵심! 팀즈 Workflows가 요구하는 '적응형 카드(Adaptive Card)' 규격으로 포장
         payload = {
             "type": "message",
             "attachments": [
@@ -223,7 +225,7 @@ def send_slack_message(message):
                         "body": [
                             {
                                 "type": "TextBlock",
-                                "text": message,
+                                "text": teams_message,  # 변환된 메시지 삽입
                                 "wrap": True
                             }
                         ]
@@ -239,7 +241,7 @@ def send_slack_message(message):
         except requests.exceptions.RequestException as e:
             print(f"❌ 팀즈(Copilot) 전송 실패: {e}")
             if e.response is not None:
-                print(f"🔍 에러 상세 원인: {e.response.text}") # 왜 실패했는지 상세 이유 출력
+                print(f"🔍 에러 상세 원인: {e.response.text}") 
     else:
         print("⚠️ COPILOT_WEBHOOK_URL이 설정되지 않았습니다.")
 
