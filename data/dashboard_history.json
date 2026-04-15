@@ -7477,7 +7477,7 @@
         "date": "2026-04-13",
         "total_volume": {
             "ppomppu": 90,
-            "dc": 950
+            "dc": 945
         },
         "brand_sov": {
             "세븐모바일": 1,
@@ -7502,11 +7502,11 @@
             "SKT_Air": 4,
             "시월모바일": 4,
             "핀다이렉트": 9,
-            "도시락모바일": 195
+            "도시락모바일": 194
         },
         "top_keywords": {
-            "도시락": 160,
-            "업데이트": 39,
+            "도시락": 159,
+            "업데이트": 38,
             "231": 38,
             "우팀장": 34,
             "조이텔": 22,
@@ -7520,65 +7520,65 @@
             "ppomppu": [
                 {
                     "title": "알뜰폰 괜찮은 요금제 떴네요 11+2+3 요금제 18900원",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=707&no=3912588",
-                    "views": 16020,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=7&divpage=707&no=3912588",
+                    "views": 16557,
                     "comments": 67
                 },
                 {
                     "title": "업체에서 별지급 미루는데 어떻게 대처해야할까요?",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=707&no=3912589",
-                    "views": 15056,
-                    "comments": 23
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=7&divpage=707&no=3912589",
+                    "views": 15349,
+                    "comments": 24
                 },
                 {
                     "title": "11번가 skt s26 256 기변 가격 괜찮은거 같네요",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=707&no=3912584",
-                    "views": 3619,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=8&divpage=707&no=3912584",
+                    "views": 3793,
                     "comments": 38
                 },
                 {
                     "title": "퀀텀6 글 삭제했습니다.",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912651",
-                    "views": 2817,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=707&no=3912651",
+                    "views": 3037,
                     "comments": 36
                 },
                 {
                     "title": "아이즈모바일 엄청나네요",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912658",
-                    "views": 2453,
-                    "comments": 9
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=707&no=3912658",
+                    "views": 2753,
+                    "comments": 10
                 }
             ],
             "dc": [
                 {
+                    "title": "이 사람 상당히 호감가네요",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423395&page=14",
+                    "views": 2064,
+                    "comments": 6
+                },
+                {
+                    "title": "교체용 유심 4가지 알려준다.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423475&page=13",
+                    "views": 1999,
+                    "comments": 20
+                },
+                {
                     "title": "도시락 에러요금 개통시켜준다는데",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=422820&page=17",
-                    "views": 1638,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=422820&page=24",
+                    "views": 1925,
                     "comments": 9
                 },
                 {
                     "title": "모나 1100 평생",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423266&page=10",
-                    "views": 1491,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423266&page=17",
+                    "views": 1779,
                     "comments": 16
-                },
-                {
-                    "title": "이 사람 상당히 호감가네요",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423395&page=8",
-                    "views": 1487,
-                    "comments": 4
                 },
                 {
                     "title": "진짜 되네 ㅋㅋㅋ",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423523&page=5",
-                    "views": 1388,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423523&page=12",
+                    "views": 1410,
                     "comments": 5
-                },
-                {
-                    "title": "교체용 유심 3가지 알려준다.",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423475&page=6",
-                    "views": 1178,
-                    "comments": 16
                 }
             ]
         }
