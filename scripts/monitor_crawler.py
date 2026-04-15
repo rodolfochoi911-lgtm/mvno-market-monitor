@@ -241,7 +241,7 @@ def send_slack_message(message):
             if e.response is not None:
                 print(f"🔍 에러 상세 원인: {e.response.text}") # 왜 실패했는지 상세 이유 출력
     else:
-        print("⚠️ COPILOT_WEBHOOK_URL이 설정되지 않았습니다."))
+        print("⚠️ COPILOT_WEBHOOK_URL이 설정되지 않았습니다.")
 
 def analyze_and_notify(p_posts, d_posts):
     total_posts = p_posts + d_posts
