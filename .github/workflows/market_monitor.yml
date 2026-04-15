@@ -21,10 +21,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4  # <--- v3에서 v4로 업데이트 (경고 해결)
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5  # <--- v4에서 v5로 업데이트 (경고 해결)
         with:
           python-version: '3.9'
 
