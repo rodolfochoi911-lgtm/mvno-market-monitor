@@ -7586,8 +7586,8 @@
     {
         "date": "2026-04-14",
         "total_volume": {
-            "ppomppu": 58,
-            "dc": 325
+            "ppomppu": 72,
+            "dc": 320
         },
         "brand_sov": {
             "세븐모바일": 0,
@@ -7618,77 +7618,77 @@
             "알닷": 30,
             "모나": 18,
             "택배": 18,
-            "유플": 15,
             "교체": 14,
+            "유플": 14,
             "조이텔": 13,
             "도시락": 13,
-            "유심교체": 10,
+            "유심교체": 11,
             "2970": 10,
-            "택배로": 8
+            "업데이트": 9
         },
         "top_posts": {
             "ppomppu": [
                 {
                     "title": "안드로메다 전국스마트폰 최저가 카톡 오픈방 피해자",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912733",
-                    "views": 27250,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912733",
+                    "views": 28777,
+                    "comments": 47
+                },
+                {
+                    "title": "26년 4월 알뜰폰 요금제 정리!! (U+만)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3912693",
+                    "views": 11898,
                     "comments": 44
                 },
                 {
-                    "title": "25w 충전기 괜히 샀네요 ㅡㅡ",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3912768",
-                    "views": 2148,
-                    "comments": 64
-                },
-                {
                     "title": "추가지원금 30만 40만 짜리 위약금 터지겠네요",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3912762",
-                    "views": 1780,
-                    "comments": 6
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912762",
+                    "views": 2628,
+                    "comments": 7
                 },
                 {
-                    "title": "11번가 퀀텀6 SK기변 5G ZEM 스마트(26000)",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912709",
-                    "views": 1711,
-                    "comments": 6
+                    "title": "'짝수의 저주' 삼성전자 모바일.. 시험대 놓인 '갤S26'",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3912698",
+                    "views": 2605,
+                    "comments": 16
                 },
                 {
-                    "title": "퀀텀6 택배 괜찮은 조건인가요?",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912706",
-                    "views": 1674,
-                    "comments": 10
+                    "title": "제대로 낚인거 같아요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912754",
+                    "views": 2402,
+                    "comments": 21
                 }
             ],
             "dc": [
                 {
-                    "title": "SKT 에어 이벤트행사 20일까지 연장",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423642&page=6",
-                    "views": 1227,
-                    "comments": 4
+                    "title": "민원넣음",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423862&page=6",
+                    "views": 1661,
+                    "comments": 17
                 },
                 {
                     "title": "대리점에서 연락온 게이임",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423740&page=4",
-                    "views": 1207,
-                    "comments": 62
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423740&page=8",
+                    "views": 1410,
+                    "comments": 65
+                },
+                {
+                    "title": "SKT 에어 이벤트행사 20일까지 연장",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423642&page=10",
+                    "views": 1366,
+                    "comments": 4
                 },
                 {
                     "title": "5명박 평생 23000원?",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423552&page=8",
-                    "views": 1027,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423552&page=12",
+                    "views": 1058,
                     "comments": 4
                 },
                 {
-                    "title": "결국 4월도 대빙하기네",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423548&page=8",
-                    "views": 953,
-                    "comments": 4
-                },
-                {
-                    "title": "2027년부터 6g 시작됨.. lte도 슬슬 수명다하는거임 ㅇㅇ",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423624&page=6",
-                    "views": 953,
-                    "comments": 58
+                    "title": "드디어 평생 요금제 2970 출시",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423774&page=8",
+                    "views": 1019,
+                    "comments": 2
                 }
             ]
         }
