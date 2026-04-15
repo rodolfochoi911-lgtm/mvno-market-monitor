@@ -198,12 +198,12 @@ def extract_top_keywords(df):
     return Counter(filtered_words).most_common(10)
 
 def send_slack_message(message):
-    """테스트 모드 확인 후 슬랙 전송 또는 출력"""
+    """테스트 모드 확인 후 팀즈 전송 또는 출력"""
     webhook_url = os.environ.get('COPILOT_WEBHOOK_URL')
     
     if TEST_MODE:
         print("\n" + "="*40)
-        print(f"📢 [TEST MODE] 슬랙 발송 생략 (Target: {TARGET_DATE})")
+        print(f"📢 [TEST MODE] 알림 발송 생략 (Target: {TARGET_DATE})")
         print("="*40)
         print(message)
         print("="*40 + "\n")
@@ -213,11 +213,11 @@ def send_slack_message(message):
         try:
             response = requests.post(webhook_url, json={"text": message})
             response.raise_for_status()
-            print("✅ 슬랙 전송 완료")
+            print("✅ 팀즈(Copilot) 전송 완료")
         except Exception as e:
-            print(f"❌ 슬랙 전송 실패: {e}")
+            print(f"❌ 팀즈(Copilot) 전송 실패: {e}")
     else:
-        print("⚠️ SLACK_WEBHOOK_URL이 설정되지 않았습니다.")
+        print("⚠️ COPILOT_WEBHOOK_URL이 설정되지 않았습니다.")
 
 def analyze_and_notify(p_posts, d_posts):
     total_posts = p_posts + d_posts
@@ -267,7 +267,8 @@ def analyze_and_notify(p_posts, d_posts):
         
         if b_name == '세븐모바일' and len(filtered) > 0:
             for _, row in filtered.iterrows():
-                seven_links.append(f"  └ <{row['link']}|{row['title']}>")
+                # 팀즈 마크다운 포맷 적용 [텍스트](URL)
+                seven_links.append(f"  └ [{row['title']}]({row['link']})")
 
     sov_lines = []
     seven_cnt = brand_counts.get('세븐모바일', 0)
@@ -282,7 +283,8 @@ def analyze_and_notify(p_posts, d_posts):
     sov_msg = "\n".join(sov_lines)
     seven_block = ""
     if seven_links:
-        seven_block = f"\n*📌 세븐모바일 언급 ({len(seven_links)}건)*\n" + "\n".join(seven_links)
+        # 팀즈 볼드체 포맷 적용 **텍스트**
+        seven_block = f"\n**📌 세븐모바일 언급 ({len(seven_links)}건)**\n" + "\n".join(seven_links)
 
     top_keywords = extract_top_keywords(df)
     keyword_msg = ""
@@ -298,7 +300,8 @@ def analyze_and_notify(p_posts, d_posts):
             title = row['title']
             icon = ""
             if any(k in title for k in ['0원', '무제한', '평생', '대란', '공짜']): icon = " 💰"
-            lines.append(f"• <{row['link']}|{title}>{icon} (👁️ {row['views']:,} / 💬 {row['comments']})")
+            # 팀즈 마크다운 포맷 적용 [텍스트](URL)
+            lines.append(f"• [{title}]({row['link']}){icon} (👁️ {row['views']:,} / 💬 {row['comments']})")
         top5_data = top5[['title', 'link', 'views', 'comments']].to_dict('records')
         return "\n".join(lines), top5_data
 
@@ -332,26 +335,27 @@ def analyze_and_notify(p_posts, d_posts):
     with open(f'data/monitoring/data_{TARGET_DATE}.json', 'w', encoding='utf-8') as f:
         json.dump(total_posts, f, ensure_ascii=False, indent=4)
 
+    # 전체 마크다운을 팀즈 규격(**볼드**, [링크](URL))으로 싹 바꿈
     slack_text = f"""
-*[📊 {TARGET_DATE} 알뜰폰 커뮤니티 모니터링]*
+**[📊 {TARGET_DATE} 알뜰폰 커뮤니티 모니터링]**
 
-*🌡️ 커뮤니티 활성도*
+**🌡️ 커뮤니티 활성도**
 • 뽐뿌: {p_status} ({p_cnt}개)
 • 디시: {d_status} ({d_cnt}개)
 
-*📈 브랜드 언급량 (SOV)*
+**📈 브랜드 언급량 (SOV)**
 {sov_msg}{seven_block}
 
-*🔥 핫 키워드 (Top 10)*
+**🔥 핫 키워드 (Top 10)**
 {keyword_msg}
 
-*1️⃣ 뽐뿌 휴대폰포럼 (Top 5)*
+**1️⃣ 뽐뿌 휴대폰포럼 (Top 5)**
 {p_msg}
 
-*2️⃣ 디시 알뜰폰 갤러리 (Top 5)*
+**2️⃣ 디시 알뜰폰 갤러리 (Top 5)**
 {d_msg}
 
-👉 <https://mvno-market-monitor-pdbgy5y4mzsjsjwf3rgqfs.streamlit.app/|웹 대시보드 확인하기>
+👉 [웹 대시보드 확인하기](https://mvno-market-monitor-pdbgy5y4mzsjsjwf3rgqfs.streamlit.app/)
     """
     
     send_slack_message(slack_text)
