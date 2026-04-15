@@ -7696,22 +7696,22 @@
     {
         "date": "2026-04-15",
         "total_volume": {
-            "ppomppu": 50,
-            "dc": 242
+            "ppomppu": 53,
+            "dc": 300
         },
         "brand_sov": {
             "세븐모바일": 0,
-            "KT엠모바일": 2,
+            "KT엠모바일": 3,
             "유모바일": 3,
             "헬로모바일": 1,
             "스카이라이프": 0,
-            "토스모바일": 1,
+            "토스모바일": 3,
             "리브엠": 5,
             "우리원모바일": 0,
-            "이야기모바일": 0,
-            "에이모바일": 3,
-            "프리티": 2,
-            "모빙": 0,
+            "이야기모바일": 1,
+            "에이모바일": 4,
+            "프리티": 4,
+            "모빙": 1,
             "스노우맨": 0,
             "아이즈모바일": 3,
             "인스모바일": 0,
@@ -7720,85 +7720,85 @@
             "KG모바일": 2,
             "티다이렉트": 3,
             "SKT_Air": 4,
-            "시월모바일": 0,
-            "핀다이렉트": 3,
-            "도시락모바일": 10
+            "시월모바일": 1,
+            "핀다이렉트": 4,
+            "도시락모바일": 12
         },
         "top_keywords": {
-            "조이텔": 15,
-            "2970": 12,
-            "도시락": 10,
-            "이심": 10,
-            "모나": 9,
-            "조이보이": 5,
-            "택배": 5,
-            "사은품": 4,
-            "esim": 4,
-            "알닷": 4
+            "조이텔": 18,
+            "2970": 14,
+            "모나": 11,
+            "이심": 11,
+            "도시락": 11,
+            "알닷": 7,
+            "esim": 6,
+            "택배": 6,
+            "사은품": 5,
+            "조이보이": 5
         },
         "top_posts": {
             "ppomppu": [
                 {
+                    "title": "S26 기본 , 플러스 엄청 안팔리나보네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3912831",
+                    "views": 4001,
+                    "comments": 17
+                },
+                {
                     "title": "ps&m 퀀텀6 번이 가격",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912789",
-                    "views": 1800,
-                    "comments": 13
+                    "views": 2109,
+                    "comments": 14
+                },
+                {
+                    "title": "당근에 폰 상자 없이 폰 파는건 어떤 이유일까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3912824",
+                    "views": 1936,
+                    "comments": 42
                 },
                 {
                     "title": "s26u 후기",
                     "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912773",
-                    "views": 1612,
+                    "views": 1856,
                     "comments": 9
                 },
                 {
-                    "title": "휴대폰 바꾸려는데 말장난이 가관이네요",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912784",
-                    "views": 1313,
-                    "comments": 11
-                },
-                {
-                    "title": "어제 대리점가서 유심5개 싹 교체했습니다.",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912777",
-                    "views": 1290,
-                    "comments": 2
-                },
-                {
-                    "title": "SKT 번호놀이 천번",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912772",
-                    "views": 1223,
-                    "comments": 4
+                    "title": "정말 싸다고 가면 안되겠네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3912813",
+                    "views": 1758,
+                    "comments": 7
                 }
             ],
             "dc": [
                 {
                     "title": "야들아 이요금제 탐나지않아보여??",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423916&page=5",
-                    "views": 1162,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423916&page=7",
+                    "views": 1180,
                     "comments": 14
                 },
                 {
                     "title": "오류 요금제 하나 보이는데",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423915&page=5",
-                    "views": 1098,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423915&page=7",
+                    "views": 1110,
                     "comments": 19
                 },
                 {
                     "title": "모요 들어갔는데 무무 4.5+1 2970 있네",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423914&page=5",
-                    "views": 1071,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423914&page=7",
+                    "views": 1087,
                     "comments": 2
                 },
                 {
-                    "title": "유심 택배 신청 해놨다.",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423931&page=5",
-                    "views": 826,
-                    "comments": 1
+                    "title": "2970 드디어 떴다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=424127&page=3",
+                    "views": 1050,
+                    "comments": 4
                 },
                 {
-                    "title": "이거 돈 낭비임?",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423929&page=5",
-                    "views": 824,
-                    "comments": 3
+                    "title": "LTE 평생이 평생이 아닌이유",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=423981&page=6",
+                    "views": 911,
+                    "comments": 28
                 }
             ]
         }
