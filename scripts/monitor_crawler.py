@@ -17,7 +17,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 # --- [설정 및 입력값 처리] ---
-SLACK_WEBHOOK_URL = os.environ.get("SLACK_WEBHOOK_URL")
+COPILOT_WEBHOOK_URL = os.environ.get("COPILOT_WEBHOOK_URL")
 TEST_MODE = os.environ.get("TEST_MODE", "false").lower() == "true"
 
 TZ_KST = pytz.timezone('Asia/Seoul')
@@ -199,7 +199,7 @@ def extract_top_keywords(df):
 
 def send_slack_message(message):
     """테스트 모드 확인 후 슬랙 전송 또는 출력"""
-    webhook_url = os.environ.get('SLACK_WEBHOOK_URL')
+    webhook_url = os.environ.get('COPILOT_WEBHOOK_URL')
     
     if TEST_MODE:
         print("\n" + "="*40)
