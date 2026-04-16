@@ -7802,5 +7802,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-16",
+        "total_volume": {
+            "ppomppu": 75,
+            "dc": 232
+        },
+        "brand_sov": {
+            "세븐모바일": 3,
+            "KT엠모바일": 4,
+            "유모바일": 18,
+            "헬로모바일": 2,
+            "스카이라이프": 0,
+            "토스모바일": 2,
+            "리브엠": 12,
+            "우리원모바일": 1,
+            "이야기모바일": 1,
+            "에이모바일": 1,
+            "프리티": 7,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 8,
+            "인스모바일": 1,
+            "이지모바일": 2,
+            "티플러스": 1,
+            "KG모바일": 2,
+            "티다이렉트": 1,
+            "SKT_Air": 1,
+            "시월모바일": 1,
+            "핀다이렉트": 6,
+            "도시락모바일": 8
+        },
+        "top_keywords": {
+            "알닷": 15,
+            "유모바일": 8,
+            "쌀먹": 8,
+            "리브엠": 8,
+            "유플": 7,
+            "인터넷": 7,
+            "도시락": 7,
+            "업데이트": 6,
+            "조이텔": 6,
+            "프리티": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "KT 고객보답 좋네요~",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3912912",
+                    "views": 2792,
+                    "comments": 18
+                },
+                {
+                    "title": "스마트폰 '카툭튀' 사라지나.. 차세대 메타렌즈 대량생산 길 열렸다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912834",
+                    "views": 2760,
+                    "comments": 6
+                },
+                {
+                    "title": "\"해지하겠다\" 한마디에 상품권 60만원..모르면 '호구'돼",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912844",
+                    "views": 1895,
+                    "comments": 1
+                },
+                {
+                    "title": "트라이폴드 3개월 사용 후기(단점만)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912869",
+                    "views": 1588,
+                    "comments": 6
+                },
+                {
+                    "title": "ps&m 퀀텀6 5.2  와이드8 천원",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912895",
+                    "views": 1290,
+                    "comments": 8
+                }
+            ],
+            "dc": [
+                {
+                    "title": "핀다2970 돈아깝네 걍 탈퇴할까봐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=424280&page=5",
+                    "views": 1103,
+                    "comments": 4
+                },
+                {
+                    "title": "LG 유심 원칩 4개 쌀먹 완료",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=424439&page=2",
+                    "views": 977,
+                    "comments": 9
+                },
+                {
+                    "title": "국산텔 5G 속도 인증",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=424253&page=6",
+                    "views": 936,
+                    "comments": 3
+                },
+                {
+                    "title": "이제 평생으로 옮겨야겠다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=424430&page=3",
+                    "views": 884,
+                    "comments": 4
+                },
+                {
+                    "title": "현재기준 5G+5명박은 쉐이크 밀리가 정배임?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=424271&page=5",
+                    "views": 868,
+                    "comments": 10
+                }
+            ]
+        }
     }
 ]
