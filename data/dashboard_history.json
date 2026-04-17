@@ -7912,5 +7912,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-17",
+        "total_volume": {
+            "ppomppu": 103,
+            "dc": 483
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 29,
+            "유모바일": 188,
+            "헬로모바일": 2,
+            "스카이라이프": 0,
+            "토스모바일": 3,
+            "리브엠": 38,
+            "우리원모바일": 4,
+            "이야기모바일": 1,
+            "에이모바일": 0,
+            "프리티": 3,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 9,
+            "인스모바일": 0,
+            "이지모바일": 4,
+            "티플러스": 0,
+            "KG모바일": 1,
+            "티다이렉트": 0,
+            "SKT_Air": 0,
+            "시월모바일": 3,
+            "핀다이렉트": 3,
+            "도시락모바일": 1
+        },
+        "top_keywords": {
+            "유모": 100,
+            "유모바일": 49,
+            "쌀먹": 41,
+            "리브엠": 27,
+            "스크래치": 16,
+            "엠모": 14,
+            "이벤트": 12,
+            "모나": 10,
+            "회선": 10,
+            "알닷": 10
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "유모바일 야쿠르트 요금제 쌀먹 정리 (월 38,500원 쌀먹..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912961",
+                    "views": 13309,
+                    "comments": 150
+                },
+                {
+                    "title": "떴다..유모바일..쌀먹.. 이거 여러회선도 상관없나요??",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912954",
+                    "views": 2972,
+                    "comments": 48
+                },
+                {
+                    "title": "오늘 알뜰폰 무슨 날인가요 쌀먹",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912959",
+                    "views": 2901,
+                    "comments": 16
+                },
+                {
+                    "title": "유모바일 스크래치 이벤트 링크입니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3912978",
+                    "views": 2676,
+                    "comments": 18
+                },
+                {
+                    "title": "유모바일 쌀먹 네이버페이 2만원이래요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3912997",
+                    "views": 2174,
+                    "comments": 12
+                }
+            ],
+            "dc": [
+                {
+                    "title": "리브엠 쌀먹 왜 1.5만이냐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=424523&page=11",
+                    "views": 1149,
+                    "comments": 10
+                },
+                {
+                    "title": "쌀먹 총 정리",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=424783&page=6",
+                    "views": 915,
+                    "comments": 6
+                },
+                {
+                    "title": "유모바일 이벤트 정리하면 이게 맞나?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=424936&page=3",
+                    "views": 894,
+                    "comments": 10
+                },
+                {
+                    "title": "유모쌀먹 정리",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=424777&page=6",
+                    "views": 874,
+                    "comments": 12
+                },
+                {
+                    "title": "유플 유심받으려면 해외기기나 구형기기여야되나보네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=424527&page=11",
+                    "views": 838,
+                    "comments": 18
+                }
+            ]
+        }
     }
 ]
