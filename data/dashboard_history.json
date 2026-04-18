@@ -8022,5 +8022,84 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-18",
+        "total_volume": {
+            "ppomppu": 78,
+            "dc": 0
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 1,
+            "유모바일": 34,
+            "헬로모바일": 1,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 0,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 0,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 0,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 0,
+            "시월모바일": 0,
+            "핀다이렉트": 0,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "유모바일": 25,
+            "이벤트": 5,
+            "S26": 3,
+            "이벤트코드": 3,
+            "s26": 2,
+            "퀀텀6": 2,
+            "인터넷": 2,
+            "미납": 2,
+            "될까요": 2,
+            "유모발": 2
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "다이소에서 유플러스 유심 3장이나 구매했는데..ㅠㅠ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3913112",
+                    "views": 3188,
+                    "comments": 25
+                },
+                {
+                    "title": "퀀텀6 롯데온 선약100원 진짜일까요??",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913094",
+                    "views": 2622,
+                    "comments": 24
+                },
+                {
+                    "title": "새벽에 일어나서 유모바일 이벤트 봤네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3913044",
+                    "views": 2599,
+                    "comments": 3
+                },
+                {
+                    "title": "삼성 트레이더스에서 S26 자급제 더블업 행사하는데, 가격어때요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913082",
+                    "views": 2279,
+                    "comments": 13
+                },
+                {
+                    "title": "26시리즈는 망했다고 보면 되려나요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913102",
+                    "views": 2198,
+                    "comments": 5
+                }
+            ],
+            "dc": []
+        }
     }
 ]
