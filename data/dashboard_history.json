@@ -8101,5 +8101,115 @@
             ],
             "dc": []
         }
+    },
+    {
+        "date": "2026-04-19",
+        "total_volume": {
+            "ppomppu": 49,
+            "dc": 153
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 2,
+            "유모바일": 7,
+            "헬로모바일": 0,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 4,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 1,
+            "프리티": 0,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 3,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 1,
+            "KG모바일": 1,
+            "티다이렉트": 0,
+            "SKT_Air": 0,
+            "시월모바일": 1,
+            "핀다이렉트": 6,
+            "도시락모바일": 1
+        },
+        "top_keywords": {
+            "2970": 15,
+            "유모": 6,
+            "1명박": 5,
+            "S26": 4,
+            "512": 4,
+            "s26": 4,
+            "원칩": 4,
+            "나도": 4,
+            "인터넷": 3,
+            "유심교체": 3
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "이마트 일렉 갤럭시s26u 512+버즈3패키지",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913145",
+                    "views": 3201,
+                    "comments": 22
+                },
+                {
+                    "title": "퀀텀7 a57 리뷰 나왔네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3913185",
+                    "views": 2160,
+                    "comments": 10
+                },
+                {
+                    "title": "동네 이마트 일렉트로마트 S26 후기",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913160",
+                    "views": 2082,
+                    "comments": 1
+                },
+                {
+                    "title": "S25 발열 끝내주네요. 언제 발열없는 폰이 나올까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913132",
+                    "views": 2054,
+                    "comments": 7
+                },
+                {
+                    "title": "갤럭시s26 호갱당한것같은데 어떤가요..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913137",
+                    "views": 2032,
+                    "comments": 12
+                }
+            ],
+            "dc": [
+                {
+                    "title": "2970진짜 떳네 존버했는데 나이스",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=425351&page=4",
+                    "views": 1212,
+                    "comments": 9
+                },
+                {
+                    "title": "419 기념 2970 3차 떴다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=425354&page=4",
+                    "views": 1071,
+                    "comments": 8
+                },
+                {
+                    "title": "유심 샀는데 뭐라뭐라 하네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=425481&page=1",
+                    "views": 1061,
+                    "comments": 10
+                },
+                {
+                    "title": "모나 1100+ 에이모 110 탄 애들 겁나많나보다.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=425324&page=4",
+                    "views": 1043,
+                    "comments": 2
+                },
+                {
+                    "title": "드디어 떴따!!!!!!!!!!!!!!! 일요일아침에? 말이되노?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=425337&page=4",
+                    "views": 966,
+                    "comments": 0
+                }
+            ]
+        }
     }
 ]
