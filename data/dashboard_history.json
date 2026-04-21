@@ -8321,5 +8321,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-21",
+        "total_volume": {
+            "ppomppu": 59,
+            "dc": 260
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 3,
+            "유모바일": 19,
+            "헬로모바일": 7,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 16,
+            "우리원모바일": 8,
+            "이야기모바일": 0,
+            "에이모바일": 1,
+            "프리티": 1,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 2,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 4,
+            "KG모바일": 2,
+            "티다이렉트": 0,
+            "SKT_Air": 7,
+            "시월모바일": 2,
+            "핀다이렉트": 1,
+            "도시락모바일": 2
+        },
+        "top_keywords": {
+            "알닷": 25,
+            "리브엠": 13,
+            "유모": 9,
+            "인터넷": 7,
+            "교체": 7,
+            "유심교체": 6,
+            "우리원": 6,
+            "유플": 6,
+            "했는데": 6,
+            "에스원": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "약정폰 판매 후 잠적한 놈에게 환불 받은 썰.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913309",
+                    "views": 11093,
+                    "comments": 118
+                },
+                {
+                    "title": "SK에서 갑자기 정책이 들어갔다네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3913280",
+                    "views": 2575,
+                    "comments": 2
+                },
+                {
+                    "title": "EU, 2027년도부터 교체형 배터리 의무화",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3913342",
+                    "views": 1669,
+                    "comments": 12
+                },
+                {
+                    "title": "티플러스 알뜰폰 셀프개통 이벤트 쿠폰",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3913275",
+                    "views": 1494,
+                    "comments": 3
+                },
+                {
+                    "title": "슬슬 폰이 골골대네요..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913313",
+                    "views": 1484,
+                    "comments": 21
+                }
+            ],
+            "dc": [
+                {
+                    "title": "이 짓도 이제 지친다...",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=426055&page=2",
+                    "views": 956,
+                    "comments": 21
+                },
+                {
+                    "title": "알닷 원칩 11개 꿀꺽 감사",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=425874&page=5",
+                    "views": 875,
+                    "comments": 11
+                },
+                {
+                    "title": "5명박 7개월 9900은 선넘네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=425975&page=3",
+                    "views": 786,
+                    "comments": 12
+                },
+                {
+                    "title": "미안 된다고 하네 ㅇㅇ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=425922&page=4",
+                    "views": 744,
+                    "comments": 19
+                },
+                {
+                    "title": "도시락 KT 뜸",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=425815&page=6",
+                    "views": 709,
+                    "comments": 0
+                }
+            ]
+        }
     }
 ]
