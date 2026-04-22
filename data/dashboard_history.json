@@ -8431,5 +8431,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-22",
+        "total_volume": {
+            "ppomppu": 62,
+            "dc": 180
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 2,
+            "유모바일": 8,
+            "헬로모바일": 2,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 13,
+            "우리원모바일": 3,
+            "이야기모바일": 1,
+            "에이모바일": 1,
+            "프리티": 1,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 2,
+            "인스모바일": 0,
+            "이지모바일": 2,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 2,
+            "SKT_Air": 1,
+            "시월모바일": 2,
+            "핀다이렉트": 1,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "알닷": 13,
+            "에스원": 9,
+            "리브엠": 8,
+            "2970": 7,
+            "해지방어": 5,
+            "유모": 5,
+            "그냥": 4,
+            "이심": 4,
+            "사은품": 4,
+            "번호놀이": 4
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "신분증 스캔본 보내는 분들은 주의하셔야 할듯",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913360",
+                    "views": 2747,
+                    "comments": 12
+                },
+                {
+                    "title": "요즘 성지 90%가 이작업 칩니다( 현직20년차 충격내부폭로 ) ㄹㄱ편",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3913388",
+                    "views": 2259,
+                    "comments": 10
+                },
+                {
+                    "title": "퀀텀6 11번가 4월23일 오전 11시에 타임딜이 있네요 참고하세요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3913401",
+                    "views": 2029,
+                    "comments": 6
+                },
+                {
+                    "title": "SK 기변 T다이렉트 S26 울트라 512GB(더블업 이벤트)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913364",
+                    "views": 1789,
+                    "comments": 13
+                },
+                {
+                    "title": "유플러스 유심 업데이트 했는데 유심 교체 해달라고 직영점 방문하면 너무 얌체인가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3913348",
+                    "views": 1788,
+                    "comments": 16
+                }
+            ],
+            "dc": [
+                {
+                    "title": "쌀먹하고 회선 10개씩 하는사람들은",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=426120&page=5",
+                    "views": 959,
+                    "comments": 25
+                },
+                {
+                    "title": "친구한태는 알뜰폰 추천 하지마라",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=426302&page=2",
+                    "views": 840,
+                    "comments": 17
+                },
+                {
+                    "title": "듀얼심용  가성비폰 추천함",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=426245&page=3",
+                    "views": 755,
+                    "comments": 13
+                },
+                {
+                    "title": "몇달간 평생만 탔는데 의미없는듯..",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=426165&page=4",
+                    "views": 702,
+                    "comments": 12
+                },
+                {
+                    "title": "이야기모바일 1123 9900원",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=426169&page=4",
+                    "views": 681,
+                    "comments": 3
+                }
+            ]
+        }
     }
 ]
