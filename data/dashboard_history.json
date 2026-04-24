@@ -8651,5 +8651,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-24",
+        "total_volume": {
+            "ppomppu": 22,
+            "dc": 352
+        },
+        "brand_sov": {
+            "세븐모바일": 2,
+            "KT엠모바일": 71,
+            "유모바일": 22,
+            "헬로모바일": 1,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 42,
+            "우리원모바일": 2,
+            "이야기모바일": 1,
+            "에이모바일": 0,
+            "프리티": 1,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 15,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 1,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 5,
+            "시월모바일": 1,
+            "핀다이렉트": 4,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "엠모": 55,
+            "리브엠": 31,
+            "알닷": 18,
+            "아이즈": 13,
+            "유모바일": 10,
+            "유모": 10,
+            "쌀먹": 10,
+            "바로유심": 8,
+            "네페": 6,
+            "이벤트": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "혹시 SK 기변 대란인가요?!",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3913569",
+                    "views": 1534,
+                    "comments": 4
+                },
+                {
+                    "title": "유모바일 4월 17일에 했던 이벤트랑 오늘 하는거랑 혜택이 똑같은가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3913562",
+                    "views": 1265,
+                    "comments": 4
+                },
+                {
+                    "title": "알닷 원칩 껍데기 이거 버려도되는건가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3913558",
+                    "views": 1149,
+                    "comments": 5
+                },
+                {
+                    "title": "유모바일 유심 이렇게 온거는 쿠팡에서 구매한걸까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3913573",
+                    "views": 1092,
+                    "comments": 5
+                },
+                {
+                    "title": "지금 엠모바일 이벤트 하는건 예전보다 혜택이 안좋은건가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3913565",
+                    "views": 949,
+                    "comments": 5
+                }
+            ],
+            "dc": [
+                {
+                    "title": "리브앰 이벤트 연장했다ㅋㅋㅋㅋㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=426824&page=4",
+                    "views": 1149,
+                    "comments": 35
+                },
+                {
+                    "title": "아이즈 주말특가 통무",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=426862&page=3",
+                    "views": 1138,
+                    "comments": 12
+                },
+                {
+                    "title": "최근 옆나라 일본 번호이동의 변화",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=426755&page=5",
+                    "views": 1095,
+                    "comments": 15
+                },
+                {
+                    "title": "유모바일 네페 또 나왔다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=426803&page=4",
+                    "views": 1076,
+                    "comments": 10
+                },
+                {
+                    "title": "📱 알뜰폰 프로모션 구글시트",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=426663&page=7",
+                    "views": 1045,
+                    "comments": 2
+                }
+            ]
+        }
     }
 ]
