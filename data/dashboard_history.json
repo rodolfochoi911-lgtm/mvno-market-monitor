@@ -8871,5 +8871,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-26",
+        "total_volume": {
+            "ppomppu": 55,
+            "dc": 160
+        },
+        "brand_sov": {
+            "세븐모바일": 3,
+            "KT엠모바일": 42,
+            "유모바일": 21,
+            "헬로모바일": 2,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 10,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 1,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 0,
+            "인스모바일": 1,
+            "이지모바일": 1,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 1,
+            "SKT_Air": 1,
+            "시월모바일": 0,
+            "핀다이렉트": 0,
+            "도시락모바일": 1
+        },
+        "top_keywords": {
+            "엠모": 27,
+            "쌀먹": 12,
+            "유모바일": 9,
+            "리브엠": 9,
+            "엠모바일": 6,
+            "유모": 5,
+            "이벤트": 5,
+            "간편유심": 4,
+            "공용유심": 4,
+            "회선": 4
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "어제, 그제 올라왔던 100기가 메뚜기 요금제?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913682",
+                    "views": 2605,
+                    "comments": 1
+                },
+                {
+                    "title": "[단독]SK텔레콤, '알뜰폰 공용유심' 도입LGU+KT 추격 시동",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3913715",
+                    "views": 2284,
+                    "comments": 12
+                },
+                {
+                    "title": "엠모 타시는 분들이 많은가보네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913696",
+                    "views": 1646,
+                    "comments": 11
+                },
+                {
+                    "title": "다이소 핸드폰 충전기 알에프텍 맞을까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3913727",
+                    "views": 1603,
+                    "comments": 17
+                },
+                {
+                    "title": "삼성스토어다녀왔는데 26은 다들관심이없네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3913720",
+                    "views": 1562,
+                    "comments": 3
+                }
+            ],
+            "dc": [
+                {
+                    "title": "[단독]SK텔레콤, '알뜰폰 공용유심' 도입…LGU+·KT 추격 시동",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=427342&page=3",
+                    "views": 1222,
+                    "comments": 12
+                },
+                {
+                    "title": "엠모보단 리브엠 타는게 맞는거같다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=427260&page=4",
+                    "views": 1066,
+                    "comments": 4
+                },
+                {
+                    "title": "SKT 알뜰폰 공용유심(간편유심) 나오는 이유",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=427362&page=2",
+                    "views": 913,
+                    "comments": 9
+                },
+                {
+                    "title": "엠모 유모 리브엠 셋다 씹버러지같은데",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=427258&page=4",
+                    "views": 822,
+                    "comments": 2
+                },
+                {
+                    "title": "모나 1100 종료임박 뜸",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=427324&page=3",
+                    "views": 820,
+                    "comments": 5
+                }
+            ]
+        }
     }
 ]
