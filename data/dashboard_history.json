@@ -8981,5 +8981,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-27",
+        "total_volume": {
+            "ppomppu": 59,
+            "dc": 269
+        },
+        "brand_sov": {
+            "세븐모바일": 2,
+            "KT엠모바일": 39,
+            "유모바일": 18,
+            "헬로모바일": 3,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 24,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 3,
+            "프리티": 5,
+            "모빙": 3,
+            "스노우맨": 0,
+            "아이즈모바일": 4,
+            "인스모바일": 0,
+            "이지모바일": 2,
+            "티플러스": 1,
+            "KG모바일": 1,
+            "티다이렉트": 0,
+            "SKT_Air": 0,
+            "시월모바일": 0,
+            "핀다이렉트": 7,
+            "도시락모바일": 3
+        },
+        "top_keywords": {
+            "엠모": 26,
+            "리브엠": 19,
+            "유모바일": 11,
+            "알닷": 10,
+            "2970": 6,
+            "이제": 5,
+            "휴대폰": 5,
+            "유플": 5,
+            "프리티": 5,
+            "원칩": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "5월 이마트고래잇페스타",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913754",
+                    "views": 2629,
+                    "comments": 8
+                },
+                {
+                    "title": "kt엠모바일 얍샵하네요.ㅎㅎ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913755",
+                    "views": 2257,
+                    "comments": 19
+                },
+                {
+                    "title": "유알모 찐막타임세일 끝",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913766",
+                    "views": 2017,
+                    "comments": 12
+                },
+                {
+                    "title": "유모바일 대란 탑승실패한듯",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3913795",
+                    "views": 1976,
+                    "comments": 11
+                },
+                {
+                    "title": "삼성 닷컴 s26울트라 가격 좋네요.. (삼성 닷컴에서 사전 예약하고 구매 안한 사람)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913770",
+                    "views": 1898,
+                    "comments": 11
+                }
+            ],
+            "dc": [
+                {
+                    "title": "뽐뿌에서도 사기 당하나보네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=427725&page=1",
+                    "views": 1100,
+                    "comments": 20
+                },
+                {
+                    "title": "이마트24 SKT 알뜰폰 간편유심 단독 판매",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=427484&page=5",
+                    "views": 1050,
+                    "comments": 4
+                },
+                {
+                    "title": "2970 단 한짤 요약",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=427449&page=6",
+                    "views": 884,
+                    "comments": 1
+                },
+                {
+                    "title": "알닷에서 유심 교체하라고 협박 문자 왓노 ㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=427621&page=3",
+                    "views": 853,
+                    "comments": 16
+                },
+                {
+                    "title": "U+ 샤오미 벤 먹었다 ㅅㅂ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=427719&page=1",
+                    "views": 835,
+                    "comments": 41
+                }
+            ]
+        }
     }
 ]
