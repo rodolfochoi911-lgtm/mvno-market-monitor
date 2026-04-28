@@ -9091,5 +9091,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-28",
+        "total_volume": {
+            "ppomppu": 72,
+            "dc": 222
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 12,
+            "유모바일": 20,
+            "헬로모바일": 2,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 18,
+            "우리원모바일": 0,
+            "이야기모바일": 3,
+            "에이모바일": 1,
+            "프리티": 1,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 2,
+            "인스모바일": 0,
+            "이지모바일": 2,
+            "티플러스": 2,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 2,
+            "시월모바일": 2,
+            "핀다이렉트": 6,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "유모바일": 15,
+            "리브엠": 12,
+            "쌀먹": 7,
+            "이제": 6,
+            "알닷": 5,
+            "원칩": 5,
+            "엠모바일": 5,
+            "엠모": 5,
+            "s26": 4,
+            "5명박": 4
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "알뜰폰 입문하면서 알게된 사소한것들 공유해봅니다. 혹시 틀린 사실이 있으면 조언부탁...",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913858",
+                    "views": 8149,
+                    "comments": 33
+                },
+                {
+                    "title": "초기불량 오진으로 14일 넘겨놓고 \"조립 폰 써라\"는 삼성이 정상인가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913830",
+                    "views": 6450,
+                    "comments": 52
+                },
+                {
+                    "title": "오늘 신청 필수.. 유모바일 4월 찐찐막타임세일 정리 (3개월간 2.8만원 쌀먹 가능)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913855",
+                    "views": 2534,
+                    "comments": 22
+                },
+                {
+                    "title": "떳다 유모바일 찐찐막타임세일 ㅋ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3913874",
+                    "views": 2286,
+                    "comments": 10
+                },
+                {
+                    "title": "3년을 함께한 s23 확실히 명기 입니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913861",
+                    "views": 1913,
+                    "comments": 13
+                }
+            ],
+            "dc": [
+                {
+                    "title": "26년 4월 유모바일: 찐찐막타임세일",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=427933&page=2",
+                    "views": 1414,
+                    "comments": 14
+                },
+                {
+                    "title": "아이패드 또 떴다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=427859&page=3",
+                    "views": 1034,
+                    "comments": 11
+                },
+                {
+                    "title": "아이패드 83에 먹은놈들 ㅈㄴ 부럽네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=427737&page=5",
+                    "views": 987,
+                    "comments": 1
+                },
+                {
+                    "title": "유모바일 쌀먹 또 나왔다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=427856&page=3",
+                    "views": 970,
+                    "comments": 12
+                },
+                {
+                    "title": "와이프한테 쌀먹 다회선 걸림 시발",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=427782&page=5",
+                    "views": 966,
+                    "comments": 39
+                }
+            ]
+        }
     }
 ]
