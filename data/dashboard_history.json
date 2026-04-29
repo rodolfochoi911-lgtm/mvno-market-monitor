@@ -9201,5 +9201,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-04-29",
+        "total_volume": {
+            "ppomppu": 68,
+            "dc": 167
+        },
+        "brand_sov": {
+            "세븐모바일": 2,
+            "KT엠모바일": 15,
+            "유모바일": 41,
+            "헬로모바일": 1,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 20,
+            "우리원모바일": 4,
+            "이야기모바일": 1,
+            "에이모바일": 0,
+            "프리티": 0,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 2,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 1,
+            "KG모바일": 0,
+            "티다이렉트": 3,
+            "SKT_Air": 0,
+            "시월모바일": 2,
+            "핀다이렉트": 2,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "유모": 26,
+            "리브엠": 16,
+            "유모바일": 11,
+            "엠모": 10,
+            "esim": 7,
+            "쌀먹": 7,
+            "통화": 5,
+            "있는": 5,
+            "유플": 5,
+            "핸드폰": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "어르신들 폼부심이 엄청난가 봅니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3913941",
+                    "views": 12872,
+                    "comments": 49
+                },
+                {
+                    "title": "유모바일 찐찐막 28일에서 29~30일로 연장ㅋ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3913894",
+                    "views": 3340,
+                    "comments": 15
+                },
+                {
+                    "title": "5월 조건 대박 뜰거 같긴하네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3913962",
+                    "views": 3262,
+                    "comments": 12
+                },
+                {
+                    "title": "전국민 QoS 400kbps 는 너무 한다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3913902",
+                    "views": 2189,
+                    "comments": 17
+                },
+                {
+                    "title": "쌀먹 요금제 어차피 다음달에 또 나올겁니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3913910",
+                    "views": 1730,
+                    "comments": 16
+                }
+            ],
+            "dc": [
+                {
+                    "title": "다들 메인은 본진 사용하는거 아녔어?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=428186&page=2",
+                    "views": 718,
+                    "comments": 36
+                },
+                {
+                    "title": "졸지에 원칩 5개가 꽁으로 생기네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=428141&page=3",
+                    "views": 631,
+                    "comments": 15
+                },
+                {
+                    "title": "오래도 썼다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=428179&page=2",
+                    "views": 629,
+                    "comments": 11
+                },
+                {
+                    "title": "하루만 버티자ㅅㅂ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=428229&page=1",
+                    "views": 571,
+                    "comments": 4
+                },
+                {
+                    "title": "리브엠 좆같은놈들 바라는건 존나 많네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=428183&page=2",
+                    "views": 553,
+                    "comments": 21
+                }
+            ]
+        }
     }
 ]
