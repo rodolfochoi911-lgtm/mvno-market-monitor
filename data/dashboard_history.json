@@ -9421,5 +9421,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-01",
+        "total_volume": {
+            "ppomppu": 527,
+            "dc": 307
+        },
+        "brand_sov": {
+            "세븐모바일": 2,
+            "KT엠모바일": 16,
+            "유모바일": 10,
+            "헬로모바일": 4,
+            "스카이라이프": 1,
+            "토스모바일": 3,
+            "리브엠": 10,
+            "우리원모바일": 1,
+            "이야기모바일": 1,
+            "에이모바일": 3,
+            "프리티": 3,
+            "모빙": 1,
+            "스노우맨": 4,
+            "아이즈모바일": 22,
+            "인스모바일": 0,
+            "이지모바일": 2,
+            "티플러스": 4,
+            "KG모바일": 1,
+            "티다이렉트": 0,
+            "SKT_Air": 3,
+            "시월모바일": 3,
+            "핀다이렉트": 3,
+            "도시락모바일": 1
+        },
+        "top_keywords": {
+            "이마트": 129,
+            "일렉": 49,
+            "s26": 43,
+            "S26": 35,
+            "울트라": 22,
+            "대란": 18,
+            "아이즈": 17,
+            "갤럭시": 16,
+            "s26u": 15,
+            "s26울트라": 12
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "이마트 일렉 오픈런 왔습니다.(조건 공유)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=16&divpage=707&no=3914159",
+                    "views": 31471,
+                    "comments": 71
+                },
+                {
+                    "title": "이마트 일렉 가지마세여 ㅋㅋ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=15&divpage=707&no=3914173",
+                    "views": 30015,
+                    "comments": 33
+                },
+                {
+                    "title": "오늘 이마트 S26 가격공유(사진)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=16&divpage=707&no=3914164",
+                    "views": 18837,
+                    "comments": 35
+                },
+                {
+                    "title": "s26대란 끝 아니에요. 오프도 동일하게 합니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=17&divpage=707&no=3914133",
+                    "views": 15747,
+                    "comments": 45
+                },
+                {
+                    "title": "이마트 S26U 125만원은 역대급 아닌가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=18&divpage=707&no=3914078",
+                    "views": 15241,
+                    "comments": 44
+                }
+            ],
+            "dc": [
+                {
+                    "title": "모나 5월행사",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=428648&page=7",
+                    "views": 1767,
+                    "comments": 6
+                },
+                {
+                    "title": "지금 알뜰이 문제가 아니다 s26 대박 할인 뜸..",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=428665&page=7",
+                    "views": 1431,
+                    "comments": 16
+                },
+                {
+                    "title": "아이즈 일5+5 27000원 까지 내려왔네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=428651&page=7",
+                    "views": 1241,
+                    "comments": 6
+                },
+                {
+                    "title": "시월 5G 5기가 1100 (알닷에서만 가입가능)",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=428655&page=7",
+                    "views": 1225,
+                    "comments": 5
+                },
+                {
+                    "title": "모나 2970 입갤",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=428692&page=6",
+                    "views": 1175,
+                    "comments": 4
+                }
+            ]
+        }
     }
 ]
