@@ -9531,5 +9531,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-02",
+        "total_volume": {
+            "ppomppu": 198,
+            "dc": 212
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 3,
+            "유모바일": 6,
+            "헬로모바일": 1,
+            "스카이라이프": 0,
+            "토스모바일": 2,
+            "리브엠": 3,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 5,
+            "프리티": 2,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 6,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 2,
+            "KG모바일": 2,
+            "티다이렉트": 0,
+            "SKT_Air": 1,
+            "시월모바일": 6,
+            "핀다이렉트": 6,
+            "도시락모바일": 1
+        },
+        "top_keywords": {
+            "이마트": 36,
+            "일렉": 16,
+            "S26": 11,
+            "s26u": 11,
+            "2970": 10,
+            "s26": 9,
+            "갤럭시": 9,
+            "일렉트로마트": 9,
+            "조이텔": 9,
+            "쌀먹": 8
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "이마트 일렉트로마트 꼭 가세요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=707&no=3914648",
+                    "views": 36507,
+                    "comments": 53
+                },
+                {
+                    "title": "일렉트로마트 5월 2일 S26 정리",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=707&no=3914677",
+                    "views": 25093,
+                    "comments": 70
+                },
+                {
+                    "title": "핫딜커뮤니티(밴드) 입금 안됩니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=707&no=3914698",
+                    "views": 12054,
+                    "comments": 14
+                },
+                {
+                    "title": "갤럭시S시리즈 역대 최저가 기록",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3914808",
+                    "views": 4253,
+                    "comments": 9
+                },
+                {
+                    "title": "이마트 대란 내일부터 가격 올라간답니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3914817",
+                    "views": 4057,
+                    "comments": 8
+                }
+            ],
+            "dc": [
+                {
+                    "title": "다들 S26시리즈 샀냐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=429007&page=5",
+                    "views": 1262,
+                    "comments": 20
+                },
+                {
+                    "title": "모나 요금제 둘다 좋아보이는데 뭐타지...",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=428994&page=5",
+                    "views": 1169,
+                    "comments": 8
+                },
+                {
+                    "title": "핀다 2970 떴다;;;얼른 타라 얘들아",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=429023&page=5",
+                    "views": 1149,
+                    "comments": 13
+                },
+                {
+                    "title": "쌀먹 사실 의미업긴함",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=428996&page=5",
+                    "views": 1068,
+                    "comments": 20
+                },
+                {
+                    "title": "프리티에서 조이텔로 갈아탈까말까",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=429004&page=5",
+                    "views": 914,
+                    "comments": 10
+                }
+            ]
+        }
     }
 ]
