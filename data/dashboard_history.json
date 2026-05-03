@@ -9641,5 +9641,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-03",
+        "total_volume": {
+            "ppomppu": 127,
+            "dc": 199
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 4,
+            "유모바일": 4,
+            "헬로모바일": 1,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 4,
+            "우리원모바일": 0,
+            "이야기모바일": 1,
+            "에이모바일": 0,
+            "프리티": 0,
+            "모빙": 2,
+            "스노우맨": 0,
+            "아이즈모바일": 5,
+            "인스모바일": 1,
+            "이지모바일": 2,
+            "티플러스": 2,
+            "KG모바일": 0,
+            "티다이렉트": 1,
+            "SKT_Air": 2,
+            "시월모바일": 1,
+            "핀다이렉트": 7,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "이마트": 17,
+            "S26": 12,
+            "s26": 12,
+            "일렉": 9,
+            "갤럭시": 9,
+            "울트라": 8,
+            "s26u": 5,
+            "모나": 5,
+            "이번": 4,
+            "하면": 4
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "오늘 갤럭시 s26 이마트 일렉트로 가격입니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3914869",
+                    "views": 28468,
+                    "comments": 48
+                },
+                {
+                    "title": "퀀텀6 괜찮은곳 없을까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3914964",
+                    "views": 7013,
+                    "comments": 36
+                },
+                {
+                    "title": "울트라 말고 노멀 살걸 그랬음 ㅡㅜ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3914911",
+                    "views": 3375,
+                    "comments": 17
+                },
+                {
+                    "title": "이마트 S26+ 가져왔네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3914966",
+                    "views": 3136,
+                    "comments": 10
+                },
+                {
+                    "title": "이번 대란을 계기로 ~",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3914982",
+                    "views": 3094,
+                    "comments": 9
+                }
+            ],
+            "dc": [
+                {
+                    "title": "이 형님같은분들때문에 우리가 쌀먹하는거다 감사드리자",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=429335&page=3",
+                    "views": 1025,
+                    "comments": 10
+                },
+                {
+                    "title": "이거 괜찮은거아님가성비?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=429395&page=2",
+                    "views": 958,
+                    "comments": 21
+                },
+                {
+                    "title": "아이즈 23000 27000 탈만 해 보이는데",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=429279&page=4",
+                    "views": 920,
+                    "comments": 26
+                },
+                {
+                    "title": "2970 버려야겠네 ㅠ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=429405&page=2",
+                    "views": 893,
+                    "comments": 10
+                },
+                {
+                    "title": "뭐냐? 드디어 3명박 통문무제한 2만3천원에  평생나왔네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=429267&page=4",
+                    "views": 872,
+                    "comments": 12
+                }
+            ]
+        }
     }
 ]
