@@ -9751,5 +9751,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-04",
+        "total_volume": {
+            "ppomppu": 117,
+            "dc": 225
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 3,
+            "유모바일": 2,
+            "헬로모바일": 0,
+            "스카이라이프": 1,
+            "토스모바일": 0,
+            "리브엠": 8,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 2,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 7,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 5,
+            "KG모바일": 1,
+            "티다이렉트": 3,
+            "SKT_Air": 3,
+            "시월모바일": 2,
+            "핀다이렉트": 6,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "조이텔": 15,
+            "s26": 14,
+            "모나": 11,
+            "이마트": 9,
+            "울트라": 8,
+            "S26": 7,
+            "아이즈": 7,
+            "2970": 7,
+            "갤럭시": 6,
+            "퀀텀6": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "페이백 미지급",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3915086",
+                    "views": 21229,
+                    "comments": 38
+                },
+                {
+                    "title": "이마일 삼성 포인트는 현금화. 정리해봅니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=707&no=3914988",
+                    "views": 3649,
+                    "comments": 26
+                },
+                {
+                    "title": "에브리데이 S26 취소분 나오나보네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=707&no=3915018",
+                    "views": 3553,
+                    "comments": 20
+                },
+                {
+                    "title": "일렉 대란 S26 스타필드도 하는거아시죠?? 여긴 아직 행사있어요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3915044",
+                    "views": 2919,
+                    "comments": 5
+                },
+                {
+                    "title": "이번 이마트발 갤럭시는 재고소진이 목적 아니었나요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=707&no=3915012",
+                    "views": 2891,
+                    "comments": 18
+                }
+            ],
+            "dc": [
+                {
+                    "title": "근데 솔직히 알뜰폰으로 쌀먹할 시간에",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=429438&page=6",
+                    "views": 1167,
+                    "comments": 10
+                },
+                {
+                    "title": "20G + 네이버페이5천 월110원 이동해야겠구만",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=429446&page=5",
+                    "views": 900,
+                    "comments": 6
+                },
+                {
+                    "title": "원룸 인터넷이 이 꼬라지라..",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=429660&page=2",
+                    "views": 827,
+                    "comments": 39
+                },
+                {
+                    "title": "일본가서 화웨이 구형 라우터 줍줍해옴",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=429447&page=5",
+                    "views": 819,
+                    "comments": 5
+                },
+                {
+                    "title": "통문무 빼면 이거 얼마까지했었노?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=429440&page=6",
+                    "views": 808,
+                    "comments": 2
+                }
+            ]
+        }
     }
 ]
