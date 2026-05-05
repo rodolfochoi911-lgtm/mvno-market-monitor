@@ -9861,5 +9861,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-05",
+        "total_volume": {
+            "ppomppu": 39,
+            "dc": 189
+        },
+        "brand_sov": {
+            "세븐모바일": 3,
+            "KT엠모바일": 3,
+            "유모바일": 2,
+            "헬로모바일": 0,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 3,
+            "우리원모바일": 0,
+            "이야기모바일": 1,
+            "에이모바일": 2,
+            "프리티": 2,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 11,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 3,
+            "시월모바일": 1,
+            "핀다이렉트": 3,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "조이텔": 18,
+            "아이즈": 9,
+            "통무": 6,
+            "이마트": 5,
+            "모나": 5,
+            "1650": 5,
+            "빅스": 4,
+            "갤럭시": 4,
+            "아직": 4,
+            "1780": 4
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "G마켓 빅스 s26 512GB 쿠폰 먹이기전 기격같네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3915239",
+                    "views": 3313,
+                    "comments": 9
+                },
+                {
+                    "title": "이마트 갤럭시 링패키지 처분 완료 했네요~",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3915250",
+                    "views": 2600,
+                    "comments": 10
+                },
+                {
+                    "title": "갤럭시링이 슬슬 당근에 올라옵니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3915161",
+                    "views": 2543,
+                    "comments": 5
+                },
+                {
+                    "title": "두 달 만에 -100만원..갤S26 울트라' 사전예약자 '분통', 왜?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3915260",
+                    "views": 2457,
+                    "comments": 4
+                },
+                {
+                    "title": "지마켓 추노 광고 보면",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3915154",
+                    "views": 2363,
+                    "comments": 4
+                }
+            ],
+            "dc": [
+                {
+                    "title": "조이텔 특가 또 하는데?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=429690&page=5",
+                    "views": 2099,
+                    "comments": 7
+                },
+                {
+                    "title": "이거 요금제 개 좋아보이는데",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=429869&page=1",
+                    "views": 1028,
+                    "comments": 18
+                },
+                {
+                    "title": "조이텔 1650. 1780 정리해준다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=429701&page=5",
+                    "views": 995,
+                    "comments": 1
+                },
+                {
+                    "title": "결국 이 요금제로 갈아탔어",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=429682&page=5",
+                    "views": 988,
+                    "comments": 1
+                },
+                {
+                    "title": "형님들 이거 별론가요? 알갤에선 언급이 없길래",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=429687&page=5",
+                    "views": 937,
+                    "comments": 18
+                }
+            ]
+        }
     }
 ]
