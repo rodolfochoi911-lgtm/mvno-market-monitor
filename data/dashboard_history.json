@@ -10081,5 +10081,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-07",
+        "total_volume": {
+            "ppomppu": 68,
+            "dc": 217
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 2,
+            "유모바일": 1,
+            "헬로모바일": 0,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 4,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 1,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 3,
+            "인스모바일": 0,
+            "이지모바일": 2,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 2,
+            "시월모바일": 0,
+            "핀다이렉트": 8,
+            "도시락모바일": 3
+        },
+        "top_keywords": {
+            "조이텔": 11,
+            "2970": 9,
+            "인터넷": 6,
+            "S26": 6,
+            "자급제": 6,
+            "알닷": 6,
+            "울트라": 5,
+            "핀다": 5,
+            "5G": 5,
+            "5g": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "011, 017, 016, 018, 019 를 아시나요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3915425",
+                    "views": 5438,
+                    "comments": 72
+                },
+                {
+                    "title": "S26 울트라 자급제 말고 가장 저렴하게",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3915370",
+                    "views": 3607,
+                    "comments": 5
+                },
+                {
+                    "title": "SK기변 S26 공짜까지왔네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3915434",
+                    "views": 2915,
+                    "comments": 12
+                },
+                {
+                    "title": "모니터 어제 수령해서 어제 팔았어요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3915375",
+                    "views": 2794,
+                    "comments": 14
+                },
+                {
+                    "title": "sk 선약 100만원 깨졌네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3915411",
+                    "views": 2461,
+                    "comments": 16
+                }
+            ],
+            "dc": [
+                {
+                    "title": "역대급 희귀한 요금제 1위",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=430222&page=3",
+                    "views": 1107,
+                    "comments": 9
+                },
+                {
+                    "title": "2970의 장점",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=430129&page=5",
+                    "views": 1088,
+                    "comments": 6
+                },
+                {
+                    "title": "5G 체감안된다도르는 걍 개소리임",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=430115&page=5",
+                    "views": 1046,
+                    "comments": 14
+                },
+                {
+                    "title": "알뜰폰플러스 평생가격 할인",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=430243&page=3",
+                    "views": 970,
+                    "comments": 13
+                },
+                {
+                    "title": "나같은 쉬었음한텐 2970이 최고임",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=430117&page=5",
+                    "views": 919,
+                    "comments": 7
+                }
+            ]
+        }
     }
 ]
