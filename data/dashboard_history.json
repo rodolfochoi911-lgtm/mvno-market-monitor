@@ -10191,5 +10191,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-08",
+        "total_volume": {
+            "ppomppu": 124,
+            "dc": 248
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 18,
+            "유모바일": 3,
+            "헬로모바일": 1,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 2,
+            "우리원모바일": 1,
+            "이야기모바일": 1,
+            "에이모바일": 3,
+            "프리티": 1,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 21,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 1,
+            "SKT_Air": 0,
+            "시월모바일": 5,
+            "핀다이렉트": 6,
+            "도시락모바일": 2
+        },
+        "top_keywords": {
+            "아이즈": 15,
+            "울트라": 13,
+            "엠모": 13,
+            "s26": 12,
+            "일렉": 10,
+            "조이텔": 9,
+            "모나": 9,
+            "이마트": 8,
+            "알닷": 7,
+            "100": 7
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "11번가 라이브에서 26U 256G 118만원이네요. (라이브혜택가, 대학교 이메일 인증)...",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3915506",
+                    "views": 3417,
+                    "comments": 68
+                },
+                {
+                    "title": "울트라 512 그냥 훅훅 떨어지네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3915567",
+                    "views": 3029,
+                    "comments": 16
+                },
+                {
+                    "title": "이제 갤럭시는 신형은 거들떠도 안볼랍니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3915601",
+                    "views": 2455,
+                    "comments": 10
+                },
+                {
+                    "title": "S26U 최종 정산",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3915586",
+                    "views": 2049,
+                    "comments": 10
+                },
+                {
+                    "title": "엠모바일 쌀먹 최대 28만. 아쉬운 정책",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3915513",
+                    "views": 1965,
+                    "comments": 17
+                }
+            ],
+            "dc": [
+                {
+                    "title": "엠모 이벤트떴다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=430378&page=5",
+                    "views": 1291,
+                    "comments": 16
+                },
+                {
+                    "title": "선착순 100명 신화 태초 요금제 떴다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=430425&page=4",
+                    "views": 1205,
+                    "comments": 12
+                },
+                {
+                    "title": "쉐이크 특가 떴다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=430459&page=4",
+                    "views": 1138,
+                    "comments": 13
+                },
+                {
+                    "title": "역대급 요금제 ㅇㅈ?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=430566&page=2",
+                    "views": 901,
+                    "comments": 7
+                },
+                {
+                    "title": "ㅇㄷ 모나 평생 1980원",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=430411&page=5",
+                    "views": 881,
+                    "comments": 16
+                }
+            ]
+        }
     }
 ]
