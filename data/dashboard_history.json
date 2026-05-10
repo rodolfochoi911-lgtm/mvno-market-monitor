@@ -10411,5 +10411,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-10",
+        "total_volume": {
+            "ppomppu": 84,
+            "dc": 118
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 1,
+            "유모바일": 5,
+            "헬로모바일": 0,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 0,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 2,
+            "프리티": 2,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 1,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 4,
+            "시월모바일": 0,
+            "핀다이렉트": 1,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "S26": 10,
+            "s26": 8,
+            "조이텔": 7,
+            "2970": 7,
+            "울트라": 6,
+            "AI": 4,
+            "퀀텀6": 4,
+            "있는데": 4,
+            "6710": 4,
+            "되나요": 3
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "테크몽 말이 100% 맞습니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3915743",
+                    "views": 3755,
+                    "comments": 18
+                },
+                {
+                    "title": "잇섭이 말하는 한국에서 eSIM이 망한 진짜 이유.jpg",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3915758",
+                    "views": 3392,
+                    "comments": 13
+                },
+                {
+                    "title": "안녕하세요 현직배달 기사 입니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3915786",
+                    "views": 2211,
+                    "comments": 7
+                },
+                {
+                    "title": "삼성 스마트 모니터 M5 32인치 20만원에도 안 팔리네요;",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3915783",
+                    "views": 2106,
+                    "comments": 21
+                },
+                {
+                    "title": "S26 울트라 때문에 너무 스트레스..ㅋㅋ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3915741",
+                    "views": 2056,
+                    "comments": 12
+                }
+            ],
+            "dc": [
+                {
+                    "title": "아정 팔렸나보네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=430886&page=2",
+                    "views": 1039,
+                    "comments": 6
+                },
+                {
+                    "title": "쿠팡 욀케 쿨함",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=430878&page=2",
+                    "views": 1011,
+                    "comments": 8
+                },
+                {
+                    "title": "주식으로 인생역전했다 게이들아ㅠㅠ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=430922&page=1",
+                    "views": 947,
+                    "comments": 7
+                },
+                {
+                    "title": "쌀먹 잘 이해한건지 확인좀",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=430806&page=3",
+                    "views": 897,
+                    "comments": 7
+                },
+                {
+                    "title": "조이텔 이거 뭐임? 평일에 해야 되나",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=430867&page=2",
+                    "views": 867,
+                    "comments": 4
+                }
+            ]
+        }
     }
 ]
