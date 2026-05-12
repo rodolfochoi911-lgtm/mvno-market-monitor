@@ -10631,5 +10631,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-12",
+        "total_volume": {
+            "ppomppu": 71,
+            "dc": 251
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 2,
+            "유모바일": 4,
+            "헬로모바일": 2,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 6,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 3,
+            "프리티": 0,
+            "모빙": 3,
+            "스노우맨": 0,
+            "아이즈모바일": 5,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 1,
+            "KG모바일": 1,
+            "티다이렉트": 2,
+            "SKT_Air": 2,
+            "시월모바일": 1,
+            "핀다이렉트": 7,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "2970": 17,
+            "11번가": 6,
+            "S26": 6,
+            "핀다": 6,
+            "아이폰": 5,
+            "형님들": 5,
+            "5g": 5,
+            "조이텔": 5,
+            "메뚜기": 5,
+            "언제": 4
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "이거때문에 SK를 못떠남..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3915960",
+                    "views": 16616,
+                    "comments": 70
+                },
+                {
+                    "title": "11번가 SKT S26 기변이 쓸고 지나갔군요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3915931",
+                    "views": 13817,
+                    "comments": 33
+                },
+                {
+                    "title": "퀀텀6 역대 조건 문의",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3915977",
+                    "views": 9353,
+                    "comments": 32
+                },
+                {
+                    "title": "A17 2대 교차로 되네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3916001",
+                    "views": 7385,
+                    "comments": 25
+                },
+                {
+                    "title": "11번가 티다 S26 256 공시로 기변 했네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3915993",
+                    "views": 2471,
+                    "comments": 21
+                }
+            ],
+            "dc": [
+                {
+                    "title": "실사용  평생 요금제 찾는데 영 할만한게 없네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=431148&page=6",
+                    "views": 965,
+                    "comments": 9
+                },
+                {
+                    "title": "조이텔 아무리 싸도 안갈란다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=431154&page=6",
+                    "views": 933,
+                    "comments": 5
+                },
+                {
+                    "title": "쿠팡 웰컴백 쿠폰 다시 나왔담",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=431147&page=6",
+                    "views": 894,
+                    "comments": 2
+                },
+                {
+                    "title": "2970 떴다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=431268&page=4",
+                    "views": 892,
+                    "comments": 9
+                },
+                {
+                    "title": "형님들 알뜰 통신사 고트는 뭔가요? + 요금제 추천 부탁드립니다.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=431146&page=6",
+                    "views": 891,
+                    "comments": 10
+                }
+            ]
+        }
     }
 ]
