@@ -11071,5 +11071,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-16",
+        "total_volume": {
+            "ppomppu": 105,
+            "dc": 202
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 0,
+            "유모바일": 32,
+            "헬로모바일": 6,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 2,
+            "우리원모바일": 2,
+            "이야기모바일": 0,
+            "에이모바일": 1,
+            "프리티": 2,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 4,
+            "인스모바일": 0,
+            "이지모바일": 2,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 4,
+            "SKT_Air": 3,
+            "시월모바일": 2,
+            "핀다이렉트": 4,
+            "도시락모바일": 2
+        },
+        "top_keywords": {
+            "조이텔": 15,
+            "유모": 14,
+            "11번가": 11,
+            "쿠폰": 10,
+            "유모바일": 8,
+            "다이소": 8,
+            "번이": 7,
+            "s26": 7,
+            "퀀텀6": 7,
+            "쌀먹": 7
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "이마트급 대란 또 올까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3916316",
+                    "views": 3624,
+                    "comments": 11
+                },
+                {
+                    "title": "시작됐네요.. 윌대란..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3916327",
+                    "views": 3263,
+                    "comments": 14
+                },
+                {
+                    "title": "S26 행사하네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3916325",
+                    "views": 2591,
+                    "comments": 9
+                },
+                {
+                    "title": "11번가 s26 플러스로 구매했습니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3916315",
+                    "views": 2352,
+                    "comments": 7
+                },
+                {
+                    "title": "S26이 폭망?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3916386",
+                    "views": 2327,
+                    "comments": 11
+                }
+            ],
+            "dc": [
+                {
+                    "title": "조이텔 1780이 왜 전설임?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=432262&page=5",
+                    "views": 936,
+                    "comments": 5
+                },
+                {
+                    "title": "(211.216) 2970 갤러야 이제 그만...",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=432320&page=4",
+                    "views": 716,
+                    "comments": 15
+                },
+                {
+                    "title": "조이텔 1780 (LTE) vs 조이텔 1980 (5G)",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=432267&page=5",
+                    "views": 683,
+                    "comments": 2
+                },
+                {
+                    "title": "테ㅡ무 20만원치 쌀먹 성공한듯 ㄷㄷㄷ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=432449&page=2",
+                    "views": 675,
+                    "comments": 6
+                },
+                {
+                    "title": "키움 삼전 이벤트는 정말 알갤러를 위한 축복이네 ㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=432265&page=5",
+                    "views": 661,
+                    "comments": 4
+                }
+            ]
+        }
     }
 ]
