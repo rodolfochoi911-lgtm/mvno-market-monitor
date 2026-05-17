@@ -11181,5 +11181,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-17",
+        "total_volume": {
+            "ppomppu": 68,
+            "dc": 132
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 2,
+            "유모바일": 7,
+            "헬로모바일": 1,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 1,
+            "우리원모바일": 0,
+            "이야기모바일": 1,
+            "에이모바일": 0,
+            "프리티": 1,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 0,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 1,
+            "KG모바일": 0,
+            "티다이렉트": 1,
+            "SKT_Air": 0,
+            "시월모바일": 0,
+            "핀다이렉트": 7,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "퀀텀6": 7,
+            "2970": 6,
+            "s26u": 5,
+            "쿠폰": 4,
+            "울트라": 4,
+            "유모비": 4,
+            "프레딧": 4,
+            "모나": 4,
+            "핀다": 4,
+            "조이텔": 4
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "갤럭시 s26u 이틀 사용 후기",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3916472",
+                    "views": 12315,
+                    "comments": 34
+                },
+                {
+                    "title": "퀀텀6 유지비",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3916494",
+                    "views": 10580,
+                    "comments": 49
+                },
+                {
+                    "title": "S26 울트라 가격 하락은..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3916493",
+                    "views": 2974,
+                    "comments": 16
+                },
+                {
+                    "title": "S27이 거의 풀체인지급이라는 루머가 퍼지던데",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3916475",
+                    "views": 2016,
+                    "comments": 8
+                },
+                {
+                    "title": "갤26 이제 다끝난건가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3916449",
+                    "views": 1910,
+                    "comments": 5
+                }
+            ],
+            "dc": [
+                {
+                    "title": "2970 마지막 기회의 순간 알려들입니다.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=432503&page=3",
+                    "views": 1143,
+                    "comments": 8
+                },
+                {
+                    "title": "2970이 그렇게 좋드냐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=432516&page=3",
+                    "views": 820,
+                    "comments": 16
+                },
+                {
+                    "title": "평생 웃긴게",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=432496&page=3",
+                    "views": 802,
+                    "comments": 10
+                },
+                {
+                    "title": "알닷케어 생기고부턴 번호다 LG로 옮김..안쓰는 흑우 읍제",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=432502&page=3",
+                    "views": 779,
+                    "comments": 11
+                },
+                {
+                    "title": "알뜰폰 잘 모르겠다 싶으면",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=432492&page=3",
+                    "views": 767,
+                    "comments": 4
+                }
+            ]
+        }
     }
 ]
