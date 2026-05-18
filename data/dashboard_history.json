@@ -11291,5 +11291,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-18",
+        "total_volume": {
+            "ppomppu": 104,
+            "dc": 206
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 3,
+            "유모바일": 8,
+            "헬로모바일": 3,
+            "스카이라이프": 0,
+            "토스모바일": 3,
+            "리브엠": 1,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 1,
+            "프리티": 1,
+            "모빙": 2,
+            "스노우맨": 0,
+            "아이즈모바일": 13,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 1,
+            "KG모바일": 0,
+            "티다이렉트": 3,
+            "SKT_Air": 8,
+            "시월모바일": 2,
+            "핀다이렉트": 8,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "2970": 9,
+            "a17": 8,
+            "갤럭시": 8,
+            "조이텔": 8,
+            "아이즈": 8,
+            "S26": 6,
+            "UI": 6,
+            "가격": 5,
+            "One": 5,
+            "업그레이드": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "S26 떡상?? ㅋㅋ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3916517",
+                    "views": 3377,
+                    "comments": 15
+                },
+                {
+                    "title": "11번가 SK 폰 판매가 영 시원찮은가..ㅋㅋ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3916565",
+                    "views": 2441,
+                    "comments": 14
+                },
+                {
+                    "title": "스마트폰 카메라의 퇴보.jpg",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3916546",
+                    "views": 2209,
+                    "comments": 6
+                },
+                {
+                    "title": "갤럭시 s26 512 울트라 가격",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3916534",
+                    "views": 2150,
+                    "comments": 12
+                },
+                {
+                    "title": "갤럭시 퀀텀6 One UI 8.5 업그레이드",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3916576",
+                    "views": 1648,
+                    "comments": 6
+                }
+            ],
+            "dc": [
+                {
+                    "title": "와 아이즈 태초 신화 떴네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=432824&page=1",
+                    "views": 1178,
+                    "comments": 12
+                },
+                {
+                    "title": "조이텔 야간한정특가(0518 18:00~0519 09:00)",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=432807&page=2",
+                    "views": 824,
+                    "comments": 12
+                },
+                {
+                    "title": "고유가지원금 대상자 아니라고 하는데",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=432688&page=4",
+                    "views": 784,
+                    "comments": 27
+                },
+                {
+                    "title": "찬스 유플망 100기가+5Mbps 평생 26,900원",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=432725&page=3",
+                    "views": 775,
+                    "comments": 9
+                },
+                {
+                    "title": "유모바일 20만원 쌀먹뜸",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=432775&page=2",
+                    "views": 734,
+                    "comments": 8
+                }
+            ]
+        }
     }
 ]
