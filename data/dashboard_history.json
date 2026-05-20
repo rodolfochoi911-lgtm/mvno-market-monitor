@@ -11511,5 +11511,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-20",
+        "total_volume": {
+            "ppomppu": 91,
+            "dc": 252
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 6,
+            "유모바일": 54,
+            "헬로모바일": 3,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 7,
+            "우리원모바일": 2,
+            "이야기모바일": 0,
+            "에이모바일": 2,
+            "프리티": 7,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 9,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 2,
+            "SKT_Air": 4,
+            "시월모바일": 1,
+            "핀다이렉트": 3,
+            "도시락모바일": 1
+        },
+        "top_keywords": {
+            "유모": 28,
+            "유모바일": 21,
+            "네페": 16,
+            "5G": 11,
+            "쌀먹": 9,
+            "배급": 9,
+            "퀀텀6": 7,
+            "11번가": 6,
+            "아이즈": 6,
+            "갤럭시": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "SK 요금제 개편 임박",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=707&no=3916766",
+                    "views": 2722,
+                    "comments": 12
+                },
+                {
+                    "title": "퀀텀7 (A57 5G) 실사로 봤네요 (별내용없음주의)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=707&no=3916709",
+                    "views": 2470,
+                    "comments": 5
+                },
+                {
+                    "title": "평생기준 알뜰폰무제한요금제 최저가(5월20일 ver)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=707&no=3916729",
+                    "views": 2347,
+                    "comments": 3
+                },
+                {
+                    "title": "이마트에브리데이 26울트라 512 최종 체감가",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3916798",
+                    "views": 2307,
+                    "comments": 21
+                },
+                {
+                    "title": "지금 11번가 s26시리즈 25만쿠폰 발급 됩니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=707&no=3916786",
+                    "views": 2209,
+                    "comments": 7
+                }
+            ],
+            "dc": [
+                {
+                    "title": "LTE/5G 통합 요금제 나온 이유",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=433290&page=2",
+                    "views": 929,
+                    "comments": 8
+                },
+                {
+                    "title": "LTE/5G 통합요금제 나왔는데 개악됐다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=433218&page=3",
+                    "views": 921,
+                    "comments": 17
+                },
+                {
+                    "title": "6월부터 역대급 대빙하기 오네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=433223&page=3",
+                    "views": 903,
+                    "comments": 3
+                },
+                {
+                    "title": "와 근데 저번달 리브엠 ㄹㅇ 개혜자네 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=433276&page=2",
+                    "views": 870,
+                    "comments": 6
+                },
+                {
+                    "title": "조이텔 이건 별로임?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=433330&page=1",
+                    "views": 773,
+                    "comments": 3
+                }
+            ]
+        }
     }
 ]
