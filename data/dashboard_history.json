@@ -11731,5 +11731,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-22",
+        "total_volume": {
+            "ppomppu": 139,
+            "dc": 2013
+        },
+        "brand_sov": {
+            "세븐모바일": 7,
+            "KT엠모바일": 25,
+            "유모바일": 42,
+            "헬로모바일": 13,
+            "스카이라이프": 0,
+            "토스모바일": 2,
+            "리브엠": 11,
+            "우리원모바일": 2,
+            "이야기모바일": 1,
+            "에이모바일": 2,
+            "프리티": 54,
+            "모빙": 4,
+            "스노우맨": 0,
+            "아이즈모바일": 83,
+            "인스모바일": 1,
+            "이지모바일": 17,
+            "티플러스": 14,
+            "KG모바일": 6,
+            "티다이렉트": 2,
+            "SKT_Air": 6,
+            "시월모바일": 155,
+            "핀다이렉트": 19,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "253": 262,
+            "모나": 177,
+            "시월": 109,
+            "110": 70,
+            "아이즈": 57,
+            "프리티": 44,
+            "5g": 36,
+            "2970": 33,
+            "990": 31,
+            "알닷": 30
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "퀀텀6 어떤걸로 해야할까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3917066",
+                    "views": 19030,
+                    "comments": 87
+                },
+                {
+                    "title": "시월모바일 평생 110원 선착순 1000명 떴네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3917047",
+                    "views": 12506,
+                    "comments": 44
+                },
+                {
+                    "title": "모나 못타신분 헬모도 비슷한 혜택이 나온거 같습니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3916954",
+                    "views": 6840,
+                    "comments": 6
+                },
+                {
+                    "title": "프리티SK 쓸만한 요금제 나왔네요 990 .jpg",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3917043",
+                    "views": 3037,
+                    "comments": 6
+                },
+                {
+                    "title": "쿠팡 갤럭시 s26 울트라 256GB (1,250,000원) (무배)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3917041",
+                    "views": 2667,
+                    "comments": 8
+                }
+            ],
+            "dc": [
+                {
+                    "title": "모나 이미 개통한 애들 가격올랐다, 신청서 가격 올랐다 하는 애들 봐라",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=435987&page=37",
+                    "views": 3396,
+                    "comments": 14
+                },
+                {
+                    "title": "공지에 253 요금제 하루 연장한다고 뜸ㅋㅋㅋㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=435888&page=38",
+                    "views": 2821,
+                    "comments": 20
+                },
+                {
+                    "title": "프리티 SK 990 떴다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=436945&page=20",
+                    "views": 2690,
+                    "comments": 21
+                },
+                {
+                    "title": "나는 모나253을 12,100원에 쓰네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=437029&page=19",
+                    "views": 1854,
+                    "comments": 6
+                },
+                {
+                    "title": "[Event] 제 2차 알갤 파딱 체험 이벤트",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=436101&page=3",
+                    "views": 1717,
+                    "comments": 38
+                }
+            ]
+        }
     }
 ]
