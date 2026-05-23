@@ -11841,5 +11841,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-23",
+        "total_volume": {
+            "ppomppu": 94,
+            "dc": 198
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 3,
+            "유모바일": 6,
+            "헬로모바일": 2,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 2,
+            "우리원모바일": 0,
+            "이야기모바일": 1,
+            "에이모바일": 0,
+            "프리티": 12,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 5,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 1,
+            "KG모바일": 0,
+            "티다이렉트": 3,
+            "SKT_Air": 0,
+            "시월모바일": 12,
+            "핀다이렉트": 2,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "253": 32,
+            "모나": 15,
+            "프리티": 11,
+            "110": 7,
+            "퀀텀6": 6,
+            "이유": 6,
+            "쌀먹": 6,
+            "시월": 6,
+            "11번가": 5,
+            "유모바일": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "퀀텀 정책이 점점 좋아지네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3917105",
+                    "views": 24015,
+                    "comments": 101
+                },
+                {
+                    "title": "퀀텀6 회선유지4개월 있는건가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3917070",
+                    "views": 21665,
+                    "comments": 87
+                },
+                {
+                    "title": "중국폰 충전속도가 빠른 이유",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3917097",
+                    "views": 3006,
+                    "comments": 17
+                },
+                {
+                    "title": "시월모바일 110원 탑승완료",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3917108",
+                    "views": 2922,
+                    "comments": 16
+                },
+                {
+                    "title": "프리티 6기가 평생 990원",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3917107",
+                    "views": 2792,
+                    "comments": 5
+                }
+            ],
+            "dc": [
+                {
+                    "title": "253은 이시기에 출시한 이유가 뭐겠노",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=439214&page=4",
+                    "views": 1775,
+                    "comments": 7
+                },
+                {
+                    "title": "253 거진 100원 요금제였네ㄷㄷ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=439345&page=2",
+                    "views": 813,
+                    "comments": 12
+                },
+                {
+                    "title": "걍 3개중 해라",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=439348&page=2",
+                    "views": 717,
+                    "comments": 6
+                },
+                {
+                    "title": "모나 카드 이거하면되나",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=439298&page=3",
+                    "views": 684,
+                    "comments": 12
+                },
+                {
+                    "title": "너네가 말하는 110이 이거 맞음?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=439323&page=2",
+                    "views": 683,
+                    "comments": 2
+                }
+            ]
+        }
     }
 ]
