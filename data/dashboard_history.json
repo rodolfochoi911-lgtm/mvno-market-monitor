@@ -11951,5 +11951,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-24",
+        "total_volume": {
+            "ppomppu": 51,
+            "dc": 24
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 0,
+            "유모바일": 4,
+            "헬로모바일": 0,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 0,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 1,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 2,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 0,
+            "시월모바일": 1,
+            "핀다이렉트": 0,
+            "도시락모바일": 1
+        },
+        "top_keywords": {
+            "253": 8,
+            "s26": 5,
+            "폴드8": 3,
+            "512": 2,
+            "질문입니다": 2,
+            "뽐뿌": 2,
+            "모나": 2,
+            "퀀텀6": 2,
+            "와이드": 2,
+            "갤럭시": 2
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "퀀텀6 왔네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3917240",
+                    "views": 21954,
+                    "comments": 132
+                },
+                {
+                    "title": "대박 조건에샀네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3917184",
+                    "views": 13545,
+                    "comments": 19
+                },
+                {
+                    "title": "중고) 퀀텀4 15만 vs s22 22만원",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3917230",
+                    "views": 7938,
+                    "comments": 32
+                },
+                {
+                    "title": "990원 요금제 참말로 좋은 가운데",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3917191",
+                    "views": 3713,
+                    "comments": 13
+                },
+                {
+                    "title": "S26U 에브리데이발 체감가 정산",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3917188",
+                    "views": 3107,
+                    "comments": 8
+                }
+            ],
+            "dc": [
+                {
+                    "title": "253에 열광하는 이유가 머임?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=440120&page=2",
+                    "views": 493,
+                    "comments": 30
+                },
+                {
+                    "title": "253 때문에 어차피 한동안 빙하기겠구나",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=440129&page=2",
+                    "views": 452,
+                    "comments": 4
+                },
+                {
+                    "title": "근데 253 이거 부러워하는 사람이 있음?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=440121&page=2",
+                    "views": 388,
+                    "comments": 10
+                },
+                {
+                    "title": "도시락 이병신 회사는",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=440126&page=2",
+                    "views": 360,
+                    "comments": 3
+                },
+                {
+                    "title": "253 탔는데 제휴카드가 고민이네유",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=440112&page=2",
+                    "views": 308,
+                    "comments": 2
+                }
+            ]
+        }
     }
 ]
