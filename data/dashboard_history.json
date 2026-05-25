@@ -12061,5 +12061,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-25",
+        "total_volume": {
+            "ppomppu": 54,
+            "dc": 38
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 2,
+            "유모바일": 0,
+            "헬로모바일": 1,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 2,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 1,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 2,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 1,
+            "SKT_Air": 1,
+            "시월모바일": 3,
+            "핀다이렉트": 1,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "모나": 8,
+            "253": 7,
+            "퀀텀6": 4,
+            "s26": 4,
+            "S26": 3,
+            "이심": 3,
+            "체감가": 3,
+            "sk기변": 2,
+            "s26울트라": 2,
+            "괜찮나요": 2
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "S26 울트라 512 팔았네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3917260",
+                    "views": 2787,
+                    "comments": 11
+                },
+                {
+                    "title": "퀀텀6 받았네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3917273",
+                    "views": 2616,
+                    "comments": 10
+                },
+                {
+                    "title": "노트9->퀀텀6 체감 많이 될까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3917292",
+                    "views": 2152,
+                    "comments": 15
+                },
+                {
+                    "title": "에브리데이 모니터 20에 그냥 팔았네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3917247",
+                    "views": 1927,
+                    "comments": 3
+                },
+                {
+                    "title": "편의점에서 구매한 원칩",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3917284",
+                    "views": 1842,
+                    "comments": 12
+                }
+            ],
+            "dc": [
+                {
+                    "title": "쌀먹계 레전드.GIF",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=441132&page=2",
+                    "views": 768,
+                    "comments": 4
+                },
+                {
+                    "title": "시월 천세천천세",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=441130&page=2",
+                    "views": 479,
+                    "comments": 4
+                },
+                {
+                    "title": "시월110 4천번대 취소해줘따",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=441131&page=2",
+                    "views": 477,
+                    "comments": 0
+                },
+                {
+                    "title": "253 팩트",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=441154&page=2",
+                    "views": 450,
+                    "comments": 5
+                },
+                {
+                    "title": "테더링 개꿀이구나",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=441155&page=2",
+                    "views": 431,
+                    "comments": 3
+                }
+            ]
+        }
     }
 ]
