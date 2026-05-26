@@ -12171,5 +12171,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-26",
+        "total_volume": {
+            "ppomppu": 105,
+            "dc": 952
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 15,
+            "유모바일": 19,
+            "헬로모바일": 46,
+            "스카이라이프": 0,
+            "토스모바일": 2,
+            "리브엠": 4,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 1,
+            "프리티": 27,
+            "모빙": 2,
+            "스노우맨": 0,
+            "아이즈모바일": 43,
+            "인스모바일": 0,
+            "이지모바일": 6,
+            "티플러스": 2,
+            "KG모바일": 0,
+            "티다이렉트": 1,
+            "SKT_Air": 5,
+            "시월모바일": 197,
+            "핀다이렉트": 9,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "시월": 147,
+            "110": 73,
+            "253": 70,
+            "모나": 67,
+            "아이즈": 32,
+            "헬모": 32,
+            "번이": 21,
+            "프리티": 20,
+            "쌀먹": 20,
+            "시월110": 14
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "S26 기변 59만 뜬거 적당한 가격일까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3917412",
+                    "views": 7587,
+                    "comments": 30
+                },
+                {
+                    "title": "퀀텀6 구매하고 싶네요 꾸벅 좌표 부탁드립니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3917339",
+                    "views": 7489,
+                    "comments": 33
+                },
+                {
+                    "title": "유모바일 찐막타임세일",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3917366",
+                    "views": 3896,
+                    "comments": 31
+                },
+                {
+                    "title": "알뜰폰 10갤 22만원 혜택 정리",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3917408",
+                    "views": 2788,
+                    "comments": 11
+                },
+                {
+                    "title": "프리티 15GB / 모빙 6GB+1Mbps  월10원",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3917360",
+                    "views": 2625,
+                    "comments": 6
+                }
+            ],
+            "dc": [
+                {
+                    "title": "모나 문자 왜 아무도 안올리냐?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=441199&page=20",
+                    "views": 2287,
+                    "comments": 19
+                },
+                {
+                    "title": "시월 110 탄 승리자는 개추",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=441409&page=17",
+                    "views": 1505,
+                    "comments": 13
+                },
+                {
+                    "title": "모나 253갈걸 ㅠ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=441211&page=20",
+                    "views": 1073,
+                    "comments": 12
+                },
+                {
+                    "title": "253 요금제 한줄정리",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=441204&page=20",
+                    "views": 1048,
+                    "comments": 3
+                },
+                {
+                    "title": "평생 880원이면 짱이지 뭐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=441217&page=20",
+                    "views": 900,
+                    "comments": 3
+                }
+            ]
+        }
     }
 ]
