@@ -12281,5 +12281,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-27",
+        "total_volume": {
+            "ppomppu": 94,
+            "dc": 880
+        },
+        "brand_sov": {
+            "세븐모바일": 3,
+            "KT엠모바일": 9,
+            "유모바일": 31,
+            "헬로모바일": 46,
+            "스카이라이프": 0,
+            "토스모바일": 2,
+            "리브엠": 12,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 19,
+            "모빙": 2,
+            "스노우맨": 0,
+            "아이즈모바일": 25,
+            "인스모바일": 1,
+            "이지모바일": 3,
+            "티플러스": 7,
+            "KG모바일": 3,
+            "티다이렉트": 1,
+            "SKT_Air": 2,
+            "시월모바일": 158,
+            "핀다이렉트": 13,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "시월": 122,
+            "110": 75,
+            "모나": 74,
+            "253": 55,
+            "헬모": 34,
+            "조이텔": 29,
+            "쌀먹": 20,
+            "2970": 16,
+            "이심": 15,
+            "프리티": 15
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "퀀텀6 어떤가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3917474",
+                    "views": 9928,
+                    "comments": 31
+                },
+                {
+                    "title": "시월모바일 평생 110원, 추가 1천명 받네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3917497",
+                    "views": 3126,
+                    "comments": 18
+                },
+                {
+                    "title": "26년 5월 알뜰폰 초 저가 요금제 상품",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3917458",
+                    "views": 2376,
+                    "comments": 5
+                },
+                {
+                    "title": "S26 정말 ㅜ AP 비추입니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3917457",
+                    "views": 2291,
+                    "comments": 10
+                },
+                {
+                    "title": "모나 253 월 300원으로 2년동안 이용하는 법",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3917445",
+                    "views": 2140,
+                    "comments": 10
+                }
+            ],
+            "dc": [
+                {
+                    "title": "198 + 253 오우너 인데 경악했다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=442332&page=18",
+                    "views": 1790,
+                    "comments": 14
+                },
+                {
+                    "title": "200기가 잘 탔어요 탈갤함미다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=442572&page=13",
+                    "views": 1554,
+                    "comments": 20
+                },
+                {
+                    "title": "국산텔 뭐 떳다~",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=442380&page=17",
+                    "views": 1327,
+                    "comments": 14
+                },
+                {
+                    "title": "모나 253 장점 운전 기준",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=442263&page=19",
+                    "views": 1295,
+                    "comments": 15
+                },
+                {
+                    "title": "와 몸매.. 어흐ㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=443128&page=4",
+                    "views": 945,
+                    "comments": 11
+                }
+            ]
+        }
     }
 ]
