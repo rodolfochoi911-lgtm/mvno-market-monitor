@@ -12391,5 +12391,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-28",
+        "total_volume": {
+            "ppomppu": 103,
+            "dc": 88
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 2,
+            "유모바일": 9,
+            "헬로모바일": 4,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 3,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 3,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 0,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 1,
+            "SKT_Air": 0,
+            "시월모바일": 12,
+            "핀다이렉트": 0,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "253": 17,
+            "모나": 12,
+            "시월": 9,
+            "유모바일": 6,
+            "퀀텀6": 6,
+            "업데이트": 5,
+            "110원": 4,
+            "갤럭시": 4,
+            "5G": 4,
+            "3회선": 3
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "S26 기변 뜬거 왔네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3917627",
+                    "views": 22918,
+                    "comments": 63
+                },
+                {
+                    "title": "T끼리온가족할인 26년8월1일 가입중단",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3917649",
+                    "views": 13794,
+                    "comments": 61
+                },
+                {
+                    "title": "개보위, 휴대전화 개통 안면인증제 개선권고..법적근거 불명확\"",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3917575",
+                    "views": 7092,
+                    "comments": 19
+                },
+                {
+                    "title": "이제는 무조건 5G 써야겠군요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3917559",
+                    "views": 3480,
+                    "comments": 16
+                },
+                {
+                    "title": "자급제가 왜 이득인지 도저히 모르겠음",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3917547",
+                    "views": 2738,
+                    "comments": 31
+                }
+            ],
+            "dc": [
+                {
+                    "title": "모나 253 왜이러냐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=444066&page=2",
+                    "views": 911,
+                    "comments": 13
+                },
+                {
+                    "title": "시월 110 5차 아직 살아있네 인기 없나봄",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=444096&page=2",
+                    "views": 645,
+                    "comments": 7
+                },
+                {
+                    "title": "안테나 칸 덜 차는 건 LG U+ 종특인가",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=444087&page=2",
+                    "views": 622,
+                    "comments": 30
+                },
+                {
+                    "title": "5g의 압도적인 장점",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=444084&page=2",
+                    "views": 588,
+                    "comments": 3
+                },
+                {
+                    "title": "뉴진ㅅ스 하니 골반ㅎㄷㄷㄷㄷ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=444092&page=2",
+                    "views": 580,
+                    "comments": 3
+                }
+            ]
+        }
     }
 ]
