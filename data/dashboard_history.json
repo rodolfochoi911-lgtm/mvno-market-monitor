@@ -12501,5 +12501,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-29",
+        "total_volume": {
+            "ppomppu": 159,
+            "dc": 181
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 17,
+            "유모바일": 7,
+            "헬로모바일": 8,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 3,
+            "우리원모바일": 2,
+            "이야기모바일": 0,
+            "에이모바일": 1,
+            "프리티": 12,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 6,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 18,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 0,
+            "시월모바일": 15,
+            "핀다이렉트": 1,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "모나": 19,
+            "온가족할인": 16,
+            "엠모": 14,
+            "티플": 12,
+            "온가족": 11,
+            "990": 10,
+            "시월": 9,
+            "프리티": 8,
+            "253": 8,
+            "대표자": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "먹튀 업체 공유합니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3917816",
+                    "views": 24961,
+                    "comments": 39
+                },
+                {
+                    "title": "SKT 드디어 미쳤네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=708&no=3917674",
+                    "views": 18096,
+                    "comments": 39
+                },
+                {
+                    "title": "SKT 온가족할인 대표자 사망시 온가족 깨집니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=708&no=3917695",
+                    "views": 17208,
+                    "comments": 65
+                },
+                {
+                    "title": "온가족할인 공식 기사 나왔습니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=708&no=3917666",
+                    "views": 3304,
+                    "comments": 17
+                },
+                {
+                    "title": "SKT 통합요금제 출시.Official",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3917726",
+                    "views": 3209,
+                    "comments": 29
+                }
+            ],
+            "dc": [
+                {
+                    "title": "모나990 단 빨리 탈출해라",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=444915&page=5",
+                    "views": 828,
+                    "comments": 8
+                },
+                {
+                    "title": "kt 고객감사제 6월",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=444944&page=5",
+                    "views": 731,
+                    "comments": 5
+                },
+                {
+                    "title": "헬로모바일 100원 유심 NFC네 개이덕",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=444934&page=5",
+                    "views": 686,
+                    "comments": 16
+                },
+                {
+                    "title": "헬모 존나 짜치게 주네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=444951&page=5",
+                    "views": 667,
+                    "comments": 12
+                },
+                {
+                    "title": "4.5기가+1명박 통문무 5G로도 나옴",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=444983&page=4",
+                    "views": 630,
+                    "comments": 6
+                }
+            ]
+        }
     }
 ]
