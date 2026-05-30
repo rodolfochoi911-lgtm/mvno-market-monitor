@@ -12611,5 +12611,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-30",
+        "total_volume": {
+            "ppomppu": 111,
+            "dc": 943
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 9,
+            "유모바일": 36,
+            "헬로모바일": 119,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 11,
+            "우리원모바일": 1,
+            "이야기모바일": 2,
+            "에이모바일": 2,
+            "프리티": 11,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 21,
+            "인스모바일": 0,
+            "이지모바일": 9,
+            "티플러스": 46,
+            "KG모바일": 1,
+            "티다이렉트": 4,
+            "SKT_Air": 6,
+            "시월모바일": 32,
+            "핀다이렉트": 11,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "헬모": 92,
+            "더원": 72,
+            "660": 57,
+            "모나": 33,
+            "253": 33,
+            "쌀먹": 31,
+            "5g": 31,
+            "조이텔": 27,
+            "시월": 25,
+            "5G": 23
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "온가족할인 폐지 된다고 하니까 글 씁니다. (가족 범위, 동거인 결합)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3917826",
+                    "views": 3260,
+                    "comments": 11
+                },
+                {
+                    "title": "온가족할인 사실상 폐지",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3917831",
+                    "views": 2783,
+                    "comments": 5
+                },
+                {
+                    "title": "S26 skt 선약이 슬슬나오네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3917866",
+                    "views": 2565,
+                    "comments": 23
+                },
+                {
+                    "title": "[공유] SKT '온가족할인' 결합 추가 제한, 우리 권리 지키기 위...",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3917924",
+                    "views": 2343,
+                    "comments": 24
+                },
+                {
+                    "title": "다이소 C to C 10Gbps 케이블 포장지 바뀌었네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3917912",
+                    "views": 2261,
+                    "comments": 8
+                }
+            ],
+            "dc": [
+                {
+                    "title": "더원모바일 KT 5G 5GB 100분 100건 평생 660원?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=445065&page=20",
+                    "views": 1517,
+                    "comments": 18
+                },
+                {
+                    "title": "더원모바일 5G망 통문무 20GB 5060",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=445068&page=20",
+                    "views": 1453,
+                    "comments": 11
+                },
+                {
+                    "title": "시월 6월행사",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=445092&page=20",
+                    "views": 1395,
+                    "comments": 7
+                },
+                {
+                    "title": "660. 와파 된다. 비응신들아.ㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=445681&page=9",
+                    "views": 1276,
+                    "comments": 4
+                },
+                {
+                    "title": "쉐이크 6월행사",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=445061&page=20",
+                    "views": 1269,
+                    "comments": 15
+                }
+            ]
+        }
     }
 ]
