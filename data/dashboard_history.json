@@ -12721,5 +12721,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-05-31",
+        "total_volume": {
+            "ppomppu": 70,
+            "dc": 730
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 5,
+            "유모바일": 39,
+            "헬로모바일": 73,
+            "스카이라이프": 2,
+            "토스모바일": 1,
+            "리브엠": 7,
+            "우리원모바일": 3,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 5,
+            "모빙": 2,
+            "스노우맨": 0,
+            "아이즈모바일": 9,
+            "인스모바일": 2,
+            "이지모바일": 6,
+            "티플러스": 11,
+            "KG모바일": 4,
+            "티다이렉트": 1,
+            "SKT_Air": 2,
+            "시월모바일": 13,
+            "핀다이렉트": 9,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "253": 61,
+            "헬모": 57,
+            "모나": 47,
+            "2970": 34,
+            "쌀먹": 23,
+            "유모": 21,
+            "660": 17,
+            "253은": 16,
+            "6월": 15,
+            "인터넷": 15
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "7포커 대박 졸업번호",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3917947",
+                    "views": 3117,
+                    "comments": 17
+                },
+                {
+                    "title": "사용량이 적은 사용자를 위한 5월 알뜰 요금제",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3917943",
+                    "views": 2903,
+                    "comments": 4
+                },
+                {
+                    "title": "좀전에 7포커 대박번호 놓쳤네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3917948",
+                    "views": 2690,
+                    "comments": 2
+                },
+                {
+                    "title": "아버지가 휴대폰을 개통하셨는데요;;",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3917942",
+                    "views": 2297,
+                    "comments": 28
+                },
+                {
+                    "title": "SKT 요금제 및 가족할인 개편",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3917998",
+                    "views": 2211,
+                    "comments": 11
+                }
+            ],
+            "dc": [
+                {
+                    "title": "253 쓸 바에야 메이저통신사 요금제를 쓰라고?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=446178&page=17",
+                    "views": 1509,
+                    "comments": 8
+                },
+                {
+                    "title": "모나 MONA 6월 행사",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=446766&page=6",
+                    "views": 1299,
+                    "comments": 4
+                },
+                {
+                    "title": "평생 660원",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=446122&page=18",
+                    "views": 895,
+                    "comments": 0
+                },
+                {
+                    "title": "모나 괴담",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=446112&page=18",
+                    "views": 875,
+                    "comments": 7
+                },
+                {
+                    "title": "조이텔 1100 vs 티플러스 990 뭐가 더 저렴한지 계산함",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=446126&page=17",
+                    "views": 863,
+                    "comments": 7
+                }
+            ]
+        }
     }
 ]
