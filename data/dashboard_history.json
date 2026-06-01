@@ -12831,5 +12831,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-01",
+        "total_volume": {
+            "ppomppu": 119,
+            "dc": 1213
+        },
+        "brand_sov": {
+            "세븐모바일": 2,
+            "KT엠모바일": 8,
+            "유모바일": 16,
+            "헬로모바일": 71,
+            "스카이라이프": 1,
+            "토스모바일": 3,
+            "리브엠": 6,
+            "우리원모바일": 0,
+            "이야기모바일": 9,
+            "에이모바일": 21,
+            "프리티": 9,
+            "모빙": 7,
+            "스노우맨": 0,
+            "아이즈모바일": 27,
+            "인스모바일": 0,
+            "이지모바일": 9,
+            "티플러스": 45,
+            "KG모바일": 2,
+            "티다이렉트": 1,
+            "SKT_Air": 5,
+            "시월모바일": 16,
+            "핀다이렉트": 3,
+            "도시락모바일": 1
+        },
+        "top_keywords": {
+            "253": 98,
+            "199": 56,
+            "모나": 55,
+            "더원": 54,
+            "헬모": 46,
+            "티플": 27,
+            "660": 26,
+            "990": 26,
+            "5G": 21,
+            "메뚜기": 19
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "휴대폰 개통후 지원금을 안주는업체 해지하려고합니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3918058",
+                    "views": 23024,
+                    "comments": 39
+                },
+                {
+                    "title": "에이모바일 19950원 무제한 떴네요. 역대가 24개월",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3918145",
+                    "views": 9680,
+                    "comments": 73
+                },
+                {
+                    "title": "성지는 무슨. 휴업 못쓰겠네요. -휴업 계약후 즉시취소 후기-",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3918124",
+                    "views": 9185,
+                    "comments": 24
+                },
+                {
+                    "title": "헬로모바일 이벤트 연장",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3918136",
+                    "views": 3509,
+                    "comments": 48
+                },
+                {
+                    "title": "6월 알뜰폰 100원이하 이벤트 요금제 정리",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=708&no=3918046",
+                    "views": 3443,
+                    "comments": 8
+                }
+            ],
+            "dc": [
+                {
+                    "title": "조이텔 SK 4.5기가+1명박 통문무 3540원",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=447103&page=25",
+                    "views": 2248,
+                    "comments": 1
+                },
+                {
+                    "title": "253단 팩트 알려준다.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=446962&page=27",
+                    "views": 2095,
+                    "comments": 8
+                },
+                {
+                    "title": "모나 4950 나쁘지 않네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=447016&page=26",
+                    "views": 1979,
+                    "comments": 20
+                },
+                {
+                    "title": "A모바일 24개월 125GB 5명박 5G 19950",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=447830&page=12",
+                    "views": 1720,
+                    "comments": 2
+                },
+                {
+                    "title": "더원에 미친요금제 있는데?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=447033&page=26",
+                    "views": 1683,
+                    "comments": 12
+                }
+            ]
+        }
     }
 ]
