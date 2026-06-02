@@ -12941,5 +12941,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-02",
+        "total_volume": {
+            "ppomppu": 129,
+            "dc": 1070
+        },
+        "brand_sov": {
+            "세븐모바일": 4,
+            "KT엠모바일": 3,
+            "유모바일": 8,
+            "헬로모바일": 79,
+            "스카이라이프": 0,
+            "토스모바일": 2,
+            "리브엠": 5,
+            "우리원모바일": 1,
+            "이야기모바일": 4,
+            "에이모바일": 44,
+            "프리티": 4,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 15,
+            "인스모바일": 0,
+            "이지모바일": 10,
+            "티플러스": 13,
+            "KG모바일": 31,
+            "티다이렉트": 0,
+            "SKT_Air": 89,
+            "시월모바일": 16,
+            "핀다이렉트": 4,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "199": 74,
+            "에어": 67,
+            "253": 58,
+            "헬모": 50,
+            "모나": 43,
+            "인터넷": 25,
+            "5G": 23,
+            "5g": 20,
+            "그냥": 19,
+            "헬로모바일": 18
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "기다리다 퀀텀6로 했네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=708&no=3918199",
+                    "views": 22330,
+                    "comments": 49
+                },
+                {
+                    "title": "SK 온가족 폐지로 주가 대폭등 ㅋㅋ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3918284",
+                    "views": 9212,
+                    "comments": 25
+                },
+                {
+                    "title": "헬로모바일 혜택이 역대급이네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=708&no=3918202",
+                    "views": 2818,
+                    "comments": 57
+                },
+                {
+                    "title": "시월모바일 5G 150기가 + 5M 평생 나왔네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3918287",
+                    "views": 2726,
+                    "comments": 11
+                },
+                {
+                    "title": "5G 평생 무제한 인터넷 결합 가능 떴다 28,500원",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=708&no=3918193",
+                    "views": 2404,
+                    "comments": 19
+                }
+            ],
+            "dc": [
+                {
+                    "title": "에어 2.4 뜨는사람 여기 링크들어가서 요금제눌러봐봐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=448422&page=21",
+                    "views": 2089,
+                    "comments": 3
+                },
+                {
+                    "title": "150+5 평생 5G KG타도될듯",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=448604&page=18",
+                    "views": 1303,
+                    "comments": 5
+                },
+                {
+                    "title": "에어 역대급 맞나",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=448397&page=22",
+                    "views": 1283,
+                    "comments": 3
+                },
+                {
+                    "title": "KG 235가 훨씬 좋네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=448878&page=13",
+                    "views": 1269,
+                    "comments": 8
+                },
+                {
+                    "title": "모나 253 대체 2년짜리 출시",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=449030&page=11",
+                    "views": 1261,
+                    "comments": 7
+                }
+            ]
+        }
     }
 ]
