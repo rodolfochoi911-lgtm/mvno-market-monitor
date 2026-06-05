@@ -13271,5 +13271,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-05",
+        "total_volume": {
+            "ppomppu": 81,
+            "dc": 547
+        },
+        "brand_sov": {
+            "세븐모바일": 2,
+            "KT엠모바일": 15,
+            "유모바일": 24,
+            "헬로모바일": 24,
+            "스카이라이프": 2,
+            "토스모바일": 1,
+            "리브엠": 2,
+            "우리원모바일": 2,
+            "이야기모바일": 0,
+            "에이모바일": 12,
+            "프리티": 8,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 9,
+            "인스모바일": 0,
+            "이지모바일": 3,
+            "티플러스": 3,
+            "KG모바일": 2,
+            "티다이렉트": 2,
+            "SKT_Air": 97,
+            "시월모바일": 9,
+            "핀다이렉트": 7,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "에어": 70,
+            "253": 27,
+            "헬모": 17,
+            "유모": 15,
+            "쌀먹": 13,
+            "5g": 13,
+            "인터넷": 12,
+            "모나": 11,
+            "엠모": 9,
+            "문자": 8
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "설마 이마트 행사 20%돌려주는게 끝?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3918804",
+                    "views": 10997,
+                    "comments": 28
+                },
+                {
+                    "title": "삼성 s26울트라 1TB가 140만원으로 떨어지는군요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3918785",
+                    "views": 9876,
+                    "comments": 50
+                },
+                {
+                    "title": "퀀텀6 어제 개통됐는데 오늘 온누리 12만원 추가지급이네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3918800",
+                    "views": 8668,
+                    "comments": 26
+                },
+                {
+                    "title": "[삼성전자 감사 페스티벌] 이마트발 구매제품 미개봉은 불가능",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3918788",
+                    "views": 8145,
+                    "comments": 32
+                },
+                {
+                    "title": "쿠팡 지마켓 구매건은 안됨!",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3918791",
+                    "views": 4114,
+                    "comments": 14
+                }
+            ],
+            "dc": [
+                {
+                    "title": "프리티 990 부활했네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=450743&page=12",
+                    "views": 2003,
+                    "comments": 7
+                },
+                {
+                    "title": "시월 264 펨코 올라왔네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=450953&page=9",
+                    "views": 1409,
+                    "comments": 13
+                },
+                {
+                    "title": "아이즈 주말 특가",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=451290&page=3",
+                    "views": 1325,
+                    "comments": 7
+                },
+                {
+                    "title": "긴급떳다ㅅㅅㅅㅅ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=451220&page=4",
+                    "views": 1296,
+                    "comments": 11
+                },
+                {
+                    "title": "평생 125GB+5Mbps 젤 싼요금제",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=450942&page=9",
+                    "views": 1052,
+                    "comments": 9
+                }
+            ]
+        }
     }
 ]
