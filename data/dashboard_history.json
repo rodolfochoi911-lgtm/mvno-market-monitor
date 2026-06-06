@@ -13381,5 +13381,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-06",
+        "total_volume": {
+            "ppomppu": 106,
+            "dc": 239
+        },
+        "brand_sov": {
+            "세븐모바일": 2,
+            "KT엠모바일": 4,
+            "유모바일": 22,
+            "헬로모바일": 10,
+            "스카이라이프": 0,
+            "토스모바일": 4,
+            "리브엠": 2,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 3,
+            "프리티": 2,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 0,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 5,
+            "KG모바일": 1,
+            "티다이렉트": 5,
+            "SKT_Air": 29,
+            "시월모바일": 3,
+            "핀다이렉트": 2,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "에어": 18,
+            "온누리": 11,
+            "유모": 11,
+            "쌀먹": 10,
+            "a17": 8,
+            "삼성": 7,
+            "알닷": 7,
+            "번이": 6,
+            "퀀텀6": 6,
+            "조이텔": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "6/8~ 이마트 일렉트로마트 조건 공유",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3918863",
+                    "views": 14444,
+                    "comments": 42
+                },
+                {
+                    "title": "8일 이마트 갤럭시 가격인데 어떤가요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3918846",
+                    "views": 13040,
+                    "comments": 42
+                },
+                {
+                    "title": "삼성스토어 200만원이상 구매혜택도 잇네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3918817",
+                    "views": 4365,
+                    "comments": 4
+                },
+                {
+                    "title": "삼성 온누리 행사는 티다 기변하면 최고군요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3918881",
+                    "views": 4274,
+                    "comments": 18
+                },
+                {
+                    "title": "이정도가 대란급인지..s26",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3918901",
+                    "views": 3758,
+                    "comments": 13
+                }
+            ],
+            "dc": [
+                {
+                    "title": "속보) 더원 660 판매 종료",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=451398&page=6",
+                    "views": 1473,
+                    "comments": 8
+                },
+                {
+                    "title": "뭐야 M모 밀리 쌀먹 타임딜 떳었네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=451400&page=6",
+                    "views": 1258,
+                    "comments": 13
+                },
+                {
+                    "title": "더원 660 종료됐구나",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=451402&page=6",
+                    "views": 1013,
+                    "comments": 0
+                },
+                {
+                    "title": "평생요금제 저가용은 뭐가좋냐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=451417&page=5",
+                    "views": 958,
+                    "comments": 4
+                },
+                {
+                    "title": "다들 시월110은 어느 용도로 쓰냐?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=451419&page=5",
+                    "views": 955,
+                    "comments": 15
+                }
+            ]
+        }
     }
 ]
