@@ -13491,5 +13491,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-07",
+        "total_volume": {
+            "ppomppu": 88,
+            "dc": 166
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 0,
+            "유모바일": 9,
+            "헬로모바일": 7,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 0,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 2,
+            "프리티": 4,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 1,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 4,
+            "KG모바일": 0,
+            "티다이렉트": 5,
+            "SKT_Air": 18,
+            "시월모바일": 2,
+            "핀다이렉트": 2,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "에어": 8,
+            "번이": 7,
+            "인터넷": 6,
+            "조이텔": 6,
+            "헬모": 5,
+            "퀀텀6": 5,
+            "가능": 5,
+            "퀀텀": 5,
+            "원칩": 5,
+            "512": 4
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "앞으로 갤럭시는 못살듯..ㄷㄷ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3918995",
+                    "views": 37694,
+                    "comments": 61
+                },
+                {
+                    "title": "내일부터 정책 다 바뀌나보네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3918974",
+                    "views": 17822,
+                    "comments": 27
+                },
+                {
+                    "title": "6월 이마트 일렉 26플러스 512는 5월초대란과 맞먹네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3918939",
+                    "views": 14407,
+                    "comments": 27
+                },
+                {
+                    "title": "그리까 일렉행사정리하면(5월초와 비교ver)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3918931",
+                    "views": 5284,
+                    "comments": 7
+                },
+                {
+                    "title": "이마트 고잔점은 가망고객 예약 벌써 끝났다네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3918956",
+                    "views": 3411,
+                    "comments": 9
+                }
+            ],
+            "dc": [
+                {
+                    "title": "이거 모나 탈만함?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=451692&page=4",
+                    "views": 1367,
+                    "comments": 5
+                },
+                {
+                    "title": "[전설] 20기가 300분  2200원떳다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=451713&page=4",
+                    "views": 1313,
+                    "comments": 18
+                },
+                {
+                    "title": "이거 타면 졸업같은데?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=451848&page=1",
+                    "views": 1177,
+                    "comments": 12
+                },
+                {
+                    "title": "0원  5GB+1Mbps 추가",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=451783&page=3",
+                    "views": 1082,
+                    "comments": 3
+                },
+                {
+                    "title": "퀀텀7 탈 사람들 주의점",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=451866&page=1",
+                    "views": 867,
+                    "comments": 5
+                }
+            ]
+        }
     }
 ]
