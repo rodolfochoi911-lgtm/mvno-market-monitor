@@ -13601,5 +13601,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-08",
+        "total_volume": {
+            "ppomppu": 326,
+            "dc": 270
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 1,
+            "유모바일": 9,
+            "헬로모바일": 3,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 5,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 9,
+            "프리티": 4,
+            "모빙": 3,
+            "스노우맨": 0,
+            "아이즈모바일": 7,
+            "인스모바일": 0,
+            "이지모바일": 2,
+            "티플러스": 9,
+            "KG모바일": 3,
+            "티다이렉트": 2,
+            "SKT_Air": 34,
+            "시월모바일": 1,
+            "핀다이렉트": 2,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "네이버": 48,
+            "S26": 29,
+            "s26": 29,
+            "512": 24,
+            "갤럭시": 24,
+            "울트라": 24,
+            "온누리": 20,
+            "에어": 17,
+            "골드번호": 15,
+            "라이브": 14
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "부모님 퀀텀6 두대 개통했습니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3919368",
+                    "views": 26027,
+                    "comments": 115
+                },
+                {
+                    "title": "급하게 퀀텀 2대 하고 왔네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=708&no=3919300",
+                    "views": 21576,
+                    "comments": 83
+                },
+                {
+                    "title": "네이버 s26플러스 512가 혜자인데여",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=708&no=3919287",
+                    "views": 16240,
+                    "comments": 38
+                },
+                {
+                    "title": "와 지금 대박 할인 들어갔습니다!!",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=13&divpage=708&no=3919077",
+                    "views": 15219,
+                    "comments": 23
+                },
+                {
+                    "title": "못참고 쿠팡에서 s26u 1tb 질럿네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=14&divpage=708&no=3919040",
+                    "views": 13909,
+                    "comments": 42
+                }
+            ],
+            "dc": [
+                {
+                    "title": "졸업은 이런게 졸업이지",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=451874&page=7",
+                    "views": 1299,
+                    "comments": 2
+                },
+                {
+                    "title": "253 탄애들 다 좆됏다 ㄷㄷㄷ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=452093&page=3",
+                    "views": 1031,
+                    "comments": 7
+                },
+                {
+                    "title": "에어단 꿀팁공개",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=452112&page=2",
+                    "views": 918,
+                    "comments": 10
+                },
+                {
+                    "title": "SKT 골드(?)번호 추첨에 뜬 번호보고 느낀 점",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=452011&page=4",
+                    "views": 893,
+                    "comments": 9
+                },
+                {
+                    "title": "아이즈 평생 1780원 지리네 ㄷ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=452043&page=4",
+                    "views": 832,
+                    "comments": 5
+                }
+            ]
+        }
     }
 ]
