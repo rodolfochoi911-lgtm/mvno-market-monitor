@@ -13711,5 +13711,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-09",
+        "total_volume": {
+            "ppomppu": 301,
+            "dc": 285
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 2,
+            "유모바일": 13,
+            "헬로모바일": 11,
+            "스카이라이프": 3,
+            "토스모바일": 0,
+            "리브엠": 3,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 8,
+            "프리티": 6,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 12,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 19,
+            "KG모바일": 2,
+            "티다이렉트": 10,
+            "SKT_Air": 22,
+            "시월모바일": 5,
+            "핀다이렉트": 4,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "쿠팡": 42,
+            "512": 37,
+            "s26": 30,
+            "네이버": 28,
+            "울트라": 26,
+            "S26": 26,
+            "라방": 20,
+            "에어": 18,
+            "온누리": 16,
+            "라이브": 14
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "와 일렉대란보다 더싸네요 쿠팡 ㄷㄷ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=708&no=3919620",
+                    "views": 32532,
+                    "comments": 70
+                },
+                {
+                    "title": "네이버 구매하실분들 링크 - S26 플러스 512",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=11&divpage=708&no=3919461",
+                    "views": 23052,
+                    "comments": 49
+                },
+                {
+                    "title": "쿠팡 S26울트라 512 영끌 구매 정리",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3919733",
+                    "views": 15747,
+                    "comments": 52
+                },
+                {
+                    "title": "쿠팡라방 s26플러스 가격좋네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=708&no=3919622",
+                    "views": 15105,
+                    "comments": 80
+                },
+                {
+                    "title": "페이백 약속 어길때 어떻게 하시나요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3919759",
+                    "views": 9706,
+                    "comments": 26
+                }
+            ],
+            "dc": [
+                {
+                    "title": "【속보】 알뜰폰 시장 붕괴중",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=452195&page=7",
+                    "views": 1684,
+                    "comments": 1
+                },
+                {
+                    "title": "2100 역대급 떳다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=452311&page=5",
+                    "views": 1209,
+                    "comments": 15
+                },
+                {
+                    "title": "나는 알뜰폰이 사기인 거 같아",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=452192&page=7",
+                    "views": 1055,
+                    "comments": 9
+                },
+                {
+                    "title": "253 대란 있었네..",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=452197&page=7",
+                    "views": 1045,
+                    "comments": 3
+                },
+                {
+                    "title": "아이즈 SK망 6GB 500분 1500원",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=452406&page=3",
+                    "views": 895,
+                    "comments": 18
+                }
+            ]
+        }
     }
 ]
