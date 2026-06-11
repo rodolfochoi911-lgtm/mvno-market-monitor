@@ -13931,5 +13931,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-11",
+        "total_volume": {
+            "ppomppu": 367,
+            "dc": 476
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 4,
+            "유모바일": 142,
+            "헬로모바일": 16,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 1,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 2,
+            "프리티": 7,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 3,
+            "인스모바일": 0,
+            "이지모바일": 3,
+            "티플러스": 7,
+            "KG모바일": 2,
+            "티다이렉트": 129,
+            "SKT_Air": 3,
+            "시월모바일": 7,
+            "핀다이렉트": 0,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "유모": 114,
+            "티다": 99,
+            "11번가": 35,
+            "s26": 31,
+            "쿠폰": 28,
+            "512": 23,
+            "울트라": 22,
+            "S26": 19,
+            "조이텔": 16,
+            "256": 15
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "S26 울트라 1대 구입 졸업",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3920482",
+                    "views": 4740,
+                    "comments": 19
+                },
+                {
+                    "title": "티다 전화/채팅 쿠폰할인 총정리",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=12&divpage=708&no=3920198",
+                    "views": 3892,
+                    "comments": 52
+                },
+                {
+                    "title": "이마트 에브리데이 s26+ 512g 구매 완료",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=10&divpage=708&no=3920272",
+                    "views": 3188,
+                    "comments": 23
+                },
+                {
+                    "title": "유모바일 쌀먹 이벤트",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=8&divpage=708&no=3920333",
+                    "views": 3086,
+                    "comments": 65
+                },
+                {
+                    "title": "s26 플러스 512 체감가 86정도에 샀는데 갑자기 울트라 가고 싶네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=13&divpage=708&no=3920154",
+                    "views": 3037,
+                    "comments": 23
+                }
+            ],
+            "dc": [
+                {
+                    "title": "26년 6월 유모바일: 묻고더블로가 (당일 ~ 06.11 20:00)",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=453180&page=7",
+                    "views": 1372,
+                    "comments": 26
+                },
+                {
+                    "title": "조이텔 690 두개로 삼전? ㄷㄷ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=452960&page=11",
+                    "views": 1311,
+                    "comments": 4
+                },
+                {
+                    "title": "티플 SKT 990 가입하고 고객센터에 3번 전화했는데",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=452969&page=10",
+                    "views": 1184,
+                    "comments": 4
+                },
+                {
+                    "title": "안면인증 좇같은게 안면인증 데이터 털리면??",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=453034&page=9",
+                    "views": 1026,
+                    "comments": 17
+                },
+                {
+                    "title": "씨발 조이텔 90원 끝났네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=453004&page=10",
+                    "views": 985,
+                    "comments": 11
+                }
+            ]
+        }
     }
 ]
