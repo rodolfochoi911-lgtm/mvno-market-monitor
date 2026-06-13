@@ -14151,5 +14151,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-13",
+        "total_volume": {
+            "ppomppu": 191,
+            "dc": 774
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 4,
+            "유모바일": 13,
+            "헬로모바일": 9,
+            "스카이라이프": 0,
+            "토스모바일": 7,
+            "리브엠": 3,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 6,
+            "프리티": 3,
+            "모빙": 2,
+            "스노우맨": 0,
+            "아이즈모바일": 8,
+            "인스모바일": 0,
+            "이지모바일": 4,
+            "티플러스": 5,
+            "KG모바일": 1,
+            "티다이렉트": 58,
+            "SKT_Air": 3,
+            "시월모바일": 302,
+            "핀다이렉트": 4,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "시월": 235,
+            "110": 142,
+            "티다": 49,
+            "110원": 39,
+            "시월110": 26,
+            "11번가": 25,
+            "3회선": 20,
+            "모나": 19,
+            "조이텔": 19,
+            "원칩": 18
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "11번가 티다 25만원 팝업떴네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=7&divpage=708&no=3920919",
+                    "views": 19638,
+                    "comments": 43
+                },
+                {
+                    "title": "시월 모바일 110원 평생 요금제 다시 나왔네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3921041",
+                    "views": 3284,
+                    "comments": 29
+                },
+                {
+                    "title": "궁금한게 티다 11번가 sk에서 기변하시는 분들",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=7&divpage=708&no=3920929",
+                    "views": 2915,
+                    "comments": 30
+                },
+                {
+                    "title": "티다 쿠폰 끝인가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=7&divpage=708&no=3920921",
+                    "views": 2590,
+                    "comments": 7
+                },
+                {
+                    "title": "s26+, s25fe 가격 비교",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=7&divpage=708&no=3920920",
+                    "views": 2539,
+                    "comments": 13
+                }
+            ],
+            "dc": [
+                {
+                    "title": "(정보) 시월 급히 탈 애들 유심 정보 알려준다.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=454034&page=14",
+                    "views": 1852,
+                    "comments": 24
+                },
+                {
+                    "title": "시월 110 부활!!!!!",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=453933&page=16",
+                    "views": 1657,
+                    "comments": 14
+                },
+                {
+                    "title": "모나 550 왜 언급이 없는거임?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=453854&page=17",
+                    "views": 1390,
+                    "comments": 13
+                },
+                {
+                    "title": "다이소유심 시월 110 직접 테스트함",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=454387&page=8",
+                    "views": 1032,
+                    "comments": 20
+                },
+                {
+                    "title": "시월 110원 평생 요금제",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=453931&page=16",
+                    "views": 983,
+                    "comments": 11
+                }
+            ]
+        }
     }
 ]
