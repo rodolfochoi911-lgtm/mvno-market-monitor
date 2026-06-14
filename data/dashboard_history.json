@@ -14261,5 +14261,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-14",
+        "total_volume": {
+            "ppomppu": 119,
+            "dc": 442
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 4,
+            "유모바일": 2,
+            "헬로모바일": 1,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 2,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 1,
+            "프리티": 2,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 5,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 0,
+            "KG모바일": 2,
+            "티다이렉트": 21,
+            "SKT_Air": 6,
+            "시월모바일": 109,
+            "핀다이렉트": 2,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "시월": 72,
+            "110": 51,
+            "티다": 16,
+            "원칩": 15,
+            "110원": 13,
+            "시월모바일": 13,
+            "조이텔": 11,
+            "11번가": 8,
+            "5천원": 8,
+            "네이버": 7
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "퀀텀6  이제 끝났나요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3921213",
+                    "views": 20078,
+                    "comments": 29
+                },
+                {
+                    "title": "시월 110원 평생요금제 '함정' 주의.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3921261",
+                    "views": 9809,
+                    "comments": 47
+                },
+                {
+                    "title": "온가족쓰는데 30년 알뜰로 이전했습니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=708&no=3921156",
+                    "views": 2864,
+                    "comments": 6
+                },
+                {
+                    "title": "s26울트라 1테라 네이버라방으로 결제했어요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3921216",
+                    "views": 2765,
+                    "comments": 21
+                },
+                {
+                    "title": "퀀텀6 지마켓 기변 69,900",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3921283",
+                    "views": 2732,
+                    "comments": 13
+                }
+            ],
+            "dc": [
+                {
+                    "title": "시월모바일 110원 클리앙에도 퍼졌다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=454844&page=8",
+                    "views": 1634,
+                    "comments": 5
+                },
+                {
+                    "title": "평생 990원 신규 개통완료!!",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=454772&page=10",
+                    "views": 1234,
+                    "comments": 4
+                },
+                {
+                    "title": "5g로 괜히쳐바꿧다 시발..",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=454738&page=10",
+                    "views": 1221,
+                    "comments": 10
+                },
+                {
+                    "title": "시월 번호 변경 개꿀이다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=454739&page=10",
+                    "views": 1200,
+                    "comments": 1
+                },
+                {
+                    "title": "SKT망이 지리긴 하는구나",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=454818&page=9",
+                    "views": 1136,
+                    "comments": 2
+                }
+            ]
+        }
     }
 ]
