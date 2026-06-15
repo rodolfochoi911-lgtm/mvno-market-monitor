@@ -14371,5 +14371,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-15",
+        "total_volume": {
+            "ppomppu": 277,
+            "dc": 618
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 2,
+            "유모바일": 16,
+            "헬로모바일": 5,
+            "스카이라이프": 1,
+            "토스모바일": 0,
+            "리브엠": 3,
+            "우리원모바일": 0,
+            "이야기모바일": 3,
+            "에이모바일": 6,
+            "프리티": 10,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 8,
+            "인스모바일": 0,
+            "이지모바일": 3,
+            "티플러스": 8,
+            "KG모바일": 13,
+            "티다이렉트": 61,
+            "SKT_Air": 23,
+            "시월모바일": 151,
+            "핀다이렉트": 3,
+            "도시락모바일": 1
+        },
+        "top_keywords": {
+            "시월": 106,
+            "11번가": 52,
+            "110": 50,
+            "티다": 41,
+            "s26": 24,
+            "모나": 18,
+            "에어": 17,
+            "512": 15,
+            "울트라": 14,
+            "조이텔": 13
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "오늘도 지마켓이 제일 저렴",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3921564",
+                    "views": 14935,
+                    "comments": 25
+                },
+                {
+                    "title": "[11번가] 삼성전자 감사 페스티벌  x SKT갤럭시데이",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=9&divpage=708&no=3921324",
+                    "views": 11389,
+                    "comments": 22
+                },
+                {
+                    "title": "네이버 오늘 라방 26플 가격",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=10&divpage=708&no=3921310",
+                    "views": 3085,
+                    "comments": 12
+                },
+                {
+                    "title": "갤럭시 s26 사려는데 네이버라방, 지마켓, 쿠팡, 11번가 어디가 제일 저렴할까요!?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=10&divpage=708&no=3921300",
+                    "views": 2669,
+                    "comments": 16
+                },
+                {
+                    "title": "다행히 온누리 상품권 털기 쉬워 질것 같네요 ㅋㅋ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=10&divpage=708&no=3921312",
+                    "views": 2570,
+                    "comments": 6
+                }
+            ],
+            "dc": [
+                {
+                    "title": "kg모바일 1명박 2200 평생",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=455349&page=12",
+                    "views": 1529,
+                    "comments": 8
+                },
+                {
+                    "title": "시월 110 하나만 타둬라",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=455269&page=14",
+                    "views": 1099,
+                    "comments": 5
+                },
+                {
+                    "title": "역 대 급 전설 신화 태초 요금제 떴다!!",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=455325&page=13",
+                    "views": 1055,
+                    "comments": 8
+                },
+                {
+                    "title": "모나 특가 종료 !!",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=455848&page=3",
+                    "views": 1046,
+                    "comments": 6
+                },
+                {
+                    "title": "시월110원 저거 조심해라 모기업이 바이럴마케팅 회사임",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=455778&page=5",
+                    "views": 1035,
+                    "comments": 6
+                }
+            ]
+        }
     }
 ]
