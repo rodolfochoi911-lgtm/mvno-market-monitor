@@ -14591,5 +14591,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-17",
+        "total_volume": {
+            "ppomppu": 190,
+            "dc": 295
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 0,
+            "유모바일": 6,
+            "헬로모바일": 3,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 4,
+            "우리원모바일": 0,
+            "이야기모바일": 1,
+            "에이모바일": 2,
+            "프리티": 8,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 5,
+            "인스모바일": 1,
+            "이지모바일": 0,
+            "티플러스": 12,
+            "KG모바일": 7,
+            "티다이렉트": 27,
+            "SKT_Air": 7,
+            "시월모바일": 42,
+            "핀다이렉트": 1,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "시월": 29,
+            "티다": 18,
+            "110": 15,
+            "모나": 15,
+            "s26": 14,
+            "S26": 14,
+            "갤럭시": 11,
+            "조이텔": 10,
+            "쿠폰": 9,
+            "라이브": 9
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "S26 시리즈 쿠팡에서 반품된 것들도 온누리 상품권 받을 수 있는걸까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=7&divpage=708&no=3921774",
+                    "views": 2523,
+                    "comments": 12
+                },
+                {
+                    "title": "티다 방금 선착순 쿠폰(20만원) 받았습니다. (마감인듯합니다.)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=7&divpage=708&no=3921797",
+                    "views": 2471,
+                    "comments": 26
+                },
+                {
+                    "title": "일렉트로마트 s26+ 512구매완료입니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3921952",
+                    "views": 2294,
+                    "comments": 10
+                },
+                {
+                    "title": "갤럭시 S26 256GB 자급제 최저가",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=7&divpage=708&no=3921787",
+                    "views": 2201,
+                    "comments": 7
+                },
+                {
+                    "title": "지마켓 S26+ 512 체감 89만원으로..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3921966",
+                    "views": 2111,
+                    "comments": 18
+                }
+            ],
+            "dc": [
+                {
+                    "title": "방금 시월이랑 전화했다 이번 평생 110  의무 통화 하고싶으면 해라",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=456847&page=4",
+                    "views": 1445,
+                    "comments": 49
+                },
+                {
+                    "title": "110 + 안심옵션 은 무적이다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=456635&page=7",
+                    "views": 1159,
+                    "comments": 16
+                },
+                {
+                    "title": "시월 앱 위젯 있네 ㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=456936&page=2",
+                    "views": 1139,
+                    "comments": 10
+                },
+                {
+                    "title": "110 평생 전설유저 인증",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=456916&page=3",
+                    "views": 1058,
+                    "comments": 8
+                },
+                {
+                    "title": "여긴 진짜 얼마나 좆거지들만 모인거냐? ㅋㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=456653&page=7",
+                    "views": 1051,
+                    "comments": 17
+                }
+            ]
+        }
     }
 ]
