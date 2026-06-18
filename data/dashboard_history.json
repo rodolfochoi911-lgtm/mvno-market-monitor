@@ -14701,5 +14701,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-18",
+        "total_volume": {
+            "ppomppu": 221,
+            "dc": 291
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 2,
+            "유모바일": 10,
+            "헬로모바일": 5,
+            "스카이라이프": 2,
+            "토스모바일": 0,
+            "리브엠": 4,
+            "우리원모바일": 0,
+            "이야기모바일": 1,
+            "에이모바일": 5,
+            "프리티": 4,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 3,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 5,
+            "KG모바일": 20,
+            "티다이렉트": 66,
+            "SKT_Air": 13,
+            "시월모바일": 21,
+            "핀다이렉트": 1,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "티다": 46,
+            "쿠폰": 19,
+            "S26": 17,
+            "시월": 14,
+            "1명박": 12,
+            "울트라": 11,
+            "모나": 11,
+            "11번가": 10,
+            "라이브": 10,
+            "갤럭시": 9
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "S26울트라 512G 티다 라이브 가격 계산입니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3922147",
+                    "views": 3161,
+                    "comments": 31
+                },
+                {
+                    "title": "오늘 티다 라이브 많이 하네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=8&divpage=708&no=3922003",
+                    "views": 2956,
+                    "comments": 1
+                },
+                {
+                    "title": "티다 라이브 혜택 떳네요 ㅎㅎ..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3922133",
+                    "views": 2927,
+                    "comments": 19
+                },
+                {
+                    "title": "티다샵 S26 구매 관련 몇 가지 내용 정리 해봤습니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3922222",
+                    "views": 2676,
+                    "comments": 36
+                },
+                {
+                    "title": "요즘 평생 요금제만 알아보는 이유",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=708&no=3922099",
+                    "views": 2591,
+                    "comments": 9
+                }
+            ],
+            "dc": [
+                {
+                    "title": "유심젖문가 이 씨발새끼야",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=456996&page=7",
+                    "views": 1039,
+                    "comments": 8
+                },
+                {
+                    "title": "난 짇짜 병신이엇구나",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=457019&page=7",
+                    "views": 878,
+                    "comments": 10
+                },
+                {
+                    "title": "5GB+1mbps 2900원 이거 어떰",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=457170&page=5",
+                    "views": 866,
+                    "comments": 12
+                },
+                {
+                    "title": "벨킨 충전기 역대 최저가 뜸",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=457090&page=6",
+                    "views": 830,
+                    "comments": 16
+                },
+                {
+                    "title": "시월 의통 찐 정리",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=457075&page=6",
+                    "views": 809,
+                    "comments": 10
+                }
+            ]
+        }
     }
 ]
