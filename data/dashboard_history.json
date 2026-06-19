@@ -14811,5 +14811,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-19",
+        "total_volume": {
+            "ppomppu": 242,
+            "dc": 566
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 9,
+            "유모바일": 56,
+            "헬로모바일": 204,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 4,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 4,
+            "프리티": 3,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 5,
+            "인스모바일": 0,
+            "이지모바일": 4,
+            "티플러스": 1,
+            "KG모바일": 5,
+            "티다이렉트": 100,
+            "SKT_Air": 4,
+            "시월모바일": 17,
+            "핀다이렉트": 1,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "헬모": 155,
+            "티다": 78,
+            "모나": 37,
+            "유모": 34,
+            "쌀먹": 33,
+            "S26": 17,
+            "번이": 17,
+            "이심": 16,
+            "s26": 15,
+            "민팃": 12
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "헬로모바일 스팟으로 쌀먹 떳네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=8&divpage=708&no=3922278",
+                    "views": 2285,
+                    "comments": 22
+                },
+                {
+                    "title": "유모바일 쌀먹 떳네요!",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3922417",
+                    "views": 2184,
+                    "comments": 31
+                },
+                {
+                    "title": "티다 갤럭시 S26 울트라 1TB 기록용 + 티다 구매팁",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=708&no=3922392",
+                    "views": 2068,
+                    "comments": 37
+                },
+                {
+                    "title": "티다 쿠폰 + 이용권",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=9&divpage=708&no=3922242",
+                    "views": 1931,
+                    "comments": 8
+                },
+                {
+                    "title": "이마트에브리데이 s26+ 512 895,000 삼카",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=708&no=3922465",
+                    "views": 1717,
+                    "comments": 15
+                }
+            ],
+            "dc": [
+                {
+                    "title": "오늘 헬모 많이 탔냐? 오늘도 많이 도와줬다. (팁 포함)",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=457923&page=2",
+                    "views": 1723,
+                    "comments": 38
+                },
+                {
+                    "title": "26년 6월 헬로모바일: 타임딜 (06.19 ~ 06.22)",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=457948&page=2",
+                    "views": 1696,
+                    "comments": 9
+                },
+                {
+                    "title": "모나 통수 또 당햇다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=457367&page=12",
+                    "views": 1215,
+                    "comments": 13
+                },
+                {
+                    "title": "모나 10  110  타지마라",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=457378&page=12",
+                    "views": 1204,
+                    "comments": 7
+                },
+                {
+                    "title": "헬모 타임딜 개통끝",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=457527&page=9",
+                    "views": 1166,
+                    "comments": 4
+                }
+            ]
+        }
     }
 ]
