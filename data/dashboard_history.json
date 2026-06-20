@@ -14921,5 +14921,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-20",
+        "total_volume": {
+            "ppomppu": 136,
+            "dc": 364
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 6,
+            "유모바일": 24,
+            "헬로모바일": 110,
+            "스카이라이프": 1,
+            "토스모바일": 0,
+            "리브엠": 1,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 0,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 3,
+            "인스모바일": 0,
+            "이지모바일": 2,
+            "티플러스": 2,
+            "KG모바일": 0,
+            "티다이렉트": 32,
+            "SKT_Air": 4,
+            "시월모바일": 5,
+            "핀다이렉트": 1,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "헬모": 88,
+            "티다": 24,
+            "쌀먹": 18,
+            "유모": 14,
+            "민팃": 13,
+            "s26": 11,
+            "울트라": 9,
+            "이심": 9,
+            "S26": 8,
+            "네이버": 8
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "22일 네이버 멤버쉽데이",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=708&no=3922514",
+                    "views": 4220,
+                    "comments": 9
+                },
+                {
+                    "title": "g마켓 퀀텀6 상당히 괜찮네요 ㅎ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=708&no=3922597",
+                    "views": 2863,
+                    "comments": 3
+                },
+                {
+                    "title": "티다 s26 울트라 1TB 기록",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=708&no=3922515",
+                    "views": 2460,
+                    "comments": 9
+                },
+                {
+                    "title": "S26+ 256 자급제",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=708&no=3922652",
+                    "views": 2456,
+                    "comments": 17
+                },
+                {
+                    "title": "어제 폭풍이 휩쓸고 지나갔네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=708&no=3922543",
+                    "views": 2448,
+                    "comments": 3
+                }
+            ],
+            "dc": [
+                {
+                    "title": "쿠팡에서 헬로모바일 유심 시키지마라 내가 직접 시켜봤다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=458312&page=2",
+                    "views": 938,
+                    "comments": 38
+                },
+                {
+                    "title": "아 유모 ㅈ댓네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=457983&page=8",
+                    "views": 876,
+                    "comments": 3
+                },
+                {
+                    "title": "올리브영 금액권 ㅈㄴ 안팔리네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=457989&page=8",
+                    "views": 777,
+                    "comments": 8
+                },
+                {
+                    "title": "개인정보 제공동의 함부로하면 6만여곳에 공유됨",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=458374&page=1",
+                    "views": 769,
+                    "comments": 7
+                },
+                {
+                    "title": "당분간 헬모유심은 여기서 사는게 맞는거 같다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=458355&page=2",
+                    "views": 757,
+                    "comments": 3
+                }
+            ]
+        }
     }
 ]
