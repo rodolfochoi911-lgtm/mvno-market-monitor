@@ -15031,5 +15031,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-21",
+        "total_volume": {
+            "ppomppu": 101,
+            "dc": 317
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 2,
+            "유모바일": 28,
+            "헬로모바일": 23,
+            "스카이라이프": 1,
+            "토스모바일": 1,
+            "리브엠": 2,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 1,
+            "프리티": 2,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 1,
+            "인스모바일": 0,
+            "이지모바일": 3,
+            "티플러스": 3,
+            "KG모바일": 4,
+            "티다이렉트": 21,
+            "SKT_Air": 0,
+            "시월모바일": 9,
+            "핀다이렉트": 2,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "신세계": 38,
+            "헬모": 17,
+            "유모": 16,
+            "티다": 15,
+            "상품권": 9,
+            "그냥": 9,
+            "s26": 8,
+            "네페": 8,
+            "민팃": 7,
+            "유모바일": 7
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "지금 온누리 환급",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3922757",
+                    "views": 3117,
+                    "comments": 17
+                },
+                {
+                    "title": "자급제 네이버라방 26+ 512 가격 총정리 체감가75",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3922665",
+                    "views": 3107,
+                    "comments": 9
+                },
+                {
+                    "title": "퀀텀6나 s26대란",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3922696",
+                    "views": 2684,
+                    "comments": 13
+                },
+                {
+                    "title": "다들 네이버라이브로 자급제 사시는것같은데.. 쿠폰 용케 구하시네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3922674",
+                    "views": 2568,
+                    "comments": 21
+                },
+                {
+                    "title": "상품권 당근에 팔았는데 이미 사용한 번호라고 뜬다네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3922743",
+                    "views": 2464,
+                    "comments": 14
+                }
+            ],
+            "dc": [
+                {
+                    "title": "XX모바일 종사자입니다 금요일에 큰거옵니다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=458399&page=7",
+                    "views": 1143,
+                    "comments": 3
+                },
+                {
+                    "title": "유모바일 유심 픽업 개꿀이네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=458389&page=7",
+                    "views": 1010,
+                    "comments": 18
+                },
+                {
+                    "title": "시월 110 탄거 전나 후회한 이유",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=458740&page=1",
+                    "views": 978,
+                    "comments": 7
+                },
+                {
+                    "title": "형들 시월110 같은 핫딜 또 뜰까요",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=458394&page=7",
+                    "views": 929,
+                    "comments": 7
+                },
+                {
+                    "title": "이정도 쌀먹은 꾸준히 있었나요?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=458391&page=7",
+                    "views": 892,
+                    "comments": 9
+                }
+            ]
+        }
     }
 ]
