@@ -15141,5 +15141,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-22",
+        "total_volume": {
+            "ppomppu": 402,
+            "dc": 307
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 7,
+            "유모바일": 20,
+            "헬로모바일": 44,
+            "스카이라이프": 1,
+            "토스모바일": 3,
+            "리브엠": 3,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 6,
+            "프리티": 3,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 2,
+            "인스모바일": 0,
+            "이지모바일": 3,
+            "티플러스": 4,
+            "KG모바일": 4,
+            "티다이렉트": 32,
+            "SKT_Air": 4,
+            "시월모바일": 4,
+            "핀다이렉트": 5,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "네이버": 68,
+            "S26": 41,
+            "s26": 37,
+            "라방": 36,
+            "512": 36,
+            "헬모": 33,
+            "티다": 23,
+            "쿠폰": 23,
+            "구매": 20,
+            "라이브": 20
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "오오 네이버  넾다세일 역대가 같네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=14&divpage=709&no=3922761",
+                    "views": 35846,
+                    "comments": 82
+                },
+                {
+                    "title": "s26+ 512 체감가 계산",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=14&divpage=709&no=3922763",
+                    "views": 16874,
+                    "comments": 96
+                },
+                {
+                    "title": "s26+ 512GB 자급제도 싸긴싸네요..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=14&divpage=709&no=3922769",
+                    "views": 15179,
+                    "comments": 21
+                },
+                {
+                    "title": "오늘 네이버 라방이 역대가인듯요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3923168",
+                    "views": 4312,
+                    "comments": 20
+                },
+                {
+                    "title": "오전 26플러스 512 역대가였네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3923144",
+                    "views": 3844,
+                    "comments": 26
+                }
+            ],
+            "dc": [
+                {
+                    "title": "(정보) 헬로모바일 K3640 유심이 공급된다.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=458778&page=7",
+                    "views": 1525,
+                    "comments": 14
+                },
+                {
+                    "title": "근데 지금 s26 역대가 뜸",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=458841&page=6",
+                    "views": 1131,
+                    "comments": 22
+                },
+                {
+                    "title": "오아시스 쌀먹완료",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=458777&page=7",
+                    "views": 1056,
+                    "comments": 12
+                },
+                {
+                    "title": "헬모심풀렸네 ㅋㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=459012&page=3",
+                    "views": 890,
+                    "comments": 5
+                },
+                {
+                    "title": "아 역대급병신짓했노 ㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=458886&page=5",
+                    "views": 884,
+                    "comments": 14
+                }
+            ]
+        }
     }
 ]
