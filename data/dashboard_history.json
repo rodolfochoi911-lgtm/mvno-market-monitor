@@ -15251,5 +15251,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-23",
+        "total_volume": {
+            "ppomppu": 220,
+            "dc": 272
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 7,
+            "유모바일": 7,
+            "헬로모바일": 34,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 5,
+            "우리원모바일": 0,
+            "이야기모바일": 1,
+            "에이모바일": 6,
+            "프리티": 2,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 4,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 0,
+            "KG모바일": 2,
+            "티다이렉트": 59,
+            "SKT_Air": 6,
+            "시월모바일": 7,
+            "핀다이렉트": 2,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "티다": 45,
+            "민팃": 25,
+            "헬모": 23,
+            "S26": 18,
+            "라방": 14,
+            "네이버": 13,
+            "s26": 12,
+            "울트라": 12,
+            "512": 11,
+            "라이브": 10
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "S26 중고가 폭망",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=7&divpage=709&no=3923244",
+                    "views": 15387,
+                    "comments": 48
+                },
+                {
+                    "title": "넾다쿠 막차 구매 S26플러스 512GB",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=8&divpage=709&no=3923195",
+                    "views": 3564,
+                    "comments": 6
+                },
+                {
+                    "title": "갤럭시 싸게 사고 나발이고 아무 의미가 없구나..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=709&no=3923302",
+                    "views": 3228,
+                    "comments": 31
+                },
+                {
+                    "title": "베라 50% 할인 떔에 난리 났네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=8&divpage=709&no=3923223",
+                    "views": 3170,
+                    "comments": 8
+                },
+                {
+                    "title": "티다 웰컴쿠폰 25만원 시세ㄷㄷ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3923355",
+                    "views": 2902,
+                    "comments": 26
+                }
+            ],
+            "dc": [
+                {
+                    "title": "뽐뿌는 제일 역겨운게 뭐냐면",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=459171&page=6",
+                    "views": 1250,
+                    "comments": 22
+                },
+                {
+                    "title": "헬모 100원 유심 풀렸다.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=459290&page=3",
+                    "views": 1072,
+                    "comments": 45
+                },
+                {
+                    "title": "갤이 혼란스럽구먼 청소한번해야쓰겄다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=459207&page=5",
+                    "views": 1043,
+                    "comments": 9
+                },
+                {
+                    "title": "아이즈 평일특가",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=459445&page=1",
+                    "views": 1037,
+                    "comments": 17
+                },
+                {
+                    "title": "당근에 S26 온누리 먹튀 많네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=459149&page=6",
+                    "views": 958,
+                    "comments": 12
+                }
+            ]
+        }
     }
 ]
