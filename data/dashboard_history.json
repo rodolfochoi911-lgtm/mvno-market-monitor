@@ -15361,5 +15361,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-24",
+        "total_volume": {
+            "ppomppu": 271,
+            "dc": 287
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 4,
+            "유모바일": 33,
+            "헬로모바일": 27,
+            "스카이라이프": 1,
+            "토스모바일": 2,
+            "리브엠": 1,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 3,
+            "프리티": 2,
+            "모빙": 2,
+            "스노우맨": 0,
+            "아이즈모바일": 6,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 5,
+            "KG모바일": 4,
+            "티다이렉트": 102,
+            "SKT_Air": 5,
+            "시월모바일": 6,
+            "핀다이렉트": 0,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "티다": 78,
+            "민팃": 40,
+            "헬모": 22,
+            "유모": 16,
+            "네이버": 15,
+            "S26": 15,
+            "구매": 13,
+            "쿠폰": 12,
+            "512": 11,
+            "자급제": 11
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "S26 기변 기록용 티다초보. 쿠폰링크",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=10&divpage=709&no=3923442",
+                    "views": 2864,
+                    "comments": 19
+                },
+                {
+                    "title": "26 구매하신분들 이거 놓치지 마세요~",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=709&no=3923555",
+                    "views": 2180,
+                    "comments": 13
+                },
+                {
+                    "title": "이따가 안정환 라방 한번 믿어봐야하나요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=8&divpage=709&no=3923501",
+                    "views": 2125,
+                    "comments": 17
+                },
+                {
+                    "title": "s25 FE 티다 괜찮은것 같아요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=8&divpage=709&no=3923492",
+                    "views": 2057,
+                    "comments": 31
+                },
+                {
+                    "title": "S26U 1TB 최종 정산 기록용",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=10&divpage=709&no=3923428",
+                    "views": 2031,
+                    "comments": 7
+                }
+            ],
+            "dc": [
+                {
+                    "title": "유모 이건못참지 제대로 정리해왔다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=459724&page=2",
+                    "views": 1295,
+                    "comments": 15
+                },
+                {
+                    "title": "2970 평생 떴다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=459582&page=5",
+                    "views": 1120,
+                    "comments": 9
+                },
+                {
+                    "title": "유모 이건못참지 분석",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=459640&page=4",
+                    "views": 1116,
+                    "comments": 9
+                },
+                {
+                    "title": "헬모 100원 유심 또 풀렸다.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=459569&page=5",
+                    "views": 1103,
+                    "comments": 36
+                },
+                {
+                    "title": "프리티 캐나다 요금제 떳네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=459471&page=7",
+                    "views": 1052,
+                    "comments": 2
+                }
+            ]
+        }
     }
 ]
