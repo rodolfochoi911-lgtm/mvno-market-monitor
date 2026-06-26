@@ -15581,5 +15581,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-26",
+        "total_volume": {
+            "ppomppu": 154,
+            "dc": 438
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 97,
+            "유모바일": 65,
+            "헬로모바일": 13,
+            "스카이라이프": 0,
+            "토스모바일": 3,
+            "리브엠": 2,
+            "우리원모바일": 2,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 0,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 9,
+            "인스모바일": 1,
+            "이지모바일": 2,
+            "티플러스": 3,
+            "KG모바일": 0,
+            "티다이렉트": 17,
+            "SKT_Air": 5,
+            "시월모바일": 5,
+            "핀다이렉트": 7,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "엠모": 73,
+            "유모": 37,
+            "자급제": 27,
+            "네이버": 20,
+            "유모바일": 15,
+            "이건못참지": 12,
+            "쌀먹": 12,
+            "티다": 11,
+            "S26": 11,
+            "헬모": 11
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "네이버 갤럭시 카드할인 다살아나썽요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=7&divpage=709&no=3923921",
+                    "views": 3582,
+                    "comments": 19
+                },
+                {
+                    "title": "안면인식 7월1일부로 시행하네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=7&divpage=709&no=3923924",
+                    "views": 3040,
+                    "comments": 22
+                },
+                {
+                    "title": "네이버 s26플러스 512",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=7&divpage=709&no=3923925",
+                    "views": 2533,
+                    "comments": 11
+                },
+                {
+                    "title": "\" 삼성닷컴 \" \" S26플러스 자급제 \"  \" 역대급 대란 \"",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=709&no=3923958",
+                    "views": 2494,
+                    "comments": 2
+                },
+                {
+                    "title": "내년 s27 시리즈 출고가 인상예정",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3924012",
+                    "views": 2412,
+                    "comments": 18
+                }
+            ],
+            "dc": [
+                {
+                    "title": "애플 공홈 가격 최대 54% 인상 완료",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=460207&page=9",
+                    "views": 1242,
+                    "comments": 2
+                },
+                {
+                    "title": "26년 6월 kt M: M (06.26 ~ 06.30)",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=460290&page=8",
+                    "views": 975,
+                    "comments": 27
+                },
+                {
+                    "title": "엠모 오늘부터하는건쓸만하노?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=460233&page=9",
+                    "views": 912,
+                    "comments": 12
+                },
+                {
+                    "title": "언제부터 번호 따졌는데 유심번호 따졌지 뽐거지들 진짜",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=460189&page=10",
+                    "views": 866,
+                    "comments": 16
+                },
+                {
+                    "title": "난 골드번호고 나발이고 전번호주인이 죽이고싶음",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=460191&page=10",
+                    "views": 761,
+                    "comments": 4
+                }
+            ]
+        }
     }
 ]
