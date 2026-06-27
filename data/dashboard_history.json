@@ -15691,5 +15691,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-27",
+        "total_volume": {
+            "ppomppu": 107,
+            "dc": 306
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 33,
+            "유모바일": 64,
+            "헬로모바일": 13,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 2,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 1,
+            "프리티": 4,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 3,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 2,
+            "KG모바일": 1,
+            "티다이렉트": 12,
+            "SKT_Air": 4,
+            "시월모바일": 5,
+            "핀다이렉트": 5,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "유모": 42,
+            "엠모": 19,
+            "쌀먹": 14,
+            "유모바일": 12,
+            "이심": 10,
+            "티다": 9,
+            "헬모": 9,
+            "자급제": 8,
+            "s26": 7,
+            "이건못참지": 7
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "잇섭 리뷰보니 s26 플러스가 s25 플러스에 꿀리지 않네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3924229",
+                    "views": 3046,
+                    "comments": 18
+                },
+                {
+                    "title": "삼성 온누리상품권 대체 언제 주는지..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3924221",
+                    "views": 2480,
+                    "comments": 14
+                },
+                {
+                    "title": "울트라 손목아파죽겠네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3924192",
+                    "views": 2293,
+                    "comments": 22
+                },
+                {
+                    "title": "skt 요금제 개편중에",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3924123",
+                    "views": 2156,
+                    "comments": 3
+                },
+                {
+                    "title": "퀌텀6 파니까 대체제가 없네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3924210",
+                    "views": 2070,
+                    "comments": 11
+                }
+            ],
+            "dc": [
+                {
+                    "title": "엠모 쌀먹타라",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=460785&page=5",
+                    "views": 1296,
+                    "comments": 21
+                },
+                {
+                    "title": "엠모바일 했다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=460700&page=7",
+                    "views": 913,
+                    "comments": 8
+                },
+                {
+                    "title": "110은 메인폰? 서브폰?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=460676&page=7",
+                    "views": 687,
+                    "comments": 23
+                },
+                {
+                    "title": "시월110원 이거 lte지?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=460671&page=7",
+                    "views": 683,
+                    "comments": 5
+                },
+                {
+                    "title": "유모 네페 하루만에 통수쳐맞았네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=460686&page=7",
+                    "views": 640,
+                    "comments": 1
+                }
+            ]
+        }
     }
 ]
