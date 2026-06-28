@@ -15801,5 +15801,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-28",
+        "total_volume": {
+            "ppomppu": 91,
+            "dc": 179
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 11,
+            "유모바일": 41,
+            "헬로모바일": 7,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 1,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 4,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 0,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 0,
+            "KG모바일": 1,
+            "티다이렉트": 11,
+            "SKT_Air": 1,
+            "시월모바일": 2,
+            "핀다이렉트": 2,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "유모": 28,
+            "온누리": 8,
+            "티다": 7,
+            "자급제": 7,
+            "이건못참지": 7,
+            "엠모": 7,
+            "유모바일": 6,
+            "쌀먹": 6,
+            "삼성": 5,
+            "헬모": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "충격적인) 전직 애플 직원들의 폭로 ㄷㄷ.jpg",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3924272",
+                    "views": 4785,
+                    "comments": 10
+                },
+                {
+                    "title": "갤S26 왔는데 뜯기 겁나네요 ㅋㅋ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3924244",
+                    "views": 3884,
+                    "comments": 2
+                },
+                {
+                    "title": "온누리 20프로",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3924248",
+                    "views": 3521,
+                    "comments": 4
+                },
+                {
+                    "title": "s26+ 자급제 기기값 84 정도면 괜찮은 건가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3924270",
+                    "views": 3017,
+                    "comments": 22
+                },
+                {
+                    "title": "sk 개편요금제가 어느 정도 너프인건지 봐도 모르겠네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3924278",
+                    "views": 2157,
+                    "comments": 17
+                }
+            ],
+            "dc": [
+                {
+                    "title": "이걸 어케 참지",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=461065&page=4",
+                    "views": 1017,
+                    "comments": 14
+                },
+                {
+                    "title": "지금 퀀텀6 조건 좆구린 거 같던데",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=461013&page=5",
+                    "views": 921,
+                    "comments": 11
+                },
+                {
+                    "title": "쌀먹폰 apn설정하니까 mms 잘온다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=461011&page=5",
+                    "views": 895,
+                    "comments": 12
+                },
+                {
+                    "title": "7월에 2970 재출시",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=461108&page=3",
+                    "views": 893,
+                    "comments": 4
+                },
+                {
+                    "title": "재출시 절대 안하는 신화 요금제들",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=461115&page=3",
+                    "views": 891,
+                    "comments": 6
+                }
+            ]
+        }
     }
 ]
