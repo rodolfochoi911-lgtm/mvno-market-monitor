@@ -16021,5 +16021,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-06-30",
+        "total_volume": {
+            "ppomppu": 268,
+            "dc": 409
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 89,
+            "유모바일": 42,
+            "헬로모바일": 9,
+            "스카이라이프": 3,
+            "토스모바일": 1,
+            "리브엠": 1,
+            "우리원모바일": 0,
+            "이야기모바일": 10,
+            "에이모바일": 3,
+            "프리티": 6,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 6,
+            "인스모바일": 0,
+            "이지모바일": 2,
+            "티플러스": 6,
+            "KG모바일": 0,
+            "티다이렉트": 94,
+            "SKT_Air": 5,
+            "시월모바일": 11,
+            "핀다이렉트": 0,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "티다": 77,
+            "엠모": 71,
+            "유모": 27,
+            "자급제": 20,
+            "S26": 16,
+            "쿠폰": 15,
+            "이심": 15,
+            "11번가": 14,
+            "s26": 14,
+            "쌀먹": 14
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "삼성 배터리팩 끝났네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=11&divpage=709&no=3924623",
+                    "views": 2805,
+                    "comments": 13
+                },
+                {
+                    "title": "11번가 티다에 올라온 퀀텀6 65300원 이네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=10&divpage=709&no=3924676",
+                    "views": 2454,
+                    "comments": 30
+                },
+                {
+                    "title": "티다 s25fe 신규 구매",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=12&divpage=709&no=3924603",
+                    "views": 2335,
+                    "comments": 13
+                },
+                {
+                    "title": "티다 S25FE 유지비 24만원 나와서 구매했네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=10&divpage=709&no=3924656",
+                    "views": 2092,
+                    "comments": 38
+                },
+                {
+                    "title": "하 넾다 쿠폰 또 못받았네",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=12&divpage=709&no=3924591",
+                    "views": 2077,
+                    "comments": 5
+                }
+            ],
+            "dc": [
+                {
+                    "title": "LGU 음질이 너무 안좋네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=461652&page=10",
+                    "views": 1929,
+                    "comments": 36
+                },
+                {
+                    "title": "얼굴인식? 이 지랄 날 줄 몰랐냐?ㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=461848&page=6",
+                    "views": 1331,
+                    "comments": 13
+                },
+                {
+                    "title": "2970이 진짜 신이네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=461649&page=10",
+                    "views": 1280,
+                    "comments": 3
+                },
+                {
+                    "title": "진짜로 큰거옴",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=461843&page=6",
+                    "views": 1268,
+                    "comments": 1
+                },
+                {
+                    "title": "이제 평생 110 막 나올꺼같지않냐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=461637&page=10",
+                    "views": 1136,
+                    "comments": 3
+                }
+            ]
+        }
     }
 ]
