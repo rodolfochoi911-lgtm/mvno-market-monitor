@@ -16131,5 +16131,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-01",
+        "total_volume": {
+            "ppomppu": 405,
+            "dc": 476
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 25,
+            "유모바일": 18,
+            "헬로모바일": 5,
+            "스카이라이프": 1,
+            "토스모바일": 1,
+            "리브엠": 3,
+            "우리원모바일": 2,
+            "이야기모바일": 1,
+            "에이모바일": 26,
+            "프리티": 9,
+            "모빙": 3,
+            "스노우맨": 0,
+            "아이즈모바일": 7,
+            "인스모바일": 0,
+            "이지모바일": 3,
+            "티플러스": 13,
+            "KG모바일": 4,
+            "티다이렉트": 86,
+            "SKT_Air": 4,
+            "시월모바일": 4,
+            "핀다이렉트": 9,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "티다": 68,
+            "조이텔": 26,
+            "온누리": 21,
+            "쿠폰": 18,
+            "S26": 18,
+            "엠모": 17,
+            "s26": 16,
+            "7월": 14,
+            "자급제": 12,
+            "형들": 12
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "2026.07년 알뜰폰 요금제  TOP10",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=13&divpage=709&no=3924992",
+                    "views": 2417,
+                    "comments": 16
+                },
+                {
+                    "title": "7/1 넾다쿠폰 소진인거죠?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=15&divpage=709&no=3924950",
+                    "views": 2407,
+                    "comments": 14
+                },
+                {
+                    "title": "알뜰폰 5G 요금제도 매우 저렴하네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=14&divpage=709&no=3924974",
+                    "views": 2348,
+                    "comments": 9
+                },
+                {
+                    "title": "오늘 네라 기대해봐도 되나요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=15&divpage=709&no=3924953",
+                    "views": 2340,
+                    "comments": 20
+                },
+                {
+                    "title": "\" S27 \"  내년에 비싸게 나와도 상관없을듯 합니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3925368",
+                    "views": 2273,
+                    "comments": 10
+                }
+            ],
+            "dc": [
+                {
+                    "title": "에이모바일 ㄹㅇ 미쳤는데???",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=462124&page=10",
+                    "views": 3264,
+                    "comments": 28
+                },
+                {
+                    "title": "7월 알뜰폰 요금제 TOP 10",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=462200&page=9",
+                    "views": 1657,
+                    "comments": 7
+                },
+                {
+                    "title": "KT 통합요금제 중점사항",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=462138&page=10",
+                    "views": 1425,
+                    "comments": 10
+                },
+                {
+                    "title": "오 ㅅㅂ 이거 끌리네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=462125&page=10",
+                    "views": 1377,
+                    "comments": 5
+                },
+                {
+                    "title": "7월 탈거 이거밖에 없네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=462272&page=8",
+                    "views": 1316,
+                    "comments": 11
+                }
+            ]
+        }
     }
 ]
