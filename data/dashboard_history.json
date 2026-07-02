@@ -16241,5 +16241,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-02",
+        "total_volume": {
+            "ppomppu": 313,
+            "dc": 277
+        },
+        "brand_sov": {
+            "세븐모바일": 2,
+            "KT엠모바일": 17,
+            "유모바일": 13,
+            "헬로모바일": 3,
+            "스카이라이프": 1,
+            "토스모바일": 1,
+            "리브엠": 4,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 5,
+            "프리티": 5,
+            "모빙": 0,
+            "스노우맨": 1,
+            "아이즈모바일": 9,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 3,
+            "KG모바일": 1,
+            "티다이렉트": 104,
+            "SKT_Air": 7,
+            "시월모바일": 9,
+            "핀다이렉트": 3,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "티다": 88,
+            "온누리": 26,
+            "s25fe": 25,
+            "네이버": 18,
+            "S26": 15,
+            "11번가": 15,
+            "쿠폰": 13,
+            "라방": 13,
+            "갤럭시": 13,
+            "엠모": 11
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "넾다쿠폰 장난 아니네요 ㅎ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=12&divpage=709&no=3925378",
+                    "views": 3600,
+                    "comments": 3
+                },
+                {
+                    "title": "Skt 요금제 변경 못했어요ㅠ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=11&divpage=709&no=3925386",
+                    "views": 3049,
+                    "comments": 14
+                },
+                {
+                    "title": "퀀텀6 지마켓 기변 69900원 기다리시던 분들 뛰세요!",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3925698",
+                    "views": 2752,
+                    "comments": 21
+                },
+                {
+                    "title": "네이버 S26플러스 512 심각하네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=709&no=3925573",
+                    "views": 2748,
+                    "comments": 19
+                },
+                {
+                    "title": "SK AI 요금제 꽤나 혜자 이네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=10&divpage=709&no=3925425",
+                    "views": 2633,
+                    "comments": 25
+                }
+            ],
+            "dc": [
+                {
+                    "title": "지옥의 1명박 시작",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=462697&page=6",
+                    "views": 1298,
+                    "comments": 21
+                },
+                {
+                    "title": "더원뜸",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=462658&page=7",
+                    "views": 1147,
+                    "comments": 6
+                },
+                {
+                    "title": "아이즈 SKT 평생",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=462943&page=2",
+                    "views": 1142,
+                    "comments": 3
+                },
+                {
+                    "title": "확정)7월 8일 큰거 온다 ㄷㄷ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=462802&page=4",
+                    "views": 1038,
+                    "comments": 4
+                },
+                {
+                    "title": "와~ 264 타길 잘핸네..",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=462702&page=6",
+                    "views": 1024,
+                    "comments": 4
+                }
+            ]
+        }
     }
 ]
