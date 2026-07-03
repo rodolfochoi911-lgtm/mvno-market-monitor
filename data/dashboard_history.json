@@ -16351,5 +16351,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-03",
+        "total_volume": {
+            "ppomppu": 263,
+            "dc": 308
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 13,
+            "유모바일": 57,
+            "헬로모바일": 4,
+            "스카이라이프": 1,
+            "토스모바일": 1,
+            "리브엠": 1,
+            "우리원모바일": 1,
+            "이야기모바일": 1,
+            "에이모바일": 4,
+            "프리티": 4,
+            "모빙": 2,
+            "스노우맨": 0,
+            "아이즈모바일": 11,
+            "인스모바일": 0,
+            "이지모바일": 2,
+            "티플러스": 4,
+            "KG모바일": 2,
+            "티다이렉트": 88,
+            "SKT_Air": 1,
+            "시월모바일": 10,
+            "핀다이렉트": 2,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "티다": 64,
+            "유모": 39,
+            "온누리": 28,
+            "s25fe": 22,
+            "S26": 15,
+            "쿠폰": 12,
+            "s26": 10,
+            "신청": 10,
+            "쌀먹": 10,
+            "네이버": 9
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "유모바일 7월 타임세일 쌀먹 정보 정리 (조건 good..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3925878",
+                    "views": 2729,
+                    "comments": 90
+                },
+                {
+                    "title": "네이버라이브 S26+ 현황 (7/3)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=8&divpage=709&no=3925741",
+                    "views": 2294,
+                    "comments": 9
+                },
+                {
+                    "title": "티다 늦게나마 탔네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=7&divpage=709&no=3925775",
+                    "views": 2258,
+                    "comments": 30
+                },
+                {
+                    "title": "S26 기변 삼성페스티발(배터리팩)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3925899",
+                    "views": 2111,
+                    "comments": 12
+                },
+                {
+                    "title": "티다 기변SKT 온누리 신청이 안되네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=9&divpage=709&no=3925712",
+                    "views": 2098,
+                    "comments": 24
+                }
+            ],
+            "dc": [
+                {
+                    "title": "이거 역대급아님? 왜 안달려? 갤 망함?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=463014&page=7",
+                    "views": 1817,
+                    "comments": 9
+                },
+                {
+                    "title": "할인 안끝났는데 요금이 올랐는데 이거 머임 ?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=463019&page=7",
+                    "views": 1038,
+                    "comments": 13
+                },
+                {
+                    "title": "KT lte 정리해준다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=462997&page=7",
+                    "views": 927,
+                    "comments": 13
+                },
+                {
+                    "title": "그리고 씨발 순이익 2.5못넘는건 타지말라고",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=463030&page=6",
+                    "views": 867,
+                    "comments": 4
+                },
+                {
+                    "title": "s25fe 막차탔다 ㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=463314&page=1",
+                    "views": 864,
+                    "comments": 20
+                }
+            ]
+        }
     }
 ]
