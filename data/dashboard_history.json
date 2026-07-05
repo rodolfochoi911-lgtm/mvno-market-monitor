@@ -16571,5 +16571,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-05",
+        "total_volume": {
+            "ppomppu": 289,
+            "dc": 145
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 6,
+            "유모바일": 15,
+            "헬로모바일": 1,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 3,
+            "우리원모바일": 0,
+            "이야기모바일": 1,
+            "에이모바일": 0,
+            "프리티": 1,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 6,
+            "인스모바일": 0,
+            "이지모바일": 2,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 84,
+            "SKT_Air": 5,
+            "시월모바일": 2,
+            "핀다이렉트": 0,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "티다": 67,
+            "s25fe": 27,
+            "온누리": 21,
+            "S25FE": 14,
+            "네이버": 11,
+            "s26": 10,
+            "라이브": 10,
+            "울트라": 9,
+            "하는데": 9,
+            "S26": 9
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "티다 온라인 구매 시 쿠폰, 이용권 적용 방법 안내",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=10&divpage=709&no=3926296",
+                    "views": 2692,
+                    "comments": 11
+                },
+                {
+                    "title": "네이버라이브 S26+ 현황 (7/5)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=9&divpage=709&no=3926339",
+                    "views": 2559,
+                    "comments": 22
+                },
+                {
+                    "title": "오늘이 행사 마지막이네요..많이들 구매하셨나요??",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=8&divpage=709&no=3926373",
+                    "views": 2152,
+                    "comments": 9
+                },
+                {
+                    "title": "지금 삼성닷컴 라이브 하는데",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3926507",
+                    "views": 2139,
+                    "comments": 27
+                },
+                {
+                    "title": "이제 S24 이하부터는 폐기취급 받음",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=10&divpage=709&no=3926283",
+                    "views": 2130,
+                    "comments": 6
+                }
+            ],
+            "dc": [
+                {
+                    "title": "업소가는 애들 서브폰 개통하냐?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=463606&page=4",
+                    "views": 1443,
+                    "comments": 19
+                },
+                {
+                    "title": "테0무에서 A16 떨이친다 ㄷㄷ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=463659&page=3",
+                    "views": 1022,
+                    "comments": 8
+                },
+                {
+                    "title": "인터넷 지금 이게 제일 싼거셈?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=463665&page=3",
+                    "views": 950,
+                    "comments": 14
+                },
+                {
+                    "title": "요금제 이건 어떰?.jpg",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=463637&page=3",
+                    "views": 941,
+                    "comments": 5
+                },
+                {
+                    "title": "110 시월 요금제 떡상각이냐?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=463712&page=2",
+                    "views": 935,
+                    "comments": 5
+                }
+            ]
+        }
     }
 ]
