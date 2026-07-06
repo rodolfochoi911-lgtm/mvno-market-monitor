@@ -16681,5 +16681,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-06",
+        "total_volume": {
+            "ppomppu": 178,
+            "dc": 241
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 18,
+            "유모바일": 17,
+            "헬로모바일": 2,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 11,
+            "우리원모바일": 1,
+            "이야기모바일": 2,
+            "에이모바일": 3,
+            "프리티": 6,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 0,
+            "인스모바일": 1,
+            "이지모바일": 0,
+            "티플러스": 6,
+            "KG모바일": 3,
+            "티다이렉트": 34,
+            "SKT_Air": 6,
+            "시월모바일": 7,
+            "핀다이렉트": 1,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "티다": 27,
+            "온누리": 17,
+            "유모": 13,
+            "엠모": 9,
+            "삼성": 8,
+            "다른": 7,
+            "그냥": 7,
+            "자급제": 7,
+            "구매": 7,
+            "쌀먹": 7
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "이번 온누리 페스티벌이 역대급이긴 했네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=709&no=3926593",
+                    "views": 3396,
+                    "comments": 22
+                },
+                {
+                    "title": "알뜰폰 ktm 쌀먹 요금제 연장됐네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=709&no=3926614",
+                    "views": 2509,
+                    "comments": 30
+                },
+                {
+                    "title": "온누리 사용처가 참..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3926692",
+                    "views": 2488,
+                    "comments": 39
+                },
+                {
+                    "title": "삼성 감사페스티발 스마트폰3대 신청",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=709&no=3926596",
+                    "views": 2356,
+                    "comments": 4
+                },
+                {
+                    "title": "이제 새로운 시기가 오지 않을까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=709&no=3926590",
+                    "views": 2322,
+                    "comments": 10
+                }
+            ],
+            "dc": [
+                {
+                    "title": "프리티 역대급떳노 ㄷㄷ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=463775&page=6",
+                    "views": 1954,
+                    "comments": 17
+                },
+                {
+                    "title": "프리티 5290원 500분 15기가",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=463776&page=6",
+                    "views": 1722,
+                    "comments": 14
+                },
+                {
+                    "title": "병신들아 정신차려 ㅋㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=463790&page=6",
+                    "views": 1462,
+                    "comments": 8
+                },
+                {
+                    "title": "데이터요금 초과했다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=463760&page=6",
+                    "views": 1373,
+                    "comments": 12
+                },
+                {
+                    "title": "확실히 에펨이나 뽐뿌에서 많이 유입되긴 했나보네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=463791&page=6",
+                    "views": 1273,
+                    "comments": 6
+                }
+            ]
+        }
     }
 ]
