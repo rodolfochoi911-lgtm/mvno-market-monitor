@@ -16791,5 +16791,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-07",
+        "total_volume": {
+            "ppomppu": 122,
+            "dc": 73
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 3,
+            "유모바일": 3,
+            "헬로모바일": 3,
+            "스카이라이프": 0,
+            "토스모바일": 2,
+            "리브엠": 2,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 2,
+            "모빙": 1,
+            "스노우맨": 1,
+            "아이즈모바일": 1,
+            "인스모바일": 1,
+            "이지모바일": 2,
+            "티플러스": 0,
+            "KG모바일": 0,
+            "티다이렉트": 18,
+            "SKT_Air": 2,
+            "시월모바일": 2,
+            "핀다이렉트": 1,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "티다": 16,
+            "온누리": 11,
+            "자급제": 6,
+            "삼성": 6,
+            "신청": 6,
+            "s25fe": 6,
+            "구매": 5,
+            "S25FE": 4,
+            "인터넷": 4,
+            "S26": 4
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "이통사 삼성페스티발 온누리 신청 방법 공유",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3926849",
+                    "views": 5723,
+                    "comments": 34
+                },
+                {
+                    "title": "퀌텀6 유지비 14 탈까요.. m+4",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=709&no=3926786",
+                    "views": 3175,
+                    "comments": 39
+                },
+                {
+                    "title": "26년 7월 7일 알뜰폰 주요 요금제 _ 역대가 갱신 요금제 출시",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=709&no=3926789",
+                    "views": 3075,
+                    "comments": 9
+                },
+                {
+                    "title": "삼성 온누리 환급됐네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3926827",
+                    "views": 2546,
+                    "comments": 18
+                },
+                {
+                    "title": "s26울트라 액정 역체감 심하네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3926809",
+                    "views": 2233,
+                    "comments": 21
+                }
+            ],
+            "dc": [
+                {
+                    "title": "1190까지 떨어졌노",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=464367&page=2",
+                    "views": 774,
+                    "comments": 2
+                },
+                {
+                    "title": "1190 솔직히 좀 전설같은데..",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=464353&page=2",
+                    "views": 707,
+                    "comments": 2
+                },
+                {
+                    "title": "1190끝남?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=464369&page=2",
+                    "views": 702,
+                    "comments": 3
+                },
+                {
+                    "title": "알뜰폰 요금제 왜 이렇게 많이 나온지 알려주라",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=464344&page=2",
+                    "views": 686,
+                    "comments": 11
+                },
+                {
+                    "title": "공지도안보는 핑프들 ㅈㄴ많네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=464393&page=1",
+                    "views": 673,
+                    "comments": 24
+                }
+            ]
+        }
     }
 ]
