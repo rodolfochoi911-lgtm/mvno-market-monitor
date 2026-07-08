@@ -16901,5 +16901,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-08",
+        "total_volume": {
+            "ppomppu": 128,
+            "dc": 428
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 27,
+            "유모바일": 7,
+            "헬로모바일": 6,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 4,
+            "우리원모바일": 0,
+            "이야기모바일": 1,
+            "에이모바일": 1,
+            "프리티": 3,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 29,
+            "인스모바일": 0,
+            "이지모바일": 2,
+            "티플러스": 5,
+            "KG모바일": 0,
+            "티다이렉트": 8,
+            "SKT_Air": 6,
+            "시월모바일": 3,
+            "핀다이렉트": 7,
+            "도시락모바일": 2
+        },
+        "top_keywords": {
+            "179": 51,
+            "아이즈": 24,
+            "조이텔": 16,
+            "엠모": 13,
+            "온누리": 10,
+            "전설": 10,
+            "179는": 9,
+            "갤럭시": 7,
+            "쌀먹": 7,
+            "253": 7
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "이번 삼성 온누리행사 개꿀이였네요..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927003",
+                    "views": 2232,
+                    "comments": 3
+                },
+                {
+                    "title": "퀀텀6은 출시하자마자 0원이였네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927030",
+                    "views": 1916,
+                    "comments": 19
+                },
+                {
+                    "title": "[11번가] 갤럭시 Z 폴더블 8 신제품 티징이벤트",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3926939",
+                    "views": 1882,
+                    "comments": 4
+                },
+                {
+                    "title": "온누리 지속실패.. (보완)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927025",
+                    "views": 1811,
+                    "comments": 6
+                },
+                {
+                    "title": "당근에 퀀텀6 팔았는데..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3926996",
+                    "views": 1796,
+                    "comments": 8
+                }
+            ],
+            "dc": [
+                {
+                    "title": "엠모 179 개통자들은 유지해준다는데?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=464728&page=4",
+                    "views": 1949,
+                    "comments": 6
+                },
+                {
+                    "title": "역시아이즈떴다 먼저탄다!",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=464484&page=8",
+                    "views": 1791,
+                    "comments": 19
+                },
+                {
+                    "title": "다시보는 179 스펙",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=464828&page=2",
+                    "views": 1421,
+                    "comments": 2
+                },
+                {
+                    "title": "와 179?라고?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=464889&page=1",
+                    "views": 1174,
+                    "comments": 2
+                },
+                {
+                    "title": "전설떳노",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=464534&page=7",
+                    "views": 1119,
+                    "comments": 13
+                }
+            ]
+        }
     }
 ]
