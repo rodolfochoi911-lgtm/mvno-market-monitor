@@ -17011,5 +17011,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-09",
+        "total_volume": {
+            "ppomppu": 105,
+            "dc": 313
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 4,
+            "유모바일": 11,
+            "헬로모바일": 3,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 4,
+            "우리원모바일": 1,
+            "이야기모바일": 1,
+            "에이모바일": 3,
+            "프리티": 2,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 24,
+            "인스모바일": 1,
+            "이지모바일": 3,
+            "티플러스": 9,
+            "KG모바일": 0,
+            "티다이렉트": 2,
+            "SKT_Air": 9,
+            "시월모바일": 3,
+            "핀다이렉트": 2,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "조이텔": 31,
+            "179": 17,
+            "아이즈": 16,
+            "온누리": 15,
+            "S26": 8,
+            "5g": 7,
+            "티플": 7,
+            "2970": 7,
+            "갤럭시": 6,
+            "자급제": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "당근 되팔이들 참 부지런도해요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3927077",
+                    "views": 3420,
+                    "comments": 46
+                },
+                {
+                    "title": "멍청 비용을 쎄게 물었습니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3927068",
+                    "views": 2362,
+                    "comments": 16
+                },
+                {
+                    "title": "갤럭시Z폴드8 작은 폰들이랑 크기 비교.jpg",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3927086",
+                    "views": 2233,
+                    "comments": 8
+                },
+                {
+                    "title": "안녕하세요 48개월 사기 당한 것 같습니다..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927113",
+                    "views": 2097,
+                    "comments": 36
+                },
+                {
+                    "title": "폴드8 출시 일정 및 기본내용",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927130",
+                    "views": 2043,
+                    "comments": 16
+                }
+            ],
+            "dc": [
+                {
+                    "title": "조이엠 큰 거 왔 다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=465073&page=4",
+                    "views": 1245,
+                    "comments": 21
+                },
+                {
+                    "title": "유심젖문가 이새끼 뭐하는 새끼임?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=465251&page=1",
+                    "views": 1101,
+                    "comments": 38
+                },
+                {
+                    "title": "조이텔 큰거 떴다!",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=465141&page=3",
+                    "views": 1075,
+                    "comments": 4
+                },
+                {
+                    "title": "아이즈 선착순 1000명 ㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=465041&page=5",
+                    "views": 977,
+                    "comments": 7
+                },
+                {
+                    "title": "오랜만에 왔는데 1명박짜리 싼거 또 나옴?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=464902&page=7",
+                    "views": 952,
+                    "comments": 2
+                }
+            ]
+        }
     }
 ]
