@@ -17121,5 +17121,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-10",
+        "total_volume": {
+            "ppomppu": 83,
+            "dc": 339
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 5,
+            "유모바일": 22,
+            "헬로모바일": 4,
+            "스카이라이프": 1,
+            "토스모바일": 1,
+            "리브엠": 4,
+            "우리원모바일": 1,
+            "이야기모바일": 1,
+            "에이모바일": 3,
+            "프리티": 7,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 12,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 1,
+            "KG모바일": 0,
+            "티다이렉트": 5,
+            "SKT_Air": 4,
+            "시월모바일": 1,
+            "핀다이렉트": 5,
+            "도시락모바일": 1
+        },
+        "top_keywords": {
+            "조이텔": 32,
+            "올빽": 21,
+            "유모": 13,
+            "쌀먹": 12,
+            "안면인식": 10,
+            "아이즈": 9,
+            "1190": 9,
+            "삼성": 7,
+            "온누리": 7,
+            "있는데": 7
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "유모바일 올빽 900명 돌파",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3927181",
+                    "views": 3012,
+                    "comments": 40
+                },
+                {
+                    "title": "플립8 루머 보니 최악이네요. 하~",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3927270",
+                    "views": 2385,
+                    "comments": 8
+                },
+                {
+                    "title": "삼성 온누리 신청 어제 막했는데요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3927163",
+                    "views": 2085,
+                    "comments": 5
+                },
+                {
+                    "title": "삼성 온누리 쫌 심하네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927229",
+                    "views": 1808,
+                    "comments": 4
+                },
+                {
+                    "title": "루머) 폴더블 가격",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3927187",
+                    "views": 1708,
+                    "comments": 4
+                }
+            ],
+            "dc": [
+                {
+                    "title": "조이1190  종료",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=465254&page=8",
+                    "views": 1612,
+                    "comments": 7
+                },
+                {
+                    "title": "(주소변경) 📱 알뜰폰 프로모션 구글시트",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=465582&page=2",
+                    "views": 1611,
+                    "comments": 25
+                },
+                {
+                    "title": "프리티 간만에 괜찮은 메뚜기 역대가나왔네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=465268&page=7",
+                    "views": 1535,
+                    "comments": 6
+                },
+                {
+                    "title": "아이즈꿀팁줘야하노",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=465259&page=7",
+                    "views": 1074,
+                    "comments": 4
+                },
+                {
+                    "title": "이게 쌀먹폰 최강임?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=465489&page=3",
+                    "views": 1003,
+                    "comments": 16
+                }
+            ]
+        }
     }
 ]
