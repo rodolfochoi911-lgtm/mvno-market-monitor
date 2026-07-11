@@ -17231,5 +17231,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-11",
+        "total_volume": {
+            "ppomppu": 57,
+            "dc": 169
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 1,
+            "유모바일": 14,
+            "헬로모바일": 2,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 1,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 2,
+            "프리티": 2,
+            "모빙": 0,
+            "스노우맨": 1,
+            "아이즈모바일": 3,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 2,
+            "KG모바일": 0,
+            "티다이렉트": 3,
+            "SKT_Air": 6,
+            "시월모바일": 2,
+            "핀다이렉트": 0,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "올빽": 17,
+            "온누리": 8,
+            "유모": 7,
+            "쌀먹": 6,
+            "조이텔": 6,
+            "모나": 5,
+            "안됨": 5,
+            "유모바일": 4,
+            "인터넷": 4,
+            "티비": 4
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "s26울트라 심각한 번인이슈 있나보네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927297",
+                    "views": 2950,
+                    "comments": 18
+                },
+                {
+                    "title": "딸 폰으로 국제문자발신이 70여건이 발송됐다는데 뭘까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927292",
+                    "views": 2724,
+                    "comments": 15
+                },
+                {
+                    "title": "S26울트라 받은분들 반품하실건가요? 아직 안뜯은 분들?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3927330",
+                    "views": 2496,
+                    "comments": 28
+                },
+                {
+                    "title": "4년만에 큰 마음 먹고 폰 바꿨는데 기분 나빠요 엉엉 왜 사는 것 마다ㅠㅠ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3927339",
+                    "views": 2168,
+                    "comments": 28
+                },
+                {
+                    "title": "유모비 쌀먹?? 아직 됩니다.. 방금 했어요.. 330명 남았음..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927310",
+                    "views": 2112,
+                    "comments": 8
+                }
+            ],
+            "dc": [
+                {
+                    "title": "어이가 없네 ㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=465634&page=4",
+                    "views": 1028,
+                    "comments": 10
+                },
+                {
+                    "title": "19800원에 5G 150기가5명박(평생)",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=465789&page=1",
+                    "views": 958,
+                    "comments": 13
+                },
+                {
+                    "title": "솔직히 253 탄거 후회함",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=465798&page=1",
+                    "views": 920,
+                    "comments": 7
+                },
+                {
+                    "title": "조이텔 퇴물된거노 ㄷㄷ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=465751&page=2",
+                    "views": 860,
+                    "comments": 4
+                },
+                {
+                    "title": "100기가 이상 메뚜기(LG망)",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=465782&page=1",
+                    "views": 852,
+                    "comments": 17
+                }
+            ]
+        }
     }
 ]
