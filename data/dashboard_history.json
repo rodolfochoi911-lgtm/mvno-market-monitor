@@ -17451,5 +17451,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-13",
+        "total_volume": {
+            "ppomppu": 76,
+            "dc": 277
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 0,
+            "유모바일": 15,
+            "헬로모바일": 1,
+            "스카이라이프": 1,
+            "토스모바일": 0,
+            "리브엠": 1,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 3,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 6,
+            "인스모바일": 1,
+            "이지모바일": 4,
+            "티플러스": 6,
+            "KG모바일": 0,
+            "티다이렉트": 2,
+            "SKT_Air": 11,
+            "시월모바일": 7,
+            "핀다이렉트": 3,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "조이텔": 35,
+            "5280": 15,
+            "이심": 9,
+            "유모": 8,
+            "온누리": 7,
+            "5G": 7,
+            "시월": 7,
+            "에어": 7,
+            "유모바일": 6,
+            "유플": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "[단독] 갤럭시S26 울트라 디스플레이 번인 의혹",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927437",
+                    "views": 2666,
+                    "comments": 18
+                },
+                {
+                    "title": "삼성온누리 신청 보완접수 돌겠내요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927432",
+                    "views": 1887,
+                    "comments": 12
+                },
+                {
+                    "title": "라방 대란",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3927471",
+                    "views": 1692,
+                    "comments": 5
+                },
+                {
+                    "title": "삼성 온누리 환급 완전 짜증이네요 ㅠㅠ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927453",
+                    "views": 1662,
+                    "comments": 7
+                },
+                {
+                    "title": "온누리상품권은 언제 들어오려나",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3927476",
+                    "views": 1556,
+                    "comments": 21
+                }
+            ],
+            "dc": [
+                {
+                    "title": "조이텔 5G 통무 부가50 100건 5긱 1780 15긱 5280",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=465954&page=6",
+                    "views": 2013,
+                    "comments": 6
+                },
+                {
+                    "title": "안녕하세요 새로운 파딱 유심젖문가 입니다.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=465964&page=6",
+                    "views": 1665,
+                    "comments": 116
+                },
+                {
+                    "title": "티플러스 5G KT 10기가 2900원 굿뜨",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=466138&page=3",
+                    "views": 923,
+                    "comments": 7
+                },
+                {
+                    "title": "조이텔 1190",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=466166&page=3",
+                    "views": 828,
+                    "comments": 5
+                },
+                {
+                    "title": "조이텔 5280 이거 맞음??",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=466191&page=2",
+                    "views": 771,
+                    "comments": 8
+                }
+            ]
+        }
     }
 ]
