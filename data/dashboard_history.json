@@ -17561,5 +17561,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-14",
+        "total_volume": {
+            "ppomppu": 95,
+            "dc": 279
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 1,
+            "유모바일": 24,
+            "헬로모바일": 8,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 7,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 2,
+            "프리티": 1,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 8,
+            "인스모바일": 1,
+            "이지모바일": 0,
+            "티플러스": 8,
+            "KG모바일": 0,
+            "티다이렉트": 10,
+            "SKT_Air": 6,
+            "시월모바일": 5,
+            "핀다이렉트": 3,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "온누리": 23,
+            "유모": 14,
+            "쌀먹": 10,
+            "형들": 7,
+            "5g": 7,
+            "S26": 6,
+            "유모바일": 6,
+            "유플": 6,
+            "인터넷": 6,
+            "1명박": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "유모바일 신규 쌀먹 이벤트 떳네여.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927560",
+                    "views": 2379,
+                    "comments": 19
+                },
+                {
+                    "title": "S26 울트라 번인이슈까지 터지니 정나미가 뚝 ㅎ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3927499",
+                    "views": 1966,
+                    "comments": 15
+                },
+                {
+                    "title": "알닷 125G +5ㅁㅂ 현재 최저가 8,200원",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3927577",
+                    "views": 1808,
+                    "comments": 5
+                },
+                {
+                    "title": "오늘 7시 티다 라방 보시는분! 기종별 할인 정리해봤습니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927563",
+                    "views": 1712,
+                    "comments": 4
+                },
+                {
+                    "title": "온누리 상품권 들어오기 전후",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3927589",
+                    "views": 1561,
+                    "comments": 2
+                }
+            ],
+            "dc": [
+                {
+                    "title": "유모 신규 쌀먹요금제 [장마엔이츠윌]",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=466390&page=4",
+                    "views": 1328,
+                    "comments": 14
+                },
+                {
+                    "title": "속보,어그로x) dun 막혔다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=466400&page=4",
+                    "views": 975,
+                    "comments": 11
+                },
+                {
+                    "title": "유플 속도 제한 공지...",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=466394&page=4",
+                    "views": 899,
+                    "comments": 11
+                },
+                {
+                    "title": "테더링이... 막힌다고...? ㅈㄹ하지마 씹쌔끼야",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=466426&page=4",
+                    "views": 844,
+                    "comments": 16
+                },
+                {
+                    "title": "5g 체감이 안된다고?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=466263&page=7",
+                    "views": 778,
+                    "comments": 10
+                }
+            ]
+        }
     }
 ]
