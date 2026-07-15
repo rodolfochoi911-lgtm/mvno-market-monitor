@@ -17671,5 +17671,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-15",
+        "total_volume": {
+            "ppomppu": 82,
+            "dc": 264
+        },
+        "brand_sov": {
+            "세븐모바일": 2,
+            "KT엠모바일": 1,
+            "유모바일": 46,
+            "헬로모바일": 8,
+            "스카이라이프": 1,
+            "토스모바일": 2,
+            "리브엠": 5,
+            "우리원모바일": 2,
+            "이야기모바일": 1,
+            "에이모바일": 6,
+            "프리티": 3,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 5,
+            "인스모바일": 2,
+            "이지모바일": 0,
+            "티플러스": 0,
+            "KG모바일": 1,
+            "티다이렉트": 6,
+            "SKT_Air": 4,
+            "시월모바일": 4,
+            "핀다이렉트": 2,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "유모": 40,
+            "이심": 17,
+            "민팃": 16,
+            "모나": 7,
+            "장마": 7,
+            "티다": 6,
+            "갤럭시": 5,
+            "알닷": 5,
+            "쌀먹": 5,
+            "쿠팡": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "알닷 에이모바일 5G 125G 역대급으로 떴네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3927678",
+                    "views": 2359,
+                    "comments": 11
+                },
+                {
+                    "title": "이래서 알뜰폰요금제라 하는군요 좋다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927671",
+                    "views": 2244,
+                    "comments": 10
+                },
+                {
+                    "title": "퀀텀6 고민하시는분께 드리는 말씀.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927661",
+                    "views": 2138,
+                    "comments": 27
+                },
+                {
+                    "title": "퀀텀 6 0원 고민되는군요. 하아.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927650",
+                    "views": 1920,
+                    "comments": 10
+                },
+                {
+                    "title": "7월 유모바일 쌀먹 비교",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3927626",
+                    "views": 1739,
+                    "comments": 11
+                }
+            ],
+            "dc": [
+                {
+                    "title": "유모 이츠윌 쌀먹표 정리해옴",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=466710&page=4",
+                    "views": 1102,
+                    "comments": 31
+                },
+                {
+                    "title": "10만원 쌀먹 성공ㅅㅅㅅㅅㅅㅅㅅㅅㅅㅅㅅㅅㅅㅅㅅ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=466827&page=2",
+                    "views": 918,
+                    "comments": 6
+                },
+                {
+                    "title": "kt 7월 달달혜택 오픈",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=466648&page=5",
+                    "views": 901,
+                    "comments": 13
+                },
+                {
+                    "title": "폰충전좀 하자",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=466579&page=6",
+                    "views": 901,
+                    "comments": 6
+                },
+                {
+                    "title": "알갤 기만자냐?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=466689&page=4",
+                    "views": 864,
+                    "comments": 17
+                }
+            ]
+        }
     }
 ]
