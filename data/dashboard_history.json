@@ -17781,5 +17781,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-16",
+        "total_volume": {
+            "ppomppu": 92,
+            "dc": 399
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 40,
+            "유모바일": 41,
+            "헬로모바일": 32,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 8,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 7,
+            "프리티": 0,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 11,
+            "인스모바일": 1,
+            "이지모바일": 1,
+            "티플러스": 4,
+            "KG모바일": 0,
+            "티다이렉트": 6,
+            "SKT_Air": 20,
+            "시월모바일": 6,
+            "핀다이렉트": 2,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "유모": 32,
+            "엠모": 30,
+            "쌀먹": 19,
+            "헬모": 19,
+            "쉐이크": 18,
+            "에어": 16,
+            "온누리": 10,
+            "쿠팡": 10,
+            "조이텔": 10,
+            "179": 10
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "중고폰을 샀는데 받아보니 배터리 스웰링. 수리비 못 준다는 판매자..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3927713",
+                    "views": 2456,
+                    "comments": 103
+                },
+                {
+                    "title": "잇섭이 s26울트라 번인 증상 답변 받았네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3927742",
+                    "views": 2173,
+                    "comments": 9
+                },
+                {
+                    "title": "KTM 쌀먹 올라온 거 같은데 어떤가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927766",
+                    "views": 2062,
+                    "comments": 12
+                },
+                {
+                    "title": "부모님 갤럭시 둘다 세로줄 생김.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3927721",
+                    "views": 1923,
+                    "comments": 21
+                },
+                {
+                    "title": "온누리 입금은 됐는데.. 금액이 이상합니다.. (SKT S26플러스)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927759",
+                    "views": 1742,
+                    "comments": 4
+                }
+            ],
+            "dc": [
+                {
+                    "title": "조이텔 1190",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=466860&page=9",
+                    "views": 1572,
+                    "comments": 8
+                },
+                {
+                    "title": "에어 1.2 100긱 / 완무 1.8 열려있는데? (가격내려감)",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=466849&page=9",
+                    "views": 1230,
+                    "comments": 17
+                },
+                {
+                    "title": "쉐이크 5g 130긱 2.8뜸",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=466886&page=9",
+                    "views": 1221,
+                    "comments": 17
+                },
+                {
+                    "title": "179 불법요금제 신고 민원넣었다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467131&page=4",
+                    "views": 967,
+                    "comments": 10
+                },
+                {
+                    "title": "이번 유모 쌀먹 s급임???",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=466855&page=9",
+                    "views": 740,
+                    "comments": 2
+                }
+            ]
+        }
     }
 ]
