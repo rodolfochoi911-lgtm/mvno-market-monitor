@@ -17891,5 +17891,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-17",
+        "total_volume": {
+            "ppomppu": 66,
+            "dc": 278
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 37,
+            "유모바일": 11,
+            "헬로모바일": 60,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 0,
+            "우리원모바일": 5,
+            "이야기모바일": 0,
+            "에이모바일": 5,
+            "프리티": 0,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 2,
+            "인스모바일": 2,
+            "이지모바일": 0,
+            "티플러스": 3,
+            "KG모바일": 0,
+            "티다이렉트": 3,
+            "SKT_Air": 15,
+            "시월모바일": 7,
+            "핀다이렉트": 0,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "헬모": 41,
+            "엠모": 17,
+            "쌀먹": 11,
+            "에어": 11,
+            "조이텔": 7,
+            "온누리": 6,
+            "엠모바일": 5,
+            "셀프개통": 5,
+            "쉐이크": 5,
+            "이번": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "삼성페스티발 온누리 금액 오입금..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927820",
+                    "views": 2813,
+                    "comments": 6
+                },
+                {
+                    "title": "온누리 결재하실 분 참고하세요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927845",
+                    "views": 2106,
+                    "comments": 15
+                },
+                {
+                    "title": "엠모는 34만원혜택 괘않네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927831",
+                    "views": 1885,
+                    "comments": 10
+                },
+                {
+                    "title": "S25fe 터치 너무 씹힌네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3927812",
+                    "views": 1876,
+                    "comments": 28
+                },
+                {
+                    "title": "퀀텀6 추지없는 m4 sk 기변",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927847",
+                    "views": 1579,
+                    "comments": 8
+                }
+            ],
+            "dc": [
+                {
+                    "title": "헬모 17900짜리는 제외 아님?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467564&page=2",
+                    "views": 1089,
+                    "comments": 14
+                },
+                {
+                    "title": "이대로면 18330도 막히기 직전인듯 ㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467568&page=2",
+                    "views": 1037,
+                    "comments": 4
+                },
+                {
+                    "title": "와 ㅆㅂ  헬모 179 막차탔노",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467594&page=1",
+                    "views": 907,
+                    "comments": 0
+                },
+                {
+                    "title": "헬모 개 ㅈ같네 개철해야하네 ㅆㅂ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467577&page=2",
+                    "views": 866,
+                    "comments": 11
+                },
+                {
+                    "title": "시월110 4차 3회선 납부 조회",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467310&page=6",
+                    "views": 849,
+                    "comments": 10
+                }
+            ]
+        }
     }
 ]
