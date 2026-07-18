@@ -18001,5 +18001,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-18",
+        "total_volume": {
+            "ppomppu": 60,
+            "dc": 145
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 17,
+            "유모바일": 5,
+            "헬로모바일": 29,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 4,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 3,
+            "프리티": 1,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 3,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 5,
+            "KG모바일": 0,
+            "티다이렉트": 4,
+            "SKT_Air": 9,
+            "시월모바일": 6,
+            "핀다이렉트": 1,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "헬모": 23,
+            "에어": 8,
+            "쌀먹": 7,
+            "셀프개통": 6,
+            "엠모": 6,
+            "조이텔": 5,
+            "990": 4,
+            "되나요": 3,
+            "티다": 3,
+            "구매": 3
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "KTM 요금제 유지비 계산",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927907",
+                    "views": 2656,
+                    "comments": 26
+                },
+                {
+                    "title": "s23u 메인보드 고장이슈 심상치가 않은데",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927879",
+                    "views": 2302,
+                    "comments": 6
+                },
+                {
+                    "title": "온가족.. 개빡치네요 ㅜㅜ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927905",
+                    "views": 2215,
+                    "comments": 15
+                },
+                {
+                    "title": "네이버 구매 배터리팩신청",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927883",
+                    "views": 1794,
+                    "comments": 3
+                },
+                {
+                    "title": "지금 액정이 망가져서 급한데",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3927891",
+                    "views": 1777,
+                    "comments": 12
+                }
+            ],
+            "dc": [
+                {
+                    "title": "지금 헬모가 낫냐 유모 장마가 낫냐?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467631&page=4",
+                    "views": 936,
+                    "comments": 3
+                },
+                {
+                    "title": "여기 쌀먹뜨면 바로 3회선 공장 돌리는 알붕이들은",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467636&page=4",
+                    "views": 905,
+                    "comments": 5
+                },
+                {
+                    "title": "헬모 최대 몇회선임??",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467627&page=4",
+                    "views": 881,
+                    "comments": 1
+                },
+                {
+                    "title": "헬모 왜 개 ㅈㄹ임??",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467646&page=3",
+                    "views": 842,
+                    "comments": 6
+                },
+                {
+                    "title": "쌀먹 익익월은 ㅈ 같다 타지마라 ...",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467635&page=4",
+                    "views": 838,
+                    "comments": 2
+                }
+            ]
+        }
     }
 ]
