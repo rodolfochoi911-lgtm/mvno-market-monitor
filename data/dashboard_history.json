@@ -18111,5 +18111,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-19",
+        "total_volume": {
+            "ppomppu": 27,
+            "dc": 155
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 15,
+            "유모바일": 5,
+            "헬로모바일": 16,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 5,
+            "우리원모바일": 0,
+            "이야기모바일": 1,
+            "에이모바일": 4,
+            "프리티": 0,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 2,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 1,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 2,
+            "시월모바일": 6,
+            "핀다이렉트": 0,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "헬모": 14,
+            "엠모": 9,
+            "인터넷": 7,
+            "쌀먹": 7,
+            "skb": 4,
+            "형들": 4,
+            "유선": 3,
+            "사은품": 3,
+            "셀프개통": 3,
+            "시월": 3
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "Galaxy Z Fold8  Flip8 시리즈 모델별 라인업 및 출고가 256GB 기준",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3927964",
+                    "views": 2063,
+                    "comments": 5
+                },
+                {
+                    "title": "제미나이의 사과 (5번의 연속 오류)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3927973",
+                    "views": 1641,
+                    "comments": 10
+                },
+                {
+                    "title": "내일 유모바일 라스트댄스의 라스트댄스네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3927971",
+                    "views": 1529,
+                    "comments": 6
+                },
+                {
+                    "title": "26+ 화면 색빠진 느낌",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3927970",
+                    "views": 1128,
+                    "comments": 9
+                },
+                {
+                    "title": "s26+ 곧 나오는 신상 폴드 나오면 가격 내려갈까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3927967",
+                    "views": 1107,
+                    "comments": 8
+                }
+            ],
+            "dc": [
+                {
+                    "title": "시월110 개목줄이 위험하긴하구나..",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467790&page=4",
+                    "views": 1167,
+                    "comments": 8
+                },
+                {
+                    "title": "헬모 이렇게 유심 재고처리하네 ㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467826&page=3",
+                    "views": 775,
+                    "comments": 4
+                },
+                {
+                    "title": "KT엠모가 1황인 이유",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467849&page=3",
+                    "views": 744,
+                    "comments": 8
+                },
+                {
+                    "title": "야 skb 1기가 존나이득아니냐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467816&page=4",
+                    "views": 727,
+                    "comments": 13
+                },
+                {
+                    "title": "LTE 킅세권 떴냐?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467793&page=4",
+                    "views": 717,
+                    "comments": 9
+                }
+            ]
+        }
     }
 ]
