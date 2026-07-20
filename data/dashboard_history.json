@@ -18221,5 +18221,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-20",
+        "total_volume": {
+            "ppomppu": 101,
+            "dc": 423
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 64,
+            "유모바일": 66,
+            "헬로모바일": 57,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 4,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 11,
+            "프리티": 0,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 4,
+            "인스모바일": 0,
+            "이지모바일": 3,
+            "티플러스": 6,
+            "KG모바일": 0,
+            "티다이렉트": 4,
+            "SKT_Air": 19,
+            "시월모바일": 2,
+            "핀다이렉트": 0,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "유모": 49,
+            "헬모": 45,
+            "엠모": 38,
+            "라댄": 32,
+            "쌀먹": 25,
+            "에어": 14,
+            "유모바일": 9,
+            "네페": 9,
+            "찐찐막": 9,
+            "형들": 8
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "곧 나올 갤럭시 폴드8 와이드 !!",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3928098",
+                    "views": 2982,
+                    "comments": 4
+                },
+                {
+                    "title": "네이버 쇼마젠시 판매사 사정에 따른 운영중지?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3928039",
+                    "views": 2509,
+                    "comments": 20
+                },
+                {
+                    "title": "유모바일 이맛에 쌀먹하는구나",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3928009",
+                    "views": 2473,
+                    "comments": 10
+                },
+                {
+                    "title": "근데 왜 쇼마만 터진거죠",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3928088",
+                    "views": 1932,
+                    "comments": 6
+                },
+                {
+                    "title": "알뜰폰 쌀먹도 너무 많이하니 헷갈리네요..ㅎㅎ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3928022",
+                    "views": 1898,
+                    "comments": 20
+                }
+            ],
+            "dc": [
+                {
+                    "title": "모나 5500 잘가라",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467962&page=10",
+                    "views": 1146,
+                    "comments": 8
+                },
+                {
+                    "title": "밑에 올영 문의하라는 개시발 새끼한테 당했네..",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=468328&page=3",
+                    "views": 811,
+                    "comments": 19
+                },
+                {
+                    "title": "에어 탈까 고민되네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467959&page=10",
+                    "views": 807,
+                    "comments": 6
+                },
+                {
+                    "title": "esim 껐다켰다 하면서 쌀먹하는사람 있음?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467963&page=10",
+                    "views": 740,
+                    "comments": 4
+                },
+                {
+                    "title": "오늘 핑프 내가보기에",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=468407&page=2",
+                    "views": 705,
+                    "comments": 21
+                }
+            ]
+        }
     }
 ]
