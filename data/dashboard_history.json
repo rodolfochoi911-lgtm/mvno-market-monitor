@@ -18331,5 +18331,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-21",
+        "total_volume": {
+            "ppomppu": 101,
+            "dc": 24
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 3,
+            "유모바일": 4,
+            "헬로모바일": 3,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 4,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 2,
+            "프리티": 0,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 0,
+            "인스모바일": 1,
+            "이지모바일": 0,
+            "티플러스": 2,
+            "KG모바일": 0,
+            "티다이렉트": 4,
+            "SKT_Air": 4,
+            "시월모바일": 1,
+            "핀다이렉트": 0,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "온누리": 12,
+            "배터리팩": 6,
+            "쇼마": 6,
+            "삼성": 5,
+            "검토완료": 4,
+            "쇼마젠시": 4,
+            "하는데": 4,
+            "계신가요": 3,
+            "폴드8": 3,
+            "아이폰": 3
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "아내가 혼자 폰을 바꿔왔는데 완전 사기 당한거 같네요.ㅠㅠ 한번 봐주세요..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3928107",
+                    "views": 2093,
+                    "comments": 48
+                },
+                {
+                    "title": "쇼마젠시 사과문 엔딩ㅋㅋ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3928158",
+                    "views": 2088,
+                    "comments": 3
+                },
+                {
+                    "title": "온누리 들어왔네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3928188",
+                    "views": 2041,
+                    "comments": 20
+                },
+                {
+                    "title": "A17 막차",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3928166",
+                    "views": 1992,
+                    "comments": 9
+                },
+                {
+                    "title": "삼성 온누리 검토완료",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3928117",
+                    "views": 1760,
+                    "comments": 10
+                }
+            ],
+            "dc": [
+                {
+                    "title": "펨코 에어 포텐 갔네 ㅋㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=468750&page=1",
+                    "views": 673,
+                    "comments": 2
+                },
+                {
+                    "title": "보급형 쓰면 쟞같은 이유",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=468756&page=1",
+                    "views": 669,
+                    "comments": 9
+                },
+                {
+                    "title": "이거로 갈아탔는데 어떰",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=468733&page=1",
+                    "views": 569,
+                    "comments": 9
+                },
+                {
+                    "title": "대.황.시.월 110원 야rrrrrr~!",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=468749&page=1",
+                    "views": 555,
+                    "comments": 0
+                },
+                {
+                    "title": "번호 이전 사용자 인스타 들어가봤는데 고소 당함?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=468751&page=1",
+                    "views": 443,
+                    "comments": 7
+                }
+            ]
+        }
     }
 ]
