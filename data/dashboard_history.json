@@ -18225,8 +18225,8 @@
     {
         "date": "2026-07-20",
         "total_volume": {
-            "ppomppu": 101,
-            "dc": 423
+            "ppomppu": 100,
+            "dc": 419
         },
         "brand_sov": {
             "세븐모바일": 0,
@@ -18269,65 +18269,65 @@
             "ppomppu": [
                 {
                     "title": "곧 나올 갤럭시 폴드8 와이드 !!",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3928098",
-                    "views": 2982,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3928098",
+                    "views": 3815,
                     "comments": 4
                 },
                 {
                     "title": "네이버 쇼마젠시 판매사 사정에 따른 운영중지?",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3928039",
-                    "views": 2509,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3928039",
+                    "views": 2821,
                     "comments": 20
                 },
                 {
                     "title": "유모바일 이맛에 쌀먹하는구나",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3928009",
-                    "views": 2473,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=709&no=3928009",
+                    "views": 2561,
                     "comments": 10
                 },
                 {
                     "title": "근데 왜 쇼마만 터진거죠",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=709&no=3928088",
-                    "views": 1932,
-                    "comments": 6
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3928088",
+                    "views": 2439,
+                    "comments": 7
                 },
                 {
-                    "title": "알뜰폰 쌀먹도 너무 많이하니 헷갈리네요..ㅎㅎ",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3928022",
-                    "views": 1898,
-                    "comments": 20
+                    "title": "핸드폰 바꿨는데 눈탱이 맞은 거 같아요. 한번씩 봐주세요ㅠㅠ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3928101",
+                    "views": 2236,
+                    "comments": 33
                 }
             ],
             "dc": [
                 {
                     "title": "모나 5500 잘가라",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467962&page=10",
-                    "views": 1146,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467962&page=11",
+                    "views": 1153,
                     "comments": 8
                 },
                 {
                     "title": "밑에 올영 문의하라는 개시발 새끼한테 당했네..",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=468328&page=3",
-                    "views": 811,
-                    "comments": 19
-                },
-                {
-                    "title": "에어 탈까 고민되네",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467959&page=10",
-                    "views": 807,
-                    "comments": 6
-                },
-                {
-                    "title": "esim 껐다켰다 하면서 쌀먹하는사람 있음?",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467963&page=10",
-                    "views": 740,
-                    "comments": 4
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=468328&page=5",
+                    "views": 1014,
+                    "comments": 21
                 },
                 {
                     "title": "오늘 핑프 내가보기에",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=468407&page=2",
-                    "views": 705,
-                    "comments": 21
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=468407&page=3",
+                    "views": 847,
+                    "comments": 22
+                },
+                {
+                    "title": "에어 탈까 고민되네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=467959&page=11",
+                    "views": 817,
+                    "comments": 6
+                },
+                {
+                    "title": "오늘 폭주했네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=468377&page=4",
+                    "views": 755,
+                    "comments": 3
                 }
             ]
         }
