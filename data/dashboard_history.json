@@ -18441,5 +18441,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-22",
+        "total_volume": {
+            "ppomppu": 91,
+            "dc": 284
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 5,
+            "유모바일": 55,
+            "헬로모바일": 26,
+            "스카이라이프": 0,
+            "토스모바일": 1,
+            "리브엠": 1,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 12,
+            "프리티": 4,
+            "모빙": 0,
+            "스노우맨": 1,
+            "아이즈모바일": 2,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 2,
+            "KG모바일": 0,
+            "티다이렉트": 3,
+            "SKT_Air": 23,
+            "시월모바일": 3,
+            "핀다이렉트": 0,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "유모": 37,
+            "에어": 19,
+            "헬모": 17,
+            "온누리": 10,
+            "이심": 9,
+            "에이모바일": 9,
+            "유모바일": 8,
+            "쌀먹": 7,
+            "프레딧": 6,
+            "폴드8": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "판매자가 약속한 현금을 안주면 바로 해지 해도 되나요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3928225",
+                    "views": 14442,
+                    "comments": 34
+                },
+                {
+                    "title": "유모바일 7월 타임세일 간단정리 (조건 괜찮음)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=709&no=3928259",
+                    "views": 5018,
+                    "comments": 76
+                },
+                {
+                    "title": "온누리상품권..하..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3928212",
+                    "views": 3863,
+                    "comments": 23
+                },
+                {
+                    "title": "폴더블8 사전예약 일렉트로마트 판매정보",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=709&no=3928294",
+                    "views": 3145,
+                    "comments": 9
+                },
+                {
+                    "title": "아래글 보니 170만대도 검토중떳다네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=709&no=3928220",
+                    "views": 3075,
+                    "comments": 12
+                }
+            ],
+            "dc": [
+                {
+                    "title": "씨발 알뜰 쌀먹한거 고대로 다날렸네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=468767&page=7",
+                    "views": 1133,
+                    "comments": 8
+                },
+                {
+                    "title": "오늘이 dum 사망의 날인가?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=468758&page=7",
+                    "views": 955,
+                    "comments": 8
+                },
+                {
+                    "title": "오케이 알닷 4990으로 결정",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=468764&page=7",
+                    "views": 826,
+                    "comments": 7
+                },
+                {
+                    "title": "179 터지는거 보고 딱 알았다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=468761&page=7",
+                    "views": 773,
+                    "comments": 0
+                },
+                {
+                    "title": "야 이게 에어보다 좋은 요금제 아님?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=469060&page=1",
+                    "views": 773,
+                    "comments": 29
+                }
+            ]
+        }
     }
 ]
