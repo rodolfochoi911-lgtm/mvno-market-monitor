@@ -18551,5 +18551,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-23",
+        "total_volume": {
+            "ppomppu": 133,
+            "dc": 367
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 4,
+            "유모바일": 17,
+            "헬로모바일": 44,
+            "스카이라이프": 1,
+            "토스모바일": 0,
+            "리브엠": 5,
+            "우리원모바일": 1,
+            "이야기모바일": 1,
+            "에이모바일": 5,
+            "프리티": 0,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 1,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 15,
+            "KG모바일": 1,
+            "티다이렉트": 4,
+            "SKT_Air": 16,
+            "시월모바일": 2,
+            "핀다이렉트": 1,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "헬모": 33,
+            "폴드8": 20,
+            "쌀먹": 19,
+            "259": 14,
+            "신세계": 14,
+            "에어": 14,
+            "프레딧": 13,
+            "쿠폰팩": 12,
+            "온누리": 11,
+            "인터넷": 11
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "온누리줄때 폴드7 갈아탈걸..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=710&no=3928327",
+                    "views": 14910,
+                    "comments": 35
+                },
+                {
+                    "title": "폴드8 보고 왔어요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=710&no=3928345",
+                    "views": 13562,
+                    "comments": 33
+                },
+                {
+                    "title": "이마트 폴드8 싼것 아닌가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3928386",
+                    "views": 12834,
+                    "comments": 24
+                },
+                {
+                    "title": "폴드8 일렉에서 사전예약 완료했네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=710&no=3928356",
+                    "views": 10016,
+                    "comments": 23
+                },
+                {
+                    "title": "사전예약 할필요가 없음",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=710&no=3928326",
+                    "views": 3485,
+                    "comments": 17
+                }
+            ],
+            "dc": [
+                {
+                    "title": "알뜰폰 할인 종료일 알림 앱 만들어봤습니다!",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=469278&page=5",
+                    "views": 1011,
+                    "comments": 28
+                },
+                {
+                    "title": "27프로나올때 사려하거든",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=469084&page=8",
+                    "views": 860,
+                    "comments": 14
+                },
+                {
+                    "title": "형들 나 데이터 초과함",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=469231&page=6",
+                    "views": 780,
+                    "comments": 17
+                },
+                {
+                    "title": "티플259 전설급임?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=469326&page=4",
+                    "views": 777,
+                    "comments": 4
+                },
+                {
+                    "title": "5g 데이터 사용량 ㄷㄷ하네;;",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=469078&page=8",
+                    "views": 776,
+                    "comments": 8
+                }
+            ]
+        }
     }
 ]
