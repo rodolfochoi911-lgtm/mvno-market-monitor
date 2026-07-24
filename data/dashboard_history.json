@@ -18661,5 +18661,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-24",
+        "total_volume": {
+            "ppomppu": 125,
+            "dc": 592
+        },
+        "brand_sov": {
+            "세븐모바일": 2,
+            "KT엠모바일": 0,
+            "유모바일": 23,
+            "헬로모바일": 12,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 8,
+            "우리원모바일": 1,
+            "이야기모바일": 1,
+            "에이모바일": 6,
+            "프리티": 0,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 90,
+            "인스모바일": 0,
+            "이지모바일": 4,
+            "티플러스": 55,
+            "KG모바일": 0,
+            "티다이렉트": 0,
+            "SKT_Air": 24,
+            "시월모바일": 5,
+            "핀다이렉트": 6,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "239": 72,
+            "아이즈": 67,
+            "259": 41,
+            "폴드8": 29,
+            "티플": 29,
+            "253": 20,
+            "인터넷": 17,
+            "유모": 15,
+            "에어": 13,
+            "온누리": 9
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "폴드8 만져보니까 완전 별론데..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3928515",
+                    "views": 16296,
+                    "comments": 56
+                },
+                {
+                    "title": "트레이더스에서 폴8 예약했어요~~",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=710&no=3928459",
+                    "views": 4723,
+                    "comments": 10
+                },
+                {
+                    "title": "집앞 이마트 폴드8 상담받았어요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3928514",
+                    "views": 3999,
+                    "comments": 15
+                },
+                {
+                    "title": "폴드8 만져보고 단점 발견  ㅡ.ㅡ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=710&no=3928510",
+                    "views": 3796,
+                    "comments": 9
+                },
+                {
+                    "title": "이마트 z폴드8 혜택 좋네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3928543",
+                    "views": 3765,
+                    "comments": 2
+                }
+            ],
+            "dc": [
+                {
+                    "title": "아이즈 초전설 떴다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=469734&page=9",
+                    "views": 1696,
+                    "comments": 30
+                },
+                {
+                    "title": "티플259 인터넷결합되네 공홈오피셜",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=469524&page=13",
+                    "views": 1487,
+                    "comments": 9
+                },
+                {
+                    "title": "티플 급히 탈 애들 유심 정보 알려준다.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=469617&page=11",
+                    "views": 1445,
+                    "comments": 32
+                },
+                {
+                    "title": "오늘 아이즈랑 티플 많이 탔냐? 오늘도 많이 도와줬다.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=470119&page=2",
+                    "views": 1210,
+                    "comments": 86
+                },
+                {
+                    "title": "티플 259 지금 타면 후회하려나",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=469509&page=13",
+                    "views": 1174,
+                    "comments": 14
+                }
+            ]
+        }
     }
 ]
