@@ -18771,5 +18771,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-25",
+        "total_volume": {
+            "ppomppu": 56,
+            "dc": 367
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 1,
+            "유모바일": 18,
+            "헬로모바일": 13,
+            "스카이라이프": 1,
+            "토스모바일": 0,
+            "리브엠": 2,
+            "우리원모바일": 1,
+            "이야기모바일": 2,
+            "에이모바일": 0,
+            "프리티": 1,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 67,
+            "인스모바일": 0,
+            "이지모바일": 3,
+            "티플러스": 37,
+            "KG모바일": 0,
+            "티다이렉트": 2,
+            "SKT_Air": 7,
+            "시월모바일": 2,
+            "핀다이렉트": 3,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "아이즈": 52,
+            "239": 44,
+            "티플": 21,
+            "폴드8": 18,
+            "259": 13,
+            "이심": 11,
+            "유모": 10,
+            "쌀먹": 8,
+            "헬모": 8,
+            "셀프개통": 7
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "폴드 8 질러버렸어요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=710&no=3928604",
+                    "views": 14923,
+                    "comments": 42
+                },
+                {
+                    "title": "폴드8 실물후기",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=710&no=3928701",
+                    "views": 4037,
+                    "comments": 14
+                },
+                {
+                    "title": "이마트 일렉 폴드8 단품 기격 최종 1958000 이네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=710&no=3928623",
+                    "views": 3854,
+                    "comments": 5
+                },
+                {
+                    "title": "폴드8 베젤이 실화인가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=710&no=3928609",
+                    "views": 3581,
+                    "comments": 12
+                },
+                {
+                    "title": "접는 폰 최대 단점",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=710&no=3928601",
+                    "views": 3443,
+                    "comments": 17
+                }
+            ],
+            "dc": [
+                {
+                    "title": "500명 찔끔 쳐받는 얌체 회사 말고 티플타라",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=470161&page=8",
+                    "views": 1705,
+                    "comments": 5
+                },
+                {
+                    "title": "알닷 아이즈 신청서는 찢어짐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=470163&page=8",
+                    "views": 1140,
+                    "comments": 8
+                },
+                {
+                    "title": "티플 뭐냐 259 평생아닌데?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=470447&page=3",
+                    "views": 985,
+                    "comments": 2
+                },
+                {
+                    "title": "오늘 티플 259 탔는데 좀 아쉽긴 하네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=470171&page=8",
+                    "views": 962,
+                    "comments": 3
+                },
+                {
+                    "title": "어라 나 ㅈ된거임?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=470435&page=3",
+                    "views": 894,
+                    "comments": 71
+                }
+            ]
+        }
     }
 ]
