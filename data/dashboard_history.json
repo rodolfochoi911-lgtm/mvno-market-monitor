@@ -18881,5 +18881,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-26",
+        "total_volume": {
+            "ppomppu": 78,
+            "dc": 210
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 6,
+            "유모바일": 4,
+            "헬로모바일": 7,
+            "스카이라이프": 0,
+            "토스모바일": 2,
+            "리브엠": 6,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 0,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 17,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 18,
+            "KG모바일": 0,
+            "티다이렉트": 1,
+            "SKT_Air": 7,
+            "시월모바일": 6,
+            "핀다이렉트": 0,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "폴드8": 26,
+            "239": 13,
+            "아이즈": 10,
+            "티플": 8,
+            "259": 8,
+            "인터넷": 7,
+            "에어": 6,
+            "구입": 5,
+            "울트라": 5,
+            "253": 5
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "하이마트 카드발급 낚시 당할뻔했네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3928763",
+                    "views": 10210,
+                    "comments": 15
+                },
+                {
+                    "title": "폴드8 실물 미쳤습니다 사진 포함",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=710&no=3928800",
+                    "views": 4856,
+                    "comments": 17
+                },
+                {
+                    "title": "폴드8 예약했어요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=710&no=3928803",
+                    "views": 3742,
+                    "comments": 16
+                },
+                {
+                    "title": "폴드8 실물보니 매력터지네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=710&no=3928799",
+                    "views": 3465,
+                    "comments": 13
+                },
+                {
+                    "title": "폴드8 인기 엄청나네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3928790",
+                    "views": 3409,
+                    "comments": 7
+                }
+            ],
+            "dc": [
+                {
+                    "title": "253 나오고부터 알갤 물이 너무 나빠졌음",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=470554&page=5",
+                    "views": 911,
+                    "comments": 2
+                },
+                {
+                    "title": "레전드요금제 갱신됬나보네..",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=470623&page=4",
+                    "views": 901,
+                    "comments": 4
+                },
+                {
+                    "title": "엠모바일 요금제배급 떴다 ㅅㅅㅅㅅㅅㅅ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=470619&page=4",
+                    "views": 889,
+                    "comments": 4
+                },
+                {
+                    "title": "어떤 씹새끼가 ㅡㅡ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=470628&page=4",
+                    "views": 874,
+                    "comments": 25
+                },
+                {
+                    "title": "아이즈가 239 낸거보면",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=470606&page=4",
+                    "views": 872,
+                    "comments": 6
+                }
+            ]
+        }
     }
 ]
