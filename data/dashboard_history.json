@@ -18991,5 +18991,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-27",
+        "total_volume": {
+            "ppomppu": 143,
+            "dc": 545
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 9,
+            "유모바일": 35,
+            "헬로모바일": 13,
+            "스카이라이프": 1,
+            "토스모바일": 2,
+            "리브엠": 13,
+            "우리원모바일": 2,
+            "이야기모바일": 0,
+            "에이모바일": 3,
+            "프리티": 4,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 63,
+            "인스모바일": 0,
+            "이지모바일": 3,
+            "티플러스": 71,
+            "KG모바일": 0,
+            "티다이렉트": 6,
+            "SKT_Air": 17,
+            "시월모바일": 9,
+            "핀다이렉트": 0,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "239": 45,
+            "아이즈": 42,
+            "티플": 42,
+            "폴드8": 28,
+            "유모": 22,
+            "259": 15,
+            "에어": 14,
+            "235": 13,
+            "티플러스": 12,
+            "헬모": 11
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "그냥 동네 롯X하이마트 에서 폴드8 구매했습니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=7&divpage=710&no=3928822",
+                    "views": 7572,
+                    "comments": 26
+                },
+                {
+                    "title": "사기꾼 = 가심비폰마켓, 전국폰내방 채널 (사은품으로 핸드폰 가입 유도)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3928958",
+                    "views": 5648,
+                    "comments": 8
+                },
+                {
+                    "title": "일렉~ 폴드8 폴드8울트라.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=710&no=3928858",
+                    "views": 3893,
+                    "comments": 7
+                },
+                {
+                    "title": "폴드8 자급제 예약했어요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=710&no=3928882",
+                    "views": 3747,
+                    "comments": 10
+                },
+                {
+                    "title": "와 당근에 s26+ 512 되팔이들 많네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=710&no=3928859",
+                    "views": 3526,
+                    "comments": 23
+                }
+            ],
+            "dc": [
+                {
+                    "title": "LG 5G요금제 가입 했는데 5G 안되는 경우 해결법 알려준다.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=470791&page=12",
+                    "views": 2002,
+                    "comments": 33
+                },
+                {
+                    "title": "알뜰폰은 사실상 전국민 데이터 무제한 불가",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=471311&page=2",
+                    "views": 1126,
+                    "comments": 14
+                },
+                {
+                    "title": "현시점... 5G 평생요금제... 가장싼놈...",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=471149&page=5",
+                    "views": 1079,
+                    "comments": 5
+                },
+                {
+                    "title": "239 재출시 ㄷㄷㄷㄷ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=470927&page=9",
+                    "views": 1040,
+                    "comments": 6
+                },
+                {
+                    "title": "평생요금제 개거품임",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=470785&page=12",
+                    "views": 1028,
+                    "comments": 7
+                }
+            ]
+        }
     }
 ]
