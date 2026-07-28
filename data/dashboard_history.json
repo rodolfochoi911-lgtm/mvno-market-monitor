@@ -19101,5 +19101,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-28",
+        "total_volume": {
+            "ppomppu": 359,
+            "dc": 434
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 4,
+            "유모바일": 15,
+            "헬로모바일": 44,
+            "스카이라이프": 0,
+            "토스모바일": 2,
+            "리브엠": 6,
+            "우리원모바일": 3,
+            "이야기모바일": 0,
+            "에이모바일": 5,
+            "프리티": 45,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 30,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 26,
+            "KG모바일": 0,
+            "티다이렉트": 58,
+            "SKT_Air": 12,
+            "시월모바일": 8,
+            "핀다이렉트": 3,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "폴드8": 141,
+            "550": 38,
+            "티다": 36,
+            "프리티": 31,
+            "11번가": 29,
+            "티플": 19,
+            "아이즈": 18,
+            "자급제": 16,
+            "온누리": 14,
+            "울트라": 12
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "폴드8 구매했어요 8/4 수령",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=12&divpage=710&no=3929021",
+                    "views": 19731,
+                    "comments": 29
+                },
+                {
+                    "title": "폴드8 온라인 예약 혜택 전멸이네요 ㅋㅋ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=13&divpage=710&no=3928974",
+                    "views": 14655,
+                    "comments": 31
+                },
+                {
+                    "title": "폴드8와이드 마지막혜택인것 같은데 괜찮은가요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=710&no=3929273",
+                    "views": 9657,
+                    "comments": 88
+                },
+                {
+                    "title": "폴드8 정신승리가170만원.신세계8월4일배송. 구입완료.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=12&divpage=710&no=3929008",
+                    "views": 9441,
+                    "comments": 12
+                },
+                {
+                    "title": "폴드8 하이마트가 가장 싼거죠?.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=13&divpage=710&no=3928988",
+                    "views": 3814,
+                    "comments": 10
+                }
+            ],
+            "dc": [
+                {
+                    "title": "프리티 마지막주 평생특가뜸",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=471370&page=10",
+                    "views": 3404,
+                    "comments": 16
+                },
+                {
+                    "title": "프리티 Sk 200분 6기가 550원",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=471369&page=10",
+                    "views": 1685,
+                    "comments": 2
+                },
+                {
+                    "title": "아이즈 660 / SKT 5GB 100분 50건",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=471707&page=4",
+                    "views": 1272,
+                    "comments": 15
+                },
+                {
+                    "title": "프리티걸 550 땡기네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=471376&page=10",
+                    "views": 1006,
+                    "comments": 0
+                },
+                {
+                    "title": "쌀먹표 정리",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=471467&page=8",
+                    "views": 969,
+                    "comments": 8
+                }
+            ]
+        }
     }
 ]
