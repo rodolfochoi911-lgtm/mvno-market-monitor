@@ -19211,5 +19211,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-29",
+        "total_volume": {
+            "ppomppu": 168,
+            "dc": 343
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 9,
+            "유모바일": 24,
+            "헬로모바일": 54,
+            "스카이라이프": 1,
+            "토스모바일": 0,
+            "리브엠": 5,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 4,
+            "프리티": 33,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 13,
+            "인스모바일": 0,
+            "이지모바일": 0,
+            "티플러스": 12,
+            "KG모바일": 1,
+            "티다이렉트": 17,
+            "SKT_Air": 6,
+            "시월모바일": 6,
+            "핀다이렉트": 0,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "폴드8": 55,
+            "프리티": 26,
+            "헬모": 18,
+            "550": 15,
+            "유모": 14,
+            "자급제": 13,
+            "쌀먹": 13,
+            "티다": 10,
+            "유모바일": 9,
+            "조이텔": 9
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "아~폴드8 자급제 이게최선일까요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3929557",
+                    "views": 3270,
+                    "comments": 111
+                },
+                {
+                    "title": "폴드8 자급제 하이마트 예약",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=7&divpage=710&no=3929406",
+                    "views": 3053,
+                    "comments": 61
+                },
+                {
+                    "title": "잇섭이 정리해준 폴드8 최저가",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=710&no=3929597",
+                    "views": 2621,
+                    "comments": 1
+                },
+                {
+                    "title": "폴드8 실물 보고 뽐 죽음..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3929546",
+                    "views": 2543,
+                    "comments": 7
+                },
+                {
+                    "title": "폴드8 하이마트 혜택 정리",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=710&no=3929424",
+                    "views": 2388,
+                    "comments": 4
+                }
+            ],
+            "dc": [
+                {
+                    "title": "프리티가 가끔씩 사람들 놀라게 만든다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=471862&page=8",
+                    "views": 1289,
+                    "comments": 16
+                },
+                {
+                    "title": "프리티 550, 이거 나가리냐?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=471879&page=8",
+                    "views": 951,
+                    "comments": 3
+                },
+                {
+                    "title": "새삼 시월 110 대단하네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=471864&page=8",
+                    "views": 874,
+                    "comments": 6
+                },
+                {
+                    "title": "엠모 올라온거 개똥이네..",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=471867&page=8",
+                    "views": 828,
+                    "comments": 4
+                },
+                {
+                    "title": "프리티 550 좋긴하네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=472079&page=4",
+                    "views": 828,
+                    "comments": 7
+                }
+            ]
+        }
     }
 ]
