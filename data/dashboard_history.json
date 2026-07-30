@@ -19321,5 +19321,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-30",
+        "total_volume": {
+            "ppomppu": 168,
+            "dc": 254
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 9,
+            "유모바일": 16,
+            "헬로모바일": 44,
+            "스카이라이프": 1,
+            "토스모바일": 2,
+            "리브엠": 6,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 10,
+            "프리티": 6,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 4,
+            "인스모바일": 0,
+            "이지모바일": 2,
+            "티플러스": 1,
+            "KG모바일": 0,
+            "티다이렉트": 14,
+            "SKT_Air": 3,
+            "시월모바일": 11,
+            "핀다이렉트": 1,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "폴드8": 44,
+            "헬모": 27,
+            "쌀먹": 13,
+            "온누리": 10,
+            "번이": 8,
+            "울트라": 8,
+            "티다": 7,
+            "폴드": 7,
+            "자급제": 7,
+            "형들": 7
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "티다 라이브 폴드8 정리",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=710&no=3929661",
+                    "views": 12631,
+                    "comments": 63
+                },
+                {
+                    "title": "안녕마트 폴드8 구매완료요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3929738",
+                    "views": 11212,
+                    "comments": 20
+                },
+                {
+                    "title": "하이마트 카드2장 조건 신규발급 캐시백 이라면 신고합니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=710&no=3929678",
+                    "views": 8491,
+                    "comments": 17
+                },
+                {
+                    "title": "이거 기스난거 맞나요?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=710&no=3929611",
+                    "views": 3026,
+                    "comments": 34
+                },
+                {
+                    "title": "방금전 이마트 일렉매장 정보",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3929768",
+                    "views": 2547,
+                    "comments": 5
+                }
+            ],
+            "dc": [
+                {
+                    "title": "걍 엄마한테 이거태워드리고 치워야겠다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=472237&page=6",
+                    "views": 1046,
+                    "comments": 17
+                },
+                {
+                    "title": "8월초 SKT망 알뜰폰 새로 출시됨",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=472394&page=3",
+                    "views": 973,
+                    "comments": 9
+                },
+                {
+                    "title": "티플 259 탄거 후회중임....ㅠ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=472278&page=5",
+                    "views": 965,
+                    "comments": 9
+                },
+                {
+                    "title": "오늘 쓴 글 2개 다 썰렸네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=472234&page=6",
+                    "views": 847,
+                    "comments": 10
+                },
+                {
+                    "title": "야갤 안면인식 꿀팁떴다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=472266&page=6",
+                    "views": 750,
+                    "comments": 4
+                }
+            ]
+        }
     }
 ]
