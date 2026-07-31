@@ -19431,5 +19431,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-07-31",
+        "total_volume": {
+            "ppomppu": 161,
+            "dc": 569
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 32,
+            "유모바일": 8,
+            "헬로모바일": 48,
+            "스카이라이프": 0,
+            "토스모바일": 3,
+            "리브엠": 34,
+            "우리원모바일": 3,
+            "이야기모바일": 0,
+            "에이모바일": 6,
+            "프리티": 6,
+            "모빙": 1,
+            "스노우맨": 0,
+            "아이즈모바일": 22,
+            "인스모바일": 0,
+            "이지모바일": 4,
+            "티플러스": 5,
+            "KG모바일": 2,
+            "티다이렉트": 28,
+            "SKT_Air": 3,
+            "시월모바일": 42,
+            "핀다이렉트": 2,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "폴드8": 40,
+            "시월": 32,
+            "헬모": 31,
+            "리브엠": 29,
+            "네페": 24,
+            "엠모": 24,
+            "티다": 21,
+            "쉐이크": 20,
+            "쌀먹": 17,
+            "아이즈": 17
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "전자랜드 폴드8 512 자급제",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3929996",
+                    "views": 2717,
+                    "comments": 85
+                },
+                {
+                    "title": "오늘부로 다 정리 되었네요.ㄷㄷ",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3930001",
+                    "views": 2113,
+                    "comments": 0
+                },
+                {
+                    "title": "알뜰 좋은 요금제 싹 내려갔네요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3930000",
+                    "views": 1990,
+                    "comments": 4
+                },
+                {
+                    "title": "끝물이라 폴드8 할인이 축소돼서",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3929979",
+                    "views": 1666,
+                    "comments": 1
+                },
+                {
+                    "title": "플립8 자급제 구매 완료했어요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=7&divpage=710&no=3929833",
+                    "views": 1641,
+                    "comments": 11
+                }
+            ],
+            "dc": [
+                {
+                    "title": "우리원 청년드림 쌀먹표",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=472539&page=14",
+                    "views": 1734,
+                    "comments": 15
+                },
+                {
+                    "title": "쿠팡 바로유심 역대 최저가!!!!!!",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=472533&page=14",
+                    "views": 1432,
+                    "comments": 7
+                },
+                {
+                    "title": "서브회선 문자 본회선으로 모으기",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=472544&page=14",
+                    "views": 1422,
+                    "comments": 18
+                },
+                {
+                    "title": "쉐이크 8월 뜸",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=472781&page=10",
+                    "views": 1415,
+                    "comments": 25
+                },
+                {
+                    "title": "밀리 220GB+10mbps 36300원 나왔네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=472786&page=9",
+                    "views": 1257,
+                    "comments": 21
+                }
+            ]
+        }
     }
 ]
