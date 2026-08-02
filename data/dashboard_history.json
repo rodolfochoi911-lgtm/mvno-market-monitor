@@ -19651,5 +19651,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-08-02",
+        "total_volume": {
+            "ppomppu": 145,
+            "dc": 226
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 6,
+            "유모바일": 0,
+            "헬로모바일": 16,
+            "스카이라이프": 0,
+            "토스모바일": 4,
+            "리브엠": 5,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 5,
+            "프리티": 2,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 5,
+            "인스모바일": 0,
+            "이지모바일": 2,
+            "티플러스": 2,
+            "KG모바일": 0,
+            "티다이렉트": 10,
+            "SKT_Air": 1,
+            "시월모바일": 2,
+            "핀다이렉트": 0,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "폴드8": 45,
+            "모나": 11,
+            "인터넷": 10,
+            "쌀먹": 10,
+            "자급제": 9,
+            "qos": 7,
+            "형들": 7,
+            "티다": 6,
+            "유플": 6,
+            "5명박": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "폴드8 자급제 막차탔습니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3930308",
+                    "views": 11740,
+                    "comments": 41
+                },
+                {
+                    "title": "폴더블 구매 끝났습니다 고민 더이상 못하겠어요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=710&no=3930264",
+                    "views": 3983,
+                    "comments": 65
+                },
+                {
+                    "title": "폴드8  이마트 일렉 현재 정책입니다(크림 9월초수령)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=710&no=3930244",
+                    "views": 3539,
+                    "comments": 15
+                },
+                {
+                    "title": "폴드8 이게 더 낫지?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=710&no=3930271",
+                    "views": 2988,
+                    "comments": 16
+                },
+                {
+                    "title": "여친 폴드8 사느라 여러군데 돌아다녀보고 느낀점",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=710&no=3930216",
+                    "views": 2907,
+                    "comments": 2
+                }
+            ],
+            "dc": [
+                {
+                    "title": "[알립니다]   故 신화요금제",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=473734&page=4",
+                    "views": 1265,
+                    "comments": 27
+                },
+                {
+                    "title": "MVNO 이 뉴스 뭐냐",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=473878&page=2",
+                    "views": 1120,
+                    "comments": 10
+                },
+                {
+                    "title": "솔직히 갤럭시는 한국인들만 쓰는 폰임",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=473683&page=5",
+                    "views": 1080,
+                    "comments": 21
+                },
+                {
+                    "title": "5명박 2900원짜리 너무 좋다ㅋㅋㅋ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=473881&page=2",
+                    "views": 1070,
+                    "comments": 10
+                },
+                {
+                    "title": "qos 속도제한 안 걸리던 옛날 요금제들 사망",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=473840&page=2",
+                    "views": 1056,
+                    "comments": 14
+                }
+            ]
+        }
     }
 ]
