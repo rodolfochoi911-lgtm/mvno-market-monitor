@@ -19761,5 +19761,115 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-08-03",
+        "total_volume": {
+            "ppomppu": 188,
+            "dc": 511
+        },
+        "brand_sov": {
+            "세븐모바일": 2,
+            "KT엠모바일": 14,
+            "유모바일": 8,
+            "헬로모바일": 24,
+            "스카이라이프": 0,
+            "토스모바일": 3,
+            "리브엠": 8,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 7,
+            "프리티": 1,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 16,
+            "인스모바일": 2,
+            "이지모바일": 2,
+            "티플러스": 8,
+            "KG모바일": 1,
+            "티다이렉트": 16,
+            "SKT_Air": 3,
+            "시월모바일": 10,
+            "핀다이렉트": 2,
+            "도시락모바일": 0
+        },
+        "top_keywords": {
+            "조이텔": 63,
+            "폴드8": 52,
+            "모나": 30,
+            "990": 28,
+            "티다": 12,
+            "헬모": 10,
+            "아이즈": 10,
+            "자급제": 9,
+            "쉐이크": 9,
+            "2970": 8
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "8월 사은품 유모바일 vs 헬로모바일 vs 엠모바일 동일 스펙 직접 비교해봤어요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=710&no=3930405",
+                    "views": 8492,
+                    "comments": 6
+                },
+                {
+                    "title": "벌써 당근에서 폴드8 되팔이들 나타나네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3930481",
+                    "views": 2771,
+                    "comments": 6
+                },
+                {
+                    "title": "폴드8 자급제 막차탑승했습니다!!",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3930503",
+                    "views": 2750,
+                    "comments": 9
+                },
+                {
+                    "title": "폴드8 인기 장난 아닌거 맞죠?",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=710&no=3930556",
+                    "views": 2466,
+                    "comments": 13
+                },
+                {
+                    "title": "옆자리 사우는..벌써 후회하네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3930513",
+                    "views": 2410,
+                    "comments": 6
+                }
+            ],
+            "dc": [
+                {
+                    "title": "모나 문상지급 평생 100원 전설 떳다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=474106&page=9",
+                    "views": 1224,
+                    "comments": 23
+                },
+                {
+                    "title": "조이텔 8월",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=474460&page=2",
+                    "views": 1063,
+                    "comments": 8
+                },
+                {
+                    "title": "조이텔 990 스샷",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=474371&page=4",
+                    "views": 992,
+                    "comments": 5
+                },
+                {
+                    "title": "sk 직영점 눈물(?)의 퀀텀6 떨이 중",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=474003&page=10",
+                    "views": 969,
+                    "comments": 17
+                },
+                {
+                    "title": "와 모나진짜",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=474184&page=7",
+                    "views": 938,
+                    "comments": 15
+                }
+            ]
+        }
     }
 ]
