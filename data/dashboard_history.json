@@ -19991,7 +19991,7 @@
         "brand_sov": {
             "세븐모바일": 0,
             "KT엠모바일": 6,
-            "유모바일": 29,
+            "유모바일": 30,
             "헬로모바일": 14,
             "스카이라이프": 0,
             "토스모바일": 1,
@@ -20004,90 +20004,90 @@
             "스노우맨": 0,
             "아이즈모바일": 10,
             "인스모바일": 0,
-            "이지모바일": 3,
+            "이지모바일": 4,
             "티플러스": 2,
-            "KG모바일": 3,
+            "KG모바일": 4,
             "티다이렉트": 7,
             "SKT_Air": 6,
             "시월모바일": 13,
-            "핀다이렉트": 11,
+            "핀다이렉트": 10,
             "도시락모바일": 1
         },
         "top_keywords": {
+            "2970": 43,
             "조이텔": 41,
-            "2970": 40,
-            "990": 36,
+            "990": 34,
             "폴드8": 26,
             "유모": 16,
             "쉐이크": 13,
+            "드디어": 9,
+            "쌀먹": 9,
             "시월": 9,
-            "이심": 8,
-            "쌀먹": 8,
-            "2970이": 8
+            "유모바일": 7
         },
         "top_posts": {
             "ppomppu": [
                 {
                     "title": "폴드8 카메라 습기가 생기네요.",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3930826",
-                    "views": 3497,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3930826",
+                    "views": 3838,
                     "comments": 23
                 },
                 {
+                    "title": "유모바일 8월 타임세일 이벤트코드 + 혜택 정리(~8/10개통)",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3930819",
+                    "views": 3287,
+                    "comments": 55
+                },
+                {
                     "title": "당근에 폴드7",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=710&no=3930716",
-                    "views": 3043,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=710&no=3930716",
+                    "views": 3072,
                     "comments": 19
                 },
                 {
-                    "title": "유모바일 8월 타임세일 이벤트코드 + 혜택 정리(~8/10개통)",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3930819",
-                    "views": 2898,
-                    "comments": 49
-                },
-                {
                     "title": "생각보다 폴드8 반출 많을듯?",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=710&no=3930729",
-                    "views": 2638,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=6&divpage=710&no=3930729",
+                    "views": 2690,
                     "comments": 12
                 },
                 {
                     "title": "폴드8 하루 쌩폰 후기",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3930796",
-                    "views": 2390,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=710&no=3930796",
+                    "views": 2538,
                     "comments": 11
                 }
             ],
             "dc": [
                 {
                     "title": "새벽에 누가 자꾸 전화를 쳐하나했더니",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=475516&page=10",
-                    "views": 1907,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=475516&page=12",
+                    "views": 1974,
                     "comments": 13
                 },
                 {
                     "title": "아니 시발련들아 990인줄 알고 탔는데 짭990 이었네",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=475832&page=4",
-                    "views": 1836,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=475832&page=6",
+                    "views": 1933,
                     "comments": 40
                 },
                 {
                     "title": "이거 최저가임?",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=475520&page=10",
-                    "views": 1627,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=475520&page=12",
+                    "views": 1664,
                     "comments": 13
                 },
                 {
-                    "title": "명.품망 전설 떴다",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=475757&page=6",
-                    "views": 1416,
-                    "comments": 21
+                    "title": "개목줄 회사 목록",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=475967&page=4",
+                    "views": 1597,
+                    "comments": 53
                 },
                 {
-                    "title": "개목줄 회사 목록",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=475967&page=2",
-                    "views": 1375,
-                    "comments": 43
+                    "title": "명.품망 전설 떴다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=475757&page=8",
+                    "views": 1488,
+                    "comments": 21
                 }
             ]
         }
