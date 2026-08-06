@@ -1,5 +1,4 @@
 name: Market Monitor (Daily)
-
 on:
   schedule:
     - cron: '28 21 * * *'
@@ -18,20 +17,16 @@ on:
 jobs:
   run-monitor:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4  # <--- v3에서 v4로 업데이트 (경고 해결)
-
       - name: Set up Python
         uses: actions/setup-python@v5  # <--- v4에서 v5로 업데이트 (경고 해결)
         with:
           python-version: '3.9'
-
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-
       - name: Run Crawler
         env:
           COPILOT_WEBHOOK_URL: ${{ secrets.COPILOT_WEBHOOK_URL }}  # <--- SLACK/TEAMS에서 COPILOT으로 변경!
@@ -39,7 +34,6 @@ jobs:
         # 파이썬 스크립트에 날짜 인자 전달
         run: |
           python scripts/monitor_crawler.py "${{ github.event.inputs.target_date }}"
-
       - name: Commit and Push results
         run: |
           git config --global user.name "GitHub Action"
@@ -47,3 +41,30 @@ jobs:
           git add data/
           git commit -m "Update market data: ${{ github.event.inputs.target_date }}" || echo "No changes to commit"
           git push
+      - name: Install xlsx conversion dependencies
+        run: pip install pandas openpyxl
+      - name: JSON → xlsx 변환
+        run: python scripts/convert_to_xlsx.py data/dashboard_history.json data/dashboard_history.xlsx
+      - name: Commit and push xlsx
+        run: |
+          git add data/dashboard_history.xlsx
+          git commit -m "chore: dashboard_history.xlsx 자동 갱신" || echo "No changes to commit"
+          git push
+      - name: 변환 완료 메일 발송 (xlsx 첨부)
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_APP_PASSWORD }}
+          subject: "[알림] MVNO 모니터링 데이터 업데이트됨 (${{ github.event.inputs.target_date }})"
+          to: jiwonchoi@sk.com
+          from: MVNO Market Monitor <rodolfochoi911@gmail.com>
+          body: |
+            dashboard_history.json이 갱신되어 xlsx로 변환 후 첨부합니다.
+
+            커밋: ${{ github.sha }}
+            확인: ${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}
+
+            시트 구성: Volume / Brand_SOV_Long / Brand_SOV_Pivot / Keywords / Top_Posts
+          attachments: data/dashboard_history.xlsx
