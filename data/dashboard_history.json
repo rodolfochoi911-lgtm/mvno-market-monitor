@@ -20204,5 +20204,118 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-08-07",
+        "total_volume": {
+            "ppomppu": 121,
+            "dc": 424
+        },
+        "brand_sov": {
+            "세븐모바일": 2,
+            "KT엠모바일": 7,
+            "유모바일": 65,
+            "헬로모바일": 5,
+            "스카이라이프": 1,
+            "토스모바일": 0,
+            "리브엠": 1,
+            "우리원모바일": 2,
+            "이야기모바일": 0,
+            "에이모바일": 7,
+            "프리티": 7,
+            "모빙": 0,
+            "스노우맨": 1,
+            "아이즈모바일": 8,
+            "인스모바일": 1,
+            "이지모바일": 2,
+            "티플러스": 7,
+            "KG모바일": 1,
+            "티다이렉트": 10,
+            "SKT_Air": 7,
+            "시월모바일": 8,
+            "핀다이렉트": 5,
+            "도시락모바일": 0,
+            "모나모바일": 24,
+            "조이텔": 10,
+            "알닷": 11
+        },
+        "top_keywords": {
+            "유모": 34,
+            "모나": 22,
+            "유모바일": 21,
+            "폴드8": 17,
+            "쌀먹": 14,
+            "이심": 13,
+            "유심": 13,
+            "포인트": 10,
+            "5g": 9,
+            "조이텔": 9
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "[2026 총정리] 폴드8플립8 보험, 결국 뭐 가입해야 할까? (약관 전부 비교해봤습...",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3931087",
+                    "views": 7888,
+                    "comments": 23
+                },
+                {
+                    "title": "갤럭시는 홀수만 사야하는군요.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=710&no=3931001",
+                    "views": 3369,
+                    "comments": 21
+                },
+                {
+                    "title": "인스모바일 10원요금제 괜찮네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=710&no=3930991",
+                    "views": 2239,
+                    "comments": 5
+                },
+                {
+                    "title": "갤럭시 Z폴드8 2일차",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3931038",
+                    "views": 2197,
+                    "comments": 12
+                },
+                {
+                    "title": "폴드8 롯데백화점 사전예약 방금 취소문자왔네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3931041",
+                    "views": 2145,
+                    "comments": 15
+                }
+            ],
+            "dc": [
+                {
+                    "title": "네페카드털렸네 아오 ㄹㅇ..",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=476535&page=9",
+                    "views": 1555,
+                    "comments": 28
+                },
+                {
+                    "title": "드리머: 알갤러들이 내 글에 비추 준다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=476723&page=4",
+                    "views": 1123,
+                    "comments": 16
+                },
+                {
+                    "title": "오이오이! 아이즈, 믿고 있었다규!!",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=476876&page=3",
+                    "views": 1034,
+                    "comments": 14
+                },
+                {
+                    "title": "잼있는 요금제가있다?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=476537&page=9",
+                    "views": 885,
+                    "comments": 8
+                },
+                {
+                    "title": "아이즈 통수 떴냐?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=476912&page=3",
+                    "views": 814,
+                    "comments": 11
+                }
+            ]
+        }
     }
 ]
