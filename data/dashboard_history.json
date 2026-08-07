@@ -20091,5 +20091,118 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-08-06",
+        "total_volume": {
+            "ppomppu": 137,
+            "dc": 468
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 2,
+            "유모바일": 76,
+            "헬로모바일": 18,
+            "스카이라이프": 0,
+            "토스모바일": 2,
+            "리브엠": 3,
+            "우리원모바일": 0,
+            "이야기모바일": 2,
+            "에이모바일": 4,
+            "프리티": 33,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 7,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 3,
+            "KG모바일": 2,
+            "티다이렉트": 13,
+            "SKT_Air": 8,
+            "시월모바일": 9,
+            "핀다이렉트": 6,
+            "도시락모바일": 1,
+            "모나모바일": 9,
+            "조이텔": 29,
+            "알닷": 7
+        },
+        "top_keywords": {
+            "유모": 36,
+            "프리티": 26,
+            "유모바일": 25,
+            "폴드8": 24,
+            "조이텔": 23,
+            "쌀먹": 21,
+            "유심": 16,
+            "kt": 13,
+            "990": 13,
+            "온누리": 12
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "유모바일 이벤트코드<유모바윌> 종료 + NEW 이벤트코드 <노페이노게인>...",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3930948",
+                    "views": 2500,
+                    "comments": 28
+                },
+                {
+                    "title": "유모바일 뭔가 새 이벤트 열렸네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3930916",
+                    "views": 2473,
+                    "comments": 14
+                },
+                {
+                    "title": "폴드8 불편하네요..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3930972",
+                    "views": 2291,
+                    "comments": 13
+                },
+                {
+                    "title": "폴드8 3일차 사용기",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=710&no=3930868",
+                    "views": 2266,
+                    "comments": 23
+                },
+                {
+                    "title": "시월모바일 평생5G 통화기본 월 150GB + 5Mbps 25800원",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=710&no=3930975",
+                    "views": 2192,
+                    "comments": 18
+                }
+            ],
+            "dc": [
+                {
+                    "title": "이거 평생 결합 할인 맞아?",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=476023&page=11",
+                    "views": 2223,
+                    "comments": 9
+                },
+                {
+                    "title": "님들 프리티 4400 어떰",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=476018&page=11",
+                    "views": 1985,
+                    "comments": 14
+                },
+                {
+                    "title": "프리티 전설 신화 떴네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=476017&page=11",
+                    "views": 1891,
+                    "comments": 11
+                },
+                {
+                    "title": "펨코 드리머(Dreamer0) 비추 테러ㄱㄱㄱ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=476101&page=2",
+                    "views": 1728,
+                    "comments": 11
+                },
+                {
+                    "title": "프리티 KT망 가격 대비 괜찮네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=476015&page=11",
+                    "views": 1711,
+                    "comments": 7
+                }
+            ]
+        }
     }
 ]
