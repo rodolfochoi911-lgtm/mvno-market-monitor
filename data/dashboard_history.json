@@ -20317,5 +20317,118 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-08-08",
+        "total_volume": {
+            "ppomppu": 83,
+            "dc": 288
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 5,
+            "유모바일": 34,
+            "헬로모바일": 9,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 3,
+            "우리원모바일": 1,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 7,
+            "모빙": 0,
+            "스노우맨": 0,
+            "아이즈모바일": 15,
+            "인스모바일": 0,
+            "이지모바일": 2,
+            "티플러스": 3,
+            "KG모바일": 0,
+            "티다이렉트": 6,
+            "SKT_Air": 5,
+            "시월모바일": 6,
+            "핀다이렉트": 5,
+            "도시락모바일": 0,
+            "모나모바일": 10,
+            "조이텔": 14,
+            "알닷": 9
+        },
+        "top_keywords": {
+            "유모": 22,
+            "쌀먹": 19,
+            "폴드8": 16,
+            "유심": 15,
+            "조이텔": 12,
+            "아이즈": 11,
+            "유모바일": 9,
+            "이심": 8,
+            "쉐이크": 7,
+            "kt": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "폴드8 방출 결정",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3931136",
+                    "views": 3864,
+                    "comments": 3
+                },
+                {
+                    "title": "아이즈모바일 150G 평생무제한이 혜자였음..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3931144",
+                    "views": 3270,
+                    "comments": 25
+                },
+                {
+                    "title": "온누리 진짜 개꿀이였습니다.",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=710&no=3931184",
+                    "views": 2770,
+                    "comments": 8
+                },
+                {
+                    "title": "저도 폴드8 방출..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=710&no=3931181",
+                    "views": 2746,
+                    "comments": 14
+                },
+                {
+                    "title": "폴드8 적응 쉽지않네요..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3931175",
+                    "views": 2486,
+                    "comments": 7
+                }
+            ],
+            "dc": [
+                {
+                    "title": "조이텔 떴네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=476999&page=7",
+                    "views": 1296,
+                    "comments": 2
+                },
+                {
+                    "title": "모나 550 탔는데 왜 이런 개씨발!!!!!!!!!!",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=477227&page=3",
+                    "views": 1109,
+                    "comments": 11
+                },
+                {
+                    "title": "알뜰폰 사용 10년된 사람의 잡다한 후기",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=477131&page=4",
+                    "views": 1104,
+                    "comments": 5
+                },
+                {
+                    "title": "조이텔(조이보이) 탑승완료",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=477012&page=6",
+                    "views": 1096,
+                    "comments": 3
+                },
+                {
+                    "title": "조이텔 660 탐나네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=477019&page=6",
+                    "views": 986,
+                    "comments": 7
+                }
+            ]
+        }
     }
 ]
