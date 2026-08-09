@@ -20322,7 +20322,7 @@
         "date": "2026-08-08",
         "total_volume": {
             "ppomppu": 83,
-            "dc": 288
+            "dc": 287
         },
         "brand_sov": {
             "세븐모바일": 1,
@@ -20368,64 +20368,64 @@
             "ppomppu": [
                 {
                     "title": "폴드8 방출 결정",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3931136",
-                    "views": 3864,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=710&no=3931136",
+                    "views": 4112,
                     "comments": 3
                 },
                 {
-                    "title": "아이즈모바일 150G 평생무제한이 혜자였음..",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3931144",
-                    "views": 3270,
-                    "comments": 25
-                },
-                {
                     "title": "온누리 진짜 개꿀이였습니다.",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=710&no=3931184",
-                    "views": 2770,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3931184",
+                    "views": 3800,
                     "comments": 8
                 },
                 {
                     "title": "저도 폴드8 방출..",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=710&no=3931181",
-                    "views": 2746,
-                    "comments": 14
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3931181",
+                    "views": 3721,
+                    "comments": 17
+                },
+                {
+                    "title": "아이즈모바일 150G 평생무제한이 혜자였음..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=710&no=3931144",
+                    "views": 3550,
+                    "comments": 25
                 },
                 {
                     "title": "폴드8 적응 쉽지않네요..",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3931175",
-                    "views": 2486,
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3931175",
+                    "views": 2987,
                     "comments": 7
                 }
             ],
             "dc": [
                 {
+                    "title": "알뜰폰 사용 10년된 사람의 잡다한 후기",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=477131&page=6",
+                    "views": 1528,
+                    "comments": 6
+                },
+                {
                     "title": "조이텔 떴네",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=476999&page=7",
-                    "views": 1296,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=476999&page=9",
+                    "views": 1318,
                     "comments": 2
                 },
                 {
                     "title": "모나 550 탔는데 왜 이런 개씨발!!!!!!!!!!",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=477227&page=3",
-                    "views": 1109,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=477227&page=5",
+                    "views": 1252,
                     "comments": 11
                 },
                 {
-                    "title": "알뜰폰 사용 10년된 사람의 잡다한 후기",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=477131&page=4",
-                    "views": 1104,
-                    "comments": 5
-                },
-                {
                     "title": "조이텔(조이보이) 탑승완료",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=477012&page=6",
-                    "views": 1096,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=477012&page=8",
+                    "views": 1125,
                     "comments": 3
                 },
                 {
                     "title": "조이텔 660 탐나네",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=477019&page=6",
-                    "views": 986,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=477019&page=8",
+                    "views": 1018,
                     "comments": 7
                 }
             ]
