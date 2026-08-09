@@ -20430,5 +20430,118 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-08-09",
+        "total_volume": {
+            "ppomppu": 54,
+            "dc": 168
+        },
+        "brand_sov": {
+            "세븐모바일": 1,
+            "KT엠모바일": 2,
+            "유모바일": 24,
+            "헬로모바일": 3,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 3,
+            "우리원모바일": 0,
+            "이야기모바일": 0,
+            "에이모바일": 0,
+            "프리티": 2,
+            "모빙": 0,
+            "스노우맨": 1,
+            "아이즈모바일": 2,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 2,
+            "KG모바일": 2,
+            "티다이렉트": 1,
+            "SKT_Air": 2,
+            "시월모바일": 3,
+            "핀다이렉트": 3,
+            "도시락모바일": 0,
+            "모나모바일": 11,
+            "조이텔": 3,
+            "알닷": 2
+        },
+        "top_keywords": {
+            "폴드8": 14,
+            "유모바일": 11,
+            "유모": 9,
+            "쌀먹": 7,
+            "모나": 7,
+            "이심": 6,
+            "363": 6,
+            "esim": 5,
+            "이제": 4,
+            "유심": 4
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "폴드8 인기라지만 이게 맞나",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=710&no=3931236",
+                    "views": 2830,
+                    "comments": 8
+                },
+                {
+                    "title": "폴드8 6일 사용 후기",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=710&no=3931240",
+                    "views": 2624,
+                    "comments": 9
+                },
+                {
+                    "title": "일본에서 삼성 뗴고 갤럭시라고 홍보한게 잘 먹히긴했나봐요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=1&divpage=710&no=3931256",
+                    "views": 2359,
+                    "comments": 14
+                },
+                {
+                    "title": "폴드8 아쉽지만 방출합니다",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3931220",
+                    "views": 2320,
+                    "comments": 5
+                },
+                {
+                    "title": "유모바일 방금 개통완료",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3931213",
+                    "views": 2154,
+                    "comments": 10
+                }
+            ],
+            "dc": [
+                {
+                    "title": "모나 전설 요금제 떴다",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=477367&page=3",
+                    "views": 1353,
+                    "comments": 17
+                },
+                {
+                    "title": "알갤러들 단합 좋네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=477393&page=3",
+                    "views": 936,
+                    "comments": 6
+                },
+                {
+                    "title": "유모쌀먹 이심6만, 유심 3만이네",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=477326&page=4",
+                    "views": 911,
+                    "comments": 4
+                },
+                {
+                    "title": "엄마 조이텔 통무 990 해드렸는데",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=477343&page=4",
+                    "views": 819,
+                    "comments": 10
+                },
+                {
+                    "title": "3.5만으로 졸업했습니다.",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=477443&page=2",
+                    "views": 768,
+                    "comments": 8
+                }
+            ]
+        }
     }
 ]
