@@ -20656,5 +20656,118 @@
                 }
             ]
         }
+    },
+    {
+        "date": "2026-08-11",
+        "total_volume": {
+            "ppomppu": 94,
+            "dc": 322
+        },
+        "brand_sov": {
+            "세븐모바일": 0,
+            "KT엠모바일": 3,
+            "유모바일": 18,
+            "헬로모바일": 9,
+            "스카이라이프": 0,
+            "토스모바일": 0,
+            "리브엠": 4,
+            "우리원모바일": 0,
+            "이야기모바일": 2,
+            "에이모바일": 2,
+            "프리티": 6,
+            "모빙": 2,
+            "스노우맨": 0,
+            "아이즈모바일": 19,
+            "인스모바일": 0,
+            "이지모바일": 1,
+            "티플러스": 2,
+            "KG모바일": 1,
+            "티다이렉트": 2,
+            "SKT_Air": 6,
+            "시월모바일": 18,
+            "핀다이렉트": 0,
+            "도시락모바일": 0,
+            "모나모바일": 8,
+            "조이텔": 6,
+            "알닷": 13
+        },
+        "top_keywords": {
+            "시월": 15,
+            "아이즈": 13,
+            "폴드8": 11,
+            "알닷": 11,
+            "유모": 9,
+            "110": 7,
+            "가격": 6,
+            "신분증": 6,
+            "조이텔": 6,
+            "쌀먹": 6
+        },
+        "top_posts": {
+            "ppomppu": [
+                {
+                    "title": "S25FE 표준 요금제 위약금 폭탄",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=3&divpage=710&no=3931398",
+                    "views": 2782,
+                    "comments": 26
+                },
+                {
+                    "title": "폴드 감가가 어마어마하긴 하네요..",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3931438",
+                    "views": 2754,
+                    "comments": 10
+                },
+                {
+                    "title": "KT엠모바일, 알뜰폰 요금제 34종 인하",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3931446",
+                    "views": 2637,
+                    "comments": 7
+                },
+                {
+                    "title": "효도용으론 퀀텀 별로네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3931443",
+                    "views": 2564,
+                    "comments": 24
+                },
+                {
+                    "title": "7포커 완전 품귀네요",
+                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=710&no=3931394",
+                    "views": 2378,
+                    "comments": 11
+                }
+            ],
+            "dc": [
+                {
+                    "title": "시월 440 약정 93일",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=478062&page=4",
+                    "views": 1231,
+                    "comments": 9
+                },
+                {
+                    "title": "밀리 파티장인데 어떤 미친 년이 쪽지 보냄",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=478213&page=1",
+                    "views": 1120,
+                    "comments": 18
+                },
+                {
+                    "title": "여기는 어떰? 목줄 없는곳인가",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=478115&page=3",
+                    "views": 993,
+                    "comments": 15
+                },
+                {
+                    "title": "현시점 990이 1황맞노 ㄷㄷ",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=478124&page=3",
+                    "views": 935,
+                    "comments": 3
+                },
+                {
+                    "title": "2970 기다리는 애들아",
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=477900&page=7",
+                    "views": 874,
+                    "comments": 3
+                }
+            ]
+        }
     }
 ]
