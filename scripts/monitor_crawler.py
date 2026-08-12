@@ -186,50 +186,79 @@ def _clean_text(elem):
     return re.sub(r'\s+', ' ', elem.get_text(separator=' ', strip=True)).strip()
 
 
-def _fallback_largest_block(soup, min_len=80):
-    """알려진 셀렉터가 안 맞을 때 텍스트가 가장 많은 td/div를 본문으로 추정하는 최후 수단."""
+_JUNK_TEXT_RE = re.compile(r'dc\s*(official\s*)?app', re.IGNORECASE)
+
+
+def _fallback_largest_block(soup, min_len=100):
+    """알려진 셀렉터가 안 맞을 때 텍스트가 가장 많은 td/div를 본문으로 추정하는 최후 수단.
+    '- dc App' 같은 앱 서명/배지처럼 뻔한 잡음 텍스트는 후보에서 제외한다."""
     best, best_len = None, min_len
     for c in soup.select('td, div'):
         if c.find(['td', 'div']):  # 자식에 td/div가 있으면 컨테이너일 확률이 높아 스킵
             continue
-        text_len = len(c.get_text(strip=True))
-        if text_len > best_len:
-            best, best_len = c, text_len
+        text = c.get_text(strip=True)
+        if _JUNK_TEXT_RE.search(text):
+            continue
+        if len(text) > best_len:
+            best, best_len = c, len(text)
     return best
+
+
+def _extract_ppomppu_comments(page_source, limit=10):
+    """
+    뽐뿌는 댓글을 DOM에 바로 안 심어두고, 페이지 안 <script>의
+    `var initialCommentData = {...};` JS 변수(JSON)로 내려준다.
+    (실제 저장된 게시글 HTML로 확인함 - DOM 셀렉터로는 애초에 못 찾는 구조였음)
+    각 댓글의 본문은 'memo' 필드에 HTML(<p>...)로 들어있어서 태그를 벗겨내고,
+    대댓글은 'sub_cmt'에 재귀적으로 중첩되어 있어서 같이 순회한다.
+    """
+    m = re.search(r'var initialCommentData\s*=\s*(\{.*?\});', page_source, re.DOTALL)
+    if not m:
+        return []
+    try:
+        data = json.loads(m.group(1))
+    except (json.JSONDecodeError, ValueError):
+        return []
+
+    comments = []
+
+    def walk(nodes):
+        for c in nodes:
+            memo_html = c.get('memo', '')
+            text = BeautifulSoup(memo_html, 'html.parser').get_text(separator=' ', strip=True)
+            if text:
+                comments.append(text[:200])
+            if c.get('sub_cmt'):
+                walk(c['sub_cmt'])
+
+    walk(data.get('comments', []))
+    return comments[:limit]
 
 
 def get_ppomppu_detail(driver, url):
     """
     뽐뿌 게시글 상세 페이지에서 본문/댓글을 가져온다.
-    ⚠️ 아래 셀렉터는 일반적인 뽐뿌 페이지 구조를 참고한 추정치입니다.
-    실제 실행 로그에 '⚠️ 추출 실패' 경고가 계속 뜨면 사이트 마크업이 다른 것이므로
-    page_source를 한 번 덤프해서 직접 클래스명을 확인/교체해 주세요.
+    - 본문: td.han (실제 저장된 게시글 HTML로 검증 완료)
+    - 댓글: DOM이 아니라 initialCommentData JS 변수(JSON)에서 파싱 (_extract_ppomppu_comments 참고)
     """
     content, comments = "", []
     try:
         driver.get(url)
-        time.sleep(random.uniform(2.0, 3.0))  # 댓글 AJAX 로딩 대기
-        soup = BeautifulSoup(driver.page_source, 'html.parser')
+        time.sleep(random.uniform(2.0, 3.0))
+        page_source = driver.page_source
+        soup = BeautifulSoup(page_source, 'html.parser')
 
-        body_elem = (soup.select_one('td.board-contents')
-                     or soup.select_one('#han_contents_view')
-                     or soup.select_one('.han_contents_view')
-                     or soup.select_one('td.han')
-                     or _fallback_largest_block(soup))
+        body_elem = soup.select_one('td.han') or _fallback_largest_block(soup)
         content = _clean_text(body_elem)[:1500]
 
-        comment_nodes = (soup.select('.comment_wrap .comment_content')
-                          or soup.select('.comment-item .comment-txt')
-                          or soup.select('[class*="comment"] [class*="cont"]'))
-        for node in comment_nodes[:10]:
-            text = _clean_text(node)[:200]
-            if text:
-                comments.append(text)
+        comments = _extract_ppomppu_comments(page_source)
 
         if not content:
             print(f"  ⚠️ [ppomppu] 본문 추출 실패 (셀렉터 확인 필요): {url}")
-        if not comments:
-            print(f"  ⚠️ [ppomppu] 댓글 추출 실패 (0건이거나 셀렉터 확인 필요): {url}")
+        # 댓글 0건은 실제로 무플인 경우도 있으니 진짜 댓글수(list 페이지에서 이미 알고 있음)와
+        # 비교해서 호출부에서 이상 여부를 판단하는 게 정확함. 여기서는 파싱 실패 여부만 로그.
+        if not comments and 'initialCommentData' not in page_source:
+            print(f"  ⚠️ [ppomppu] initialCommentData 자체가 없음 (페이지 구조 변경 의심): {url}")
     except Exception as e:
         print(f"Err Ppomppu detail {url}: {e}")
     return content, comments
@@ -238,7 +267,9 @@ def get_ppomppu_detail(driver, url):
 def get_dc_detail(driver, url):
     """
     디시인사이드 게시글 상세 페이지에서 본문/댓글을 가져온다.
-    ⚠️ get_ppomppu_detail과 동일하게 추정 셀렉터이니 실행 로그의 경고 여부를 꼭 확인해 주세요.
+    - 본문: div.write_div (실제 저장된 게시글 HTML로 검증 완료).
+      이미지만 있는 글은 write_div는 있어도 텍스트가 없는 게 정상이라 content가 빈 문자열일 수 있음 -> 버그 아님.
+    - 댓글: ul.cmt_list p.usertxt (실제 저장된 게시글 HTML로 16개 정상 추출 확인)
     """
     content, comments = "", []
     try:
@@ -246,10 +277,14 @@ def get_dc_detail(driver, url):
         time.sleep(random.uniform(2.0, 3.0))
         soup = BeautifulSoup(driver.page_source, 'html.parser')
 
-        body_elem = (soup.select_one('div.write_div')
-                     or soup.select_one('.writing_view_box .write_div')
-                     or _fallback_largest_block(soup))
-        content = _clean_text(body_elem)[:1500]
+        body_elem = soup.select_one('div.write_div') or soup.select_one('.writing_view_box .write_div')
+        if body_elem is not None:
+            content = _clean_text(body_elem)[:1500]
+        else:
+            # 알려진 셀렉터가 아예 안 걸린 경우에만 최후 수단으로 폴백 (이미지 전용 글과 구분하기 위함)
+            content = _clean_text(_fallback_largest_block(soup))[:1500]
+            if not content:
+                print(f"  ⚠️ [dc] 본문 추출 실패 (셀렉터 확인 필요): {url}")
 
         comment_nodes = (soup.select('ul.cmt_list p.usertxt')
                           or soup.select('.cmt_txtbox')
@@ -259,8 +294,6 @@ def get_dc_detail(driver, url):
             if text:
                 comments.append(text)
 
-        if not content:
-            print(f"  ⚠️ [dc] 본문 추출 실패 (셀렉터 확인 필요): {url}")
         if not comments:
             print(f"  ⚠️ [dc] 댓글 추출 실패 (0건이거나 셀렉터 확인 필요): {url}")
     except Exception as e:
