@@ -89,6 +89,7 @@ def convert(json_path: str, xlsx_path: str):
 
         for source, posts in entry.get("top_posts", {}).items():
             for p in posts:
+                top_comments = p.get("top_comments") or []
                 post_rows.append({
                     "date": date,
                     "source": source,
@@ -96,6 +97,8 @@ def convert(json_path: str, xlsx_path: str):
                     "link": p.get("link"),
                     "views": p.get("views"),
                     "comments": p.get("comments"),
+                    "content": p.get("content", ""),
+                    "top_comments": " | ".join(top_comments),
                 })
 
     df_volume = pd.DataFrame(volume_rows)
