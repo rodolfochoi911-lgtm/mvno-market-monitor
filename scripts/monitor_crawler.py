@@ -176,7 +176,99 @@ def get_dc_posts(driver):
             
     return posts
 
-# --- [4. 분석 및 알림 로직] ---
+# --- [4. 상세 페이지 크롤러: 본문/댓글] ---
+def _clean_text(elem):
+    """BeautifulSoup 엘리먼트에서 script/style 제거 후 텍스트만 정리해서 반환."""
+    if not elem:
+        return ""
+    for tag in elem.select('script, style'):
+        tag.decompose()
+    return re.sub(r'\s+', ' ', elem.get_text(separator=' ', strip=True)).strip()
+
+
+def _fallback_largest_block(soup, min_len=80):
+    """알려진 셀렉터가 안 맞을 때 텍스트가 가장 많은 td/div를 본문으로 추정하는 최후 수단."""
+    best, best_len = None, min_len
+    for c in soup.select('td, div'):
+        if c.find(['td', 'div']):  # 자식에 td/div가 있으면 컨테이너일 확률이 높아 스킵
+            continue
+        text_len = len(c.get_text(strip=True))
+        if text_len > best_len:
+            best, best_len = c, text_len
+    return best
+
+
+def get_ppomppu_detail(driver, url):
+    """
+    뽐뿌 게시글 상세 페이지에서 본문/댓글을 가져온다.
+    ⚠️ 아래 셀렉터는 일반적인 뽐뿌 페이지 구조를 참고한 추정치입니다.
+    실제 실행 로그에 '⚠️ 추출 실패' 경고가 계속 뜨면 사이트 마크업이 다른 것이므로
+    page_source를 한 번 덤프해서 직접 클래스명을 확인/교체해 주세요.
+    """
+    content, comments = "", []
+    try:
+        driver.get(url)
+        time.sleep(random.uniform(2.0, 3.0))  # 댓글 AJAX 로딩 대기
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+
+        body_elem = (soup.select_one('td.board-contents')
+                     or soup.select_one('#han_contents_view')
+                     or soup.select_one('.han_contents_view')
+                     or soup.select_one('td.han')
+                     or _fallback_largest_block(soup))
+        content = _clean_text(body_elem)[:1500]
+
+        comment_nodes = (soup.select('.comment_wrap .comment_content')
+                          or soup.select('.comment-item .comment-txt')
+                          or soup.select('[class*="comment"] [class*="cont"]'))
+        for node in comment_nodes[:10]:
+            text = _clean_text(node)[:200]
+            if text:
+                comments.append(text)
+
+        if not content:
+            print(f"  ⚠️ [ppomppu] 본문 추출 실패 (셀렉터 확인 필요): {url}")
+        if not comments:
+            print(f"  ⚠️ [ppomppu] 댓글 추출 실패 (0건이거나 셀렉터 확인 필요): {url}")
+    except Exception as e:
+        print(f"Err Ppomppu detail {url}: {e}")
+    return content, comments
+
+
+def get_dc_detail(driver, url):
+    """
+    디시인사이드 게시글 상세 페이지에서 본문/댓글을 가져온다.
+    ⚠️ get_ppomppu_detail과 동일하게 추정 셀렉터이니 실행 로그의 경고 여부를 꼭 확인해 주세요.
+    """
+    content, comments = "", []
+    try:
+        driver.get(url)
+        time.sleep(random.uniform(2.0, 3.0))
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
+
+        body_elem = (soup.select_one('div.write_div')
+                     or soup.select_one('.writing_view_box .write_div')
+                     or _fallback_largest_block(soup))
+        content = _clean_text(body_elem)[:1500]
+
+        comment_nodes = (soup.select('ul.cmt_list p.usertxt')
+                          or soup.select('.cmt_txtbox')
+                          or soup.select('.reply_info .usertxt'))
+        for node in comment_nodes[:10]:
+            text = _clean_text(node)[:200]
+            if text:
+                comments.append(text)
+
+        if not content:
+            print(f"  ⚠️ [dc] 본문 추출 실패 (셀렉터 확인 필요): {url}")
+        if not comments:
+            print(f"  ⚠️ [dc] 댓글 추출 실패 (0건이거나 셀렉터 확인 필요): {url}")
+    except Exception as e:
+        print(f"Err DC detail {url}: {e}")
+    return content, comments
+
+
+# --- [5. 분석 및 알림 로직] ---
 def extract_top_keywords(df):
     if df.empty: return []
     all_titles = " ".join(df['title'].tolist())
@@ -243,7 +335,7 @@ def send_slack_message(message):
     else:
         print("⚠️ COPILOT_WEBHOOK_URL이 설정되지 않았습니다.")
 
-def analyze_and_notify(p_posts, d_posts):
+def analyze_and_notify(p_posts, d_posts, driver):
     total_posts = p_posts + d_posts
     if not total_posts:
         print(f"⚠️ {TARGET_DATE} 수집된 데이터 0건")
@@ -319,21 +411,38 @@ def analyze_and_notify(p_posts, d_posts):
         keyword_msg += f"• {word}: {count}건\n"
     if not keyword_msg: keyword_msg = "• 특이사항 없음"
 
-    def format_list(sub_df):
+    DATA_TOP_N = 10  # 본문/댓글을 실제로 긁어와서 dashboard_history/xlsx에 저장할 게시글 수
+    MSG_TOP_N = 5    # 팀즈 알림 메시지에 실제로 나열할 게시글 수 (기존과 동일하게 5개 유지)
+
+    def format_list(sub_df, detail_fetcher):
         if sub_df.empty: return "없음", []
-        top5 = sub_df.sort_values(by='views', ascending=False).head(5)
+        top_df = sub_df.sort_values(by='views', ascending=False).head(DATA_TOP_N)
         lines = []
-        for idx, row in top5.iterrows():
+        top_data = []
+        for rank, (idx, row) in enumerate(top_df.iterrows()):
             title = row['title']
             icon = ""
             if any(k in title for k in ['0원', '무제한', '평생', '대란', '공짜']): icon = " 💰"
-            # 팀즈 마크다운 포맷 적용 [텍스트](URL)
-            lines.append(f"• [{title}]({row['link']}){icon} (👁️ {row['views']:,} / 💬 {row['comments']})")
-        top5_data = top5[['title', 'link', 'views', 'comments']].to_dict('records')
-        return "\n".join(lines), top5_data
 
-    p_msg, p_top5 = format_list(pd.DataFrame(p_posts))
-    d_msg, d_top5 = format_list(pd.DataFrame(d_posts))
+            # 팀즈 메시지에는 상위 MSG_TOP_N개까지만 표시 (기존처럼 Top 5 유지)
+            if rank < MSG_TOP_N:
+                # 팀즈 마크다운 포맷 적용 [텍스트](URL)
+                lines.append(f"• [{title}]({row['link']}){icon} (👁️ {row['views']:,} / 💬 {row['comments']})")
+
+            # 저장용 데이터는 DATA_TOP_N개까지 상세 페이지(본문+댓글) 추가 크롤링 -> 요청량을 통제
+            content, top_comments = detail_fetcher(driver, row['link'])
+            top_data.append({
+                'title': row['title'],
+                'link': row['link'],
+                'views': int(row['views']),
+                'comments': int(row['comments']),
+                'content': content,
+                'top_comments': top_comments,
+            })
+        return "\n".join(lines), top_data
+
+    p_msg, p_top10 = format_list(pd.DataFrame(p_posts), get_ppomppu_detail)
+    d_msg, d_top10 = format_list(pd.DataFrame(d_posts), get_dc_detail)
 
     history_file = 'data/dashboard_history.json'
     history_data = []
@@ -347,7 +456,7 @@ def analyze_and_notify(p_posts, d_posts):
         "total_volume": { "ppomppu": p_cnt, "dc": d_cnt },
         "brand_sov": brand_counts,
         "top_keywords": dict(top_keywords),
-        "top_posts": { "ppomppu": p_top5, "dc": d_top5 }
+        "top_posts": { "ppomppu": p_top10, "dc": d_top10 }
     }
     
     history_data = [d for d in history_data if d['date'] != TARGET_DATE]
@@ -392,7 +501,7 @@ if __name__ == "__main__":
     try:
         p_data = get_ppomppu_posts(driver)
         d_data = get_dc_posts(driver)
-        analyze_and_notify(p_data, d_data)
+        analyze_and_notify(p_data, d_data, driver)
         print("✅ 작업 완료")
     except Exception as e:
         print(f"Error: {e}")
