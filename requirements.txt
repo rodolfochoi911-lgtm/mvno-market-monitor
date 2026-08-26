@@ -2,7 +2,6 @@ selenium
 webdriver-manager
 beautifulsoup4
 requests
-undetected-chromedriver
 openpyxl
 pandas
 streamlit>=1.32.0
