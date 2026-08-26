@@ -16,6 +16,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
+DESKTOP_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
 # --- [설정 및 입력값 처리] ---
 COPILOT_WEBHOOK_URL = os.environ.get("COPILOT_WEBHOOK_URL")
 TEST_MODE = os.environ.get("TEST_MODE", "false").lower() == "true"
@@ -37,12 +39,12 @@ TARGET_DATE = target_date_str
 # --- [1. 브라우저 설정] ---
 def get_driver():
     chrome_options = Options()
-    chrome_options.add_argument("--headless") 
+    chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--lang=ko_KR")
-    chrome_options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
-    
+    chrome_options.add_argument(f"user-agent={DESKTOP_UA}")
+
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=chrome_options)
     return driver
@@ -50,45 +52,51 @@ def get_driver():
 # --- [2. 크롤러: 뽐뿌] ---
 def get_ppomppu_posts(driver):
     print("running ppomppu crawler...")
+    # 2026-08-24부터 뽐뿌가 헤드리스 브라우저(Selenium/undetected-chromedriver 둘 다) 접속을
+    # nginx 단에서 403/연결거부로 차단하는 것을 확인함 (ERR_EMPTY_RESPONSE, 403 Forbidden).
+    # 반면 브라우저 없이 순수 requests로 같은 페이지를 요청하면 200으로 정상 응답이 와서
+    # (JS 렌더링 없이도 목록의 모든 정보가 최초 HTML에 그대로 들어있음) 뽐뿌 목록/상세 페이지는
+    # Selenium 대신 requests로 직접 받아온다.
     posts = []
     base_url = "https://www.ppomppu.co.kr/zboard/zboard.php?id=phone&page={}"
-    
-    for page in range(1, 21): 
+
+    for page in range(1, 21):
         try:
-            driver.get(base_url.format(page))
-            time.sleep(random.uniform(1.0, 2.0))
-            
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
-            rows = soup.find_all('tr') 
-            
+            resp = requests.get(base_url.format(page), headers={"User-Agent": DESKTOP_UA}, timeout=15)
+            resp.raise_for_status()
+            time.sleep(random.uniform(0.5, 1.2))
+
+            soup = BeautifulSoup(resp.text, 'html.parser')
+            rows = soup.find_all('tr')
+
             valid_cnt_in_page = 0
+            candidate_cnt_in_page = 0
             EXCLUDE_SUBJECTS = {'AD', '설문', '공지', '이벤트'}
             for row in rows:
                 title_elem = row.select_one('font.list_title') or row.select_one('a')
                 if not title_elem: continue
+                candidate_cnt_in_page += 1
                     # 말머리 필터링 추가
                 subject_tag = row.select_one('.gall_subject')
                 if subject_tag and subject_tag.text.strip() in EXCLUDE_SUBJECTS:
                     continue
+                # 뽐뿌 목록 원본 HTML의 날짜 포맷 (실제 페이지로 확인):
+                #  - 공지/일부 행: td[title]="YY.MM.DD HH:MM:SS" (점 구분)
+                #  - 일반 행: 본문 텍스트에 "YY/MM/DD" (슬래시 구분). 당일 글은 날짜 대신 시간만 표기됨.
+                # 기존 코드는 점 포맷만 봤기 때문에 슬래시로 표기되는 일반 글의 날짜를 전혀 못 잡아
+                # 모든 글이 걸러졌었음. 두 포맷을 모두 처리한다.
                 post_date = ""
-                
-                time_span = row.select_one('.baseList-time')
-                if time_span:
-                    date_td = time_span.find_parent('td')
-                    if date_td and date_td.get('title'):
-                        raw_date = date_td['title'].split(' ')[0]
-                        post_date = "20" + raw_date.replace('.', '-')
-                
+                row_text = row.get_text(' ', strip=True)
+
+                date_td = row.find('td', title=re.compile(r'\d{2}\.\d{2}\.\d{2}'))
+                if date_td:
+                    raw_date = date_td['title'].split(' ')[0]          # "13.10.24"
+                    post_date = "20" + raw_date.replace('.', '-')       # "2013-10-24"
+
                 if not post_date:
-                    date_td = row.find('td', title=re.compile(r'\d{2}\.\d{2}\.\d{2}'))
-                    if date_td:
-                        raw_date = date_td['title'].split(' ')[0]
-                        post_date = "20" + raw_date.replace('.', '-')
-                
-                if not post_date:
-                    date_match = re.search(r'\d{2}\.\d{2}\.\d{2}', row.text)
-                    if date_match:
-                        post_date = "20" + date_match.group().replace('.', '-')
+                    m = re.search(r'(\d{2})[./](\d{2})[./](\d{2})', row_text)  # "26/08/24" 또는 "26.08.24"
+                    if m:
+                        post_date = f"20{m.group(1)}-{m.group(2)}-{m.group(3)}"
 
                 if post_date == TARGET_DATE:
                     link_elem = row.select_one('a[href*="view.php"]')
@@ -114,13 +122,16 @@ def get_ppomppu_posts(driver):
                     posts.append({'source': 'ppomppu', 'title': title, 'link': link, 'views': views, 'comments': comments})
                     valid_cnt_in_page += 1
             
+            if page == 1 and candidate_cnt_in_page == 0:
+                print(f"  ⚠️ [ppomppu] p1: 제목 후보 0건 (차단/구조 변경 의심). status={resp.status_code} body_snippet={soup.get_text(' ', strip=True)[:200]!r}")
+
             if valid_cnt_in_page == 0 and page > 10:
                 print("  - No more posts found. Stopping.")
                 break
 
         except Exception as e:
             print(f"Err Ppomppu p{page}: {e}")
-            
+
     return posts
 
 # --- [3. 크롤러: 디시] ---
@@ -243,9 +254,10 @@ def get_ppomppu_detail(driver, url):
     """
     content, comments = "", []
     try:
-        driver.get(url)
-        time.sleep(random.uniform(2.0, 3.0))
-        page_source = driver.page_source
+        resp = requests.get(url, headers={"User-Agent": DESKTOP_UA}, timeout=15)
+        resp.raise_for_status()
+        time.sleep(random.uniform(0.5, 1.0))
+        page_source = resp.text
         soup = BeautifulSoup(page_source, 'html.parser')
 
         body_elem = soup.select_one('td.han') or _fallback_largest_block(soup)
