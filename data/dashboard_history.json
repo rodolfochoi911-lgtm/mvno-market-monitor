@@ -26284,213 +26284,56 @@
     {
         "date": "2026-08-26",
         "total_volume": {
-            "ppomppu": 71,
-            "dc": 135
+            "ppomppu": 0,
+            "dc": 121
         },
         "brand_sov": {
             "세븐모바일": 0,
-            "KT엠모바일": 2,
-            "유모바일": 4,
-            "헬로모바일": 35,
+            "KT엠모바일": 1,
+            "유모바일": 1,
+            "헬로모바일": 2,
             "스카이라이프": 0,
             "토스모바일": 0,
             "리브엠": 0,
             "우리원모바일": 0,
             "이야기모바일": 0,
-            "에이모바일": 1,
-            "프리티": 3,
+            "에이모바일": 0,
+            "프리티": 2,
             "모빙": 0,
             "스노우맨": 0,
-            "아이즈모바일": 10,
+            "아이즈모바일": 7,
             "인스모바일": 0,
-            "이지모바일": 1,
+            "이지모바일": 0,
             "티플러스": 1,
-            "KG모바일": 1,
+            "KG모바일": 0,
             "티다이렉트": 0,
-            "SKT_Air": 2,
-            "시월모바일": 2,
-            "핀다이렉트": 9,
+            "SKT_Air": 1,
+            "시월모바일": 1,
+            "핀다이렉트": 3,
             "도시락모바일": 0,
-            "모나모바일": 2,
+            "모나모바일": 1,
             "조이텔": 26,
             "알닷": 0
         },
         "top_keywords": {
-            "헬모": 29,
             "조이텔": 18,
-            "쌀먹": 11,
-            "유심": 8,
-            "2970": 8,
-            "핀다": 6,
             "그럼": 6,
-            "KT": 5,
-            "헬로모바일": 4,
-            "폴드8": 4
+            "조이텔은": 4,
+            "2970": 4,
+            "아이즈": 4,
+            "국산텔": 3,
+            "메뚜기": 3,
+            "mms": 3,
+            "249": 3,
+            "KT": 3
         },
         "top_posts": {
-            "ppomppu": [
-                {
-                    "title": "헬모 쌀먹 16900원 요금개통했는데요. 조회하니 3만7천원 요금제라 나오는데",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3932770",
-                    "views": 2176,
-                    "comments": 6,
-                    "content": "다들 같나요 ? 이벤트 가격 이전 정가인지 요금제 조회 하니 요금제 이름은 맞는데 가격이 다르네요 ?",
-                    "top_comments": [
-                        "이거 가입가능한 이벤트페이지 좀 부탁드립니다.",
-                        "헬로는 할인전으로 항상적혀있어요  청구는 할인169로",
-                        "해지시 일할청구때문에 그릔가 보네요 그럼 24일 해지가 유리한지, 익월1일이 유리한지 혹시 아실까여?",
-                        "@깡조 23일 네페보내주니까 23-24에 이동이나 해지하려면  데이터나 통화를 나누기 28(27년 2월이 28일정도니) 해서 해야되는데 4-5일이니까  그냥 말일까지 깔끔하게 하시는게 어떨까요."
-                    ]
-                },
-                {
-                    "title": "헬로모바일 3초 지나서 안된다고 함",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3932789",
-                    "views": 1846,
-                    "comments": 28,
-                    "content": "6시3초 접수했는데 안된다고 하네요 다음에 또 나오겠죠",
-                    "top_comments": [
-                        "헉 또 이틀만에 조기종료인가요? 지난6월도 그랬었는데 말이죠. 앞으로도 M모나 U모가 반짝 타임딜 이벤트 나오면 맞불로 이렇게 H모가 나오는것 같아 보입니다. 8월 25일까지 M모가 비슷한 반짝 이벤트를 했었거든요.",
-                        "M모는 8월중순부터 쭉 하던거엿는데",
-                        "취소한 신청한 유심은  다른 프로모션으로 재사용가능한가요?",
-                        "단순 접수취소는 재사용 가능합니다. 그런데, 개통했다가 개통취소한 유심은 재사용 하시려면 LG 대리점 가서 초기화 까지 하셔야 재사용 가능하다고 들었습니다.",
-                        "감사합니다.  신청취소하고   앞에 하던 프로모션으로  재신청 해야겠어요.",
-                        "@화정큐삼 헬로모바일은 타통신사랑 틀리게 개통한 순간부터 다음 초기화 하고 사용을 못합니다. 정책입니다.",
-                        "@지금이순간에도 그럼, 헬모 유심은 1회용이라 보면 되겠군요?",
-                        "@붉은풍차 네 오늘 글들 많이 올라왔어요 다들 열받아 하시네요",
-                        "@지금이순간에도 정보 감사합니다. ^.^",
-                        "맞네요. ㅜㅜ"
-                    ]
-                },
-                {
-                    "title": "그런데 왜 쌀먹이라고 하는건가요?",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3932792",
-                    "views": 1782,
-                    "comments": 7,
-                    "content": "헬로 눈팅만 하나 결국 놓쳤네요 괜히 상대적 손해본느낌이..ㅜ 쌀먹은 뭐의 줄임말인가요?",
-                    "top_comments": [
-                        "남는 돈으로 쌀 사먹는다... 대충 그런 의미로 압니다",
-                        "원래는 게임 용어로 압니다. 아이템이나 재화를 팔아서 쌀을 사서 먹는 다고 쌀먹이요. 쉽게 부수입이요.",
-                        "아 그런뜻이었군요..... 메뚜기(주기적으로 통신사옮기는)가 쌀을 먹는다는 뜻인줄ㅎㅎㅎ",
-                        "그말도 맞습니다. ㅎㅎ 주기적으로 쌀먹만 찾아다녀야 하니까 이벤트 혜택 다 받고나서는 바로 다른 이벤트 하는곳으로 메뚜기 해야죠. ㅎㅎ",
-                        "뽐게 잘이용하면 햅쌀 10kg 사먹을수 있죠..^^",
-                        "잘만하면 저처럼 세탁기도 살수 있답니다.^^",
-                        "게시판에 쌀먹 쌀먹 하길래 무슨 프로모션 이름인줄 알았는데 아니더라구요. 쌀사먹는 돈이라고 하더라구요ㅋㅋ"
-                    ]
-                },
-                {
-                    "title": "KG모바일 무슨일 있나요?",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=710&no=3932690",
-                    "views": 1779,
-                    "comments": 2,
-                    "content": "며칠째 상담원 연결이 어렵네요 ㅜ",
-                    "top_comments": [
-                        "kg마저도 깊은 늪에 빠진거죠 뭐... 저가 요금제 입소문 나서 터진듯 ㅋㅋ",
-                        "두시간넘게하다 저도 포기요 게시판답변은그래도 빨리오긴하더라구요"
-                    ]
-                },
-                {
-                    "title": "헬모 쌀먹요금제 8/26일 오후 6시 '접수' 마감입니다",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3932782",
-                    "views": 1774,
-                    "comments": 22,
-                    "content": "유심 도착하고 개통완료된지 10분 좀 넘은거 같은데 금일 오후 6시까지 접수 해야 한다고 합니다 개통은 28일 오후11시 59분까지",
-                    "top_comments": [
-                        "이번달 빙하기라  대기수요가 많았나보네요",
-                        "그러게요 이틀만에 문닫네요 ㄷㄷ",
-                        "개통은 28일이요",
-                        "감사합니다 수정완료.",
-                        "지난달 cu유심 조건이 더 좋았는데 그건 엄청 오래하더니 이번껀 금방 끝나네요",
-                        "아래 댓글처럼 네페가 메리트가 확실히 있는걸까요?",
-                        "@탁미 지난달도 네페 였어요 Cu3만이 껴서 현금화 하면 많이 까여서 그렇지 네페 포함 월3만 근방으로 남았죠",
-                        "@파랑빛레몬 아하..그렇군요 유독 이번이 조기마감이 빨랐던 이유가 궁금해지긴 하네요^^;",
-                        "이번 조기종료를 계기로 헬모도 신백 더이상 고집하지말고 네페가 유인효과가 더 크다는걸 좀 알았으면......",
-                        "굳이 바꿀필요 없이 사용 가능한 네이버페이가 범용성에도 차이가 ...ㅎㅎ 앞으로 헬모 쌀먹요금제 사은품이 뭐가 주류가 될지 지켜봐야겠네요~"
-                    ]
-                },
-                {
-                    "title": "당분간은 정책 없다고 하네요",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3932776",
-                    "views": 1635,
-                    "comments": 12,
-                    "content": "지금 수준으로 연말까지 가는가봐요 재고 조금씩만 만들어서 끌고가다가 내년 갤27 출고가를 메모리 가격 반영해서 올리고 그때부터 정책 좀 푼다고합니다 지금 출고가로는 팔아도 삼성 입장에서는 돈이 안되니 통신사에 리베이트 지원도 안해주고해서 ㄷㄷ 저 망한거네요 ㅠ.ㅠ",
-                    "top_comments": [
-                        "정가판매로 후리소매 합시다",
-                        "추석 때 뭔가 있지 않을까요?",
-                        "추석때수요잇으니 행사없어요 추석 설날 크리스마스등 이때폰팔이들이 제일호구치기좋은시기라",
-                        "@오리보리 글쿤요 퀀텀6 버스나 또 떴음 좋겠네요",
-                        "@뽐-뿌 퀀텀7출시햇으니 이거나기대해야줘",
-                        "알뜰에 회선 김장해놔야 겠네요",
-                        "빙하기야 늘 있죠 이제 아이폰 출시 준비해야해서 총알 아낄 수도 있고요",
-                        "이게 리베이트가 안나오면 판매점 하는 분들은 손가락만 빨아야 하는 상황이라...",
-                        "누가 그러든가요? 삼전 DX 본사직원들도 금시초문인 사실을..?",
-                        "삼성 DX 본사 직원이어도, 통신사 기기 리베이트 정책에 대해선 모를 수 있음"
-                    ]
-                },
-                {
-                    "title": "헬모 쌀먹 이거인가요?",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3932768",
-                    "views": 1504,
-                    "comments": 4,
-                    "content": "[기간한정] 다시 오지 않을 역대급 타임딜 10GB 무제한 매월 4만원 증정! https://direct.lghellovision.net/event/viewEventDetail.do?returnTab=allli&idxOfEvent=8291&page=1&newPage=Y 이거 맞나요 방금 봐서 게시판에 핫하길래 이걸로 지금 게시판이 뜨거운게 맞나요 여기서 가입하면되는지 친추 뭐 이런거없이 순수하게 저페이지에서 가입하면되나요",
-                    "top_comments": [
-                        "넵",
-                        "신청서에 \"타임딜\" 미기재시 상품미지급",
-                        "ok",
-                        "네 .,타임딜 누락없이 하시면 돼요"
-                    ]
-                },
-                {
-                    "title": "태블릿용 550원 요금제 가입했어요",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=4&divpage=710&no=3932699",
-                    "views": 1445,
-                    "comments": 6,
-                    "content": "그동안 어머니의 업무용 태블릿은 데이터 함꼐쓰기로 끌어와서 썼는데 폰 바꾼 후 요금제도 바꿨더니 내 데이터 끌어다 쓰는데 5천원 내라는군요;;;; 그래서 태블릿용으로 알뜰폰 요금제를 알아봤는데 프리티 텔리콤? 550원에 6기가라서 깜짝놀랐네요 고객센터 전화연결도 조금 기다리면 되고 위젯도 있고 메인은 skt지만 태블릿이나 네비용으로는 알뜰폰 써도 될것 같아요",
-                    "top_comments": [
-                        "평생은 아닌 거죠?",
-                        "평생입니다.",
-                        "그냥 쌀먹 해드리면 돈도 매달 받으면서 데이터 무제한",
-                        "근데 Qos없으면 요금폭탄이 무서워서요.. 태블릿으면 영상보실텐데,,;",
-                        "좋아요",
-                        "든든한 200분 6g 이 요금제 인가 보군요 아이패드있는데 아이패드에서 바로 개통이 되려나 모르겠네요 알뜰 기간 넘겨서 요금 폭탄 몇달 내본 경험이 있는 사람으로서.. 데이터 오버사용 최대 부가금액 19800원도 조심하면서 써야겠네요"
-                    ]
-                },
-                {
-                    "title": "퀀텀7 자급제 부모님폰 해드리려하는데",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=2&divpage=710&no=3932775",
-                    "views": 1410,
-                    "comments": 11,
-                    "content": "네이버스토어에 51만원 괜찮은가격인가요 sk저가요금제 사용중입니다",
-                    "top_comments": [
-                        "퀀텀7 - 자급제 없음 네이버 파는건 모두 해외판매용(삼페안되고/통녹안됨) 51만원 128 아닌지? 해외제품 살거면 S25FE 국내 출시 자급제 구매하시길 가격 차이 별로 없음 당근 S25FE 256 1개월 미만 상태좋은거 57-60이면 삽니다.",
-                        "고맙습니다 참고해보겠습니다",
-                        "퀌텀이 자급제가 있나요?",
-                        "제가 잘 몰라서요..",
-                        "@곰의지 sk번호이동으로만사는폰입니다 자급제는a37인것만나옵니다",
-                        "@오리보리 기변도 안되나요?",
-                        "기번은 30이상더내고나가능하죠",
-                        "퀀텀은 자급제 없어요. 스토어에 파는건 A57 해외용일껄요.",
-                        "추석전까지.기다려 보시죠 어차피 떨어질 놈이라",
-                        "근데 어짜피 부모님 하신다는거 보니... 번이는 아니실듯"
-                    ]
-                },
-                {
-                    "title": "헬모도 유모처럼 마케팅 수신동의 다 해야 되나요?",
-                    "link": "https://www.ppomppu.co.kr/zboard/view.php?id=phone&page=5&divpage=710&no=3932688",
-                    "views": 1391,
-                    "comments": 3,
-                    "content": "- 타임딜 대상요금제 가입 시 ´타임딜´을 입력하면 사은품 24만원을 증정합니다.- 1. 사은품 : 네이버페이 24만원(4만원*6개월) 2. 기간 : 8/25 ~ 8/28 (기간은 사전 고지없이 종료 및 연장될 수 있습니다.) 3. 대상자 ① 아래 타임딜 대상 요금제 2종 가입 ② 가입 시 가입신청서 내 프로모션 코드 [ 타임딜 ] 입력 *프로모션 코드 명이 ´타임딜´입니다. *프로모션 코드 입력 영역은 신청서 제일 마지막에 생성됩니다. ③ 가입 후 기간 내 개통 진행 4. 대상 요금제 -The 착한 데이터 유심 9GB 3000분 -보편 안심 유심 10GB 100분 5. 사은품 지급 - 지급시기 ① 1회차 : 26년 9월 23일 ② 2~6회차 : 매월 23일 ※ 타임딜 대상 요금제는 아래 혜택과 중복적용되지 않습니다. ① 친구추천 피추천 가입혜택 ② 갤럭시Z8 시리즈 자급제 혜택 ③ 프로모션 코드 [셀프개통] 입력 혜택 ※ 프로모션 코드를 오기입 하거나 기입하지 않았을 시 사은품 지급은 어렵습니다. ※ 프로모션 코드는 가입 시 입력하지 않으면 추후 입력 불가합니다. 유의사항은 없긴 한데 모르겠네요",
-                    "top_comments": [
-                        "이벤트혜택 수신 동의는 해야.. 깁콘 지급이 되지 않을까요?",
-                        "선택동의 다 읽어봤는데 그건 광고 동의고요. 네이버페이 지급 관련 동의는 없어요",
-                        "요금제 둘중 어느게낫죠"
-                    ]
-                }
-            ],
+            "ppomppu": [],
             "dc": [
                 {
                     "title": "조이텔 990 레전드 등극",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=488034&page=4",
-                    "views": 1026,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=488034&page=5",
+                    "views": 1050,
                     "comments": 3,
                     "content": "",
                     "top_comments": [
@@ -26499,8 +26342,8 @@
                 },
                 {
                     "title": "내가 탄 게 조이텔 990 전설 막차였네;ㄷㄷ",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=488039&page=4",
-                    "views": 888,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=488039&page=5",
+                    "views": 915,
                     "comments": 4,
                     "content": "솔까 가격대비 구성이 너무 좋긴 했음 SKT에서 이런 건 본 적이 없었는데 문자 너프 당하고 이제 통무랑 깡데 좀 있는 거 말곤 애매한 포지션이 됐네 그 전엔 유사 통문무였는데",
                     "top_comments": [
@@ -26510,8 +26353,8 @@
                 },
                 {
                     "title": "조이 990은 mms 포함이다.",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=488032&page=4",
-                    "views": 774,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=488032&page=5",
+                    "views": 781,
                     "comments": 3,
                     "content": "sms/mms 100건",
                     "top_comments": [
@@ -26521,8 +26364,8 @@
                 },
                 {
                     "title": "조이텔 구려졌뇨오..",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=487994&page=4",
-                    "views": 760,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=487994&page=6",
+                    "views": 775,
                     "comments": 3,
                     "content": "LMS,MMS 부과 응애.. - dc official App",
                     "top_comments": [
@@ -26533,8 +26376,8 @@
                 },
                 {
                     "title": "조이텔 990은 그럼 레전드로 등극했네",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=488022&page=4",
-                    "views": 685,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=488022&page=5",
+                    "views": 697,
                     "comments": 9,
                     "content": "MMS 포함",
                     "top_comments": [
@@ -26548,8 +26391,8 @@
                 },
                 {
                     "title": "구990 전설되냐?",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=488014&page=4",
-                    "views": 658,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=488014&page=5",
+                    "views": 665,
                     "comments": 15,
                     "content": "이제 mms 따로 받으려고 방향 바꿨냐 - dc official App",
                     "top_comments": [
@@ -26567,8 +26410,8 @@
                 },
                 {
                     "title": "니가 조이텔990 사업자라면 어떻게 하겠냐?",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=488076&page=3",
-                    "views": 607,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=488076&page=4",
+                    "views": 622,
                     "comments": 8,
                     "content": "핀다 2970으로 다 런하는데 기존고객 다 떠나면 열받겠지??? 그럼 임마들 도망 안가게 회선 묶어둘 방법 없을까 고민했을꺼임... 그래서 MMS 과금으로 싹 돌리면 기존 고객들은 아 이거 버리면 다신 안오겠다 하고 1회선은 묶이겠지? 그럼 SKT본사에서 고객1인당 유치금 20만원 낭낭하게 받아 챙길거고............내말 맞아 ? 아니야~??? 내가 조이텔 사장 이라도 그렇게 하겟다.....",
                     "top_comments": [
@@ -26584,8 +26427,8 @@
                 },
                 {
                     "title": "어 30기가 싼거찾았다",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=487964&page=5",
-                    "views": 606,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=487964&page=6",
+                    "views": 613,
                     "comments": 12,
                     "content": "이륙합니다잇 손품팔면 결국찾는구나",
                     "top_comments": [
@@ -26603,8 +26446,8 @@
                 },
                 {
                     "title": "조이텔 5G 통무 990원은 끝난거냐 그럼?",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=488066&page=3",
-                    "views": 577,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=488066&page=4",
+                    "views": 591,
                     "comments": 2,
                     "content": "에라이 - dc official App",
                     "top_comments": [
@@ -26613,8 +26456,8 @@
                 },
                 {
                     "title": "그럼 이새끼 떡상이냐??",
-                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=488024&page=4",
-                    "views": 563,
+                    "link": "https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no=488024&page=5",
+                    "views": 572,
                     "comments": 9,
                     "content": "“2970” - dc official App",
                     "top_comments": [
