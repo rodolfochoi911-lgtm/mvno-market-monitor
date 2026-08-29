@@ -17,6 +17,17 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 DESKTOP_UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+# 2026-08-29부터 뽐뿌가 User-Agent만 있는 요청(순수 requests)까지 403으로 막기 시작함.
+# 실제 브라우저가 항상 같이 보내는 나머지 헤더가 없는 것만으로 봇 판정하는 WAF 룰을 의심해
+# 아래처럼 완전한 헤더셋을 갖춰서 보낸다.
+PPOMPPU_HEADERS = {
+    "User-Agent": DESKTOP_UA,
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Referer": "https://www.ppomppu.co.kr/zboard/zboard.php?id=phone",
+    "Connection": "keep-alive",
+}
 
 # --- [설정 및 입력값 처리] ---
 COPILOT_WEBHOOK_URL = os.environ.get("COPILOT_WEBHOOK_URL")
@@ -62,7 +73,12 @@ def get_ppomppu_posts(driver):
 
     for page in range(1, 21):
         try:
-            resp = requests.get(base_url.format(page), headers={"User-Agent": DESKTOP_UA}, timeout=15)
+            resp = requests.get(base_url.format(page), headers=PPOMPPU_HEADERS, timeout=15)
+            if resp.status_code != 200:
+                waf_hint = {k: v for k, v in resp.headers.items()
+                            if k.lower() in ('server', 'cf-mitigated', 'cf-ray', 'x-sucuri-id', 'x-akamai-transformed')}
+                print(f"  ⚠️ [ppomppu] p{page}: 비정상 응답 status={resp.status_code} "
+                      f"headers={waf_hint} body_snippet={resp.text[:200]!r}")
             resp.raise_for_status()
             time.sleep(random.uniform(0.5, 1.2))
 
@@ -254,7 +270,7 @@ def get_ppomppu_detail(driver, url):
     """
     content, comments = "", []
     try:
-        resp = requests.get(url, headers={"User-Agent": DESKTOP_UA}, timeout=15)
+        resp = requests.get(url, headers=PPOMPPU_HEADERS, timeout=15)
         resp.raise_for_status()
         time.sleep(random.uniform(0.5, 1.0))
         page_source = resp.text
