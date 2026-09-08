@@ -313,7 +313,7 @@ with tab_sov2:
 # ─────────────────────────────────────────
 # 5. 핫 키워드 + SOV 누적 파이
 # ─────────────────────────────────────────
-st.markdown('<div class="section-header">🔥 핫 키워드 & 브랜드 점유율</div>', unsafe_allow_html=True)
+st.markdown('<div class="section-header">🔥 핫 키워드 & 브랜드 언급 비중</div>', unsafe_allow_html=True)
 col_kw, col_pie = st.columns([3, 2])
 
 with col_kw:
@@ -355,7 +355,7 @@ with col_pie:
         fig_pie.update_layout(
             margin=dict(t=30, b=10), height=320,
             showlegend=False,
-            title=dict(text="기간 내 브랜드 점유율", x=0.5, font_size=13),
+            title=dict(text="기간 내 제목 기준 브랜드 언급 비중", x=0.5, font_size=13),
         )
         st.plotly_chart(fig_pie, use_container_width=True)
     else:
@@ -415,3 +415,4 @@ with st.expander("📥 원본 데이터 다운로드"):
     with col_dl2:
         json_bytes = json.dumps(history, ensure_ascii=False, indent=2).encode("utf-8")
         st.download_button("전체 JSON", json_bytes, "dashboard_history.json", "application/json")
+

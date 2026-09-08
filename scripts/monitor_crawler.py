@@ -1,4 +1,9 @@
 import os
+from urllib.parse import urljoin
+try:
+    from scripts.brand_rules import BRANDS, matches_brand
+except ModuleNotFoundError:
+    from brand_rules import BRANDS, matches_brand
 import sys
 import json
 import time
@@ -24,7 +29,6 @@ PPOMPPU_HEADERS = {
     "User-Agent": DESKTOP_UA,
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
     "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
-    "Accept-Encoding": "gzip, deflate, br",
     "Referer": "https://www.ppomppu.co.kr/zboard/zboard.php?id=phone",
     "Connection": "keep-alive",
 }
@@ -45,7 +49,14 @@ else:
     target_date_str = target_date_obj.strftime('%Y-%m-%d')
     print(f"📅 자동 설정 (어제 날짜): {target_date_str}")
 
-TARGET_DATE = target_date_str
+# Reject malformed/future dates before requests or file writes.
+target_date = datetime.datetime.strptime(target_date_str, '%Y-%m-%d').date()
+if target_date > NOW.date():
+    raise ValueError('미래 날짜는 수집할 수 없습니다.')
+TARGET_DATE = target_date.isoformat()
+MAX_PAGES = int(os.environ.get('MAX_PAGES', '300'))
+if MAX_PAGES < 1:
+    raise ValueError('MAX_PAGES must be positive')
 
 # --- [1. 브라우저 설정] ---
 def get_driver():
@@ -58,150 +69,117 @@ def get_driver():
 
     service = Service(ChromeDriverManager().install())
     driver = webdriver.Chrome(service=service, options=chrome_options)
+    driver.set_page_load_timeout(30)
     return driver
 
-# --- [2. 크롤러: 뽐뿌] ---
+# --- Complete date-bounded collection; failure never becomes a zero count. ---
+def _number(text):
+    match = re.search(r'\d[\d,]*', text or '')
+    return int(match.group().replace(',', '')) if match else 0
+
+
+def _get_html(url):
+    for attempt in range(3):
+        try:
+            response = requests.get(url, headers=PPOMPPU_HEADERS, timeout=15)
+            response.raise_for_status()
+            return response.text
+        except requests.RequestException:
+            if attempt == 2:
+                raise
+            time.sleep(2 ** attempt)
+
+
+def _list_rows(html, source):
+    soup = BeautifulSoup(html, 'html.parser')
+    result = []
+    rows = soup.select('tr.ub-content.us-post') if source == 'dc' else soup.find_all('tr')
+    for row in rows:
+        # Ignore layout wrapper rows and pinned announcements, which recur on every page.
+        if row.find('tr') is not None:
+            continue
+        row_classes = ' '.join(row.get('class', []))
+        if re.search(r'notice|announcement', row_classes, re.I):
+            continue
+        if row.get('data-type') == 'icon_notice':
+            continue
+        subject = row.select_one('.gall_subject')
+        if subject and subject.get_text(strip=True) in {'AD', '설문', '공지', '이벤트'}:
+            continue
+        link = row.select_one('.gall_tit > a') if source == 'dc' else row.select_one('a[href*="view.php"]')
+        if not link or not link.get('href'):
+            continue
+        if source == 'dc':
+            date_tag = row.select_one('.gall_date')
+            date_text = date_tag.get('title', '') if date_tag else ''
+            match = re.search(r'\d{4}-\d{2}-\d{2}', date_text)
+            date = match.group() if match else ''
+            title_tag = link
+            views_tag, comments_tag = row.select_one('.gall_count'), row.select_one('.reply_num')
+            base = 'https://gall.dcinside.com'
+        else:
+            date_tag = row.find('td', title=re.compile(r'\d{2}[./]\d{2}[./]\d{2}'))
+            date_text = date_tag.get('title', '') if date_tag else row.get_text(' ', strip=True)
+            match = re.search(r'(\d{2})[./](\d{2})[./](\d{2})', date_text)
+            date = f'20{match[1]}-{match[2]}-{match[3]}' if match else ''
+            if not date and re.search(r'\b\d{2}:\d{2}\b', date_text):
+                date = NOW.date().isoformat()
+            title_tag = row.select_one('font.list_title') or link
+            views_tag = row.select_one('.baseList-views')
+            comments_tag = row.select_one('.baseList-c') or row.select_one('.list_comment2')
+            base = 'https://www.ppomppu.co.kr/zboard/'
+        if not date:
+            raise RuntimeError(f'{source}: 게시글 날짜를 읽지 못했습니다.')
+        title = title_tag.get_text(' ', strip=True)
+        views = _number(views_tag.get_text()) if views_tag else 0
+        if source == 'ppomppu' and views_tag is None:
+            cells = row.find_all('td', recursive=False)
+            views = _number(cells[-1].get_text()) if cells else 0
+        result.append({'date': date, 'source': source, 'title': title,
+                       'link': urljoin(base, link['href']), 'views': views,
+                       'comments': _number(comments_tag.get_text()) if comments_tag else 0})
+    return result
+
+
+def _collect_posts(driver, source):
+    base = ('https://www.ppomppu.co.kr/zboard/zboard.php?id=phone&page={}'
+            if source == 'ppomppu' else
+            'https://gall.dcinside.com/mgallery/board/lists/?id=mvnogallery&page={}')
+    posts, seen_pages = {}, set()
+    for page in range(1, MAX_PAGES + 1):
+        url = base.format(page)
+        if source == 'ppomppu':
+            html = _get_html(url)
+        else:
+            driver.get(url)
+            time.sleep(1.5)
+            html = driver.page_source
+        rows = _list_rows(html, source)
+        if not rows:
+            # Empty HTML, blocked pages and selector failures are not evidence of zero activity.
+            raise RuntimeError(f'{source} p{page}: 목록 없음/구조 변경/차단. 결과 저장 중단.')
+        page_key = tuple(sorted({row['link'] for row in rows}))
+        if page_key in seen_pages:
+            raise RuntimeError(f'{source}: 페이지 반복으로 수집 완전성을 확인할 수 없습니다.')
+        seen_pages.add(page_key)
+        for row in rows:
+            if row['date'] == TARGET_DATE:
+                posts[row['link']] = {k: v for k, v in row.items() if k != 'date'}
+        # All dated rows precede the requested day. Do not stop on an old pinned notice.
+        if max(row['date'] for row in rows) < TARGET_DATE:
+            print(f'{source}: {len(posts)}건, 대상 날짜 끝 확인 (p{page})')
+            return list(posts.values())
+        time.sleep(0.5)
+    raise RuntimeError(f'{source}: {MAX_PAGES}페이지 한도 도달, 불완전 수집. 기존 데이터 보존.')
+
+
 def get_ppomppu_posts(driver):
-    print("running ppomppu crawler...")
-    # 2026-08-24부터 뽐뿌가 헤드리스 브라우저(Selenium/undetected-chromedriver 둘 다) 접속을
-    # nginx 단에서 403/연결거부로 차단하는 것을 확인함 (ERR_EMPTY_RESPONSE, 403 Forbidden).
-    # 반면 브라우저 없이 순수 requests로 같은 페이지를 요청하면 200으로 정상 응답이 와서
-    # (JS 렌더링 없이도 목록의 모든 정보가 최초 HTML에 그대로 들어있음) 뽐뿌 목록/상세 페이지는
-    # Selenium 대신 requests로 직접 받아온다.
-    posts = []
-    base_url = "https://www.ppomppu.co.kr/zboard/zboard.php?id=phone&page={}"
+    return _collect_posts(driver, 'ppomppu')
 
-    for page in range(1, 21):
-        try:
-            resp = requests.get(base_url.format(page), headers=PPOMPPU_HEADERS, timeout=15)
-            if resp.status_code != 200:
-                waf_hint = {k: v for k, v in resp.headers.items()
-                            if k.lower() in ('server', 'cf-mitigated', 'cf-ray', 'x-sucuri-id', 'x-akamai-transformed')}
-                print(f"  ⚠️ [ppomppu] p{page}: 비정상 응답 status={resp.status_code} "
-                      f"headers={waf_hint} body_snippet={resp.text[:200]!r}")
-            resp.raise_for_status()
-            time.sleep(random.uniform(0.5, 1.2))
 
-            soup = BeautifulSoup(resp.text, 'html.parser')
-            rows = soup.find_all('tr')
-
-            valid_cnt_in_page = 0
-            candidate_cnt_in_page = 0
-            EXCLUDE_SUBJECTS = {'AD', '설문', '공지', '이벤트'}
-            for row in rows:
-                title_elem = row.select_one('font.list_title') or row.select_one('a')
-                if not title_elem: continue
-                candidate_cnt_in_page += 1
-                    # 말머리 필터링 추가
-                subject_tag = row.select_one('.gall_subject')
-                if subject_tag and subject_tag.text.strip() in EXCLUDE_SUBJECTS:
-                    continue
-                # 뽐뿌 목록 원본 HTML의 날짜 포맷 (실제 페이지로 확인):
-                #  - 공지/일부 행: td[title]="YY.MM.DD HH:MM:SS" (점 구분)
-                #  - 일반 행: 본문 텍스트에 "YY/MM/DD" (슬래시 구분). 당일 글은 날짜 대신 시간만 표기됨.
-                # 기존 코드는 점 포맷만 봤기 때문에 슬래시로 표기되는 일반 글의 날짜를 전혀 못 잡아
-                # 모든 글이 걸러졌었음. 두 포맷을 모두 처리한다.
-                post_date = ""
-                row_text = row.get_text(' ', strip=True)
-
-                date_td = row.find('td', title=re.compile(r'\d{2}\.\d{2}\.\d{2}'))
-                if date_td:
-                    raw_date = date_td['title'].split(' ')[0]          # "13.10.24"
-                    post_date = "20" + raw_date.replace('.', '-')       # "2013-10-24"
-
-                if not post_date:
-                    m = re.search(r'(\d{2})[./](\d{2})[./](\d{2})', row_text)  # "26/08/24" 또는 "26.08.24"
-                    if m:
-                        post_date = f"20{m.group(1)}-{m.group(2)}-{m.group(3)}"
-
-                if post_date == TARGET_DATE:
-                    link_elem = row.select_one('a[href*="view.php"]')
-                    if not link_elem: continue
-                    
-                    title = title_elem.text.strip()
-                    link = "https://www.ppomppu.co.kr/zboard/" + link_elem['href']
-                    
-                    views, comments = 0, 0
-                    
-                    view_tag = row.select_one('.baseList-views')
-                    cmt_tag = row.select_one('.baseList-c') or row.select_one('.list_comment2')
-                    
-                    if view_tag:
-                        views = int(view_tag.text.strip().replace(',', '') or 0)
-                    else:
-                        views_match = re.findall(r'\d{1,3}(?:,\d{3})*', row.text)
-                        if views_match: views = int(views_match[-1].replace(',', ''))
-                    
-                    if cmt_tag:
-                        comments = int(cmt_tag.text.strip().replace(',', '') or 0)
-
-                    posts.append({'source': 'ppomppu', 'title': title, 'link': link, 'views': views, 'comments': comments})
-                    valid_cnt_in_page += 1
-            
-            if page == 1 and candidate_cnt_in_page == 0:
-                print(f"  ⚠️ [ppomppu] p1: 제목 후보 0건 (차단/구조 변경 의심). status={resp.status_code} body_snippet={soup.get_text(' ', strip=True)[:200]!r}")
-
-            if valid_cnt_in_page == 0 and page > 10:
-                print("  - No more posts found. Stopping.")
-                break
-
-        except Exception as e:
-            print(f"Err Ppomppu p{page}: {e}")
-
-    return posts
-
-# --- [3. 크롤러: 디시] ---
 def get_dc_posts(driver):
-    print("running dc crawler...")
-    posts = []
-    base_url = "https://gall.dcinside.com/mgallery/board/lists/?id=mvnogallery&page={}"
-    found_target_date = False
-    
-    for page in range(1, 51):
-        try:
-            driver.get(base_url.format(page))
-            time.sleep(random.uniform(1.0, 2.0))
-            
-            if "디시인사이드입니다" in driver.title and "알뜰폰" not in driver.title:
-                break
+    return _collect_posts(driver, 'dc')
 
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
-            rows = soup.select('tr.ub-content.us-post')
-            
-            if not rows: break
-                
-            stop_crawling = False
-            
-            for row in rows:
-                if row.get('data-type') == 'icon_notice': continue
-                date_tag = row.select_one('.gall_date')
-                if not date_tag or not date_tag.get('title'): continue
-                
-                post_date = date_tag['title'].split(' ')[0]
-                
-                if post_date == TARGET_DATE:
-                    found_target_date = True
-                    title_tag = row.select_one('.gall_tit > a')
-                    if not title_tag: continue
-                    title = title_tag.text.strip()
-                    link = "https://gall.dcinside.com" + title_tag['href']
-                    views_tag = row.select_one('.gall_count')
-                    views = int(views_tag.text.strip().replace(',', '')) if views_tag and views_tag.text.strip().isdigit() else 0
-                    reply_tag = row.select_one('.reply_num')
-                    comments = int(reply_tag.text.strip('[]')) if reply_tag else 0
-                    
-                    posts.append({'source': 'dc', 'title': title, 'link': link, 'views': views, 'comments': comments})
-                elif post_date < TARGET_DATE:
-                    if found_target_date:
-                        stop_crawling = True
-            
-            if stop_crawling: break
-            
-        except Exception as e:
-            print(f"Err DC p{page}: {e}")
-            break
-            
-    return posts
 
 # --- [4. 상세 페이지 크롤러: 본문/댓글] ---
 def _clean_text(elem):
@@ -386,63 +364,31 @@ def send_slack_message(message):
         }
         
         try:
-            response = requests.post(webhook_url, json=payload)
+            response = requests.post(webhook_url, json=payload, timeout=20)
             response.raise_for_status()
             print("✅ 팀즈(Copilot) 전송 완료")
         except requests.exceptions.RequestException as e:
-            print(f"❌ 팀즈(Copilot) 전송 실패: {e}")
-            if e.response is not None:
-                print(f"🔍 에러 상세 원인: {e.response.text}") 
+            raise RuntimeError('팀즈 알림 전송 실패') from e
     else:
-        print("⚠️ COPILOT_WEBHOOK_URL이 설정되지 않았습니다.")
+        raise RuntimeError('COPILOT_WEBHOOK_URL이 설정되지 않았습니다.')
+
 
 def analyze_and_notify(p_posts, d_posts, driver):
     total_posts = p_posts + d_posts
-    if not total_posts:
-        print(f"⚠️ {TARGET_DATE} 수집된 데이터 0건")
-        return
-
-    df = pd.DataFrame(total_posts)
+    df = pd.DataFrame(total_posts, columns=['source', 'title', 'link', 'views', 'comments'])
     p_cnt = len(p_posts)
     d_cnt = len(d_posts)
     
     p_status = "🔴 과열" if p_cnt >= 180 else ("🟢 평온" if p_cnt < 80 else "🟡 활발")
     d_status = "🔴 과열" if d_cnt >= 600 else ("🟢 평온" if d_cnt < 300 else "🟡 활발")
 
-    brands = {
-        '세븐모바일': ['세븐모바일', '7모', 'sk7', 'sk텔링크', '세븐', '세븐모'],
-        'KT엠모바일': ['kt엠모바일', '엠모바일', '엠모', 'ktm', '케이티엠'],
-        '유모바일': ['유모바일', '유모', 'u모바일', '유알모', '유플러스알뜰'],
-        '헬로모바일': ['헬로모바일', '헬모', 'cj헬로', '헬로', 'cj'],
-        '스카이라이프': ['스카이라이프', '스카이', 'skylife'],
-        '토스모바일': ['토스', '토스모바일', 'toss'],
-        '리브엠': ['리브엠', '리브모바일', 'kb', '국민은행', '리브m'],
-        '우리원모바일': ['우리원', '우리은행', '우리won', '우리원모바일'],
-        '이야기모바일': ['이야기', '이야기모바일', '큰사람'],
-        '에이모바일': ['에이모바일', 'a모바일', 'a mobile', '에이모'],
-        '프리티': ['프리티', 'freet'],
-        '모빙': ['모빙', 'mobing'],
-        '스노우맨': ['스노우맨', '세종'],
-        '아이즈모바일': ['아이즈', '아이즈모바일', 'eyes'],
-        '인스모바일': ['인스', '인스모바일'],
-        '이지모바일': ['이지', '이지모바일'],
-        '티플러스': ['티플러스', '티플'],
-        'KG모바일': ['kg모바일', 'kg', '케이지'],
-        '티다이렉트': ['티다이렉트', '티다', 't다이렉트', 't다'],
-        'SKT_Air': ['skt에어', 'skt air', '에어'],
-        '시월모바일': ['시월', '시월모바일'],
-        '핀다이렉트' : ['핀다이렉트','핀다'],
-        '도시락모바일' : ['도시락','도시락모바일'],
-            '모나모바일': ['모나', '모나모바일'],
-    '조이텔': ['조이텔'],
-    '알닷': ['알닷'],
-    }
+    brands = BRANDS
 
     brand_counts = {}
     seven_links = []
 
     for b_name, keywords in brands.items():
-        filtered = df[df['title'].apply(lambda x: any(k in x.lower() for k in keywords))]
+        filtered = df[df['title'].apply(lambda x: matches_brand(x, b_name))]
         brand_counts[b_name] = int(len(filtered))
         
         if b_name == '세븐모바일' and len(filtered) > 0:
@@ -509,8 +455,9 @@ def analyze_and_notify(p_posts, d_posts, driver):
     history_data = []
     if os.path.exists(history_file):
         with open(history_file, 'r', encoding='utf-8') as f:
-            try: history_data = json.load(f)
-            except: pass
+            history_data = json.load(f)
+        if not isinstance(history_data, list):
+            raise ValueError('기존 이력 형식 오류: 덮어쓰지 않습니다.')
     
     today_entry = {
         "date": TARGET_DATE,
@@ -524,13 +471,14 @@ def analyze_and_notify(p_posts, d_posts, driver):
     history_data.append(today_entry)
     history_data.sort(key=lambda x: x['date'])
     
-    os.makedirs('data', exist_ok=True)
-    with open(history_file, 'w', encoding='utf-8') as f:
-        json.dump(history_data, f, ensure_ascii=False, indent=4)
-
-    os.makedirs('data/monitoring', exist_ok=True)
-    with open(f'data/monitoring/data_{TARGET_DATE}.json', 'w', encoding='utf-8') as f:
-        json.dump(total_posts, f, ensure_ascii=False, indent=4)
+    if not TEST_MODE:
+        os.makedirs('data/monitoring', exist_ok=True)
+        for path, value in [(history_file, history_data),
+                            (f'data/monitoring/data_{TARGET_DATE}.json', total_posts)]:
+            temporary = path + '.tmp'
+            with open(temporary, 'w', encoding='utf-8') as f:
+                json.dump(value, f, ensure_ascii=False, indent=4)
+            os.replace(temporary, path)
 
     # 전체 마크다운을 팀즈 규격(**볼드**, [링크](URL))으로 싹 바꿈
     slack_text = f"""
@@ -565,6 +513,7 @@ if __name__ == "__main__":
         analyze_and_notify(p_data, d_data, driver)
         print("✅ 작업 완료")
     except Exception as e:
-        print(f"Error: {e}")
+        raise RuntimeError("시장 조사 실패: 정상 데이터 갱신을 중단합니다.") from e
     finally:
         driver.quit()
+

@@ -14,9 +14,17 @@ on:
               type: boolean
               required: false
               default: false
+concurrency:
+  group: monitoring-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
 jobs:
   run-monitor:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4  # <--- v3에서 v4로 업데이트 (경고 해결)
@@ -27,13 +35,18 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
+      - name: 예정 및 실제 실행 시각 기록
+        env:
+          SCHEDULE_CRON: ${{ github.event.schedule }}
+        run: python scripts/run_timing.py
       - name: Run Crawler
         env:
           COPILOT_WEBHOOK_URL: ${{ secrets.COPILOT_WEBHOOK_URL }}  # <--- SLACK/TEAMS에서 COPILOT으로 변경!
+          TARGET_DATE: ${{ github.event.inputs.target_date }}
           TEST_MODE: ${{ github.event.inputs.test_mode }}  # <--- 이 줄 추가!
         # 파이썬 스크립트에 날짜 인자 전달
         run: |
-          python scripts/monitor_crawler.py "${{ github.event.inputs.target_date }}"
+          python scripts/monitor_crawler.py "$TARGET_DATE"
       # 아래 단계들은 test_mode=true 수동 실행 시에는 건너뛴다.
       # (테스트 실행이 데이터 커밋/xlsx 갱신/메일 발송 같은 부작용을 일으키지 않도록)
       - name: Commit and Push results
@@ -43,6 +56,7 @@ jobs:
           git config --global user.email "action@github.com"
           git add data/
           git commit -m "Update market data: ${{ github.event.inputs.target_date }}" || echo "No changes to commit"
+          git pull --rebase origin main
           git push
       - name: Install xlsx conversion dependencies
         if: ${{ github.event.inputs.test_mode != 'true' }}
@@ -55,6 +69,7 @@ jobs:
         run: |
           git add data/dashboard_history.xlsx
           git commit -m "chore: dashboard_history.xlsx 자동 갱신" || echo "No changes to commit"
+          git pull --rebase origin main
           git push
       - name: 변환 완료 메일 발송 (xlsx 첨부)
         if: ${{ github.event.inputs.test_mode != 'true' }}
@@ -75,3 +90,4 @@ jobs:
 
             시트 구성: Volume / Brand_SOV_Long / Brand_SOV_Pivot / Keywords / Top_Posts
           attachments: data/dashboard_history.xlsx
+
