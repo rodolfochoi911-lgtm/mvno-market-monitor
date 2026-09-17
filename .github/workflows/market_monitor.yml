@@ -1,7 +1,7 @@
 name: Market Monitor (Daily)
 on:
   schedule:
-    - cron: '0 21 * * *'
+     - cron: '45 18 * * *'   # KST 03:45 → 실제 약 06:07 예상
   # 수동 실행 버튼 (이 줄이 schedule과 같은 라인에 있어야 합니다!)
   workflow_dispatch:
     inputs:
