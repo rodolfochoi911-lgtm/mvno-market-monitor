@@ -19,8 +19,14 @@ dashboard_history.json -> dashboard_history.xlsx 변환 스크립트 (v2)
 import json
 import sys
 from datetime import datetime, timedelta
+from pathlib import Path
 
 import pandas as pd
+
+try:
+    from scripts.market_metrics import build_source_breakdowns
+except ModuleNotFoundError:
+    from market_metrics import build_source_breakdowns
 
 # 크롤러(monitor_crawler.py)에서 쓰는 브랜드 별칭 사전과 동일하게 유지할 것.
 # 크롤러 쪽 사전이 바뀌면 여기도 같이 업데이트 필요.
@@ -70,6 +76,7 @@ def convert(json_path: str, xlsx_path: str):
         data = json.load(f)
 
     volume_rows, sov_rows, keyword_raw_rows, post_rows = [], [], [], []
+    source_sov_rows, source_keyword_rows = [], []
 
     for entry in data:
         date = entry.get("date")
@@ -86,6 +93,35 @@ def convert(json_path: str, xlsx_path: str):
 
         for kw, count in entry.get("top_keywords", {}).items():
             keyword_raw_rows.append({"date": date, "keyword": kw, "count": count})
+
+        brands_by_source = entry.get("brand_sov_by_source")
+        keywords_by_source = entry.get("top_keywords_by_source")
+
+        # Old history entries did not carry source-level aggregates. Rebuild them
+        # from the retained raw daily posts when those files are available.
+        if brands_by_source is None or keywords_by_source is None:
+            raw_path = Path(json_path).parent / "monitoring" / f"data_{date}.json"
+            if raw_path.exists():
+                with raw_path.open(encoding="utf-8") as raw_file:
+                    raw_posts = json.load(raw_file)
+                raw_df = pd.DataFrame(
+                    raw_posts, columns=["source", "title", "link", "views", "comments"]
+                )
+                brands_by_source, keywords_by_source = build_source_breakdowns(
+                    raw_df, list(entry.get("top_keywords", {}).keys())
+                )
+
+        for source, brand_counts in (brands_by_source or {}).items():
+            for brand, count in brand_counts.items():
+                source_sov_rows.append({
+                    "date": date, "source": source, "brand": brand, "mentions": count,
+                })
+
+        for source, keyword_counts in (keywords_by_source or {}).items():
+            for keyword, count in keyword_counts.items():
+                source_keyword_rows.append({
+                    "date": date, "source": source, "keyword": keyword, "count": count,
+                })
 
         for source, posts in entry.get("top_posts", {}).items():
             for p in posts:
@@ -108,6 +144,12 @@ def convert(json_path: str, xlsx_path: str):
     df_sov = pd.DataFrame(sov_rows)
     df_keywords_raw = pd.DataFrame(keyword_raw_rows)
     df_posts = pd.DataFrame(post_rows)
+    df_source_sov = pd.DataFrame(
+        source_sov_rows, columns=["date", "source", "brand", "mentions"]
+    )
+    df_source_keywords = pd.DataFrame(
+        source_keyword_rows, columns=["date", "source", "keyword", "count"]
+    )
 
     df_sov_pivot = df_sov.pivot_table(
         index="date", columns="brand", values="mentions", fill_value=0
@@ -124,6 +166,21 @@ def convert(json_path: str, xlsx_path: str):
     df_norm_agg = (
         df_norm.groupby(["date", "term", "type"], as_index=False)["count"].sum()
     )
+
+    source_norm_rows = []
+    for _, row in df_source_keywords.iterrows():
+        term, term_type = normalize_term(row["keyword"])
+        source_norm_rows.append({
+            "date": row["date"], "source": row["source"], "term": term,
+            "type": term_type, "count": row["count"],
+        })
+    df_source_norm = pd.DataFrame(
+        source_norm_rows, columns=["date", "source", "term", "type", "count"]
+    )
+    if not df_source_norm.empty:
+        df_source_norm = df_source_norm.groupby(
+            ["date", "source", "term", "type"], as_index=False
+        )["count"].sum()
 
     # ---------- Monthly_Summary ----------
     df_monthly = df_volume.copy()
@@ -225,11 +282,15 @@ def convert(json_path: str, xlsx_path: str):
         df_ranking.to_excel(writer, sheet_name="Brand_Ranking", index=False)
         df_weekly.to_excel(writer, sheet_name="Weekly_Trend", index=False)
         df_spike.to_excel(writer, sheet_name="Keyword_Spike", index=False)
+        df_source_sov.to_excel(writer, sheet_name="Brand_SOV_Source_Long", index=False)
+        df_source_keywords.to_excel(writer, sheet_name="Keywords_Source_Raw", index=False)
+        df_source_norm.to_excel(writer, sheet_name="Keywords_Source_Normalized", index=False)
 
     print(f"완료: {len(data)}개 날짜 -> {xlsx_path}")
     print(f"  시트: Volume, Brand_SOV_Long, Brand_SOV_Pivot, Keywords_Raw,")
     print(f"       Keywords_Normalized, Top_Posts, Monthly_Summary, Brand_Ranking,")
-    print(f"       Weekly_Trend, Keyword_Spike")
+    print(f"       Weekly_Trend, Keyword_Spike, Brand_SOV_Source_Long,")
+    print(f"       Keywords_Source_Raw, Keywords_Source_Normalized")
 
 
 if __name__ == "__main__":

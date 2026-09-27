@@ -2,8 +2,10 @@ import os
 from urllib.parse import urljoin
 try:
     from scripts.brand_rules import BRANDS, matches_brand
+    from scripts.market_metrics import build_source_breakdowns, extract_top_keywords
 except ModuleNotFoundError:
     from brand_rules import BRANDS, matches_brand
+    from market_metrics import build_source_breakdowns, extract_top_keywords
 import sys
 import json
 import time
@@ -14,7 +16,6 @@ import re
 import requests
 import pandas as pd
 from bs4 import BeautifulSoup
-from collections import Counter
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
@@ -308,23 +309,6 @@ def get_dc_detail(driver, url):
 
 
 # --- [5. 분석 및 알림 로직] ---
-def extract_top_keywords(df):
-    if df.empty: return []
-    all_titles = " ".join(df['title'].tolist())
-    all_titles = re.sub(r'[^\w\s]', ' ', all_titles)
-    words = all_titles.split()
-    
-    stopwords = set([
-        '질문', '후기', '정보', '요금제', '알뜰폰', '추천', '있나요', '나요', '가요', '건가요',
-        '오늘', '내일', '이번달', '2월', '1월', '근데', '진짜', '혹시', '아니', '너무', '번호이동', '기변', '신규', '개통', '모바일', '사람', '생각', '지금', '어제',
-        '약정', '결합', '할인', '카드', '데이터', '평생', '개월', '년',
-                'vs', '이거', '저거', '그거', '뭐야', '시발', '존나', 'ㅋㅋ', 'ㅎㅎ', 'ㅠㅠ',
-        '문의', '질문좀', '대해', '관련', '어떤가요', '무슨', '어디', '어떻게',
-        '선택', '위약금', '정책', '비교', '변경', '이동', '사용', '가입', '해지',
-        '있음', '알뜰', '요금', '번호', '통신사', '요금', '도와주세요'
-    ])
-    filtered_words = [w for w in words if len(w) >= 2 and w.lower() not in stopwords]
-    return Counter(filtered_words).most_common(10)
 
 def send_slack_message(message):
     """테스트 모드 확인 후 팀즈(Adaptive Card) 전송 또는 출력"""
@@ -413,6 +397,9 @@ def analyze_and_notify(p_posts, d_posts, driver):
         seven_block = f"\n**📌 세븐모바일 언급 ({len(seven_links)}건)**\n" + "\n".join(seven_links)
 
     top_keywords = extract_top_keywords(df)
+    brand_sov_by_source, top_keywords_by_source = build_source_breakdowns(
+        df, [word for word, _ in top_keywords]
+    )
     keyword_msg = ""
     for word, count in top_keywords:
         keyword_msg += f"• {word}: {count}건\n"
@@ -464,7 +451,9 @@ def analyze_and_notify(p_posts, d_posts, driver):
         "total_volume": { "ppomppu": p_cnt, "dc": d_cnt },
         "brand_sov": brand_counts,
         "top_keywords": dict(top_keywords),
-        "top_posts": { "ppomppu": p_top10, "dc": d_top10 }
+        "top_posts": { "ppomppu": p_top10, "dc": d_top10 },
+        "brand_sov_by_source": brand_sov_by_source,
+        "top_keywords_by_source": top_keywords_by_source
     }
     
     history_data = [d for d in history_data if d['date'] != TARGET_DATE]

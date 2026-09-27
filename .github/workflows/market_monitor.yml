@@ -88,6 +88,7 @@ jobs:
             커밋: ${{ github.sha }}
             확인: ${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}
 
-            시트 구성: Volume / Brand_SOV_Long / Brand_SOV_Pivot / Keywords / Top_Posts
+            기존 시트는 그대로 유지되며 source 구분 시트 3개가 추가됩니다.
+            추가 시트: Brand_SOV_Source_Long / Keywords_Source_Raw / Keywords_Source_Normalized
           attachments: data/dashboard_history.xlsx
 

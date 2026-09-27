@@ -6,9 +6,12 @@ import unittest
 from unittest.mock import patch, Mock
 import sys
 
+import pandas as pd
+
 with patch.object(sys, 'argv', ['monitor_crawler.py']):
     from scripts import monitor_crawler as crawler
 from scripts.brand_rules import matches_brand
+from scripts.market_metrics import build_source_breakdowns, extract_top_keywords
 
 
 def page(date, number, title='알뜰폰 요금 질문', views='1,234'):
@@ -16,6 +19,22 @@ def page(date, number, title='알뜰폰 요금 질문', views='1,234'):
 
 
 class MarketRegressionTests(unittest.TestCase):
+    def test_source_breakdowns_reconcile_to_combined_metrics(self):
+        posts = pd.DataFrame([
+            {'source': 'ppomppu', 'title': '유모바일 추천인 혜택'},
+            {'source': 'dc', 'title': '유모바일 추천인 문의'},
+            {'source': 'dc', 'title': '프리티 셀프개통'},
+        ])
+        top_keywords = extract_top_keywords(posts)
+        brands, keywords = build_source_breakdowns(
+            posts, [word for word, _ in top_keywords]
+        )
+
+        self.assertEqual(2, brands['ppomppu']['유모바일'] + brands['dc']['유모바일'])
+        self.assertEqual(1, brands['dc']['프리티'])
+        for word, total in top_keywords:
+            self.assertEqual(total, keywords['ppomppu'][word] + keywords['dc'][word])
+
     def test_non_brand_mentions_are_excluded(self):
         for text, brand in [('세븐일레븐 우주패스 쓰레기봉투', '세븐모바일'), ('아이폰 에어 skt 기변 64', 'SKT_Air'), ('3사 관련된 이야기는 괜찮네', '이야기모바일'), ('다음 페이지 어디 있나요', '이지모바일')]:
             with self.subTest(text=text):
