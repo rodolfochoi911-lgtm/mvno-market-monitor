@@ -1,9 +1,11 @@
 import os
 from urllib.parse import urljoin
 try:
+    from scripts.teams_notifier import send_teams_message
     from scripts.brand_rules import BRANDS, matches_brand
     from scripts.market_metrics import build_source_breakdowns, extract_top_keywords
 except ModuleNotFoundError:
+    from teams_notifier import send_teams_message
     from brand_rules import BRANDS, matches_brand
     from market_metrics import build_source_breakdowns, extract_top_keywords
 import sys
@@ -312,8 +314,6 @@ def get_dc_detail(driver, url):
 
 def send_slack_message(message):
     """테스트 모드 확인 후 팀즈(Adaptive Card) 전송 또는 출력"""
-    webhook_url = os.environ.get('COPILOT_WEBHOOK_URL')
-    
     # 💡 [핵심 추가] 팀즈 마크다운은 엔터 하나(\n)를 무시하므로, 두 개(\n\n)로 강제 변환하여 줄바꿈 해결!
     teams_message = message.replace('\n', '\n\n')
     
@@ -325,36 +325,8 @@ def send_slack_message(message):
         print("="*40 + "\n")
         return
 
-    if webhook_url:
-        payload = {
-            "type": "message",
-            "attachments": [
-                {
-                    "contentType": "application/vnd.microsoft.card.adaptive",
-                    "content": {
-                        "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
-                        "type": "AdaptiveCard",
-                        "version": "1.2",
-                        "body": [
-                            {
-                                "type": "TextBlock",
-                                "text": teams_message,  # 변환된 메시지 삽입
-                                "wrap": True
-                            }
-                        ]
-                    }
-                }
-            ]
-        }
-        
-        try:
-            response = requests.post(webhook_url, json=payload, timeout=20)
-            response.raise_for_status()
-            print("✅ 팀즈(Copilot) 전송 완료")
-        except requests.exceptions.RequestException as e:
-            raise RuntimeError('팀즈 알림 전송 실패') from e
-    else:
-        raise RuntimeError('COPILOT_WEBHOOK_URL이 설정되지 않았습니다.')
+    send_teams_message(message)
+    print("✅ 팀즈(Copilot) 전송 완료")
 
 
 def analyze_and_notify(p_posts, d_posts, driver):

@@ -1,0 +1,37 @@
+name: DC event alerts (10 minutes)
+on:
+  schedule:
+    - cron: '3-59/10 * * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Preview without sending or changing state'
+        type: boolean
+        default: true
+permissions:
+  contents: write
+concurrency:
+  group: dc-event-alerts
+  cancel-in-progress: false
+jobs:
+  poll:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          sparse-checkout: scripts
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install lightweight dependencies
+        run: pip install 'requests>=2.32,<3' 'beautifulsoup4>=4.12,<5'
+      - name: Check new event posts
+        env:
+          COPILOT_WEBHOOK_URL: ${{ secrets.COPILOT_WEBHOOK_URL }}
+          GITHUB_TOKEN: ${{ github.token }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          args=()
+          if [[ "$DRY_RUN" == "true" ]]; then args+=(--dry-run); fi
+          python scripts/dc_event_monitor.py "${args[@]}"
