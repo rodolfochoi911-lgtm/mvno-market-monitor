@@ -1,8 +1,6 @@
 name: Market Monitor Backfill Oct 30-31
 on:
-  push:
-    branches: [main]
-    paths: ['.github/workflows/backfill_20261030_31.yml']
+  workflow_dispatch:
 concurrency:
   group: monitoring-data
   cancel-in-progress: false
