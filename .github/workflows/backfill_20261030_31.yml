@@ -1,0 +1,90 @@
+name: Market Monitor Backfill Oct 30-31
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/backfill_20261030_31.yml']
+concurrency:
+  group: monitoring-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  run-monitor:
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        target_date: ['2026-10-30', '2026-10-31']
+    runs-on: ubuntu-24.04
+    timeout-minutes: 45
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Set up Python
+        uses: actions/setup-python@v5  # <--- v4에서 v5로 업데이트 (경고 해결)
+        with:
+          python-version: '3.9'
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: 예정 및 실제 실행 시각 기록
+        env:
+          SCHEDULE_CRON: ${{ github.event.schedule }}
+        run: python scripts/run_timing.py
+      - name: Run Crawler
+        env:
+          COPILOT_WEBHOOK_URL: ${{ secrets.COPILOT_WEBHOOK_URL }}  # <--- SLACK/TEAMS에서 COPILOT으로 변경!
+          TARGET_DATE: ${{ matrix.target_date }}
+          TEST_MODE: ${{ github.event.inputs.test_mode }}  # <--- 이 줄 추가!
+        # 파이썬 스크립트에 날짜 인자 전달
+        run: |
+          python scripts/monitor_crawler.py "$TARGET_DATE"
+      # 아래 단계들은 test_mode=true 수동 실행 시에는 건너뛴다.
+      # (테스트 실행이 데이터 커밋/xlsx 갱신/메일 발송 같은 부작용을 일으키지 않도록)
+      - name: Commit and Push results
+        if: ${{ github.event.inputs.test_mode != 'true' }}
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add data/
+          git commit -m "Update market data: ${{ matrix.target_date }}" || echo "No changes to commit"
+          git pull --rebase origin main
+          git push
+      - name: Install xlsx conversion dependencies
+        if: ${{ github.event.inputs.test_mode != 'true' }}
+        run: pip install pandas openpyxl
+      - name: JSON → xlsx 변환
+        if: ${{ github.event.inputs.test_mode != 'true' }}
+        run: python scripts/convert_to_xlsx.py data/dashboard_history.json data/dashboard_history.xlsx
+      - name: Commit and push xlsx
+        if: ${{ github.event.inputs.test_mode != 'true' }}
+        run: |
+          git add data/dashboard_history.xlsx
+          git commit -m "chore: dashboard_history.xlsx 자동 갱신" || echo "No changes to commit"
+          git pull --rebase origin main
+          git push
+      - name: 변환 완료 메일 발송 (xlsx 첨부)
+        if: ${{ github.event.inputs.test_mode != 'true' }}
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.MAIL_USERNAME }}
+          password: ${{ secrets.MAIL_APP_PASSWORD }}
+          subject: "[알림] MVNO 모니터링 데이터 업데이트됨 (${{ matrix.target_date }})"
+          to: jiwonchoi@sk.com
+          from: MVNO Market Monitor <rodolfochoi911@gmail.com>
+          body: |
+            dashboard_history.json이 갱신되어 xlsx로 변환 후 첨부합니다.
+
+            커밋: ${{ github.sha }}
+            확인: ${{ github.server_url }}/${{ github.repository }}/commit/${{ github.sha }}
+
+            기존 시트는 그대로 유지되며 source 구분 시트 3개가 추가됩니다.
+            추가 시트: Brand_SOV_Source_Long / Keywords_Source_Raw / Keywords_Source_Normalized
+          attachments: data/dashboard_history.xlsx
+
