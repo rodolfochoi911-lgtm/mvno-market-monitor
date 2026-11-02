@@ -368,6 +368,16 @@ def analyze_and_notify(p_posts, d_posts, driver):
         # 팀즈 볼드체 포맷 적용 **텍스트**
         seven_block = f"\n**📌 세븐모바일 언급 ({len(seven_links)}건)**\n" + "\n".join(seven_links)
 
+    # 브랜드 SOV와 별도로 간편유심 제목 언급과 원문 링크를 표시한다.
+    sim_posts = df[df['title'].str.contains(r'간편\s*유심', regex=True, na=False)]
+    sim_links = [
+        f"  └ [{row['title']}]({row['link']})"
+        for _, row in sim_posts.iterrows()
+    ]
+    sim_block = f"\n**📌 간편유심 언급 ({len(sim_links)}건)**"
+    if sim_links:
+        sim_block += "\n" + "\n".join(sim_links)
+
     top_keywords = extract_top_keywords(df)
     brand_sov_by_source, top_keywords_by_source = build_source_breakdowns(
         df, [word for word, _ in top_keywords]
@@ -451,6 +461,7 @@ def analyze_and_notify(p_posts, d_posts, driver):
 
 **📈 브랜드 언급량 (SOV)**
 {sov_msg}{seven_block}
+{sim_block}
 
 **🔥 핫 키워드 (Top 10)**
 {keyword_msg}
