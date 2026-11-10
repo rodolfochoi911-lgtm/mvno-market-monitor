@@ -152,12 +152,20 @@ def _collect_posts(driver, source):
     for page in range(1, MAX_PAGES + 1):
         url = base.format(page)
         if source == 'ppomppu':
-            html = _get_html(url)
+            rows = _list_rows(_get_html(url), source)
         else:
             driver.get(url)
             time.sleep(1.5)
-            html = driver.page_source
-        rows = _list_rows(html, source)
+            rows = _list_rows(driver.page_source, source)
+            if not rows:
+                print(f'dc p{page}: 게시글 행 0개, 한 번 더 시도합니다.', flush=True)
+                time.sleep(3)
+                if driver.current_url == url:
+                    driver.refresh()
+                else:
+                    driver.get(url)
+                time.sleep(1.5)
+                rows = _list_rows(driver.page_source, source)
         if not rows:
             # Empty HTML, blocked pages and selector failures are not evidence of zero activity.
             raise RuntimeError(f'{source} p{page}: 목록 없음/구조 변경/차단. 결과 저장 중단.')

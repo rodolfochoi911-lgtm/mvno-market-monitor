@@ -80,6 +80,37 @@ class MarketRegressionTests(unittest.TestCase):
         html = '<tr class="ub-content us-post"><td class="gall_tit"><a href="/x">글</a></td><td class="gall_date" title="2026-09-07 12:00"></td><td class="gall_count">1,234</td></tr>'
         self.assertEqual(1234, crawler._list_rows(html, 'dc')[0]['views'])
 
+    def test_dc_retries_empty_page_and_keeps_target_date_posts(self):
+        pages = iter(['<title>Service unavailable</title>'] + [
+            f'<tr class="ub-content us-post"><td class="gall_tit"><a href="/{day}">글</a></td>'
+            f'<td class="gall_date" title="2026-09-{day} 12:00"></td></tr>'
+            for day in ('07', '06')
+        ])
+        driver = Mock()
+
+        def load_page(url):
+            driver.current_url = url
+            reload_page()
+
+        def reload_page():
+            driver.page_source = next(pages)
+
+        driver.get.side_effect = load_page
+        driver.refresh.side_effect = reload_page
+        with patch.object(crawler, 'TARGET_DATE', '2026-09-07'), patch.object(crawler.time, 'sleep'):
+            result = crawler.get_dc_posts(driver)
+        self.assertEqual(['https://gall.dcinside.com/07'], [post['link'] for post in result])
+        urls = [call.args[0] for call in driver.get.call_args_list]
+        self.assertEqual(['1', '2'], [url.rsplit('=', 1)[1] for url in urls])
+        driver.refresh.assert_called_once_with()
+
+    def test_dc_stops_when_page_stays_empty(self):
+        driver = Mock(page_source='<title>Service unavailable</title>')
+        driver.get.side_effect = lambda url: setattr(driver, 'current_url', url)
+        with patch.object(crawler.time, 'sleep'), self.assertRaisesRegex(RuntimeError, 'dc p1:'):
+            crawler.get_dc_posts(driver)
+        driver.refresh.assert_called_once_with()
+
     def test_test_mode_has_no_writes_or_notification(self):
         old_cwd = os.getcwd()
         with tempfile.TemporaryDirectory() as temp:
