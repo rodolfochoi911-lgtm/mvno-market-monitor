@@ -40,6 +40,14 @@ class EventTests(unittest.TestCase):
         html = listing(509647).replace('>행사</td>', '>행사🆕<p class="subject_inner" style="display:none">행사🆕️</p></td>')
         self.assertEqual('509647', monitor.parse_list(html)[0]['id'])
 
+    def test_promoted_row_does_not_break_order_or_hide_organic_copy(self):
+        html = listing(103, 99, 102, 100, 99).replace(
+            'class="ub-content us-post"><td class="gall_num">99',
+            'class="ub-content us-post" data-dcads-anchor="pc_list_boost">'
+            '<td class="gall_num">99', 1)
+        self.assertEqual(['103', '102', '100', '99'],
+                         [post['id'] for post in monitor.parse_list(html)])
+
     def test_initial_run_never_fetches_details_or_sends(self):
         s = MemoryStore()
         fetch, send = Mock(return_value=listing(103, 102)), Mock()

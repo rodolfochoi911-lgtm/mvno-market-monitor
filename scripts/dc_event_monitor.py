@@ -48,7 +48,8 @@ def parse_list(html):
     if table is None:
         raise RuntimeError('디시 목록 없음/차단/구조 변경')
     posts = []
-    for row in table.select('tr.ub-content.us-post'):
+    # DC inserts promoted copies of posts outside the chronological list.
+    for row in table.select('tr.ub-content.us-post:not([data-dcads-anchor="pc_list_boost"])'):
         number = row.select_one('.gall_num')
         if row.get('data-type') == 'icon_notice' or not number or not number.get_text(strip=True).isdigit():
             continue
