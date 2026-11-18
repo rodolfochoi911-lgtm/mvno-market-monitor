@@ -12,8 +12,9 @@ GitHub의 `schedule` 이벤트 생성 지연을 우회하고 기존 `workflow_di
 
 ## 배포와 전환
 
-처음에는 `ENABLED=false`이므로 배포해도 GitHub를 호출하지 않는다.
-기존 GitHub 예약도 저장소 변수 설정 전까지 계속 작동한다.
+운영 환경은 `ENABLED=true`다. 새 계정에서 처음 구성할 때에는 먼저 설정 파일의
+`ENABLED`를 문자열 `"false"`로 바꿔 비활성 상태로 배포한다.
+기존 GitHub 예약은 저장소 변수 설정 전까지 계속 작동한다.
 
 1. Cloudflare 계정으로 로그인한다: `npx wrangler login`.
 2. GitHub에서 두 저장소 `mvno-market-monitor`, `competitor-monitor`만 선택한
@@ -21,13 +22,14 @@ GitHub의 `schedule` 이벤트 생성 지연을 우회하고 기존 `workflow_di
    만료일을 기록하고 만료 전 교체한다. 토큰을 파일이나 채팅에 붙이지 않는다.
 3. 이 폴더에서 `npm test`, `npx wrangler deploy`로 비활성 Worker를 배포한다.
 4. `npx wrangler secret put GITHUB_TOKEN`의 비공개 입력창에 토큰을 입력한다.
-5. GitHub 두 저장소의 Settings → Secrets and variables → Actions → Variables에
-   `EXTERNAL_SCHEDULER_ENABLED=true`를 설정한다. 이 변수는 GitHub 자체 예약만
-   건너뛰게 하며 수동/외부 호출은 허용한다. 실행 중인 작업은 완료시킨다.
-6. 이 폴더의 `wrangler.jsonc`에서 `ENABLED`를 문자열 `"true"`로 바꿔 재배포한다.
-   다음 호출 전에 전환하고, Cron 설정 전파에는 최대 15분이 걸릴 수 있음을 고려한다.
-7. `npx wrangler tail`에서 `accepted:true`를 확인하고 Actions에서 `workflow_dispatch`
-   실행과 성공 여부를 확인한다. 일일 실행 요약에 Cloudflare 예정/진단 시각이 표시된다.
+5. 이 폴더의 `wrangler.jsonc`에서 `ENABLED`를 문자열 `"true"`로 바꿔 재배포한다.
+   Cron 설정 전파에는 최대 15분이 걸릴 수 있음을 고려한다.
+6. `npx wrangler tail`에서 `accepted:true`를 확인하고 Actions에서 `workflow_dispatch`
+   실행과 성공 여부를 확인한다. 실행 중인 같은 회차의 작업은 완료시킨다.
+7. 외부 호출이 정상임을 확인한 다음 GitHub 두 저장소의 Settings → Secrets and
+   variables → Actions → Variables에 `EXTERNAL_SCHEDULER_ENABLED=true`를 설정한다.
+   이 변수는 GitHub 자체 예약만 건너뛰게 하며 수동/외부 호출은 허용한다.
+   일일 실행 요약에 Cloudflare 예정/진단 시각이 표시된다.
 
 전환 직전 같은 회차가 이미 실행됐거나 대기 중이면 중복 실행을 피하도록 그 회차
 완료 후 다음 예약 전에 활성화한다. 동시 실행 그룹은 기존 값을 유지한다.
