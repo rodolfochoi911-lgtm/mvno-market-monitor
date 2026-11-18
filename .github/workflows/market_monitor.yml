@@ -1,10 +1,19 @@
 name: Market Monitor (Daily)
 on:
   schedule:
-     - cron: '45 18 * * *'   # KST 03:45 → 실제 약 06:07 예상
+     # Legacy fallback only. Disable after external scheduler cutover.
+     - cron: '45 18 * * *'
   # 수동 실행 버튼 (이 줄이 schedule과 같은 라인에 있어야 합니다!)
   workflow_dispatch:
     inputs:
+      scheduled_at:
+        description: 'Original scheduled time in ISO 8601 UTC (external scheduler)'
+        type: string
+        required: false
+      schedule_source:
+        description: 'Scheduler name for timing diagnostics'
+        type: string
+        required: false
       target_date:
         description: '수집할 날짜 (YYYY-MM-DD)'
         required: false
@@ -23,6 +32,7 @@ permissions:
 
 jobs:
   run-monitor:
+    if: ${{ github.event_name != 'schedule' || vars.EXTERNAL_SCHEDULER_ENABLED != 'true' }}
     runs-on: ubuntu-24.04
     timeout-minutes: 45
     steps:
@@ -38,6 +48,8 @@ jobs:
       - name: 예정 및 실제 실행 시각 기록
         env:
           SCHEDULE_CRON: ${{ github.event.schedule }}
+          SCHEDULED_AT: ${{ inputs.scheduled_at }}
+          SCHEDULE_SOURCE: ${{ inputs.schedule_source }}
         run: python scripts/run_timing.py
       - name: Run Crawler
         env:
@@ -91,4 +103,5 @@ jobs:
             기존 시트는 그대로 유지되며 source 구분 시트 3개가 추가됩니다.
             추가 시트: Brand_SOV_Source_Long / Keywords_Source_Raw / Keywords_Source_Normalized
           attachments: data/dashboard_history.xlsx
+
 

@@ -48,6 +48,7 @@ def parse_list(html):
     if table is None:
         raise RuntimeError('디시 목록 없음/차단/구조 변경')
     posts = []
+    recommended = []
     # DC inserts promoted copies of posts outside the chronological list.
     for row in table.select('tr.ub-content.us-post:not([data-dcads-anchor="pc_list_boost"])'):
         number = row.select_one('.gall_num')
@@ -71,6 +72,26 @@ def parse_list(html):
             raise RuntimeError('게시글 ID/URL 불일치')
         posts.append({'id': post_id, 'title': link.get_text(' ', strip=True),
                       'url': f'https://gall.dcinside.com/mgallery/board/view/?id=mvnogallery&no={post_id}'})
+        recommended.append(row.get('data-type') in {'icon_recomimg', 'icon_recom'})
+    # DC also inserts older recommended posts without an advertising anchor.
+    # Only remove a recommendation that is outside its chronological neighbours;
+    # ordinary recommended posts must remain eligible for notifications.
+    following_max = [0] * len(posts)
+    newest = 0
+    for index in range(len(posts) - 1, -1, -1):
+        following_max[index] = newest
+        if not recommended[index]:
+            newest = max(newest, int(posts[index]['id']))
+    chronological = []
+    previous = float('inf')
+    for index, post in enumerate(posts):
+        number = int(post['id'])
+        if recommended[index] and not following_max[index] <= number <= previous:
+            continue
+        chronological.append(post)
+        if not recommended[index]:
+            previous = min(previous, number)
+    posts = chronological
     # Empty is valid only when DC explicitly renders its empty-list marker.
     if not posts and not table.select_one('.no_data'):
         raise RuntimeError('행사 목록을 확인할 수 없습니다.')
@@ -230,3 +251,4 @@ def main():
 
 if __name__ == '__main__':
     raise SystemExit(main())
+

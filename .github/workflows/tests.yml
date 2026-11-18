@@ -2,9 +2,9 @@ name: Regression tests
 on:
   push:
     branches: [main]
-    paths: ['**.py', '.github/workflows/**', 'requirements*.txt']
+    paths: ['**.py', '.github/workflows/**', 'requirements*.txt', 'infra/github-scheduler/**']
   pull_request:
-    paths: ['**.py', '.github/workflows/**', 'requirements*.txt']
+    paths: ['**.py', '.github/workflows/**', 'requirements*.txt', 'infra/github-scheduler/**']
   workflow_dispatch:
 permissions:
   contents: read
@@ -19,3 +19,10 @@ jobs:
           python-version: '3.9'
       - run: pip install pandas openpyxl beautifulsoup4 requests python-dotenv pytz selenium undetected-chromedriver webdriver-manager
       - run: python -m unittest discover -s tests -v
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Test external scheduler without dispatching workflows
+        working-directory: infra/github-scheduler
+        run: node --test
+

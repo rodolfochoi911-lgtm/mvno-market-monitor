@@ -4,6 +4,14 @@ on:
     - cron: '3-59/10 * * * *'
   workflow_dispatch:
     inputs:
+      scheduled_at:
+        description: 'Original scheduled time in ISO 8601 UTC (external scheduler)'
+        type: string
+        required: false
+      schedule_source:
+        description: 'Scheduler name for timing diagnostics'
+        type: string
+        required: false
       dry_run:
         description: 'Preview without sending or changing state'
         type: boolean
@@ -15,6 +23,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   poll:
+    if: ${{ github.event_name != 'schedule' || vars.EXTERNAL_SCHEDULER_ENABLED != 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 8
     steps:
@@ -26,6 +35,12 @@ jobs:
           python-version: '3.11'
       - name: Install lightweight dependencies
         run: pip install 'requests>=2.32,<3' 'beautifulsoup4>=4.12,<5'
+      - name: Record external schedule timing
+        if: ${{ inputs.scheduled_at != '' }}
+        env:
+          SCHEDULED_AT: ${{ inputs.scheduled_at }}
+          SCHEDULE_SOURCE: ${{ inputs.schedule_source }}
+        run: python scripts/run_timing.py
       - name: Check new event posts
         env:
           COPILOT_WEBHOOK_URL: ${{ secrets.COPILOT_WEBHOOK_URL }}
@@ -35,3 +50,4 @@ jobs:
           args=()
           if [[ "$DRY_RUN" == "true" ]]; then args+=(--dry-run); fi
           python scripts/dc_event_monitor.py "${args[@]}"
+

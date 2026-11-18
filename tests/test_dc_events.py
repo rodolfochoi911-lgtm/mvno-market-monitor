@@ -36,6 +36,32 @@ def store():
 
 
 class EventTests(unittest.TestCase):
+    def test_unmarked_old_recommendation_is_excluded_from_live_order(self):
+        html = listing(525622, 519180, 523641, 520408).replace(
+            'class="ub-content us-post"><td class="gall_num">519180',
+            'class="ub-content us-post" data-type="icon_recomimg"><td class="gall_num">519180')
+        self.assertEqual(['525622', '523641', '520408'],
+                         [post['id'] for post in monitor.parse_list(html)])
+
+    def test_organic_recommended_post_is_retained(self):
+        html = listing(103, 102, 100).replace(
+            'class="ub-content us-post"><td class="gall_num">102',
+            'class="ub-content us-post" data-type="icon_recomimg"><td class="gall_num">102')
+        self.assertEqual(['103', '102', '100'],
+                         [post['id'] for post in monitor.parse_list(html)])
+
+    def test_pinned_recommendation_does_not_stop_pagination_early(self):
+        html = listing(105, 99, 104).replace(
+            'class="ub-content us-post"><td class="gall_num">99',
+            'class="ub-content us-post" data-type="icon_recomimg"><td class="gall_num">99')
+        s, send = store(), Mock(return_value=True)
+        fetch = Mock(side_effect=[html, listing(103, 102, 101, 100),
+                                  *['<div class="write_div">조건</div>'] * 5])
+        monitor.run(s, fetch, send)
+        self.assertEqual(105, s.state['high_water'])
+        self.assertEqual(7, fetch.call_count)
+        self.assertIn('no=101', send.call_args.args[0])
+
     def test_live_dc_new_badge_and_hidden_tooltip(self):
         html = listing(509647).replace('>행사</td>', '>행사🆕<p class="subject_inner" style="display:none">행사🆕️</p></td>')
         self.assertEqual('509647', monitor.parse_list(html)[0]['id'])
@@ -229,3 +255,4 @@ class StateTests(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+

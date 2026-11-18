@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "mvno-github-scheduler",
+  "main": "src/index.mjs",
+  "compatibility_date": "2026-11-18",
+  "workers_dev": false,
+  "preview_urls": false,
+  "observability": { "enabled": true },
+  "vars": { "ENABLED": "false" },
+  "triggers": {
+    "crons": ["0 21 * * *", "7 21 * * *", "12 6 * * *", "3-59/10 * * * *"]
+  }
+}
