@@ -43,7 +43,8 @@ export async function dispatchScheduled(event, env, fetcher = fetch, now = Date.
         ref: 'main',
         inputs: { ...target.inputs, scheduled_at: scheduledAt, schedule_source: 'cloudflare' },
       }),
-      redirect: 'error',
+      // Workers supports manual/follow only. Reject 3xx below without forwarding credentials.
+      redirect: 'manual',
       signal: AbortSignal.timeout(15000),
     });
   } catch {

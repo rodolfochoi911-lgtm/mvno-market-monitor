@@ -28,7 +28,7 @@ test('dispatch includes original schedule and uses only main', async () => {
   }, time + 2000);
   assert.match(call[0], /competitor-monitor\/actions\/workflows\/run_monitor.yml\/dispatches$/);
   assert.equal(call[1].method, 'POST');
-  assert.equal(call[1].redirect, 'error');
+  assert.equal(call[1].redirect, 'manual');
   assert.deepEqual(JSON.parse(call[1].body), {
     ref: 'main', inputs: { scheduled_at: '2026-11-17T21:07:00.000Z', schedule_source: 'cloudflare' },
   });
@@ -62,7 +62,7 @@ test('missing token fails before dispatch', async () => {
 });
 
 test('GitHub failures expose status without response contents or secrets', async () => {
-  for (const status of [401, 403, 422, 429, 500]) {
+  for (const status of [301, 302, 307, 308, 401, 403, 422, 429, 500]) {
     await assert.rejects(dispatchScheduled(event, env,
       async () => new Response('sensitive response', { status }), time), error => {
       assert.match(error.message, new RegExp(`HTTP ${status}`));
