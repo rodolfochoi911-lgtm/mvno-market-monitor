@@ -286,6 +286,17 @@ def convert(json_path: str, xlsx_path: str):
         df_source_keywords.to_excel(writer, sheet_name="Keywords_Source_Raw", index=False)
         df_source_norm.to_excel(writer, sheet_name="Keywords_Source_Normalized", index=False)
 
+        # All calculations above are Python values. Collected text must never
+        # become Excel formulas/errors; keep the original string without adding
+        # a visible apostrophe or changing the JSON used by other consumers.
+        for sheet in writer.sheets.values():
+            for row in sheet.iter_rows():
+                for cell in row:
+                    if isinstance(cell.value, str):
+                        cell.data_type = "s"
+                        if cell.value.lstrip().startswith(("=", "+", "-", "@")):
+                            cell.quotePrefix = True
+
     print(f"완료: {len(data)}개 날짜 -> {xlsx_path}")
     print(f"  시트: Volume, Brand_SOV_Long, Brand_SOV_Pivot, Keywords_Raw,")
     print(f"       Keywords_Normalized, Top_Posts, Monthly_Summary, Brand_Ranking,")
