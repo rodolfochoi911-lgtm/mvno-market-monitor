@@ -1,0 +1,112 @@
+name: Verify live market Excel without notifications
+on:
+  push:
+    branches: [codex/verify-market-excel-20261123]
+    paths: [.github/workflows/verify_market_excel.yml]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.9'
+      - run: pip install -r requirements.txt
+      - name: Collect real posts without notifications
+        id: crawl
+        continue-on-error: true
+        env:
+          TEST_MODE: 'false'
+        run: |
+          python - <<'PY'
+          import sys
+          sys.argv = ['monitor_crawler.py', '2026-11-22']
+          from scripts import monitor_crawler as crawler
+          # Only data is saved. No webhook credentials or mail action are used.
+          crawler.send_slack_message = lambda message: print('Notifications suppressed for this verification run.')
+          driver = crawler.get_driver()
+          try:
+              p_posts = crawler.get_ppomppu_posts(driver)
+              d_posts = crawler.get_dc_posts(driver)
+              crawler.analyze_and_notify(p_posts, d_posts, driver)
+          finally:
+              driver.quit()
+          PY
+      - name: Generate Excel from real history
+        run: |
+          mkdir -p verification
+          python scripts/convert_to_xlsx.py data/dashboard_history.json verification/market_monitor_20261122.xlsx
+      - name: Verify stored text and numeric cells
+        env:
+          LIVE_COLLECTION: ${{ steps.crawl.outcome }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          from openpyxl import load_workbook
+          path = Path('verification/market_monitor_20261122.xlsx')
+          history = json.loads(Path('data/dashboard_history.json').read_text(encoding='utf-8'))
+          expected = []
+          for entry in history:
+              for source, posts in entry.get('top_posts', {}).items():
+                  for post in posts:
+                      expected.append((entry['date'], source, post))
+          report = {'live_collection': os.environ['LIVE_COLLECTION'],
+                    'target_date': '2026-11-22',
+                    'history_dates': len(history), 'posts_checked': len(expected),
+                    'formula_cells': 0, 'error_cells': 0, 'prefix_text_cells': 0,
+                    'prefix_examples': []}
+          book = load_workbook(path, data_only=False)
+          for sheet in book:
+              for row in sheet:
+                  for cell in row:
+                      report['formula_cells'] += cell.data_type == 'f'
+                      report['error_cells'] += cell.data_type == 'e'
+                      if isinstance(cell.value, str) and cell.value.lstrip().startswith(('=', '+', '-', '@')):
+                          assert cell.data_type == 's', (sheet.title, cell.coordinate)
+                          assert cell.quotePrefix, (sheet.title, cell.coordinate)
+                          report['prefix_text_cells'] += 1
+                          if sheet.title == 'Top_Posts' and len(report['prefix_examples']) < 8:
+                              report['prefix_examples'].append({'cell': cell.coordinate, 'text': cell.value[:100]})
+          sheet = book['Top_Posts']
+          headers = [cell.value for cell in sheet[1]]
+          rows = list(sheet.iter_rows(min_row=2))
+          assert len(rows) == len(expected)
+          for cells, (date, source, post) in zip(rows, expected):
+              actual = dict(zip(headers, cells))
+              assert actual['date'].value == date
+              assert actual['source'].value == source
+              for field in ('title', 'content', 'top_comments'):
+                  value = ' | '.join(post.get(field) or []) if field == 'top_comments' else post.get(field, '')
+                  # XML normalizes carriage returns on round-trip.
+                  value = value.replace('\r\n', '\n').replace('\r', '\n') if isinstance(value, str) else value
+                  assert actual[field].value == (value or None), (date, field, actual[field].coordinate)
+                  if value:
+                      assert actual[field].data_type == 's'
+              for field in ('views', 'comments'):
+                  assert actual[field].value == post.get(field)
+                  if post.get(field) is not None:
+                      assert actual[field].data_type == 'n'
+          book.close()
+          assert report['formula_cells'] == report['error_cells'] == 0
+          report['latest_history_date'] = max(entry['date'] for entry in history)
+          report['target_date_post_counts'] = next(
+              (entry['total_volume'] for entry in history if entry['date'] == '2026-11-22'), {})
+          Path('verification/verification.json').write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding='utf-8')
+          print(json.dumps(report, ensure_ascii=False, indent=2))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: market-excel-no-notifications-20261123
+          path: verification/
+          retention-days: 7
+      - name: Require successful live collection
+        if: steps.crawl.outcome != 'success'
+        run: |
+          echo 'Live collection failed. Artifact uses retained real history; see crawler logs.'
+          exit 1
